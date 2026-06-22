@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="600" viewBox="0 0 1800 600" role="img" aria-labelledby="title desc">
+  <title id="title">StudyDoc brand logo</title>
+  <desc id="desc">A folded document icon with a flowing S, paired with the StudyDoc wordmark.</desc>
+  <defs>
+    <linearGradient id="pageGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(62 65)">
+    <path d="M92 18H282L382 118V405C382 436 357 461 326 461H92C61 461 36 436 36 405V74C36 43 61 18 92 18Z" fill="url(#pageGradient)"/>
+    <path d="M282 18L382 118H327C302 118 282 98 282 73V18Z" fill="#A5B4FC"/>
+    <path d="M282 18V73C282 98 302 118 327 118H382" fill="none" stroke="#C7D2FE" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Flowing S: study + scan/search motion -->
+    <path d="M296 167C274 141 238 129 199 132C158 135 132 157 132 186C132 215 156 230 211 242C266 254 296 271 296 305C296 342 261 367 210 369C169 371 133 357 109 330" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Highlighter accent -->
+    <path d="M117 409H239" fill="none" stroke="#2DD4BF" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="282" cy="409" r="9" fill="#2DD4BF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="535" y="347" font-family="Inter, Arial, sans-serif" font-size="178" font-weight="750" letter-spacing="-7">
+    <tspan fill="#0F172A">Study</tspan><tspan fill="#4F46E5">Doc</tspan>
+  </text>
+  <rect x="1081" y="383" width="291" height="14" rx="7" fill="#2DD4BF"/>
+</svg>
