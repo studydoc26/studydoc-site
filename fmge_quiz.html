@@ -56,7 +56,7 @@
     .report-question-preview { border:1px solid var(--line); border-radius:6px; background:#f8fafc; padding:10px; color:#334155; font-size:13px; line-height:1.45; max-height:170px; overflow:auto; }
     .report-question-preview strong { display:block; color:var(--ink); margin-bottom:4px; }
     .report-question-preview ol { margin:6px 0 0 20px; padding:0; }
-    .report-contact-hint { margin:-4px 0 2px; color:var(--muted); font-size:12px; line-height:1.35; }
+    .report-email-hint { margin:-4px 0 2px; color:var(--muted); font-size:12px; line-height:1.35; }
     .report-actions { display:flex; gap:8px; justify-content:flex-end; flex-wrap:wrap; margin-top:4px; }
     .report-actions button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:10px 14px; cursor:pointer; font-weight:700; }
     .report-actions .submit-report { background:var(--accent); border-color:var(--accent); color:#fff; }
@@ -162,12 +162,9 @@
       <label>What should be corrected?
         <textarea name="details" required placeholder="Write the correction or describe the issue"></textarea>
       </label>
-      <p id="report-contact-rule" class="report-contact-hint">One contact method is required: email OR Instagram/other contact.</p>
-      <label>Email (either this OR contact below)
-        <input name="email" type="email" autocomplete="email" placeholder="name@example.com" aria-describedby="report-contact-rule">
-      </label>
-      <label>Instagram/other contact (either this OR email above)
-        <input name="contact" placeholder="@username or phone/other contact" aria-describedby="report-contact-rule">
+      <p id="report-email-rule" class="report-email-hint">Email is required so we can follow up.</p>
+      <label>Email
+        <input name="email" type="email" required autocomplete="email" placeholder="name@example.com" aria-describedby="report-email-rule">
       </label>
       <div class="report-actions">
         <button type="button" id="report-cancel">Cancel</button>
@@ -250,15 +247,20 @@ function submitReport(event) {
   event.preventDefault();
   const form = event.currentTarget;
   const status = $('#report-status');
-  const email = form.elements.email.value.trim();
-  const contact = form.elements.contact.value.trim();
-  if (!email && !contact) {
-    status.textContent = 'Add either email or Instagram/other contact before sending.';
-    form.elements.email.focus();
+  const emailField = form.elements.email;
+  const email = emailField.value.trim();
+  emailField.value = email;
+  if (!email) {
+    status.textContent = 'Enter your email before sending.';
+    emailField.focus();
     return;
   }
-  form.elements.email.value = email;
-  form.elements.contact.value = contact;
+  if (!emailField.checkValidity()) {
+    status.textContent = 'Enter a valid email address before sending.';
+    emailField.reportValidity();
+    emailField.focus();
+    return;
+  }
   const submit = form.querySelector('.submit-report');
   status.textContent = 'Sending report...';
   submit.disabled = true;
