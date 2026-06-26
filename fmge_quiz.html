@@ -51,7 +51,12 @@
     .report-panel p { margin:0 0 14px; color:var(--muted); line-height:1.45; }
     .report-form { display:grid; gap:10px; }
     .report-form label { display:grid; gap:5px; color:var(--ink); font-size:13px; font-weight:700; }
-    .report-form textarea { width:100%; min-height:110px; resize:vertical; border:1px solid var(--line); border-radius:6px; padding:10px; font:inherit; }
+    .report-form textarea,.report-form input,.report-form select { width:100%; border:1px solid var(--line); border-radius:6px; padding:10px; font:inherit; }
+    .report-form textarea { min-height:110px; resize:vertical; }
+    .report-question-preview { border:1px solid var(--line); border-radius:6px; background:#f8fafc; padding:10px; color:#334155; font-size:13px; line-height:1.45; max-height:170px; overflow:auto; }
+    .report-question-preview strong { display:block; color:var(--ink); margin-bottom:4px; }
+    .report-question-preview ol { margin:6px 0 0 20px; padding:0; }
+    .report-contact-hint { margin:-4px 0 2px; color:var(--muted); font-size:12px; line-height:1.35; }
     .report-actions { display:flex; gap:8px; justify-content:flex-end; flex-wrap:wrap; margin-top:4px; }
     .report-actions button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:10px 14px; cursor:pointer; font-weight:700; }
     .report-actions .submit-report { background:var(--accent); border-color:var(--accent); color:#fff; }
@@ -132,6 +137,7 @@
     <button class="report-close" id="report-close" type="button" aria-label="Close report form">&times;</button>
     <h3 id="report-title">Report this question</h3>
     <p id="report-summary">Tell us what needs correction.</p>
+    <div id="report-question-preview" class="report-question-preview"></div>
     <form id="report-form" class="report-form" action="https://formspree.io/f/mpqgannw" method="POST">
       <input type="hidden" name="exam">
       <input type="hidden" name="year">
@@ -141,6 +147,7 @@
       <input type="hidden" name="answer">
       <input type="hidden" name="question">
       <input type="hidden" name="options">
+      <input type="hidden" name="question_with_options">
       <input type="hidden" name="_subject">
       <label>Issue type
         <select name="issue_type" required>
@@ -155,11 +162,12 @@
       <label>What should be corrected?
         <textarea name="details" required placeholder="Write the correction or describe the issue"></textarea>
       </label>
-      <label>Your email (optional)
-        <input name="email" type="email" autocomplete="email" placeholder="Optional">
+      <p id="report-contact-rule" class="report-contact-hint">One contact method is required: email OR Instagram/other contact.</p>
+      <label>Email
+        <input name="email" type="email" autocomplete="email" placeholder="name@example.com" aria-describedby="report-contact-rule">
       </label>
-      <label>Instagram or other contact (optional)
-        <input name="contact" placeholder="@username or other contact">
+      <label>Instagram or other contact
+        <input name="contact" placeholder="@username or phone/other contact" aria-describedby="report-contact-rule">
       </label>
       <div class="report-actions">
         <button type="button" id="report-cancel">Cancel</button>
@@ -202,10 +210,23 @@ function answerText(item) {
   if (item.answerIndex === null || item.answerIndex === undefined || !item.options || !item.options[item.answerIndex]) return '';
   return `${String.fromCharCode(65 + item.answerIndex)}. ${item.options[item.answerIndex]}`;
 }
+function optionLines(item) {
+  return (item.options || []).map((opt, idx) => `${String.fromCharCode(65 + idx)}. ${opt}`);
+}
+function questionWithOptions(item) {
+  const lines = optionLines(item);
+  return `Question:\n${item.question || ''}${lines.length ? `\n\nOptions:\n${lines.join('\n')}` : ''}`;
+}
+function reportPreviewHtml(item) {
+  const options = item.options || [];
+  const optionsHtml = options.length ? `<ol type="A">${options.map(opt => `<li>${escapeHtml(opt)}</li>`).join('')}</ol>` : '';
+  return `<strong>Question being reported</strong><div>${escapeHtml(item.question || '')}</div>${optionsHtml}`;
+}
 function openReport(item) {
   const form = $('#report-form');
   const summary = `${REPORT_EXAM} ${item.year || year} Q${item.number}`;
   const tags = item.subjectTags && item.subjectTags.length ? item.subjectTags : [item.subject || ''];
+  const optionsText = optionLines(item).join('\n');
   form.reset();
   form.elements.exam.value = REPORT_EXAM;
   form.elements.year.value = item.year || year;
@@ -214,8 +235,10 @@ function openReport(item) {
   form.elements.page_url.value = window.location.href;
   form.elements.answer.value = answerText(item);
   form.elements.question.value = item.question || '';
-  form.elements.options.value = (item.options || []).map((opt, idx) => `${String.fromCharCode(65 + idx)}. ${opt}`).join('\n');
+  form.elements.options.value = optionsText;
+  form.elements.question_with_options.value = questionWithOptions(item);
   $('#report-summary').textContent = `${summary}. Tell us what needs correction.`;
+  $('#report-question-preview').innerHTML = reportPreviewHtml(item);
   $('#report-status').textContent = '';
   $('#report-modal').hidden = false;
   setTimeout(() => form.elements.issue_type.focus(), 0);
@@ -227,6 +250,15 @@ function submitReport(event) {
   event.preventDefault();
   const form = event.currentTarget;
   const status = $('#report-status');
+  const email = form.elements.email.value.trim();
+  const contact = form.elements.contact.value.trim();
+  if (!email && !contact) {
+    status.textContent = 'Add either email or Instagram/other contact before sending.';
+    form.elements.email.focus();
+    return;
+  }
+  form.elements.email.value = email;
+  form.elements.contact.value = contact;
   const submit = form.querySelector('.submit-report');
   status.textContent = 'Sending report...';
   submit.disabled = true;
