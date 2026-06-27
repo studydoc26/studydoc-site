@@ -59,7 +59,7 @@ h1 em{font-style:normal;color:var(--accent)}
 .feat h3{font-size:14px;font-weight:700;color:#1a1a1a;margin-bottom:4px}
 .feat p{font-size:13px;color:#888;line-height:1.5}
 
-.exam-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:2.5rem}
+.exam-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:1.2rem}
 .exam-card{display:flex;align-items:center;gap:14px;background:#fff;border:1.5px solid #e5e3dc;border-radius:12px;padding:1.1rem 1.25rem;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s}
 .exam-card:hover{border-color:var(--accent-mid);box-shadow:0 0 0 3px var(--accent-light)}
 .exam-icon{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -77,6 +77,19 @@ h1 em{font-style:normal;color:var(--accent)}
 .fmge-yr{color:#E65100 !important}
 .year-card:has(.fmge-yr):hover{border-color:#E65100;box-shadow:0 0 0 3px #FFF3E0}
 
+.pyt-callout{margin:0 0 1.4rem}
+.pyt-card{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:#fff;border:1.5px solid #ded3ff;border-radius:14px;padding:1.25rem 1.4rem;box-shadow:0 14px 36px rgba(124,58,237,.08);text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
+.pyt-card:hover{border-color:var(--accent);box-shadow:0 16px 42px rgba(124,58,237,.13)}
+.pyt-card:active{transform:scale(.99)}
+.pyt-big-icon{width:68px;height:68px;border-radius:16px;background:var(--accent-light);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 1px #ded3ff}
+.pyt-big-icon svg{width:34px;height:34px;stroke:var(--accent);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.pyt-copy h2{font-size:21px;line-height:1.2;color:#1e1438;margin-bottom:5px;letter-spacing:-.3px}
+.pyt-copy p{font-size:14px;color:#665b7c;line-height:1.55}
+.pyt-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;text-decoration:none;border-radius:10px;padding:13px 17px;font-size:14px;font-weight:800;white-space:nowrap;transition:background .15s,transform .1s}
+.pyt-btn:hover{background:var(--accent-dark)}
+.pyt-btn:active{transform:scale(.98)}
+.pyt-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+
 .resources-callout{margin:0 0 1.4rem}
 .resources-band{max-width:880px;margin:0 auto 3rem;padding:0 2rem}
 .resources-card{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:#fff;border:1.5px solid #b7ead7;border-radius:14px;padding:1.25rem 1.4rem;box-shadow:0 14px 36px rgba(15,138,99,.08);text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
@@ -92,7 +105,7 @@ h1 em{font-style:normal;color:var(--accent)}
 .resources-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
 @media(max-width:760px){nav{padding:0 1rem}.exam-cards{grid-template-columns:1fr}.fmge-cards{grid-template-columns:repeat(4,1fr)}.nav-link{display:none}.brand-logo-img{width:205px;max-height:58px}.nav-insta-text{display:none}.nav-insta{padding:6px 8px}}
 @media(prefers-color-scheme:dark){nav{background:#0f172a;border-bottom-color:#253047}.nav-insta{color:#e5e7eb;border-color:#334155}.nav-insta-sub{color:#94a3b8}}
-@media(max-width:760px){.resources-card{grid-template-columns:1fr;text-align:left}.resources-btn{justify-content:center}.resources-big-icon{width:58px;height:58px}.resources-big-icon svg{width:30px;height:30px}}
+@media(max-width:760px){.pyt-card,.resources-card{grid-template-columns:1fr;text-align:left}.pyt-btn,.resources-btn{justify-content:center}.pyt-big-icon,.resources-big-icon{width:58px;height:58px}.pyt-big-icon svg,.resources-big-icon svg{width:30px;height:30px}}
 footer{border-top:1px solid #e5e3dc;background:#fff;padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between}
 .footer-brand{font-size:13px;color:#888}
 .footer-brand strong{color:var(--accent)}
@@ -131,7 +144,7 @@ footer{border-top:1px solid #e5e3dc;background:#fff;padding:1.25rem 2rem;display
     Free
   </div>
   <h1>NEET-PG/FMGE <em>Previous Year</em><br>Questions</h1>
-  <p class="hero-sub">Free NEET-PG and FMGE recall question bank with subject-wise and year-wise practice, image-based filters, instant score tracking, report-a-question support, and free PDF resources.</p>
+  <p class="hero-sub">Free NEET-PG and FMGE recall question banks with subject-wise practice, PYT-based question bank, image-based filters, instant score tracking, report-a-question support, and free PDF resources.</p>
 
   <div class="exam-cards">
     <a class="exam-card" href="neet_pg_recall_quiz.html">
@@ -153,6 +166,22 @@ footer{border-top:1px solid #e5e3dc;background:#fff;padding:1.25rem 2rem;display
         <div class="exam-sub">2,012 questions · Dec 2021–Jan 2026</div>
       </div>
       <svg class="exam-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+  </div>
+
+  <div class="pyt-callout">
+    <a class="pyt-card" href="pyt_based_question_bank.html">
+      <div class="pyt-big-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><path d="M21 12c0 4.5-3.5 8-9 8a9.7 9.7 0 0 1-5.3-1.4L3 20l1.3-3.4A7.8 7.8 0 0 1 3 12c0-4.5 3.5-8 9-8s9 3.5 9 8z"/></svg>
+      </div>
+      <div class="pyt-copy">
+        <h2>PYT-Based Question bank</h2>
+        <p>Subject-wise high-yield question bank built from previous year topics, now with Medicine and Surgery: 700 MCQs and 350 image/data questions.</p>
+      </div>
+      <span class="pyt-btn">
+        Open Bank
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </span>
     </a>
   </div>
 

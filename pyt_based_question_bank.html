@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYT-Based Question bank | StudyDoc</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#18202f;--muted:#64748b;--line:#e2e8f0;--bg:#f5f7fb;--purple:#7C3AED;--purple-soft:#F3EFFE;--green:#0f8a63;--green-soft:#e7f7f1}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh}
+nav{height:68px;background:#fff;border-bottom:1px solid var(--line);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
+.nav-brand{display:flex;align-items:center;text-decoration:none;color:var(--ink)}
+.brand-logo-picture{display:block;line-height:0}
+.brand-logo-img{display:block;width:205px;height:auto;max-height:56px}
+.nav-links{display:flex;align-items:center;gap:10px}
+.nav-link{border:1px solid var(--line);border-radius:8px;padding:7px 12px;color:#334155;text-decoration:none;font-size:13px;font-weight:700;background:#fff}
+.nav-link:hover{border-color:#c4b5fd;color:var(--purple);background:var(--purple-soft)}
+.wrap{max-width:1080px;margin:0 auto;padding:42px 1.5rem 70px}
+.hero{background:#fff;border:1px solid var(--line);border-radius:14px;padding:30px;margin-bottom:18px}
+.eyebrow{display:inline-flex;align-items:center;background:var(--purple-soft);color:var(--purple);border-radius:999px;padding:6px 12px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.4px;margin-bottom:16px}
+h1{font-size:40px;line-height:1.08;letter-spacing:-1px;margin-bottom:12px;color:#0f172a}
+.sub{max-width:720px;color:var(--muted);font-size:16px;line-height:1.65}
+.subject-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.subject-card{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:20px;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
+.subject-card:hover{border-color:#bca9ff;box-shadow:0 14px 34px rgba(124,58,237,.1)}
+.subject-card:active{transform:scale(.99)}
+.subject-icon{width:56px;height:56px;border-radius:14px;background:var(--green-soft);display:flex;align-items:center;justify-content:center}
+.subject-icon svg{width:28px;height:28px;stroke:var(--green);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.subject-name{font-size:20px;font-weight:900;letter-spacing:-.25px;margin-bottom:4px;color:#0f172a}
+.subject-meta{font-size:13px;color:var(--muted);font-weight:650}
+.arrow{width:17px;height:17px;stroke:#94a3b8;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+.subject-card:hover .arrow{stroke:var(--purple)}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 22px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:10px;padding:15px}
+.stat strong{display:block;color:var(--purple);font-size:24px;line-height:1}
+.stat span{display:block;margin-top:5px;color:var(--muted);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.45px}
+footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;color:#64748b;font-size:13px}
+footer strong{color:var(--purple)}
+@media(max-width:820px){nav{padding:0 1rem}.brand-logo-img{width:205px;max-height:58px}.wrap{padding:28px 1rem 54px}h1{font-size:32px}.subject-grid,.summary{grid-template-columns:1fr}footer{display:block;line-height:1.8}}
+@media(prefers-color-scheme:dark){nav{background:#0f172a;border-bottom-color:#253047}.nav-link{background:#111827;border-color:#334155;color:#e5e7eb}.nav-link:hover{background:#1e293b;border-color:#6366f1;color:#c7d2fe}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-brand" href="index.html">
+    <picture class="brand-logo-picture">
+      <source srcset="assets/studydoc_logo_primary_dark.svg" media="(prefers-color-scheme: dark)">
+      <img class="brand-logo-img" src="assets/studydoc_logo_primary.svg" alt="StudyDoc">
+    </picture>
+  </a>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">Home</a>
+  </div>
+</nav>
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">Subject-wise practice</div>
+    <h1>PYT-Based Question bank</h1>
+    <p class="sub">Choose a subject. Each bank opens as an interactive MCQ set with images, answer checking, score tracking, and full explanations.</p>
+    <div class="subject-grid" aria-label="PYT subject question bank">
+      <a class="subject-card" href="neet_pg_medicine_pyt_bank.html">
+        <div class="subject-icon">
+          <svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><path d="M21 12c0 4.5-3.5 8-9 8a9.7 9.7 0 0 1-5.3-1.4L3 20l1.3-3.4A7.8 7.8 0 0 1 3 12c0-4.5 3.5-8 9-8s9 3.5 9 8z"/></svg>
+        </div>
+        <div>
+          <div class="subject-name">Medicine</div>
+          <div class="subject-meta">500 MCQs · 250 image/data questions</div>
+        </div>
+        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+      <a class="subject-card" href="neet_pg_surgery_pyt_bank.html">
+        <div class="subject-icon">
+          <svg viewBox="0 0 24 24"><path d="M14.5 4.5l5 5"/><path d="M3.5 20.5l7.5-7.5"/><path d="M9 15l6.8-6.8a2.5 2.5 0 0 1 3.5 3.5L12.5 18.5"/><path d="M6.5 17.5l3 3"/></svg>
+        </div>
+        <div>
+          <div class="subject-name">Surgery</div>
+          <div class="subject-meta">200 MCQs · 100 image/data questions</div>
+        </div>
+        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+    </div>
+  </section>
+  <section class="summary" aria-label="PYT question bank summary">
+    <div class="stat"><strong>2</strong><span>Subjects</span></div>
+    <div class="stat"><strong>700</strong><span>MCQs</span></div>
+    <div class="stat"><strong>350</strong><span>Image/data</span></div>
+  </section>
+</main>
+<footer>
+  <span>&copy; 2026 <strong>StudyDoc</strong> - PYT-based practice for exam revision</span>
+  <span>studydoc.co.in</span>
+</footer>
+</body>
+</html>

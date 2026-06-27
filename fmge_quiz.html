@@ -31,6 +31,13 @@
     .qrow { border:1px solid var(--line); background:white; border-radius:6px; padding:9px; text-align:left; cursor:pointer; }
     .qrow.active { border-color:var(--accent); box-shadow:0 0 0 2px rgba(17,100,102,.16); }
     .quiz { min-height:calc(100vh - 132px); padding:clamp(16px, 4vw, 34px); }
+    .qtop { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:14px; }
+    .pill { display:inline-flex; align-items:center; border:1px solid var(--line); background:#fff; border-radius:999px; padding:5px 10px; font-size:12px; font-weight:850; color:var(--muted); }
+    .pill.topic { color:#5B21B6; border-color:#ddd4ff; background:#f7f3ff; }
+    .remaining-meter { display:inline-flex; align-items:center; gap:8px; min-width:150px; color:#7a8494; font-size:12px; font-weight:850; }
+    .remaining-track { width:90px; height:6px; border-radius:999px; background:#e7edf4; overflow:hidden; }
+    .remaining-fill { display:block; height:100%; border-radius:inherit; background:linear-gradient(90deg, var(--accent), #5B21B6); }
+    .remaining-count { white-space:nowrap; }
     .question { font-size:22px; line-height:1.45; margin:0 0 20px; }
     .options { display:grid; gap:10px; max-width:960px; }
     .option { border:1px solid var(--line); background:white; border-radius:8px; padding:14px 16px; cursor:pointer; text-align:left; font-size:17px; line-height:1.35; }
@@ -358,7 +365,11 @@ function renderQuiz() {
   }).join('');
   let feedback = '';
   if (att && canCheck) feedback = `<div class="feedback ${att.correct ? 'ok' : 'bad'}">${att.correct ? 'Correct.' : 'Wrong.'} Correct answer: ${String.fromCharCode(65 + item.answerIndex)}. ${escapeHtml(item.options[item.answerIndex])}</div>`;
-  $('#quiz').innerHTML = `<h2 class="question">Q${item.number}. ${escapeHtml(item.question)}</h2>${imgNote}<div class="options">${opts}</div>${feedback}<div class="nav"><button id="prev">Previous</button><button id="next">Next</button><button id="reset">Reset this answer</button><button id="report-question" class="report-btn" type="button">Report this question</button></div>`;
+  const remaining = Math.max(items.length - current - 1, 0);
+  const progress = items.length ? Math.round(((current + 1) / items.length) * 100) : 0;
+  const subjectPill = `<span class="pill topic">${escapeHtml((item.subjectTags && item.subjectTags[0]) || item.subject || 'FMGE')}</span>`;
+  const progressMeter = `<span class="remaining-meter" role="meter" aria-label="${remaining} questions remaining" aria-valuemin="0" aria-valuemax="${items.length}" aria-valuenow="${current + 1}"><span class="remaining-track"><span class="remaining-fill" style="width:${progress}%"></span></span><span class="remaining-count">${remaining} left</span></span>`;
+  $('#quiz').innerHTML = `<div class="qtop">${subjectPill}${progressMeter}</div><h2 class="question">Q${item.number}. ${escapeHtml(item.question)}</h2>${imgNote}<div class="options">${opts}</div>${feedback}<div class="nav"><button id="prev">Previous</button><button id="next">Next</button><button id="reset">Reset this answer</button><button id="report-question" class="report-btn" type="button">Report this question</button></div>`;
   [...document.querySelectorAll('.option')].forEach(btn => btn.onclick = () => {
     if (!canCheck) return;
     const choice = Number(btn.dataset.choice);
