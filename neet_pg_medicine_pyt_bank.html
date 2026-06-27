@@ -57,9 +57,9 @@
     .remaining-count { white-space:nowrap; }
     .question { font-size:22px; line-height:1.45; margin:0 0 20px; max-width:980px; }
     .image-note { max-width:980px; border:1px solid #cbdff2; background:#f3f8fd; color:#27445f; border-radius:8px; padding:12px 14px; margin:0 0 16px; line-height:1.45; font-size:14px; }
-    .qimages { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 760px)); gap:12px; margin:16px 0; max-width:980px; }
-    .qimages figure { margin:0; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:#fff; }
-    .qimages img { display:block; width:100%; height:auto; object-fit:contain; }
+    .qimages { display:flex; flex-wrap:wrap; align-items:flex-start; gap:12px; margin:16px 0; max-width:980px; }
+    .qimages figure { margin:0; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:#fff; display:inline-block; max-width:100%; line-height:0; }
+    .qimages img { display:block; width:auto; max-width:min(100%, 520px); height:auto; object-fit:contain; }
     .options { display:grid; gap:10px; max-width:960px; }
     .option { border:1px solid var(--line); background:white; border-radius:8px; padding:14px 16px; cursor:pointer; text-align:left; font-size:17px; line-height:1.35; }
     .option.correct { border-color:var(--ok); background:#eefaf3; color:#075532; }
