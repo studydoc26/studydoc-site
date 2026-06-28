@@ -31,6 +31,9 @@
     input, select { width:100%; border:1px solid var(--line); border-radius:6px; padding:10px; font:inherit; background:#fff; }
     .stats { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; font-size:13px; color:var(--muted); }
     .stats b { display:block; color:var(--ink); font-size:18px; }
+    .reset-bank-btn { width:100%; border:1px solid #f3b8b0; background:#fff7f6; color:#a61b12; border-radius:6px; padding:9px 12px; font:inherit; font-size:13px; font-weight:850; cursor:pointer; }
+    .reset-bank-btn:hover:not(:disabled) { border-color:#d92d20; background:#fff1f0; color:#7a1711; }
+    .reset-bank-btn:disabled { cursor:not-allowed; border-color:var(--line); background:#f8fafc; color:#98a2b3; }
     .img-filter-btn { width:100%; border:1.5px solid var(--line); background:#fff; border-radius:6px; padding:9px 12px; font:inherit; font-size:13px; font-weight:700; cursor:pointer; display:flex; align-items:center; gap:7px; color:var(--muted); transition:border-color .15s, background .15s, color .15s; }
     .img-filter-btn .btn-dot { width:8px; height:8px; border-radius:50%; background:var(--line); flex-shrink:0; transition:background .15s; }
     .img-filter-btn .btn-label { flex:1; text-align:left; }
@@ -172,6 +175,7 @@
         <span class="btn-state" id="img-state">Off</span>
       </button>
       <div class="stats"><span><b id="count">0</b>Total</span><span><b id="answered">0</b>Attempted</span><span><b id="score">0</b>Correct</span></div>
+      <button id="reset-all" class="reset-bank-btn" type="button">Reset all progress</button>
     </div>
     <div id="qlist" class="qlist"></div>
   </aside>
@@ -18218,6 +18222,23 @@ const SUBTOPIC_ORDER = ["Gastro", "Urology", "Neurosurgery", "Trauma", "Vascular
 const $ = s => document.querySelector(s);
 const attempts = new Map(Object.entries(JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}')));
 function saveAttempts() { localStorage.setItem(STORAGE_KEY, JSON.stringify(Object.fromEntries(attempts))); }
+function updateResetAllButton() {
+  const resetAll = $('#reset-all');
+  if (!resetAll) return;
+  resetAll.disabled = attempts.size === 0;
+  resetAll.textContent = attempts.size ? `Reset all progress (${attempts.size})` : 'Reset all progress';
+}
+function resetAllProgress() {
+  if (!attempts.size) return;
+  const count = attempts.size;
+  const suffix = count === 1 ? '' : 's';
+  if (!window.confirm(`Reset all saved progress for this question bank? This will clear ${count} attempted answer${suffix}.`)) return;
+  attempts.clear();
+  localStorage.removeItem(STORAGE_KEY);
+  current = 0;
+  renderList();
+  renderQuiz();
+}
 function itemKey(item) { return String(item.number); }
 function imageList(item) { return item.images || []; }
 function isImageBased(item) { return imageList(item).length > 0; }
@@ -18262,6 +18283,7 @@ function renderList() {
   for (const [key, val] of attempts) { if (visible.has(key)) { answered++; if (val.correct) score++; } }
   $('#answered').textContent = answered;
   $('#score').textContent = score;
+  updateResetAllButton();
   $('#qlist').innerHTML = items.map((item, idx) => {
     const imgBadge = isImageBased(item) ? '<span class="qrow-img">Image/data</span>' : '';
     const done = attempts.has(itemKey(item)) ? ' done' : '';
@@ -18350,6 +18372,7 @@ $('#search').oninput = () => { current = 0; renderList(); renderQuiz(); };
 $('#filter').onchange = () => { current = 0; renderList(); renderQuiz(); };
 $('#topic-filter').onchange = e => { subtopic = e.target.value; current = 0; renderList(); renderQuiz(); };
 $('#img-toggle').onclick = () => { imageOnly = !imageOnly; $('#img-toggle').classList.toggle('active', imageOnly); $('#img-state').textContent = imageOnly ? 'On' : 'Off'; current = 0; renderList(); renderQuiz(); };
+$('#reset-all').onclick = resetAllProgress;
 $('#report-form').addEventListener('submit', submitReport);
 $('#report-close').onclick = closeReport;
 $('#report-cancel').onclick = closeReport;
