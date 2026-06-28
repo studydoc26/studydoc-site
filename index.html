@@ -7,7 +7,7 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--accent:#7C3AED;--accent-light:#F3EFFE;--accent-mid:#9B6CF2;--accent-dark:#5B21B6;--accent-border:#C4B5FD}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#f4f3ef;min-height:100vh;color:#1a1a1a}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#f4f3ef;min-height:100vh;color:#1a1a1a;overflow-x:hidden}
 
 nav{background:#fff;border-bottom:1px solid #e5e3dc;padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
 .nav-brand{display:flex;align-items:center;text-decoration:none}
@@ -103,9 +103,10 @@ h1 em{font-style:normal;color:var(--accent)}
 .resources-btn:hover{background:#0b6f50}
 .resources-btn:active{transform:scale(.98)}
 .resources-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
-@media(max-width:760px){nav{padding:0 1rem}.exam-cards{grid-template-columns:1fr}.fmge-cards{grid-template-columns:repeat(4,1fr)}.nav-link{display:none}.brand-logo-img{width:205px;max-height:58px}.nav-insta-text{display:none}.nav-insta{padding:6px 8px}}
+@media(max-width:760px){nav{padding:0 1rem}.hero{padding:54px 1.5rem 42px}h1{font-size:36px;letter-spacing:-.7px}.hero-sub{font-size:16px;line-height:1.6}.exam-cards{grid-template-columns:1fr}.fmge-cards{grid-template-columns:repeat(4,1fr)}.features{grid-template-columns:1fr;padding:0 1.5rem 64px}.nav-link{display:none}.brand-logo-img{width:205px;max-height:58px}.nav-insta-text{display:none}.nav-insta{padding:6px 8px}footer{display:block;line-height:1.8}.footer-insta{margin-top:6px}}
 @media(prefers-color-scheme:dark){nav{background:#0f172a;border-bottom-color:#253047}.nav-insta{color:#e5e7eb;border-color:#334155}.nav-insta-sub{color:#94a3b8}}
 @media(max-width:760px){.pyt-card,.resources-card{grid-template-columns:1fr;text-align:left}.pyt-btn,.resources-btn{justify-content:center}.pyt-big-icon,.resources-big-icon{width:58px;height:58px}.pyt-big-icon svg,.resources-big-icon svg{width:30px;height:30px}}
+@media(max-width:420px){.hero{padding:48px 1.25rem 36px}h1{font-size:32px;line-height:1.14;letter-spacing:-.45px}.free-pill{margin-bottom:1.25rem}.exam-card{padding:1rem}.pyt-card,.resources-card{padding:1.05rem}.pyt-copy h2,.resources-copy h2{font-size:20px}.pyt-copy p,.resources-copy p{font-size:13px}.features{padding-left:1.25rem;padding-right:1.25rem}}
 footer{border-top:1px solid #e5e3dc;background:#fff;padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between}
 .footer-brand{font-size:13px;color:#888}
 .footer-brand strong{color:var(--accent)}
