@@ -153,6 +153,7 @@
         <option value="unanswered">Unanswered</option>
         <option value="wrong">Wrong answers</option>
       </select>
+      <select id="session-filter" aria-label="Session filter"></select>
       <select id="subject-filter" aria-label="Subject filter"></select>
       <select id="sort" aria-label="Sort questions">
         <option value="number">Sort by question order</option>
@@ -220,6 +221,7 @@ let year = (function(){
   return (p && YEARS.includes(p)) ? p : YEARS[0];
 })();
 let subject = 'all';
+let session = 'all';
 let sortMode = 'number';
 let current = 0;
 let imageOnly = false;
@@ -327,6 +329,20 @@ function populateSubjects() {
   if (!select) return;
   select.innerHTML = '<option value="all">All subjects</option>' + SUBJECTS.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
 }
+const MONTH_ORDER = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+function sessionsForYear(y) {
+  const set = new Set(DATA.filter(it => String(it.year) === String(y)).map(it => it.session).filter(Boolean));
+  return [...set].sort((a, b) => (MONTH_ORDER[a.split(' ')[0]] || 0) - (MONTH_ORDER[b.split(' ')[0]] || 0));
+}
+function populateSessions() {
+  const select = $('#session-filter');
+  if (!select) return;
+  const list = sessionsForYear(year);
+  select.innerHTML = '<option value="all">All sessions</option>' + list.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+  if (!list.includes(session)) session = 'all';
+  select.value = session;
+  select.style.display = list.length > 1 ? '' : 'none';
+}
 function toggleImageFilter() {
   imageOnly = !imageOnly;
   document.getElementById('img-toggle').classList.toggle('active', imageOnly);
@@ -345,7 +361,7 @@ function sortItems(items) {
 function filtered() {
   const q = $('#search').value.trim().toLowerCase();
   const f = $('#filter').value;
-  const items = DATA.filter(item => String(item.year) === String(year)).filter(item => {
+  const items = DATA.filter(item => String(item.year) === String(year) && (session === 'all' || item.session === session)).filter(item => {
     const hay = [item.question, (item.options || []).join(' '), item.subject || '', (item.subjectTags || []).join(' ')].join(' ').toLowerCase();
     if (q && !hay.includes(q)) return false;
     if (subject !== 'all' && !(item.subjectTags || [item.subject]).includes(subject)) return false;
@@ -414,10 +430,11 @@ function renderQuiz() {
 function escapeHtml(s) {
   return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 }
-tabs.forEach(t => t.onclick = () => { year = t.dataset.year; current = 0; renderList(); renderQuiz(); });
+tabs.forEach(t => t.onclick = () => { year = t.dataset.year; session = 'all'; current = 0; populateSessions(); renderList(); renderQuiz(); });
 $('#search').oninput = () => { current = 0; renderList(); renderQuiz(); };
 $('#filter').onchange = () => { current = 0; renderList(); renderQuiz(); };
 $('#subject-filter').onchange = e => { subject = e.target.value; current = 0; renderList(); renderQuiz(); };
+$('#session-filter').onchange = e => { session = e.target.value; current = 0; renderList(); renderQuiz(); };
 $('#sort').onchange = e => { sortMode = e.target.value; current = 0; renderList(); renderQuiz(); };
 $('#report-form').addEventListener('submit', submitReport);
 $('#report-close').onclick = closeReport;
@@ -425,6 +442,7 @@ $('#report-cancel').onclick = closeReport;
 $('#report-modal').addEventListener('click', e => { if (e.target.id === 'report-modal') closeReport(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#report-modal').hidden) closeReport(); });
 populateSubjects();
+populateSessions();
 renderList(); renderQuiz();
 </script>
 </body>
