@@ -25,6 +25,10 @@ nav{background:#fff;border-bottom:1px solid var(--line);padding:0 2rem;height:68
 .nav-insta-text{display:flex;flex-direction:column;gap:1px}
 .nav-insta-handle{font-size:13px;font-weight:700;line-height:1}
 .nav-insta-sub{font-size:11px;color:#888;font-weight:400;line-height:1}
+.nav-social{display:flex;align-items:center;gap:10px}
+.nav-tg{display:flex;align-items:center;gap:9px;color:#1a1a1a;text-decoration:none;font-size:13px;font-weight:600;border:1.5px solid var(--line);border-radius:8px;padding:6px 12px;transition:border-color .15s,color .15s}
+.nav-tg:hover{color:#229ED9;border-color:#229ED9}
+.nav-tg svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 
 main{width:100%;max-width:920px;margin:0 auto;padding:56px 2rem 40px;flex:1}
 .intro{margin-bottom:26px}
@@ -84,10 +88,14 @@ footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;dis
 .footer-insta{display:flex;align-items:center;gap:6px;color:#888;text-decoration:none;font-size:13px;transition:color .15s}
 .footer-insta:hover{color:#c13584}
 .footer-insta svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.footer-social{display:flex;align-items:center;gap:16px}
+.footer-tg{display:flex;align-items:center;gap:6px;color:#888;text-decoration:none;font-size:13px;transition:color .15s}
+.footer-tg:hover{color:#229ED9}
+.footer-tg svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 
 @media(max-width:720px){
   nav{padding:0 1rem}
-  .nav-insta-text{display:none}.nav-insta{padding:6px 8px}
+  .nav-insta-text{display:none}.nav-insta,.nav-tg{padding:6px 8px}
   main{padding:34px 1.25rem 30px}
   h1{font-size:29px;letter-spacing:-.6px}
   .lead{font-size:15.5px}
@@ -110,13 +118,22 @@ footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;dis
       <img class="brand-logo-img" src="assets/studydoc_logo_primary.svg" alt="StudyDoc">
     </picture>
   </a>
-  <a class="nav-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
-    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
-    <span class="nav-insta-text">
-      <span class="nav-insta-handle">@study4inicet</span>
-      <span class="nav-insta-sub">NEET-PG · INICET tips &amp; materials</span>
-    </span>
-  </a>
+  <div class="nav-social">
+    <a class="nav-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+      <span class="nav-insta-text">
+        <span class="nav-insta-handle">@study4inicet</span>
+        <span class="nav-insta-sub">NEET-PG · INICET tips &amp; materials</span>
+      </span>
+    </a>
+    <a class="nav-tg" href="https://t.me/+A0NsxhairJo1NDQ1" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22 11 13 2 9z"/></svg>
+      <span class="nav-insta-text">
+        <span class="nav-insta-handle">Telegram</span>
+        <span class="nav-insta-sub">Join the study group</span>
+      </span>
+    </a>
+  </div>
 </nav>
 
 <main>
@@ -187,10 +204,16 @@ footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;dis
 
 <footer>
   <span class="footer-brand">© 2026 <strong>StudyDoc</strong> — NEET-PG, INICET &amp; FMGE prep</span>
-  <a class="footer-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
-    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
-    @study4inicet
-  </a>
+  <div class="footer-social">
+    <a class="footer-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+      @study4inicet
+    </a>
+    <a class="footer-tg" href="https://t.me/+A0NsxhairJo1NDQ1" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22 11 13 2 9z"/></svg>
+      Telegram
+    </a>
+  </div>
 </footer>
 
 <script>
