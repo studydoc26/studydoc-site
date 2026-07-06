@@ -3,116 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEET-PG/FMGE | StudyDoc</title>
+<title>StudyDoc — NEET-PG, INICET &amp; FMGE Practice</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--accent:#7C3AED;--accent-light:#F3EFFE;--accent-mid:#9B6CF2;--accent-dark:#5B21B6;--accent-border:#C4B5FD}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:#f4f3ef;min-height:100vh;color:#1a1a1a;overflow-x:hidden}
+:root{
+  --ink:#161421;--muted:#6b6a78;--bg:#f4f3ef;--panel:#fff;--line:#e6e3dc;
+  --purple:#7C3AED;--purple-soft:#F3EFFE;--purple-line:#dcd0fb;
+  --orange:#E65100;--orange-soft:#FFF3E0;--orange-line:#ffd9b0;
+  --green:#0F8A63;--green-soft:#E7F7F1;--green-line:#bce9d6;
+  --indigo:#4F46E5;--indigo-soft:#EEF0FF;--indigo-line:#cdd2fb;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;display:flex;flex-direction:column;overflow-x:hidden}
 
-nav{background:#fff;border-bottom:1px solid #e5e3dc;padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+nav{background:#fff;border-bottom:1px solid var(--line);padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
 .nav-brand{display:flex;align-items:center;text-decoration:none}
 .brand-logo-picture{display:block;line-height:0}
 .brand-logo-img{display:block;width:205px;height:auto;max-height:56px}
-.nav-actions{display:flex;align-items:center;gap:10px}
-.nav-link{display:inline-flex;align-items:center;gap:7px;color:#fff;text-decoration:none;font-size:13px;font-weight:800;border:1.5px solid #0f8a63;border-radius:9px;padding:9px 13px;transition:background .15s,box-shadow .15s,transform .1s;background:#0f8a63;box-shadow:0 6px 16px rgba(15,138,99,.18)}
-.nav-link:hover{background:#0b6f50;box-shadow:0 8px 20px rgba(15,138,99,.22)}
-.nav-link:active{transform:scale(.98)}
-.nav-link svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
-.nav-insta{display:flex;align-items:center;gap:9px;color:#1a1a1a;text-decoration:none;font-size:13px;font-weight:600;border:1.5px solid #e5e3dc;border-radius:8px;padding:6px 12px;transition:border-color .15s,color .15s}
+.nav-insta{display:flex;align-items:center;gap:9px;color:#1a1a1a;text-decoration:none;font-size:13px;font-weight:600;border:1.5px solid var(--line);border-radius:8px;padding:6px 12px;transition:border-color .15s,color .15s}
 .nav-insta:hover{color:#c13584;border-color:#c13584}
 .nav-insta svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 .nav-insta-text{display:flex;flex-direction:column;gap:1px}
 .nav-insta-handle{font-size:13px;font-weight:700;line-height:1}
 .nav-insta-sub{font-size:11px;color:#888;font-weight:400;line-height:1}
 
-.hero{max-width:880px;margin:0 auto;padding:68px 2rem 52px}
-.free-pill{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#fff;font-size:13px;font-weight:700;border-radius:20px;padding:5px 14px;margin-bottom:1.5rem;letter-spacing:.4px;text-transform:uppercase}
-.free-pill svg{width:13px;height:13px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
-h1{font-size:44px;font-weight:800;line-height:1.12;letter-spacing:-1.2px;color:#0d0d0d;margin-bottom:1rem}
-h1 em{font-style:normal;color:var(--accent)}
-.hero-sub{font-size:17px;color:#5f5e5a;line-height:1.65;max-width:560px;margin-bottom:1.25rem}
-.free-note{font-size:14px;color:var(--accent);font-weight:600;margin-bottom:2.25rem;display:flex;align-items:center;gap:6px}
-.free-note svg{width:15px;height:15px;stroke:var(--accent);fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+main{width:100%;max-width:920px;margin:0 auto;padding:56px 2rem 40px;flex:1}
+.intro{margin-bottom:26px}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;background:var(--purple-soft);color:var(--purple);font-size:12px;font-weight:800;border-radius:999px;padding:6px 13px;letter-spacing:.4px;text-transform:uppercase;margin-bottom:16px}
+.eyebrow svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+h1{font-size:40px;font-weight:800;line-height:1.12;letter-spacing:-1.1px;color:#0d0d12;margin-bottom:12px}
+h1 em{font-style:normal;color:var(--purple)}
+.lead{font-size:17px;color:var(--muted);line-height:1.6;max-width:600px}
 
-.stats{display:flex;gap:2.5rem;margin-bottom:2.5rem;flex-wrap:wrap}
-.stat{display:flex;flex-direction:column}
-.stat-val{font-size:30px;font-weight:800;color:var(--accent);letter-spacing:-0.5px;line-height:1}
-.stat-label{font-size:12px;color:#888;margin-top:4px;font-weight:500}
+.boxes{display:grid;gap:16px}
 
-.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;text-decoration:none;border-radius:10px;padding:14px 26px;font-size:15px;font-weight:600;transition:background .15s,transform .1s}
-.btn-primary:hover{background:var(--accent-dark)}
-.btn-primary:active{transform:scale(0.98)}
-.btn-primary svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+/* Box 1 — Previous Year Questions */
+.box{background:var(--panel);border:1px solid var(--line);border-radius:16px}
+.box-pyq{padding:22px;border-color:var(--purple-line);box-shadow:0 14px 40px rgba(124,58,237,.07)}
+.box-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.box-ic{width:52px;height:52px;border-radius:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.box-ic svg{width:26px;height:26px;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.ic-pyq{background:var(--purple-soft)}.ic-pyq svg{stroke:var(--purple)}
+.box-head h2{font-size:21px;font-weight:800;letter-spacing:-.3px;line-height:1.15}
+.box-head p{font-size:13.5px;color:var(--muted);margin-top:3px}
 
-.cards-section{max-width:880px;margin:0 auto;padding:0 2rem 72px}
-.section-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#888;margin-bottom:1rem}
-.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
-.year-card{background:#fff;border:1px solid #e5e3dc;border-radius:12px;padding:1.25rem 1rem;text-align:center;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s}
-.year-card:hover{border-color:var(--accent-mid);box-shadow:0 0 0 3px var(--accent-light)}
-.year-card .yr{font-size:20px;font-weight:800;color:var(--accent);margin-bottom:4px}
-.year-card .qcount{font-size:12px;color:#888;font-weight:500}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.choice{display:flex;align-items:center;gap:13px;background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:15px 16px;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
+.choice:active{transform:scale(.99)}
+.choice-ic{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.choice-ic svg{width:20px;height:20px;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.choice-txt{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0}
+.choice-txt b{font-size:16px;font-weight:800;letter-spacing:-.2px}
+.choice-txt small{font-size:12px;color:#8a8894;font-weight:500}
+.choice-arrow{width:17px;height:17px;stroke:#c4c2cc;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.choice-neet .choice-ic{background:var(--purple-soft)}.choice-neet .choice-ic svg{stroke:var(--purple)}
+.choice-neet:hover{border-color:var(--purple);box-shadow:0 0 0 3px var(--purple-soft)}
+.choice-neet:hover .choice-arrow{stroke:var(--purple)}
+.choice-fmge .choice-ic{background:var(--orange-soft)}.choice-fmge .choice-ic svg{stroke:var(--orange)}
+.choice-fmge:hover{border-color:var(--orange);box-shadow:0 0 0 3px var(--orange-soft)}
+.choice-fmge:hover .choice-arrow{stroke:var(--orange)}
 
-.features{max-width:880px;margin:0 auto;padding:0 2rem 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.feat{background:#fff;border:1px solid #e5e3dc;border-radius:12px;padding:1.25rem}
-.feat-icon{width:36px;height:36px;border-radius:8px;background:var(--accent-light);display:flex;align-items:center;justify-content:center;margin-bottom:.75rem}
-.feat-icon svg{width:18px;height:18px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.feat h3{font-size:14px;font-weight:700;color:#1a1a1a;margin-bottom:4px}
-.feat p{font-size:13px;color:#888;line-height:1.5}
+/* Boxes 2 & 3 */
+.box-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box-link{display:flex;align-items:center;gap:15px;padding:20px 22px;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
+.box-link:active{transform:scale(.995)}
+.box-link h2{font-size:18px;font-weight:800;letter-spacing:-.2px;line-height:1.2}
+.box-link p{font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+.box-link .box-arrow{width:18px;height:18px;stroke:#c4c2cc;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;margin-left:auto}
+.box-pyt{border-color:var(--indigo-line)}
+.box-pyt .box-ic{background:var(--indigo-soft)}.box-pyt .box-ic svg{stroke:var(--indigo)}
+.box-pyt:hover{border-color:var(--indigo);box-shadow:0 12px 32px rgba(79,70,229,.1)}
+.box-pyt:hover .box-arrow{stroke:var(--indigo)}
+.box-res{border-color:var(--green-line)}
+.box-res .box-ic{background:var(--green-soft)}.box-res .box-ic svg{stroke:var(--green)}
+.box-res:hover{border-color:var(--green);box-shadow:0 12px 32px rgba(15,138,99,.1)}
+.box-res:hover .box-arrow{stroke:var(--green)}
 
-.exam-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:1.2rem}
-.exam-card{display:flex;align-items:center;gap:14px;background:#fff;border:1.5px solid #e5e3dc;border-radius:12px;padding:1.1rem 1.25rem;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s}
-.exam-card:hover{border-color:var(--accent-mid);box-shadow:0 0 0 3px var(--accent-light)}
-.exam-icon{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.exam-icon svg{width:20px;height:20px}
-.exam-neet{background:var(--accent-light)}
-.exam-neet svg{stroke:var(--accent)}
-.exam-fmge{background:#FFF3E0}
-.exam-fmge svg{stroke:#E65100}
-.exam-info{flex:1}
-.exam-name{font-size:17px;font-weight:800;color:#1a1a1a;margin-bottom:2px}
-.exam-sub{font-size:12px;color:#888;font-weight:500}
-.exam-arrow{width:16px;height:16px;stroke:#bbb;flex-shrink:0}
-.exam-card:hover .exam-arrow{stroke:var(--accent)}
-.fmge-cards{grid-template-columns:repeat(8,1fr)}
-.fmge-yr{color:#E65100 !important}
-.year-card:has(.fmge-yr):hover{border-color:#E65100;box-shadow:0 0 0 3px #FFF3E0}
-
-.pyt-callout{margin:0 0 1.4rem}
-.pyt-card{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:#fff;border:1.5px solid #ded3ff;border-radius:14px;padding:1.25rem 1.4rem;box-shadow:0 14px 36px rgba(124,58,237,.08);text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
-.pyt-card:hover{border-color:var(--accent);box-shadow:0 16px 42px rgba(124,58,237,.13)}
-.pyt-card:active{transform:scale(.99)}
-.pyt-big-icon{width:68px;height:68px;border-radius:16px;background:var(--accent-light);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 1px #ded3ff}
-.pyt-big-icon svg{width:34px;height:34px;stroke:var(--accent);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
-.pyt-copy h2{font-size:21px;line-height:1.2;color:#1e1438;margin-bottom:5px;letter-spacing:-.3px}
-.pyt-copy p{font-size:14px;color:#665b7c;line-height:1.55}
-.pyt-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;text-decoration:none;border-radius:10px;padding:13px 17px;font-size:14px;font-weight:800;white-space:nowrap;transition:background .15s,transform .1s}
-.pyt-btn:hover{background:var(--accent-dark)}
-.pyt-btn:active{transform:scale(.98)}
-.pyt-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
-
-.resources-callout{margin:0 0 1.4rem}
-.resources-band{max-width:880px;margin:0 auto 3rem;padding:0 2rem}
-.resources-card{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;background:#fff;border:1.5px solid #b7ead7;border-radius:14px;padding:1.25rem 1.4rem;box-shadow:0 14px 36px rgba(15,138,99,.08);text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
-.resources-card:hover{border-color:#0F8A63;box-shadow:0 16px 42px rgba(15,138,99,.13)}
-.resources-card:active{transform:scale(.99)}
-.resources-big-icon{width:68px;height:68px;border-radius:16px;background:#E7F7F1;display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 1px #b7ead7}
-.resources-big-icon svg{width:34px;height:34px;stroke:#0F8A63;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
-.resources-copy h2{font-size:21px;line-height:1.2;color:#102217;margin-bottom:5px;letter-spacing:-.3px}
-.resources-copy p{font-size:14px;color:#5c7068;line-height:1.55}
-.resources-btn{display:inline-flex;align-items:center;gap:8px;background:#0F8A63;color:#fff;text-decoration:none;border-radius:10px;padding:13px 17px;font-size:14px;font-weight:800;white-space:nowrap;transition:background .15s,transform .1s}
-.resources-btn:hover{background:#0b6f50}
-.resources-btn:active{transform:scale(.98)}
-.resources-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
-@media(max-width:760px){nav{padding:0 1rem}.hero{padding:54px 1.5rem 42px}h1{font-size:36px;letter-spacing:-.7px}.hero-sub{font-size:16px;line-height:1.6}.exam-cards{grid-template-columns:1fr}.fmge-cards{grid-template-columns:repeat(4,1fr)}.features{grid-template-columns:1fr;padding:0 1.5rem 64px}.nav-link{display:none}.brand-logo-img{width:205px;max-height:58px}.nav-insta-text{display:none}.nav-insta{padding:6px 8px}footer{display:block;line-height:1.8}.footer-insta{margin-top:6px}}
-@media(prefers-color-scheme:dark){nav{background:#0f172a;border-bottom-color:#253047}.nav-insta{color:#e5e7eb;border-color:#334155}.nav-insta-sub{color:#94a3b8}}
-@media(max-width:760px){.pyt-card,.resources-card{grid-template-columns:1fr;text-align:left}.pyt-btn,.resources-btn{justify-content:center}.pyt-big-icon,.resources-big-icon{width:58px;height:58px}.pyt-big-icon svg,.resources-big-icon svg{width:30px;height:30px}}
-@media(max-width:420px){.hero{padding:48px 1.25rem 36px}h1{font-size:32px;line-height:1.14;letter-spacing:-.45px}.free-pill{margin-bottom:1.25rem}.exam-card{padding:1rem}.pyt-card,.resources-card{padding:1.05rem}.pyt-copy h2,.resources-copy h2{font-size:20px}.pyt-copy p,.resources-copy p{font-size:13px}.features{padding-left:1.25rem;padding-right:1.25rem}}
-footer{border-top:1px solid #e5e3dc;background:#fff;padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between}
+footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .footer-brand{font-size:13px;color:#888}
-.footer-brand strong{color:var(--accent)}
+.footer-brand strong{color:var(--purple)}
 .footer-insta{display:flex;align-items:center;gap:6px;color:#888;text-decoration:none;font-size:13px;transition:color .15s}
 .footer-insta:hover{color:#c13584}
 .footer-insta svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+@media(max-width:720px){
+  nav{padding:0 1rem}
+  .nav-insta-text{display:none}.nav-insta{padding:6px 8px}
+  main{padding:34px 1.25rem 30px}
+  h1{font-size:29px;letter-spacing:-.6px}
+  .lead{font-size:15.5px}
+  .choices{grid-template-columns:1fr}
+  .box-row{grid-template-columns:1fr}
+  footer{display:block;line-height:1.9}.footer-insta{margin-top:6px}
+}
+@media(prefers-color-scheme:dark){
+  nav{background:#0f172a;border-bottom-color:#253047}
+  .nav-insta{color:#e5e7eb;border-color:#334155}.nav-insta-sub{color:#94a3b8}
+}
 </style>
 </head>
 <body>
@@ -124,113 +110,83 @@ footer{border-top:1px solid #e5e3dc;background:#fff;padding:1.25rem 2rem;display
       <img class="brand-logo-img" src="assets/studydoc_logo_primary.svg" alt="StudyDoc">
     </picture>
   </a>
-  <div class="nav-actions">
-    <a class="nav-link" href="resources.html">
-      <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-6"/><polyline points="9 15 12 18 15 15"/></svg>
-      Free PDFs
-    </a>
-    <a class="nav-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
-      <span class="nav-insta-text">
-        <span class="nav-insta-handle">@study4inicet</span>
-        <span class="nav-insta-sub">NEET-PG · INICET tips &amp; materials</span>
-      </span>
-    </a>
-  </div>
+  <a class="nav-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+    <span class="nav-insta-text">
+      <span class="nav-insta-handle">@study4inicet</span>
+      <span class="nav-insta-sub">NEET-PG · INICET tips &amp; materials</span>
+    </span>
+  </a>
 </nav>
 
-<section class="hero">
-  <div class="free-pill">
-    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
-    Free
-  </div>
-  <h1>NEET-PG/FMGE <em>Previous Year</em><br>Questions</h1>
-  <p class="hero-sub">Free NEET-PG and FMGE recall question banks with subject-wise practice, PYT-based question bank, image-based filters, instant score tracking, report-a-question support, and free PDF resources.</p>
+<main>
+  <section class="intro">
+    <h1>Practice smarter for<br><em>NEET-PG, INICET &amp; FMGE</em></h1>
+    <p class="lead">Everything in one place — previous-year recall banks, a topic-wise PYT question bank, and PDF resources. Pick where you want to start.</p>
+  </section>
 
-  <div class="exam-cards">
-    <a class="exam-card" href="neet_pg_recall_quiz.html">
-      <div class="exam-icon exam-neet">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-      </div>
-      <div class="exam-info">
-        <div class="exam-name">NEET-PG</div>
-        <div class="exam-sub">1,041 questions · 2021–2025</div>
-      </div>
-      <svg class="exam-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-    </a>
-    <a class="exam-card" href="fmge_quiz.html">
-      <div class="exam-icon exam-fmge">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
-      </div>
-      <div class="exam-info">
-        <div class="exam-name">FMGE</div>
-        <div class="exam-sub">2,270 questions · Dec 2021–Jul 2026</div>
-      </div>
-      <svg class="exam-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-    </a>
-  </div>
+  <section class="boxes" aria-label="StudyDoc study tools">
 
-  <div class="pyt-callout">
-    <a class="pyt-card" href="pyt_based_question_bank.html">
-      <div class="pyt-big-icon">
-        <svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><path d="M21 12c0 4.5-3.5 8-9 8a9.7 9.7 0 0 1-5.3-1.4L3 20l1.3-3.4A7.8 7.8 0 0 1 3 12c0-4.5 3.5-8 9-8s9 3.5 9 8z"/></svg>
+    <!-- Box 1: Previous Year Questions -->
+    <div class="box box-pyq">
+      <div class="box-head">
+        <span class="box-ic ic-pyq">
+          <svg viewBox="0 0 24 24"><path d="M8 4h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H8"/><path d="M4 6h8"/><path d="M4 12h8"/><path d="M4 18h8"/><path d="M15 9l2 2 4-4"/></svg>
+        </span>
+        <div>
+          <h2>Previous Year Questions</h2>
+          <p>Recall-based MCQs, sorted by exam, year and subject</p>
+        </div>
       </div>
-      <div class="pyt-copy">
-        <h2>PYT-Based Question bank</h2>
-        <p>Subject-wise high-yield question bank built from previous year topics. Medicine, Surgery and ObGyn use audited final 500-question sets; Medicine includes 234 image/data questions.</p>
+      <div class="choices">
+        <a class="choice choice-neet" href="neet_pg_recall_quiz.html">
+          <span class="choice-ic">
+            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </span>
+          <span class="choice-txt"><b>NEET-PG</b><small>1,041 questions · 2021–2025</small></span>
+          <svg class="choice-arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+        <a class="choice choice-fmge" href="fmge_quiz.html">
+          <span class="choice-ic">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+          </span>
+          <span class="choice-txt"><b>FMGE</b><small>2,270 questions · Dec 2021–Jul 2026</small></span>
+          <svg class="choice-arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
       </div>
-      <span class="pyt-btn">
-        Open Bank
-        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </span>
-    </a>
-  </div>
-
-  <div class="resources-callout">
-    <a class="resources-card" href="resources.html">
-      <div class="resources-big-icon">
-        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-6"/><polyline points="9 15 12 18 15 15"/></svg>
-      </div>
-      <div class="resources-copy">
-        <h2>Free PDF resources</h2>
-        <p>NEET-PG and INICET topic PDFs, PYQ analysis, revision sheets, and study plans in one download page.</p>
-      </div>
-      <span class="resources-btn">
-        Open Free PDFs
-        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </span>
-    </a>
-  </div>
-</section>
-
-
-
-<section class="features">
-  <div class="feat">
-    <div class="feat-icon">
-      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
     </div>
-    <h3>Score tracking</h3>
-    <p>Your correct/wrong answers are saved as you go — pick up where you left off.</p>
-  </div>
-  <div class="feat">
-    <div class="feat-icon">
-      <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10"/><path d="M7 12h6"/><path d="M7 16h8"/></svg>
+
+    <div class="box-row">
+      <!-- Box 2: PYT-Based Question Bank -->
+      <a class="box box-link box-pyt" href="pyt_based_question_bank.html">
+        <span class="box-ic">
+          <svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><path d="M21 12c0 4.5-3.5 8-9 8a9.7 9.7 0 0 1-5.3-1.4L3 20l1.3-3.4A7.8 7.8 0 0 1 3 12c0-4.5 3.5-8 9-8s9 3.5 9 8z"/></svg>
+        </span>
+        <div>
+          <h2>PYT-Based Question Bank</h2>
+          <p>Topic-wise high-yield sets for Medicine, Surgery &amp; ObGyn.</p>
+        </div>
+        <svg class="box-arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+
+      <!-- Box 3: PDF Resources -->
+      <a class="box box-link box-res" href="resources.html">
+        <span class="box-ic">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-6"/><polyline points="9 15 12 18 15 15"/></svg>
+        </span>
+        <div>
+          <h2>PDF Resources</h2>
+          <p>NEET-PG &amp; INICET PDFs, PYQ analysis and revision sheets.</p>
+        </div>
+        <svg class="box-arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
     </div>
-    <h3>Subject-wise &amp; year-wise</h3>
-    <p>Sort NEET-PG and FMGE questions by subject, exam year, or both for targeted revision.</p>
-  </div>
-  <div class="feat">
-    <div class="feat-icon">
-      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    </div>
-    <h3>Search &amp; image filters</h3>
-    <p>Search by keyword, filter unanswered or wrong answers, and practice image-based questions only.</p>
-  </div>
-</section>
+
+  </section>
+</main>
 
 <footer>
-  <span class="footer-brand">© 2026 <strong>StudyDoc</strong> — free for NEET-PG and FMGE aspirants</span>
+  <span class="footer-brand">© 2026 <strong>StudyDoc</strong> — NEET-PG, INICET &amp; FMGE prep</span>
   <a class="footer-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
     <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
     @study4inicet
