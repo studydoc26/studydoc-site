@@ -24,22 +24,24 @@ a{color:var(--accent);text-decoration:none}
 @keyframes riseIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 
 /* Header */
-.hdr{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #0F172A22;padding-top:22px;padding-bottom:20px}
+.hdr{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #0F172A22;padding-top:22px;padding-bottom:20px;position:relative;z-index:100;overflow:visible}
 .brand-logo{height:58px;display:block}
-.nav{display:flex;align-items:center;gap:30px;font-size:18px;font-weight:500}
+.nav{display:flex;align-items:center;gap:30px;font-size:18px;font-weight:500;position:relative;z-index:101}
 .nav-links{display:contents}
 .nav a{color:var(--ink)}.nav a:hover{color:var(--accent)}
-.nav-dd{position:relative}
-.nav-dd>span{color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.nav-dd:hover>span{color:var(--accent)}
+.nav-dd{position:relative;display:inline-flex;align-items:center;padding:10px 0;margin:-10px 0}
+.nav-dd>span:first-child{color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:6px;line-height:1.2}
+.nav-dd>.nav-trigger:focus-visible{box-shadow:0 0 0 3px #4F46E533;border-radius:8px;outline:none}
+.nav-dd:hover>span:first-child,.nav-dd:focus-within>span:first-child{color:var(--accent)}
 .nav-dd .caret{font-size:11px;transform:translateY(1px)}
-.nav-dd>.dd{position:absolute;top:100%;left:-14px;padding-top:12px;display:none;z-index:50}
-.nav-dd:hover .dd{display:block}
-.dd-inner{background:#fff;border:1px solid #0F172A1F;border-radius:14px;box-shadow:0 16px 36px -14px #0F172A4D;padding:8px;width:250px}
-.dd-inner a{display:block;padding:12px 14px;border-radius:9px;color:var(--ink)}
-.dd-inner a:hover{background:#EEF0FB}
+.nav-dd>.dd{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(8px);padding-top:12px;display:block;opacity:0;visibility:hidden;pointer-events:none;z-index:999;width:286px;transition:opacity .14s ease,transform .14s ease,visibility .14s ease}
+.nav-dd:hover>.dd,.nav-dd:focus-within>.dd{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.nav-dd>.dd::before{content:"";position:absolute;top:5px;left:50%;width:12px;height:12px;background:#fff;border-left:1px solid #0F172A1F;border-top:1px solid #0F172A1F;transform:translateX(-50%) rotate(45deg);z-index:1}
+.dd-inner{display:block;position:relative;z-index:2;background:#fff;border:1px solid #0F172A1F;border-radius:16px;box-shadow:0 24px 54px -20px #0F172A73;padding:10px;width:100%;backdrop-filter:blur(14px)}
+.dd-inner a{display:block;padding:13px 14px;border-radius:10px;color:var(--ink);outline:none}
+.dd-inner a:hover,.dd-inner a:focus-visible{background:#EEF0FB;color:var(--accent)}
 .dd-inner b{display:block;font-weight:600;font-size:16px}
-.dd-inner small{display:block;font-size:11.5px;color:#0F172A99;margin-top:3px}
+.dd-inner small{display:block;font-size:11.5px;color:#0F172A99;margin-top:3px;line-height:1.35}
 .tg-pill{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg)!important;padding:10px 18px;border-radius:999px;font-size:14px}
 .tg-pill:hover{background:var(--accent)}
 .blink{width:7px;height:7px;border-radius:50%;background:var(--teal);display:inline-block;animation:blinkDot 1.6s infinite}
@@ -166,9 +168,10 @@ a{color:var(--accent);text-decoration:none}
   a{color:#a5a1f7}
   .hdr{border-bottom-color:#ffffff1a}
   .nav a{color:#e8e9f4}.nav a:hover{color:#a5a1f7}
-  .nav-dd>span{color:#e8e9f4}.nav-dd:hover>span{color:#a5a1f7}
-  .dd-inner{background:#171826;border-color:#ffffff1f;box-shadow:0 16px 36px -14px #00000099}
-  .dd-inner a{color:#e8e9f4}.dd-inner a:hover{background:#23233a}
+  .nav-dd>span:first-child{color:#e8e9f4}.nav-dd:hover>span:first-child,.nav-dd:focus-within>span:first-child{color:#a5a1f7}
+  .nav-dd>.dd::before{background:#171826;border-color:#ffffff1f}
+  .dd-inner{background:#171826;border-color:#ffffff1f;box-shadow:0 24px 54px -20px #000000cc}
+  .dd-inner a{color:#e8e9f4}.dd-inner a:hover,.dd-inner a:focus-visible{background:#23233a;color:#a5a1f7}
   .dd-inner small{color:#ffffff80}
   .tg-pill{background:#1c1d2e;border:1px solid #ffffff1f}.tg-pill:hover{background:var(--accent)}
   .eyebrow,.eyebrow .ln,.sec-tag,.rcard-arrow,.hero-h1 em,.comm-eyebrow{color:#a5a1f7}
@@ -213,7 +216,7 @@ a{color:var(--accent);text-decoration:none}
   <nav class="nav">
     <span class="nav-links">
       <span class="nav-dd">
-        <span>PYQs <span class="caret">▾</span></span>
+        <span class="nav-trigger" tabindex="0" role="button" aria-haspopup="true">PYQs <span class="caret">▾</span></span>
         <span class="dd"><span class="dd-inner">
           <a href="neet_pg_recall_quiz.html"><b>NEET-PG PYQs</b><small class="mono">1,041 questions · 2021–2025</small></a>
           <a href="fmge_quiz.html"><b>FMGE PYQs</b><small class="mono">2,270 questions · Dec 2021 – Jul 2026</small></a>
