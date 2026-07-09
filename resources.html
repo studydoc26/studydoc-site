@@ -57,7 +57,21 @@ footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;dis
 footer strong{color:var(--blue)}
 @media(max-width:820px){nav{padding:0 1rem}.brand-logo-img{width:205px;max-height:58px}.wrap{padding:28px 1rem 54px}h1{font-size:32px}.exam-grid,.summary,.folder-grid{grid-template-columns:1fr}.pdf{grid-template-columns:1fr}.download{justify-content:center}footer{display:block;line-height:1.8}}
 @media(max-width:480px){.hero{padding:24px}.exam-card{grid-template-columns:1fr;gap:12px;padding:16px}.exam-icon{width:52px;height:52px}.exam-name{font-size:19px}.exam-meta{line-height:1.35}.arrow{display:none}.stat{padding:13px}}
-@media(prefers-color-scheme:dark){nav{background:#0f172a;border-bottom-color:#253047}.nav-link{background:#111827;border-color:#334155;color:#e5e7eb}.nav-link.active,.nav-link:hover{background:#1e293b;border-color:#6366f1;color:#c7d2fe}}
+@media(prefers-color-scheme:dark){
+:root{--ink:#e7e9ee;--muted:#95a2b3;--line:#28323f;--bg:#0b1017;--blue:#6a97fb;--green:#34d399;--amber:#f5b544;--purple:#a78bfa;--blue-soft:#16233b;--green-soft:#0f2a20;--amber-soft:#2c2410;--purple-soft:#211b38}
+body{background:var(--bg);color:var(--ink)}
+nav{background:#0f172a;border-bottom-color:#243044}
+.nav-link{background:#151d2a;border-color:#2b3648;color:#cbd5e1}
+.nav-link.active,.nav-link:hover{background:#1e293b;border-color:#6366f1;color:#c7d2fe}
+h1,.exam-name,.subject-name,.folder h2{color:#f1f3f8}
+.hero,.exam-card,.subject-card,.stat,.folder{background:#141c28;border-color:#28323f}
+.pdf{background:#0f1620;border-color:#26313f}
+.pdf-title{color:#e7e9ee}.pdf-type{color:#95a2b3}
+.folder-head{border-bottom-color:#26313f}
+.download{color:#0a1836}
+footer{background:#0f172a;border-top-color:#243044;color:#95a2b3}
+.arrow{stroke:#7c8aa0}
+}
 </style>
 </head>
 <body>
