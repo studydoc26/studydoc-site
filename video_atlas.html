@@ -61,8 +61,7 @@ a{color:var(--accent);text-decoration:none}
 
 .hero { padding:28px 0 18px; }
 .hero-grid {
-  display:grid; grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);
-  gap:18px; align-items:stretch;
+  display:block;
 }
 .hero-copy {
   background:var(--paper); border:1px solid #0F172A26; border-radius:16px;
@@ -77,8 +76,9 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
 .stat span { display:block; margin-top:5px; color:var(--muted); font-size:12px; font-weight:800; }
 .player-panel {
   background:var(--panel); color:#EDEFFB; border-radius:16px; overflow:hidden;
-  box-shadow:0 24px 48px -20px #0F172A66; display:flex; flex-direction:column; min-height:100%;
+  box-shadow:0 24px 48px -20px #0F172A66; display:flex; flex-direction:column; margin:0 0 18px;
 }
+.player-panel.is-hidden { display:none; }
 .video-stage { position:relative; background:#050a12; aspect-ratio:16/9; }
 .video-stage iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
 .now-playing { padding:16px; display:grid; gap:10px; }
@@ -87,15 +87,17 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
 .now-meta { color:#b7c6d8; font-size:12px; font-weight:800; margin:2px 0 0; }
 .now-desc { margin:0; color:#d9e5f2; line-height:1.5; font-size:14px; }
 .link-row { display:flex; gap:8px; flex-wrap:wrap; }
-.button, .ghost-link, .watch-button {
+.button, .watch-button {
   min-height:42px; border-radius:999px; border:1px solid transparent;
   display:inline-flex; align-items:center; justify-content:center; gap:8px;
   padding:0 16px; text-decoration:none; font-weight:600; cursor:pointer;
   font-family:inherit; font-size:14px; letter-spacing:0; white-space:nowrap;
 }
 .button { background:var(--teal); color:white; }
-.ghost-link { background:white; border-color:#0F172A33; color:var(--ink); border-radius:999px; }
-.player-panel .ghost-link { background:transparent; color:white; border-color:rgba(255,255,255,.25); }
+.youtube-link { color:var(--accent); font-weight:600; text-decoration:underline; text-underline-offset:4px; text-decoration-thickness:1px; }
+.youtube-link:hover { color:var(--accent-d); }
+.player-panel .youtube-link { color:#EDEFFB; }
+.player-panel .youtube-link:hover { color:var(--teal); }
 .controls {
   position:sticky; top:0; z-index:15; background:rgba(246,247,251,.96);
   border:1px solid #0F172A22; border-radius:16px; box-shadow:0 16px 36px -22px #0F172A66;
@@ -123,6 +125,8 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
 .topic-meta { min-width:0; flex:1; }
 .subject-line { color:var(--accent); font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; text-transform:uppercase; letter-spacing:.14em; }
 .topic-title { margin:5px 0 0; font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:27px; line-height:1.05; letter-spacing:-.01em; }
+.topic-title-button { all:unset; color:inherit; cursor:pointer; border-radius:8px; }
+.topic-title-button:hover,.topic-title-button:focus-visible { color:var(--accent); text-decoration:underline; text-underline-offset:4px; outline:none; }
 .segment-chip {
   border:1px solid #f0d8ad; color:#7c4a03; background:#fff7e7;
   border-radius:8px; padding:6px 8px; font-size:12px; font-weight:900; white-space:nowrap;
@@ -167,7 +171,7 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
   .no-results{background:#171826;border-color:#ffffff1f;color:#c3c4d6}
   .anchor-list span{background:#132621;border-color:#244c42;color:#8ee6d5}
   .segment-chip{background:#2b2413;border-color:#5c4316;color:#f6cc78}
-  .ghost-link{background:#1c1d2e;border-color:#ffffff1f;color:#e8e9f4}
+  .youtube-link{color:#c7d2fe}
   .topic-num{background:#241f38;color:#c9b6ff}
 }
 @media (max-width: 900px) {
@@ -193,7 +197,7 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
   .topic-num { width:38px; height:38px; flex-basis:38px; }
   .topic-title { font-size:18px; }
   .segment-chip { white-space:normal; text-align:right; max-width:96px; }
-  .button, .ghost-link, .watch-button { width:100%; }
+  .button, .watch-button { width:100%; }
 }
 </style>
 </head>
@@ -234,23 +238,6 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
           <div class="stat"><strong>Fast</strong><span>visual revision</span></div>
         </div>
       </div>
-      <section class="player-panel" id="playerPanel" aria-label="Selected video">
-        <div class="video-stage">
-          <iframe id="videoFrame" title="Clinical atlas video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div class="now-playing">
-          <div class="now-row">
-            <div>
-              <h2 class="now-title" id="nowTitle"></h2>
-              <p class="now-meta" id="nowMeta"></p>
-            </div>
-          </div>
-          <p class="now-desc" id="nowDesc"></p>
-          <div class="link-row">
-            <a class="ghost-link" id="nowYoutube" target="_blank" rel="noopener">YouTube link</a>
-          </div>
-        </div>
-      </section>
     </div>
   </section>
   <div class="page-shell">
@@ -259,6 +246,23 @@ h1 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:cl
       <select class="select" id="subjectFilter" aria-label="Filter by subject"><option value="all">All subjects</option></select>
       <div class="count-badge" id="resultCount"></div>
     </div>
+    <section class="player-panel player-panel-inline is-hidden" id="playerPanel" aria-label="Selected video" aria-live="polite">
+      <div class="video-stage">
+        <iframe id="videoFrame" title="Clinical atlas video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="now-playing">
+        <div class="now-row">
+          <div>
+            <h2 class="now-title" id="nowTitle"></h2>
+            <p class="now-meta" id="nowMeta"></p>
+          </div>
+        </div>
+        <p class="now-desc" id="nowDesc"></p>
+        <div class="link-row">
+          <a class="youtube-link" id="nowYoutube" target="_blank" rel="noopener">YouTube link</a>
+        </div>
+      </div>
+    </section>
     <div class="section-head">
       <div>
         <h2>Atlas Topics</h2>
@@ -307,7 +311,7 @@ function cardMarkup(item) {
       <span class="topic-num">${String(item.number).padStart(2, '0')}</span>
       <div class="topic-meta">
         <div class="subject-line">${esc(item.subject)}</div>
-        <h2 class="topic-title">${esc(item.title)}</h2>
+        <h2 class="topic-title"><button class="topic-title-button" type="button" data-number="${item.number}">${esc(item.title)}</button></h2>
       </div>
       ${item.segment ? `<span class="segment-chip">${esc(item.segment)}</span>` : ''}
     </div>
@@ -318,19 +322,22 @@ function cardMarkup(item) {
     ${item.source ? `<p class="source-credit">Source: ${esc(item.source)}</p>` : ''}
     <div class="card-actions">
       <button class="watch-button" type="button" data-number="${item.number}">Watch here</button>
-      <a class="ghost-link" href="${esc(item.youtubeUrl)}" target="_blank" rel="noopener">YouTube link</a>
+      <a class="youtube-link" href="${esc(item.youtubeUrl)}" target="_blank" rel="noopener">YouTube link</a>
     </div>
   </article>`;
 }
 function selectVideo(number, shouldScroll = false) {
-  const item = ATLAS.find(entry => entry.number === Number(number)) || ATLAS[0];
+  const item = ATLAS.find(entry => entry.number === Number(number));
+  if (!item) return;
+  const playerPanel = document.getElementById('playerPanel');
+  playerPanel.classList.remove('is-hidden');
   videoFrame.src = embedUrl(item);
   nowTitle.textContent = item.title;
   nowMeta.textContent = [item.subject, item.segment].filter(Boolean).join(' · ');
   nowDesc.textContent = item.summary || item.identify || '';
   nowYoutube.href = item.youtubeUrl;
-  nowYoutube.textContent = 'Open YouTube link';
-  if (shouldScroll) document.getElementById('playerPanel').scrollIntoView({ behavior:'smooth', block:'start' });
+  nowYoutube.textContent = 'YouTube link';
+  if (shouldScroll) playerPanel.scrollIntoView({ behavior:'smooth', block:'start' });
 }
 function render() {
   const term = searchInput.value.trim().toLowerCase();
@@ -345,14 +352,13 @@ function render() {
   noResults.classList.toggle('show', filtered.length === 0);
 }
 grid.addEventListener('click', event => {
-  const button = event.target.closest('.watch-button');
-  if (!button) return;
-  selectVideo(button.dataset.number, true);
+  const trigger = event.target.closest('.watch-button, .topic-title-button');
+  if (!trigger) return;
+  selectVideo(trigger.dataset.number, true);
 });
 searchInput.addEventListener('input', render);
 subjectFilter.addEventListener('change', render);
 render();
-selectVideo(ATLAS[0]?.number || 1, false);
 </script>
 </body>
 </html>
