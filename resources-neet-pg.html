@@ -45,6 +45,7 @@ h1{font-size:40px;line-height:1.08;letter-spacing:-1px;margin-bottom:12px;color:
 .folder-meta{font-size:12px;color:var(--muted);font-weight:700;margin-top:2px}
 .pdf-list{display:flex;flex-direction:column;gap:9px}
 .pdf{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;background:#f8fafc;border:1px solid #edf2f7;border-radius:9px;padding:11px 12px}
+.pdf-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
 .pdf-title{font-size:14px;line-height:1.35;font-weight:800;color:#1e293b}
 .pdf-type{font-size:11px;color:#64748b;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-top:3px}
 .download{display:inline-flex;align-items:center;gap:7px;background:var(--blue);color:#fff;text-decoration:none;border-radius:8px;padding:9px 11px;font-size:12px;font-weight:850;white-space:nowrap}
@@ -54,7 +55,7 @@ h1{font-size:40px;line-height:1.08;letter-spacing:-1px;margin-bottom:12px;color:
 .download svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 footer{border-top:1px solid var(--line);background:#fff;padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;color:#64748b;font-size:13px}
 footer strong{color:var(--blue)}
-@media(max-width:820px){nav{padding:0 1rem}.brand-logo-img{width:205px;max-height:58px}.wrap{padding:28px 1rem 54px}h1{font-size:32px}.exam-grid,.summary,.folder-grid{grid-template-columns:1fr}.pdf{grid-template-columns:1fr}.download{justify-content:center}footer{display:block;line-height:1.8}}
+@media(max-width:820px){nav{padding:0 1rem}.brand-logo-img{width:205px;max-height:58px}.wrap{padding:28px 1rem 54px}h1{font-size:32px}.exam-grid,.summary,.folder-grid{grid-template-columns:1fr}.pdf{grid-template-columns:1fr}.pdf-actions{justify-content:stretch}.pdf-actions .download{flex:1}.download{justify-content:center}footer{display:block;line-height:1.8}}
 @media(max-width:520px){.hero{padding:24px}.toolbar{align-items:flex-start;flex-direction:column}.folder{padding:15px}.folder-head{align-items:flex-start}.pdf{padding:10px}.pdf-title{font-size:13.5px}.folder-count{line-height:1.4}}
 @media(prefers-color-scheme:dark){nav{background:#0f172a;border-bottom-color:#253047}.nav-link{background:#111827;border-color:#334155;color:#e5e7eb}.nav-link.active,.nav-link:hover{background:#1e293b;border-color:#6366f1;color:#c7d2fe}}
 </style>
@@ -95,10 +96,16 @@ footer strong{color:var(--blue)}
             <div class="pdf-title">100 most important videos</div>
             <div class="pdf-type">Clinical atlas · 1.1 MB</div>
           </div>
-          <a class="download" href="https://files.studydoc.co.in/NEET%20PG/100%20Must%20Know%20Videos/StudyDoc_100_Most_Important_Video_Based_Clinical_Atlas_NEET_PG_2026_FIXED_video_links_updated.pdf" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 21h14"/></svg>
-            Download
-          </a>
+          <div class="pdf-actions">
+            <a class="download practice" href="video_atlas.html">
+              <svg viewBox="0 0 24 24"><polygon points="8 5 19 12 8 19 8 5"/></svg>
+              Open Atlas
+            </a>
+            <a class="download" href="https://files.studydoc.co.in/NEET%20PG/100%20Must%20Know%20Videos/StudyDoc_100_Most_Important_Video_Based_Clinical_Atlas_NEET_PG_2026_FIXED_video_links_updated.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 21h14"/></svg>
+              PDF
+            </a>
+          </div>
         </div></div>
     </article><article class="folder">
       <div class="folder-head">
