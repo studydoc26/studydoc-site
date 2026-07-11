@@ -112,11 +112,13 @@ a{color:var(--accent);text-decoration:none}
 .scard-q:hover{box-shadow:0 18px 36px -18px #0F172A4D;border-color:#4F46E566}
 .scard-menu-wrap{position:relative;display:block;z-index:1}
 .scard-menu-wrap>.scard{height:100%}
-.qbank-subjects{position:absolute;left:24px;right:24px;top:calc(100% - 14px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;opacity:0;transform:translateY(-4px) scale(.98);pointer-events:none;transition:opacity .16s ease,transform .16s ease;z-index:10;padding:12px;border:1px solid #0F172A22;border-radius:14px;background:#fff;box-shadow:0 18px 40px -18px #0F172A80}
+.scard-ttl a,.scard-go a{color:inherit}
+.qbank-subjects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;max-height:0;opacity:0;overflow:hidden;pointer-events:none;margin-top:0;transition:max-height .2s ease,opacity .16s ease,margin-top .2s ease}
 .qbank-subjects a{border:1px solid #0F172A26;border-radius:999px;background:#F6F7FB;color:var(--accent);font-size:12px;font-weight:600;padding:9px 11px;line-height:1;text-align:center;white-space:nowrap}
 .qbank-subjects a:hover,.qbank-subjects a:focus-visible{background:#EEF0FB;border-color:#4F46E566}
 .scard-menu-wrap:hover,.scard-menu-wrap:focus-within{z-index:8}
-.scard-menu-wrap:hover .qbank-subjects,.scard-menu-wrap:focus-within .qbank-subjects{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+.scard-menu-wrap:hover .scard-q,.scard-menu-wrap:focus-within .scard-q{box-shadow:0 18px 36px -18px #0F172A4D;border-color:#4F46E566;transform:translateY(-4px)}
+.scard-menu-wrap:hover .qbank-subjects,.scard-menu-wrap:focus-within .qbank-subjects{max-height:58px;opacity:1;pointer-events:auto;margin-top:14px}
 .scard-video{grid-column:1/-1;background:var(--panel);color:var(--bg)}
 .scard-video:hover{box-shadow:0 18px 36px -18px #0F172A80}
 .scard-ic{font-family:'Instrument Serif',serif;font-size:30px;line-height:1;border-radius:12px;width:58px;height:58px;display:grid;place-items:center;flex-shrink:0}
@@ -168,11 +170,8 @@ a{color:var(--accent);text-decoration:none}
   .scard{flex-direction:column;gap:16px}
 }
 @media(max-width:760px){
-  .qbank-subjects{position:static;margin:12px 0 0;opacity:1;transform:none;pointer-events:auto;grid-template-columns:repeat(3,minmax(0,1fr));padding:0;border:0;background:transparent;box-shadow:none}
+  .qbank-subjects{grid-template-columns:1fr;max-height:150px;opacity:1;pointer-events:auto;margin-top:12px}
   .scard-menu-wrap .scard-go{display:none}
-}
-@media(max-width:420px){
-  .qbank-subjects{grid-template-columns:1fr}
 }
 
 /* Dark mode — follows device setting */
@@ -207,7 +206,6 @@ a{color:var(--accent);text-decoration:none}
   .scard-q .scard-ic{border-color:#ffffff33;color:#a5a1f7}
   .scard-q .scard-desc{color:#c3c4d6}
   .scard-q .scard-go{color:#a5a1f7}
-  .qbank-subjects{background:#171826;border-color:#ffffff1f;box-shadow:0 18px 40px -18px #000000cc}
   .qbank-subjects a{background:#23233a;border-color:#ffffff1f;color:#a5a1f7}
   .qbank-subjects a:hover,.qbank-subjects a:focus-visible{background:#2c2c48;border-color:#8b87f566}
   .scard-video{border:1px solid #ffffff1a}
@@ -239,7 +237,15 @@ a{color:var(--accent);text-decoration:none}
           <a href="fmge_quiz.html"><b>FMGE PYQs</b><small class="mono">2,270 questions · Dec 2021 – Jul 2026</small></a>
         </span></span>
       </span>
-      <a href="pyt_based_question_bank.html">Question Bank</a>
+      <span class="nav-dd">
+        <span class="nav-trigger" tabindex="0" role="button" aria-haspopup="true">Question Bank <span class="caret">▾</span></span>
+        <span class="dd"><span class="dd-inner">
+          <a href="pyt_based_question_bank.html"><b>All PYT banks</b><small class="mono">1,931 topic-wise MCQs</small></a>
+          <a href="neet_pg_medicine_pyt_bank.html"><b>Medicine</b><small class="mono">482 questions · 218 image/data</small></a>
+          <a href="neet_pg_surgery_pyt_bank.html"><b>Surgery</b><small class="mono">500 questions · 250 image/data</small></a>
+          <a href="neet_pg_obgyn_pyt_bank.html"><b>ObGyn</b><small class="mono">949 questions · 465 image/data</small></a>
+        </span></span>
+      </span>
       <a href="resources.html">Resources</a>
       <a href="video_atlas.html">Video Atlas</a>
     </span>
@@ -326,18 +332,18 @@ a{color:var(--accent);text-decoration:none}
       </div>
     </a>
     <div class="scard-menu-wrap">
-      <a class="scard scard-q" href="pyt_based_question_bank.html">
+      <div class="scard scard-q">
         <div class="scard-ic">Q</div>
         <div>
-          <div class="scard-ttl">PYT-based question bank</div>
+          <div class="scard-ttl"><a href="pyt_based_question_bank.html">PYT-based question bank</a></div>
           <div class="scard-desc">Topic-wise high-yield sets built from previous-year themes — Medicine, Surgery &amp; ObGyn.</div>
-          <div class="scard-go mono">Open the bank →</div>
+          <div class="scard-go mono"><a href="pyt_based_question_bank.html">Open overview →</a></div>
+          <div class="qbank-subjects" aria-label="PYT subject banks">
+            <a href="neet_pg_medicine_pyt_bank.html">Medicine</a>
+            <a href="neet_pg_surgery_pyt_bank.html">Surgery</a>
+            <a href="neet_pg_obgyn_pyt_bank.html">ObGyn</a>
+          </div>
         </div>
-      </a>
-      <div class="qbank-subjects" aria-label="PYT subject banks">
-        <a href="neet_pg_medicine_pyt_bank.html">Medicine</a>
-        <a href="neet_pg_surgery_pyt_bank.html">Surgery</a>
-        <a href="neet_pg_obgyn_pyt_bank.html">ObGyn</a>
       </div>
     </div>
     <a class="scard scard-video" href="video_atlas.html">
