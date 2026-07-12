@@ -1,3 +1,52 @@
-.git
-.git/**
-.DS_Store
+# Deny by default. Every public root file must be explicitly reviewed here.
+*
+!/index.html
+!/index.js
+!/resources.html
+!/resources-inicet.html
+!/resources-neet-pg.html
+!/pyt_based_question_bank.html
+!/question_bank_menu.css
+!/question_bank_menu.js
+!/video_atlas.html
+!/video_atlas.js
+!/video_atlas_data.json
+!/fmge_quiz.html
+!/fmge_quiz.js
+!/fmge_quiz_data.json
+!/neet_pg_recall_quiz.html
+!/neet_pg_recall_quiz.js
+!/neet_pg_recall_quiz_data.json
+!/neet_pg_medicine_pyt_bank.html
+!/neet_pg_medicine_pyt_bank.js
+!/neet_pg_medicine_pyt_bank_data.json
+!/neet_pg_surgery_pyt_bank.html
+!/neet_pg_surgery_pyt_bank.js
+!/neet_pg_surgery_pyt_bank_data.json
+!/neet_pg_obgyn_pyt_bank.html
+!/neet_pg_obgyn_pyt_bank.js
+!/neet_pg_obgyn_pyt_bank_data.json
+!/neet_pg_pediatrics_practice_bank.html
+!/neet_pg_pediatrics_practice_bank.js
+!/neet_pg_pediatrics_practice_bank_data.json
+!/neet_pg_physiology_practice_bank.html
+!/neet_pg_physiology_practice_bank.js
+!/neet_pg_physiology_practice_bank_data.json
+!/_headers
+!/assets/
+!/assets/**
+!/NEET PG/
+!/NEET PG/**
+
+# Worker source, deployment configuration, and repository metadata remain private.
+/worker.js
+/wrangler.toml
+/.assetsignore
+/.gitignore
+/.env*
+/.dev.vars*
+/.wrangler
+/.wrangler/**
+**/.DS_Store
+**/.git
+**/.git/**

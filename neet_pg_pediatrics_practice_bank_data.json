@@ -1,0 +1,2824 @@
+[
+  {
+    "number": 1,
+    "subtopic": "Haematology",
+    "topic": "Haematology — iron deficiency anaemia",
+    "question": "A 2-year-old boy drinks nearly a litre of cow's milk daily and eats little iron-rich food. He presents with pallor, irritability and pica; the blood count shows microcytic hypochromic anaemia, and thalassaemia trait is being considered in the differential. In iron-deficiency anaemia, all of the following indices are expected to increase except:",
+    "options": [
+      "Red cell distribution width",
+      "Transferrin saturation",
+      "Free erythrocyte protoporphyrin",
+      "Total iron-binding capacity"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Transferrin saturation",
+    "explanation": "Iron deficiency increases total iron-binding capacity, red-cell distribution width and free erythrocyte protoporphyrin. Serum iron and ferritin fall, so transferrin saturation also falls. Thalassaemia trait may be similarly microcytic but usually has a relatively preserved red-cell count, a less elevated RDW and non-depleted iron stores.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 2,
+    "subtopic": "Haematology",
+    "topic": "Haematology — hereditary spherocytosis",
+    "question": "A 6-year-old boy has had recurrent episodes of pallor and yellowing of the eyes since infancy, and is noted to have splenomegaly and pigment gallstones; his father had his spleen removed as a child for 'a blood problem'. Blood film shows numerous spherocytes, the reticulocyte count and MCHC are both raised, and the direct antiglobulin (Coombs) test is negative. The haematologist explains that the defect lies in the proteins that tether the red-cell membrane to its underlying cytoskeleton. Which membrane abnormality best fits this picture?",
+    "options": [
+      "Horizontal spectrin-spectrin linkage defect",
+      "Oxidant-induced membrane injury from enzymopathy",
+      "Red-cell cation-permeability (stomatin) defect",
+      "Vertical spectrin-ankyrin linkage defect"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Vertical spectrin-ankyrin linkage defect",
+    "explanation": "Hereditary spherocytosis is a VERTICAL cytoskeleton-membrane linkage defect (spectrin/ankyrin/band-3) → membrane loss → spherocytes with a raised MCHC and a negative Coombs (excluding autoimmune haemolysis). Horizontal spectrin defects cause elliptocytosis, cation leak causes stomatocytosis, and enzymopathy (e.g. G6PD) causes episodic oxidative haemolysis — different pictures.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 3,
+    "subtopic": "Nephrology",
+    "topic": "Nephrology — nephrotic syndrome",
+    "question": "A previously well 4-year-old boy develops puffy eyes on waking that progresses over a week to generalised swelling, a distended abdomen and frothy urine. He is normotensive with no haematuria; urinalysis shows 3+ protein, the serum albumin is 1.9 g/dL, cholesterol is 320 mg/dL, and complement (C3/C4) is normal, with oval fat bodies seen on urine microscopy. The paediatric nephrologist explains that in a child of this age the great majority of such cases respond well to corticosteroids without needing a biopsy. Which underlying histology is most likely?",
+    "options": [
+      "Focal segmental glomerulosclerosis",
+      "Mesangiocapillary glomerulonephritis",
+      "Minimal change disease",
+      "Membranous nephropathy"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Minimal change disease",
+    "explanation": "Nephrotic syndrome in a young child is most often minimal change disease (highly steroid-responsive). FSGS is commoner in older children/adolescents and is often steroid-resistant; membranous and mesangiocapillary patterns are uncommon at this age. All four ARE nephrotic-range histologies — the discriminator is age and steroid response.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 4,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — coarctation of aorta",
+    "question": "A 10-year-old girl is investigated for headaches and is found to be hypertensive in both arms, with weak, delayed femoral pulses (radio-femoral delay). She is short for her age with a broad chest and a soft systolic murmur heard between the scapulae, and a chest radiograph shows notching of the inferior rib margins. The cardiologist explains that this coarctation is frequently seen together with a bicuspid aortic valve and a particular chromosomal disorder that should be actively sought in a girl with these features. With which syndrome is this lesion most characteristically associated?",
+    "options": [
+      "Down syndrome",
+      "Turner syndrome",
+      "Williams syndrome",
+      "Noonan syndrome"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Turner syndrome",
+    "explanation": "Coarctation (with a bicuspid aortic valve) is classically associated with Turner syndrome (45,XO) — short stature, webbed neck, broad chest. Noonan is linked to pulmonary stenosis, Williams to supravalvular aortic stenosis, and Down to AV septal defects — each a genuine, different cardiac-syndrome pairing.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 5,
+    "subtopic": "Neurology",
+    "topic": "Neurology — SSPE",
+    "question": "A 10-year-old boy who had measles at 11 months of age (before his first MMR) now has several months of declining school performance, personality change and, more recently, repetitive jerks of the trunk and limbs occurring every few seconds. An EEG shows periodic high-voltage complexes time-locked to the jerks, and MRI shows patchy white-matter changes. The neurologist suspects a late, progressive complication of his earlier measles infection and orders the confirmatory test. Which investigation is diagnostic?",
+    "options": [
+      "Oligoclonal IgG bands in the CSF",
+      "Anti-measles IgG in the CSF",
+      "Measles RNA PCR in the blood",
+      "Anti-measles IgM in the serum"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Anti-measles IgG in the CSF",
+    "explanation": "Subacute sclerosing panencephalitis is confirmed by a markedly raised anti-measles IgG in CSF with a high CSF:serum antibody ratio. Serum IgM indicates acute (not late) infection, oligoclonal bands are non-specific (also seen in MS), and blood PCR is unhelpful because the defective virus is CNS-restricted.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 6,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — growth assessment",
+    "question": "An 18-month-old child has bilateral appetite but poor weight gain after recurrent diarrhoeal episodes. Weight-for-length is -2.4 SD on the WHO chart, mid-upper-arm circumference is 12.0 cm, and there is no bilateral pitting oedema or medical complication. Which nutritional classification best fits these findings?",
+    "options": [
+      "Severe acute malnutrition based on anthropometry",
+      "Chronic stunting without acute malnutrition",
+      "Normal nutritional status for this age",
+      "Moderate acute malnutrition based on anthropometry"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Moderate acute malnutrition based on anthropometry",
+    "explanation": "Moderate acute malnutrition is defined by weight-for-length/height between -2 and -3 SD or MUAC 11.5 to less than 12.5 cm, without nutritional oedema. Severe acute malnutrition requires weight-for-length below -3 SD, MUAC below 11.5 cm, or bilateral pitting oedema. Weight-for-age percentage grading is not the preferred method for identifying acute wasting.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 7,
+    "subtopic": "Gastroenterology",
+    "topic": "Gastroenterology — IMCI dehydration",
+    "question": "An 18-month-old is brought to a primary health centre with two days of watery diarrhoea and reduced intake. On IMNCI assessment she is lethargic and difficult to rouse, her eyes are deeply sunken, she is unable to drink when offered fluid, and when the skin over the abdomen is pinched it recedes very slowly, taking more than two seconds to return. The health worker classifies her dehydration to select the correct treatment plan. Under IMCI, this presentation is classified and treated as:",
+    "options": [
+      "Severe persistent diarrhoea — urgent referral",
+      "Some dehydration — Plan B (supervised ORS)",
+      "Severe dehydration — Plan C (IV Ringer's lactate)",
+      "No dehydration — Plan A (home fluids)"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Severe dehydration — Plan C (IV Ringer's lactate)",
+    "explanation": "Two or more of lethargy/unconsciousness, sunken eyes, inability to drink, or a very slow skin pinch = SEVERE dehydration → Plan C (rapid IV Ringer's lactate). 'Some' dehydration (restless/irritable, drinks eagerly, slow pinch) is the same set of signs graded one level lower and would be Plan B.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 8,
+    "subtopic": "Respiratory",
+    "topic": "Respiratory — cystic fibrosis",
+    "question": "A 12-year-old has recurrent suppurative chest infections, pancreatic insufficiency and poor weight gain. Two independently collected sweat samples have chloride concentrations above 60 mmol/L, and CFTR testing identifies pathogenic variants. Consider these statements: 1. Inheritance is autosomal recessive. 2. CFTR is on chromosome 7. 3. Sweat chloride at least 60 mmol/L is consistent with cystic fibrosis in the appropriate clinical setting. 4. Meconium ileus and rectal prolapse are recognised manifestations. Which combination is correct?",
+    "options": [
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4",
+      "1 and 4 only",
+      "1, 2 and 3 only"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "1, 2, 3 and 4",
+    "explanation": "All four statements are correct. A sweat chloride concentration of at least 60 mmol/L supports cystic fibrosis when obtained by an adequate pilocarpine-iontophoresis test and interpreted with the phenotype; confirmation may use a second test and/or CFTR genetics. CF is autosomal recessive, CFTR lies on chromosome 7, and gastrointestinal manifestations include meconium ileus, pancreatic insufficiency and rectal prolapse.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 9,
+    "subtopic": "Respiratory",
+    "topic": "Respiratory — sweat chloride",
+    "question": "A 9-month-old with failure to thrive and recurrent wheeze is referred for a sweat chloride test, which returns elevated, raising the possibility of cystic fibrosis. However, the metabolic team cautions that a raised sweat chloride is not perfectly specific and that a small number of other conditions can also elevate it, so these must be considered before a firm diagnosis is made. Which of the following can ALSO raise the sweat chloride and is a genuine differential?",
+    "options": [
+      "Gitelman syndrome",
+      "Nephrogenic diabetes insipidus",
+      "Pseudohypoaldosteronism type 1",
+      "Bartter syndrome"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Pseudohypoaldosteronism type 1",
+    "explanation": "Pseudohypoaldosteronism type 1 (aldosterone resistance) causes salt-wasting with a RAISED sweat chloride and is a recognised CF mimic. Bartter and Gitelman cause renal salt-wasting with a metabolic alkalosis but not a high sweat chloride, and nephrogenic diabetes insipidus causes water loss, not a sweat-electrolyte defect.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 10,
+    "subtopic": "Metabolic/IEM",
+    "topic": "Metabolic — rickets subtypes",
+    "question": "A paediatric endocrinologist teaches the biochemical basis of the different types of rickets, emphasising that each has a distinct defect in the vitamin-D or phosphate axis and a characteristic laboratory profile. To test the students, she asks them to match each type of rickets in Column I with its underlying defect in Column II.  [Column I (type of rickets) — P) Nutritional rickets; Q) VDDR type I; R) VDDR type II; S) X-linked hypophosphataemic]  [Column II (underlying defect) — 1) vitamin-D-receptor resistance with alopecia; 2) low 25-OH vitamin D from dietary deficiency; 3) 1α-hydroxylase deficiency (low 1,25-(OH)2D); 4) PHEX mutation with FGF-23 excess and phosphate wasting]",
+    "options": [
+      "P-2, Q-1, R-3, S-4",
+      "P-1, Q-3, R-2, S-4",
+      "P-3, Q-2, R-1, S-4",
+      "P-2, Q-3, R-1, S-4"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "P-2, Q-3, R-1, S-4",
+    "explanation": "Nutritional (P-2) low 25-OH D; VDDR I (Q-3) 1α-hydroxylase deficiency; VDDR II (R-1) receptor resistance with alopecia; XLH (S-4) PHEX/FGF-23 phosphaturia with low phosphate, normal Ca/PTH, high ALP and dental abscesses.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 11,
+    "subtopic": "Endocrinology",
+    "topic": "Endocrinology — hypophosphataemic rickets",
+    "question": "A 3-year-old presents with progressive bow-legs, short stature and, unusually, recurrent dental abscesses without obvious caries. Biochemistry shows a LOW serum phosphate with a NORMAL serum calcium, a NORMAL parathyroid hormone and a HIGH alkaline phosphatase; the urine shows excessive phosphate loss. The endocrinologist explains that the defect drives renal phosphate wasting through a phosphaturic hormone rather than through the vitamin-D–calcium axis. Which mechanism fits?",
+    "options": [
+      "Dietary vitamin D lack → secondary hyperparathyroidism",
+      "1α-hydroxylase deficiency → low active vitamin D",
+      "PHEX mutation → excess FGF-23 → renal phosphate wasting",
+      "Vitamin-D-receptor mutation → end-organ resistance"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "PHEX mutation → excess FGF-23 → renal phosphate wasting",
+    "explanation": "X-linked hypophosphataemic rickets: a PHEX mutation raises FGF-23 → renal phosphate wasting, giving a low PO4 with NORMAL Ca and PTH, a high ALP and dental abscesses. The other mechanisms depress calcium or raise PTH, so they do not fit the 'normal Ca/PTH' clue set.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 12,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — scurvy",
+    "question": "A 2-year-old fed almost exclusively on boiled cow's milk with no fruit or vegetables becomes irritable and stops bearing weight, appearing to be in pain when his legs are handled (pseudoparalysis); his gums are swollen and bleed easily and there is bruising over the shins. Radiographs of the lower limbs demonstrate a dense white metaphyseal line, corner spurs and a ring-like epiphysis. The paediatrician links the bone changes and the bleeding gums to a single nutritional deficiency that impairs collagen formation. Which deficiency is responsible?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Copper",
+      "Vitamin D"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Vitamin C",
+    "explanation": "Scurvy (vitamin C deficiency) impairs prolyl/lysyl hydroxylation of collagen → fragile vessels and bone: Frankel's line, the Trümmerfeld zone, Pelkan spurs and the Wimberger ring. Vitamin D (rickets), copper and vitamin A also affect bone but do not give this gum-bleeding-plus-pseudoparalysis picture.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 13,
+    "subtopic": "Neurology",
+    "topic": "Neurosurgery — VP shunt infection",
+    "question": "A 4-year-old girl who had a ventriculoperitoneal shunt placed in infancy for congenital hydrocephalus is brought with three days of increasing irritability, poor feeding and a low-grade fever of 38.7°C; there is mild erythema along the shunt tract but no focal neurological deficit. The neurosurgical team suspects a shunt infection, which most often arises from skin flora at the time of insertion, and plans to obtain the most informative specimen for culture before starting antibiotics. What is the single most appropriate next diagnostic step?",
+    "options": [
+      "Aspirate CSF from the shunt reservoir for culture",
+      "Perform a lumbar puncture for CSF culture",
+      "Obtain a CT head before any CSF sampling",
+      "Remove the shunt and culture the removed tip"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Aspirate CSF from the shunt reservoir for culture",
+    "explanation": "A suspected shunt infection is confirmed by sampling CSF directly from the shunt reservoir (plus blood cultures); a lumbar puncture may not reflect shunt CSF and can be unsafe if pressure is raised. Coagulase-negative staphylococci (S. epidermidis) are commonest. Shunt removal follows confirmation rather than preceding sampling.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 14,
+    "subtopic": "Rheumatology",
+    "topic": "Rheumatology — HSP / IgA vasculitis",
+    "question": "A 5-year-old boy, about two weeks after an upper respiratory infection, develops the symmetrical raised purpuric rash shown over the buttocks and extensor surfaces of the legs, together with colicky abdominal pain, painful swelling of the ankles and knees, and tea-coloured urine. His platelet count and coagulation screen are entirely normal. The paediatric team recognises the commonest vasculitis of childhood, mediated by deposition of a specific immunoglobulin in small vessels. What is the diagnosis?",
+    "options": [
+      "Childhood polyarteritis nodosa",
+      "Acute meningococcaemia",
+      "Immune thrombocytopenic purpura",
+      "Henoch-Schonlein purpura"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Henoch-Schonlein purpura",
+    "explanation": "Palpable purpura + arthralgia + abdominal pain + haematuria with a NORMAL platelet count = Henoch-Schönlein purpura (IgA vasculitis), the commonest childhood vasculitis. ITP gives NON-palpable purpura with a LOW platelet count, meningococcaemia is acutely septic and toxic, and PAN affects medium vessels — each a genuine differential of childhood purpura.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_hsp_purpura.jpg",
+        "caption": "Lower-limb rash in the child described.",
+        "credit": "The original uploader was Okwikikim at English Wikipedia. · Public domain · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 15,
+    "subtopic": "Immunisation",
+    "topic": "Immunisation — HIV and live vaccines",
+    "question": "A 3-year-old child with HIV has severe immunosuppression and attends for catch-up vaccination. Both IPV and measles-rubella vaccine are due, and the clinician must distinguish the inactivated product that can be administered from the live vaccine that should wait for immune recovery. Which plan is most appropriate?",
+    "options": [
+      "Give measles-rubella vaccine now and defer IPV until viral suppression",
+      "Give both IPV and measles-rubella vaccine at the current visit",
+      "Give IPV now and defer measles-rubella vaccine until immune recovery",
+      "Defer both IPV and measles-rubella vaccine until immune recovery"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Give IPV now and defer measles-rubella vaccine until immune recovery",
+    "explanation": "IPV is inactivated and can be given to an immunocompromised child, although immune response may be reduced. Measles-rubella vaccine is live attenuated and is deferred during severe immunosuppression until age-specific immune criteria are satisfied. Viral suppression alone does not replace assessment of immune status.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 16,
+    "subtopic": "Metabolism",
+    "topic": "Metabolism — alkalosis and tetany",
+    "question": "A frightened 8-year-old is breathing rapidly during venepuncture and develops perioral tingling and carpopedal spasm. Total serum calcium is normal, and symptoms improve with reassurance and coached slowing of breathing after organic causes of tachypnoea are excluded. Assertion (A): Acute hyperventilation can cause tetany despite a normal total calcium. Reason (R): Respiratory alkalosis increases calcium binding to albumin and lowers ionised calcium.",
+    "options": [
+      "Both A and R are true and R correctly explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Both A and R are true and R correctly explains A",
+    "explanation": "Both statements are true. Alkalosis increases the negative charge on albumin, so a greater fraction of circulating calcium becomes protein-bound and ionised calcium falls transiently, increasing neuromuscular excitability. Paper-bag rebreathing should not be used because it can worsen hypoxaemia if the presumed anxiety diagnosis is wrong.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 17,
+    "subtopic": "Neonatology",
+    "topic": "Fetal physiology — umbilical vessels",
+    "question": "During a session on fetal circulation, a tutor reminds students that the fetal pattern is the reverse of the adult convention in which arteries carry oxygenated and veins carry deoxygenated blood. She draws the umbilical cord and its vessels and asks the students to identify which vessel(s) carry deoxygenated blood away from the fetus toward the placenta, and how many such vessels the normal cord contains. In the normal umbilical cord, deoxygenated blood is carried by:",
+    "options": [
+      "Two umbilical arteries",
+      "One umbilical artery",
+      "One umbilical vein",
+      "Two umbilical veins"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Two umbilical arteries",
+    "explanation": "The cord has 2 arteries + 1 vein. The umbilical ARTERIES (×2) carry deoxygenated blood fetus→placenta, and the single umbilical VEIN carries oxygenated blood placenta→fetus — the reverse of the adult rule. A single umbilical artery is associated with renal and cardiac anomalies.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 18,
+    "subtopic": "Gastroenterology",
+    "topic": "GI surgery — pyloric stenosis",
+    "question": "A first-born 5-week-old boy has three weeks of increasingly forceful, non-bilious vomiting immediately after feeds, and is now hungry but visibly dehydrated and lethargic. A firm, olive-shaped mass is palpable in the right upper quadrant, and visible gastric peristalsis is seen. Before the surgeons undertake a pyloromyotomy, the paediatric team corrects the metabolic derangement produced by the persistent loss of gastric contents. Which acid-base and electrolyte picture is expected, including the urinary finding?",
+    "options": [
+      "High-anion-gap metabolic acidosis with an alkaline urine",
+      "Hyperchloraemic normal-gap metabolic acidosis with aciduria",
+      "Hypochloraemic hypokalaemic metabolic alkalosis with alkaline urine",
+      "Hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria",
+    "explanation": "Loss of gastric HCl → hypochloraemic hypokalaemic metabolic alkalosis. As hypovolaemia worsens, the kidney reabsorbs Na⁺ in exchange for H⁺ → PARADOXICAL aciduria (acidic urine despite systemic alkalosis). Option 2 is the classic trap — right electrolytes but the wrong urine.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 19,
+    "subtopic": "Neurology",
+    "topic": "Neurology — West syndrome",
+    "question": "An 11-month-old has clusters of brief flexor spasms on waking, developmental regression and an EEG showing hypsarrhythmia. Examination and MRI show no features of tuberous sclerosis, and the team plans urgent syndrome-specific therapy rather than a conventional focal-seizure drug. Which treatment category is an appropriate first-line choice?",
+    "options": [
+      "Vigabatrin monotherapy",
+      "High-dose prednisolone or depot ACTH",
+      "Carbamazepine or oxcarbazepine monotherapy",
+      "Ethosuximide or sodium valproate monotherapy"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "High-dose prednisolone or depot ACTH",
+    "explanation": "Hormonal therapy with high-dose oral prednisolone or ACTH is a first-line treatment for infantile epileptic spasms when tuberous sclerosis is absent; some protocols combine hormonal therapy with vigabatrin. Vigabatrin is particularly preferred when spasms are caused by tuberous sclerosis. Treatment should begin promptly because ongoing spasms and hypsarrhythmia threaten development.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 20,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — normal newborn",
+    "question": "A first-time mother of a healthy term neonate becomes anxious on the first day because her baby, now 20 hours old, has not yet passed urine. On examination the baby is pink, active, latching and feeding well at the breast, with a soft non-distended abdomen, a normal genitourinary examination and no palpable bladder. The postnatal-ward doctor reassures her using knowledge of the normal timing of the first void in newborns. What is the appropriate action?",
+    "options": [
+      "Arrange a renal ultrasound to exclude anomaly",
+      "Reassure and continue breastfeeding, observing",
+      "Start intravenous fluids for presumed dehydration",
+      "Catheterise the bladder to exclude obstruction"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Reassure and continue breastfeeding, observing",
+    "explanation": "In a well, active, feeding neonate the first void can normally be delayed up to 24–48 h; reassurance and continued breastfeeding are correct. Fluids, catheterisation or imaging are premature at 20 h in the absence of any sign of obstruction or illness.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 21,
+    "subtopic": "Neonatology",
+    "topic": "Fetal medicine — amniotic fluid",
+    "question": "A woman at 32 weeks' gestation is found on ultrasound to have markedly reduced amniotic fluid (severe oligohydramnios) with an amniotic fluid index below the 3rd centile, and the fetal bladder is not visualised on repeated scans. The maternal-fetal medicine specialist explains that beyond mid-pregnancy amniotic fluid volume depends chiefly on fetal urine production, so oligohydramnios points to a problem of the fetal urinary tract rather than of swallowing. Which fetal anomaly is the most likely cause?",
+    "options": [
+      "Bilateral renal agenesis",
+      "Duodenal atresia",
+      "Anencephaly",
+      "Tracheo-oesophageal fistula"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Bilateral renal agenesis",
+    "explanation": "After ~16 weeks amniotic fluid is mainly fetal urine, so oligohydramnios reflects impaired urine output (renal agenesis, posterior urethral valves, IUGR). Duodenal atresia, TEF and anencephaly impair fetal SWALLOWING and cause POLYhydramnios — the 'POLO' rule (POly = swaLlOwing problem).",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 22,
+    "subtopic": "Pulmonology",
+    "topic": "Pulmonology — foreign body aspiration",
+    "question": "A 2-year-old, previously well, suddenly coughs and chokes while eating peanuts and then develops persistent wheeze and breathlessness. On examination there are unilateral reduced breath sounds and a localised wheeze over the right chest, and a chest radiograph shows hyperinflation of the right lung with mediastinal shift away from it (a ball-valve effect). The team plans removal of the impacted foreign body under controlled conditions. What is the definitive management?",
+    "options": [
+      "Flexible bronchoscopy under conscious sedation",
+      "Chest physiotherapy with postural drainage",
+      "Interval bronchoscopy after a CT confirms it",
+      "Rigid bronchoscopy under general anaesthesia"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Rigid bronchoscopy under general anaesthesia",
+    "explanation": "Rigid bronchoscopy under general anaesthesia is the gold standard for airway foreign-body removal in children — it secures the airway and allows large forceps. Flexible scopes have too small a working channel for large objects, physiotherapy can dislodge and impact the object, and delaying for CT risks complete obstruction.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 23,
+    "subtopic": "Community Paediatrics",
+    "topic": "IMNCI - possible serious bacterial infection",
+    "question": "A 6-week-old infant is brought with poor feeding and reduced activity. Respiratory rate is 68/min, axillary temperature is 35.3 C, and movement occurs only when the infant is stimulated; there is no isolated pustule or umbilical redness to explain the illness. Under the young-infant IMNCI assessment, which classification requires urgent referral and parenteral treatment?",
+    "options": [
+      "Local bacterial infection only",
+      "Feeding problem without infection",
+      "Possible serious bacterial infection",
+      "No infection requiring treatment"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Possible serious bacterial infection",
+    "explanation": "Fast breathing in a young infant, hypothermia, poor feeding and movement only on stimulation are danger signs for possible serious bacterial infection. This infant needs urgent referral after appropriate pre-referral antibiotics and supportive care according to local protocol. A local infection classification is reserved for findings such as limited pustules or localised umbilical infection without systemic danger signs.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 24,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — respiratory distress syndrome",
+    "question": "A baby born at 30 weeks' gestation develops grunting, nasal flaring, intercostal recession and cyanosis within a few hours of birth, and a chest radiograph shows a diffuse ground-glass appearance with air bronchograms and low lung volumes. The neonatologist explains that the disease stems from immaturity of the type-II pneumocytes and deficiency of the main surface-active phospholipid, and that an amniotic-fluid ratio can predict lung maturity. Deficiency of which surfactant component is central to the disease?",
+    "options": [
+      "Phosphatidylinositol (PI)",
+      "Lecithin (DPPC)",
+      "Phosphatidylglycerol (PG)",
+      "Sphingomyelin (SM)"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Lecithin (DPPC)",
+    "explanation": "The major surface-active phospholipid is lecithin (DPPC); its deficiency raises alveolar surface tension → atelectasis (RDS). A lecithin:sphingomyelin ratio >2 in amniotic fluid indicates lung maturity — sphingomyelin is the stable denominator, not the deficient agent. PG and PI are minor maturity markers.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 25,
+    "subtopic": "Endocrinology",
+    "topic": "Endocrine emergency — paediatric DKA",
+    "question": "A 10-year-old boy weighing 30 kg is brought in drowsy with deep sighing (Kussmaul) breathing, a fruity breath odour and signs of severe dehydration after several days of polyuria and vomiting. Investigations confirm diabetic ketoacidosis: glucose 550 mg/dL, venous pH 7.01, bicarbonate 6 mEq/L, Na⁺ 158 mEq/L and heavy ketonuria. Following the ISPAD protocol, the team plans the correct order of fluid and insulin therapy so as to minimise the risk of cerebral oedema. What is the correct initial sequence?",
+    "options": [
+      "Isotonic saline bolus first, insulin started after ~1 hour",
+      "An insulin bolus first, then begin fluid replacement",
+      "Insulin and isotonic saline started simultaneously",
+      "A sodium bicarbonate bolus first to correct the pH"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Isotonic saline bolus first, insulin started after ~1 hour",
+    "explanation": "ISPAD: resuscitate with isotonic fluid first and begin insulin (0.05–0.1 U/kg/h) about 1 hour AFTER fluids. Early insulin, rapid osmotic shifts and routine bicarbonate all increase the risk of cerebral oedema — so simultaneous, insulin-first and bicarbonate-first approaches are avoided.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 26,
+    "subtopic": "Growth & Development",
+    "topic": "Growth & development — infancy",
+    "question": "A term infant was 50 cm long at birth and has tracked normally for weight, length and head circumference without crossing centile channels. At the 12-month visit, the paediatrician estimates the expected increase in recumbent length during the first year. Which value is closest to normal?",
+    "options": [
+      "12 cm",
+      "18 cm",
+      "35 cm",
+      "25 cm"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "25 cm",
+    "explanation": "Length increases by about 25 cm during the first year, from roughly 50 cm at birth to 75 cm at 12 months. Weight typically doubles by about 5 months and triples by 12 months, while head growth is fastest in early infancy and then slows. Serial trajectory on an appropriate chart is more informative than any single measurement.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 27,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — congenital rubella",
+    "question": "A 3-month-old girl is referred with failure to respond to sound (later confirmed as bilateral sensorineural deafness), bilateral white pupillary reflexes due to cataracts, and a continuous murmur with bounding pulses from a patent ductus arteriosus. Her mother had a febrile illness with a rash early in the pregnancy and had never been vaccinated. The paediatrician recognises a classic congenital-infection triad. The most likely congenital infection is:",
+    "options": [
+      "Syphilis",
+      "Cytomegalovirus",
+      "Rubella",
+      "Toxoplasmosis"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Rubella",
+    "explanation": "The triad of sensorineural deafness + cataract (± glaucoma) + cardiac defect (PDA/peripheral pulmonary stenosis) is congenital rubella. CMV gives periventricular calcification and deafness; toxoplasmosis gives hydrocephalus, chorioretinitis and diffuse calcification; syphilis gives snuffles and bony lesions — distinct TORCH profiles.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 28,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — congenital CMV",
+    "question": "A term neonate is noted at birth to be small-for-dates with jaundice, hepatosplenomegaly and a petechial 'blueberry-muffin' rash; the platelet count is low. A cranial CT performed for microcephaly shows scattered calcifications distributed around the margins of the lateral ventricles (a periventricular pattern), and the baby later fails newborn hearing screening. The team identifies the commonest congenital infection worldwide from this imaging pattern. The most likely infection is:",
+    "options": [
+      "Toxoplasmosis",
+      "Cytomegalovirus",
+      "Rubella virus",
+      "Herpes simplex"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Cytomegalovirus",
+    "explanation": "Congenital CMV (the commonest congenital infection) causes PERIventricular calcifications with hepatosplenomegaly, thrombocytopenia and sensorineural deafness. Toxoplasmosis gives DIFFUSE/scattered calcification with hydrocephalus; rubella typically lacks this calcification pattern; HSV causes temporal-lobe encephalitis rather than periventricular calcification.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 29,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — measles",
+    "question": "An unimmunised 4-year-old has four days of high fever with a harsh cough, runny nose and red watery eyes, and is miserable and photophobic. Examination of the mouth reveals the finding shown — tiny bluish-white spots on an erythematous buccal mucosa opposite the molars — appearing a day or two before a blotchy rash that begins at the hairline and behind the ears and spreads downwards over the body. These pathognomonic mucosal lesions are known as:",
+    "options": [
+      "Koplik spots",
+      "Nagayama spots",
+      "Forchheimer spots",
+      "Herald patch"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Koplik spots",
+    "explanation": "Koplik spots (white spots on an erythematous buccal mucosa) are pathognomonic of measles (a paramyxovirus) and precede the cephalocaudal maculopapular rash. Forchheimer spots occur in rubella (and scarlet fever), Nagayama spots in roseola (HHV-6), and a herald patch in pityriasis rosea — clues for OTHER conditions.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_koplik_measles.jpg",
+        "caption": "Buccal mucosa of the child described.",
+        "credit": "Dctrzl · CC BY-SA 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 30,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — pertussis",
+    "question": "A 3-week-old, not yet due for her first pertussis vaccine, is brought with spells of severe coughing during which she goes red then blue and, on two occasions, stopped breathing (apnoea); between spells she looks deceptively well. She has not developed the classic inspiratory 'whoop' typical of older children, but her total white cell count is strikingly high at over 50,000/µL with a marked lymphocytosis. The paediatrician starts specific antimicrobial therapy for the causative organism. The drug of choice is:",
+    "options": [
+      "Amoxicillin",
+      "Co-trimoxazole",
+      "Cefixime",
+      "Azithromycin"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Azithromycin",
+    "explanation": "Bordetella pertussis; neonates may present with apnoea rather than a whoop, with a striking lymphocytosis. A macrolide (azithromycin) is the drug of choice and is also used for contact prophylaxis. The beta-lactams and co-trimoxazole are not first-line for pertussis.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 31,
+    "subtopic": "Respiratory",
+    "topic": "Respiratory — croup",
+    "question": "A 2-year-old develops a hoarse voice and a distinctive barking, seal-like cough over two days, with noisy inspiration (stridor) that is worse when he is upset, following a coryzal illness; he is not drooling and does not look toxic. An AP soft-tissue neck radiograph (shown) demonstrates symmetrical tapering of the subglottic air column (the 'steeple' sign). The paediatric team recognises the commonest cause of infective stridor in this age group, usually of viral origin. What is the diagnosis?",
+    "options": [
+      "Retropharyngeal abscess",
+      "Acute bacterial tracheitis",
+      "Acute laryngotracheobronchitis",
+      "Acute bacterial epiglottitis"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Acute laryngotracheobronchitis",
+    "explanation": "Subglottic narrowing (the 'steeple sign') with a barking cough and stridor = croup (parainfluenza), treated with dexamethasone ± nebulised adrenaline. Epiglottitis shows a lateral 'thumb sign' with drooling and toxicity, bacterial tracheitis is toxic with purulent secretions, and a retropharyngeal abscess widens the prevertebral space — each has different clues.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_croup_steeple.jpg",
+        "caption": "AP soft-tissue neck radiograph.",
+        "credit": "Frank Gaillard · CC BY-SA 3.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 32,
+    "subtopic": "Gastrointestinal",
+    "topic": "GI — biliary atresia",
+    "question": "A 6-week-old presents with jaundice that has persisted since the second week of life, together with pale, clay-coloured stools and dark urine. Investigations show a predominantly CONJUGATED hyperbilirubinaemia, and a liver biopsy demonstrates bile-duct proliferation with periportal fibrosis and bile plugs. The paediatric surgical team recognises a progressive obliterative cholangiopathy for which the timing of surgery is critical. What is the diagnosis?",
+    "options": [
+      "Alagille syndrome",
+      "Biliary atresia",
+      "Neonatal (giant-cell) hepatitis",
+      "Choledochal cyst"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Biliary atresia",
+    "explanation": "Conjugated hyperbilirubinaemia + acholic stools + ductal proliferation/periportal fibrosis = biliary atresia; a Kasai portoenterostomy before ~60 days improves drainage. Neonatal hepatitis shows giant-cell change without ductal proliferation, a choledochal cyst shows cystic dilatation on imaging, and Alagille shows bile-duct PAUCITY — genuine cholestasis differentials.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 33,
+    "subtopic": "Oncology",
+    "topic": "Haemato-oncology — Burkitt lymphoma",
+    "question": "A 7-year-old boy presents with rapidly enlarging jaw and cervical lymph-node masses that have doubled in size within a fortnight, along with a high LDH and features of early tumour-lysis. Biopsy shows sheets of intermediate-sized lymphoid cells with a 'starry-sky' appearance from interspersed macrophages, and flow cytometry shows surface immunoglobulin positivity with CD10 and CD19 expression but negativity for CD34 and TdT (a mature B-cell phenotype). The oncologist identifies the entity and its defining translocation. The diagnosis and its translocation are:",
+    "options": [
+      "Burkitt lymphoma; t(8;14)",
+      "Diffuse large B-cell lymphoma; t(14;18)",
+      "Lymphoblastic lymphoma; t(9;22)",
+      "Precursor B-cell ALL; t(12;21)"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Burkitt lymphoma; t(8;14)",
+    "explanation": "A MATURE B-cell phenotype (surface Ig+, TdT−, CD34−) with a starry-sky histology = Burkitt lymphoma, hallmark t(8;14) activating c-MYC. Precursor B-ALL is TdT+/CD34+, DLBCL often carries BCL6/BCL2 changes, and t(9;22) is the Philadelphia chromosome — each a real lymphoid entity with its own marker.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 34,
+    "subtopic": "Genetics",
+    "topic": "Genetics/Dermatology — xeroderma pigmentosum",
+    "question": "A 10-year-old born to consanguineous parents has had extreme sensitivity to sunlight since infancy, developing severe sunburn after minimal exposure, and now has extensive freckling, dry pigmented skin and two biopsy-proven basal-cell carcinomas on the face, as shown. The dermatologist explains that the child's skin cells cannot remove ultraviolet-induced pyrimidine dimers from DNA, giving a greatly increased skin-cancer risk. Which DNA-repair pathway is defective?",
+    "options": [
+      "Homologous recombination repair",
+      "Base excision repair",
+      "Mismatch repair",
+      "Nucleotide excision repair"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Nucleotide excision repair",
+    "explanation": "Xeroderma pigmentosum is a defect of nucleotide excision repair, so UV-induced pyrimidine dimers accumulate → about a 1000-fold skin-cancer risk. Base-excision repair handles small oxidised bases, mismatch repair corrects replication errors (Lynch syndrome), and homologous recombination repairs double-strand breaks (BRCA) — different repair systems and diseases.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_xeroderma.jpg",
+        "caption": "Face of the child described.",
+        "credit": "James Halpern, Bryan Hopping and Joshua M Brostoff · CC BY-SA 3.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 35,
+    "subtopic": "Oncology",
+    "topic": "Haemato-oncology — acute leukaemia",
+    "question": "An 18-year-old presents with two weeks of fatigue, gum bleeding and fever; examination shows pallor, petechiae, purpura and hepatosplenomegaly, and the blood count reveals Hb 7 g/dL, WBC 50,000/µL and platelets 30,000/µL. The marrow is packed with blasts that are myeloperoxidase-positive and contain pink cytoplasmic Auer rods. Having established the lineage of the leukaemia, the oncology team selects the standard induction regimen. Which induction is appropriate?",
+    "options": [
+      "Imatinib as single-agent therapy",
+      "Vincristine + prednisolone + asparaginase",
+      "Cytarabine + anthracycline ('7+3')",
+      "All-trans retinoic acid + arsenic trioxide"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Cytarabine + anthracycline ('7+3')",
+    "explanation": "Myeloperoxidase-positive blasts with Auer rods = AML → the '7+3' regimen (cytarabine for 7 days + an anthracycline for 3 days). Vincristine/prednisolone/asparaginase treats ALL; ATRA + arsenic is specific to acute PROMYELOCYTIC leukaemia (t(15;17)); imatinib targets BCR-ABL (CML/Ph+ ALL) — each a real but wrong-subtype regimen.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 36,
+    "subtopic": "Gastroenterology",
+    "topic": "GI surgery — Hirschsprung disease",
+    "question": "A term neonate fails to pass meconium within the first 48 hours and develops progressive abdominal distension and bilious vomiting; a contrast enema shows a narrow distal rectosigmoid with a cone-shaped transition to dilated proximal bowel. A suction rectal biopsy is taken to confirm the diagnosis by demonstrating the characteristic neuronal abnormality. In Hirschsprung disease, the biopsy shows:",
+    "options": [
+      "Aganglionosis of the myenteric plexus only",
+      "Aganglionosis of both submucosal and myenteric plexuses",
+      "Ganglion-cell hyperplasia with giant nerve trunks",
+      "Hypoganglionosis limited to the submucosal plexus"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Aganglionosis of both submucosal and myenteric plexuses",
+    "explanation": "Hirschsprung disease is aganglionosis of BOTH Meissner's (submucosal) and Auerbach's (myenteric) plexuses from failed neural-crest migration, usually rectosigmoid, with hypertrophied acetylcholinesterase-positive nerve trunks. The partial or hyperplastic patterns describe variant dysganglionoses, not classic Hirschsprung.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 37,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — galactosaemia",
+    "question": "A 2-week-old, well at birth, develops vomiting, poor feeding, jaundice and lethargy soon after breast/formula milk feeds are established, and is found to have hepatomegaly, conjugated and unconjugated hyperbilirubinaemia, hypoglycaemia and early lenticular cataracts; blood cultures grow Escherichia coli. Reducing substances are present in the urine but the glucose-oxidase test is negative. The metabolic team identifies the enzyme deficiency responsible for classic galactosaemia. The deficient enzyme is:",
+    "options": [
+      "Gal-1-P uridyltransferase (GALT)",
+      "Galactokinase (GALK)",
+      "UDP-galactose-4-epimerase (GALE)",
+      "Aldose reductase (polyol pathway)"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Gal-1-P uridyltransferase (GALT)",
+    "explanation": "Classic galactosaemia = GALT deficiency → toxic galactose-1-phosphate accumulation (liver, kidney, brain) with vomiting, jaundice, cataracts and a predisposition to E. coli sepsis. Galactokinase deficiency causes ISOLATED cataracts, epimerase deficiency is usually milder, and aldose reductase makes galactitol (contributing to cataract) — related galactose-pathway enzymes.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 38,
+    "subtopic": "Metabolic/IEM",
+    "topic": "Biochemistry — ETC inhibitors",
+    "question": "A biochemistry tutor teaches the electron-transport chain by mapping where classic toxins block electron flow, integrating this with the toxidromes they produce (for example, the cellular hypoxia of cyanide poisoning). To test the students, she asks them to match each toxin in Column I with the specific respiratory-chain complex it inhibits in Column II.  [Column I (toxin) — P) Rotenone; Q) Antimycin A; R) Cyanide; S) Oligomycin]  [Column II (site inhibited) — 1) Complex III; 2) Complex I; 3) ATP synthase (Complex V); 4) Complex IV]",
+    "options": [
+      "P-2, Q-4, R-1, S-3",
+      "P-4, Q-1, R-2, S-3",
+      "P-1, Q-2, R-4, S-3",
+      "P-2, Q-1, R-4, S-3"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "P-2, Q-1, R-4, S-3",
+    "explanation": "Rotenone → Complex I (P-2); Antimycin A → Complex III (Q-1); Cyanide/CO/azide/H2S → Complex IV (R-4); Oligomycin → ATP synthase/Complex V (S-3).",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 39,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — Pompe disease (GSD II)",
+    "question": "A 4-month-old presents as a 'floppy baby' with profound hypotonia and poor head control, and is found to have gross cardiomegaly on chest radiograph, a short PR interval on ECG, hepatomegaly and a raised creatine kinase. Muscle biopsy shows glycogen accumulation WITHIN membrane-bound lysosomal vacuoles rather than free in the cytoplasm. The metabolic team diagnoses a glycogen-storage disorder caused by a lysosomal enzyme deficiency, for which enzyme-replacement therapy exists. The deficient enzyme is:",
+    "options": [
+      "Glucose-6-phosphatase",
+      "Muscle phosphorylase (myophosphorylase)",
+      "Acid α-glucosidase (acid maltase)",
+      "Glycogen debranching enzyme"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Acid α-glucosidase (acid maltase)",
+    "explanation": "Pompe disease (GSD II) is LYSOSOMAL acid α-glucosidase deficiency → cardiomegaly + hypotonia + hepatomegaly, with enzyme-replacement therapy available. Myophosphorylase (McArdle/GSD V) causes exercise cramps, glucose-6-phosphatase (von Gierke/GSD I) causes fasting hypoglycaemia, and debrancher (Cori/GSD III) is milder — a cytosolic-glycogen family, not lysosomal.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 40,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — fatty-acid oxidation defect",
+    "question": "An 18-month-old has recurrent fasting intolerance with hypoketotic hypoglycaemia, proximal weakness and dilated cardiomyopathy. Plasma free carnitine is profoundly reduced, and multiple acylcarnitine species are low rather than showing a chain-length-specific accumulation. Which defect best explains this systemic phenotype?",
+    "options": [
+      "Carnitine palmitoyltransferase II deficiency",
+      "SLC22A5 carnitine-transporter deficiency",
+      "Medium-chain acyl-CoA dehydrogenase deficiency",
+      "Very-long-chain acyl-CoA dehydrogenase deficiency"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "SLC22A5 carnitine-transporter deficiency",
+    "explanation": "Primary systemic carnitine deficiency results from impaired OCTN2 transport encoded by SLC22A5. Renal carnitine wasting and poor cellular uptake produce very low free carnitine, hypoketotic hypoglycaemia, skeletal myopathy and cardiomyopathy, and the condition responds to high-dose carnitine. The other disorders usually produce characteristic chain-length acylcarnitine elevations rather than global carnitine depletion.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 41,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — atypical PKU / BH4",
+    "question": "A child identified on newborn screening with a high blood phenylalanine is started on a phenylalanine-restricted diet, yet despite good dietary control he develops progressive irritability, hypotonia and a movement disorder. Repeat testing shows that phenylalanine-hydroxylase enzyme activity is actually NORMAL, and the metabolic team recognises a cofactor problem that also impairs the synthesis of dopamine and serotonin. Which cofactor is deficient?",
+    "options": [
+      "Tetrahydrobiopterin (BH4)",
+      "Pyridoxal phosphate (B6)",
+      "Biotin (vitamin B7)",
+      "Cobalamin (vitamin B12)"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Tetrahydrobiopterin (BH4)",
+    "explanation": "BH4 is the cofactor for phenylalanine, tyrosine and tryptophan hydroxylases. In BH4-deficient ('malignant') hyperphenylalaninaemia the enzyme is intact but lacks cofactor, so dopamine/serotonin synthesis also fails → neurological signs despite diet. Biotin, B6 and B12 are cofactors for OTHER reactions and do not raise phenylalanine.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 42,
+    "subtopic": "Genetics",
+    "topic": "Genetics — Marfan syndrome",
+    "question": "A 14-year-old boy is unusually tall and thin with disproportionately long limbs and fingers (arachnodactyly), an arm span exceeding his height, a high-arched palate and hypermobile joints; slit-lamp examination shows UPWARD (superotemporal) dislocation of the lens, and echocardiography reveals dilatation of the aortic root. There is a strong autosomal-dominant family history of similar features and early aortic events. The geneticist identifies the defective gene. Which gene is affected?",
+    "options": [
+      "Collagen type I (COL1A1)",
+      "Fibrillin-2 (FBN2)",
+      "Cystathionine β-synthase (CBS)",
+      "Fibrillin-1 (FBN1)"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Fibrillin-1 (FBN1)",
+    "explanation": "Marfan syndrome = FBN1 mutation (chromosome 15), autosomal dominant, with UPWARD lens dislocation and aortic-root dilatation. CBS deficiency is homocystinuria (DOWNWARD lens, thrombosis, autosomal recessive), COL1A1 gives osteogenesis imperfecta, and FBN2 gives congenital contractural arachnodactyly — closely related connective-tissue mimics.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 43,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — amniotic band syndrome",
+    "question": "A newborn is noted to have deep circumferential grooves (constriction rings) around two fingers and one lower leg, with swelling of the tissues distal to the rings and amputation of the tips of two digits, as shown; the rest of the systemic examination and the karyotype are normal. The neonatologist explains that these deformities arise mechanically in utero rather than from a genetic programme, and that recurrence risk in future pregnancies is low. What is the diagnosis?",
+    "options": [
+      "Congenital annular constriction from oligohydramnios",
+      "Adams-Oliver syndrome",
+      "Amniotic band sequence",
+      "Focal dermal hypoplasia"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Amniotic band sequence",
+    "explanation": "Amniotic band sequence: fibrous amniotic strands entangle developing parts → constriction rings, distal swelling and amputations; it is sporadic and non-genetic with a low recurrence risk. Adams-Oliver pairs scalp and limb defects with a genetic basis, focal dermal hypoplasia (Goltz) is X-linked, and oligohydramnios causes deformation rather than true amputating bands.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_amniotic_band.jpg",
+        "caption": "Limb of the newborn described.",
+        "credit": "ChopperMags · CC BY-SA 3.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 44,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — enterobiasis",
+    "question": "A 6-year-old girl is brought with intense itching around the anus that is much worse at night and disturbs her sleep, and her mother has seen tiny white thread-like worms moving near the anus after she goes to bed. She is otherwise well and thriving. The paediatrician explains that the female worm migrates at night to lay eggs on the perianal skin, which determines how the diagnosis is best confirmed. Which is the best diagnostic test?",
+    "options": [
+      "Serum specific-IgE with eosinophil count",
+      "Early-morning cellophane-tape test",
+      "Perianal swab for bacterial culture",
+      "Stool sample ova-and-cyst microscopy"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Early-morning cellophane-tape test",
+    "explanation": "Enterobius vermicularis lays eggs on perianal skin at night, so the early-morning cellophane-tape test (before washing) is diagnostic — eggs are rarely found in STOOL. Culture and serology are not used. Treat with albendazole/mebendazole (repeat at 2 weeks) plus household contacts.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 45,
+    "subtopic": "Community Paediatrics",
+    "topic": "Community paediatrics — ICDS",
+    "question": "A district officer reviews the Anganwadi platform that provides supplementary nutrition, immunisation linkage, health check-ups, referral, nutrition and health education, and pre-school education for children under six and for pregnant or lactating women. These services originated under a programme launched in 1975 and now continue within the Saksham Anganwadi and POSHAN 2.0 framework. Which programme is being described?",
+    "options": [
+      "Integrated Child Development Services (ICDS)",
+      "Rashtriya Bal Swasthya Karyakram (RBSK)",
+      "POSHAN Abhiyaan (Nutrition Mission)",
+      "Mid-Day Meal Scheme (PM-POSHAN)"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Integrated Child Development Services (ICDS)",
+    "explanation": "The six-service Anganwadi package originated as Integrated Child Development Services in 1975. Anganwadi Services now operate within the broader Saksham Anganwadi and POSHAN 2.0 framework, but ICDS remains the historical and exam-relevant identity of this integrated package. RBSK is a screening programme, PM-POSHAN focuses on school meals, and POSHAN Abhiyaan is a wider nutrition mission.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 46,
+    "subtopic": "Metabolic/IEM",
+    "topic": "Lipids — familial hypercholesterolaemia",
+    "question": "A 5-year-old has the multiple cutaneous and periarticular xanthomas shown. Untreated LDL cholesterol is 720 mg/dL with near-normal triglycerides; both parents have LDL values near 300 mg/dL and premature coronary disease. Which molecular abnormality most plausibly explains this severe childhood phenotype?",
+    "options": [
+      "Biallelic loss of lipoprotein-lipase function",
+      "Biallelic loss of apolipoprotein C-II function",
+      "Homozygosity for apolipoprotein E2",
+      "Biallelic loss of LDL-receptor function"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Biallelic loss of LDL-receptor function",
+    "explanation": "Extremely high LDL from early childhood, xanthomas and two affected heterozygous parents indicate homozygous or compound-heterozygous familial hypercholesterolaemia, most often caused by biallelic LDLR dysfunction. Lipoprotein-lipase and apoC-II deficiency cause severe hypertriglyceridaemia and chylomicronaemia, while apoE2/E2 causes remnant accumulation rather than this isolated extreme LDL pattern.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/replacements/peds_child_xanthomas.jpg",
+        "caption": "Cutaneous xanthomas in a child with severe familial hypercholesterolaemia.",
+        "credit": "Indian Dermatology Online Journal case image; CC BY-NC-SA 3.0; via PubMed Central PMC5621207"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 47,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — mucopolysaccharidoses",
+    "question": "A 2-year-old boy has progressively coarsening facial features, a protuberant abdomen from hepatosplenomegaly, joint stiffness with claw hands, clouding of the corneas and developmental regression; urinary glycosaminoglycan screening is positive and enzyme assay confirms α-L-iduronidase deficiency (Hurler syndrome). The biochemistry tutor asks which glycosaminoglycans accumulate in this condition, contrasting it with the X-linked Hunter syndrome that lacks corneal clouding. Which GAGs accumulate?",
+    "options": [
+      "Keratan + chondroitin sulfate",
+      "Dermatan sulfate only",
+      "Dermatan + heparan sulfate",
+      "Heparan sulfate only"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Dermatan + heparan sulfate",
+    "explanation": "Hurler (MPS I, α-L-iduronidase deficiency) → DERMATAN + HEPARAN sulfate accumulation with corneal clouding, coarse facies, hepatosplenomegaly and neurodegeneration. Keratan sulfate accumulates in Morquio (MPS IV); Hunter (MPS II) accumulates the same dermatan + heparan but is X-linked and lacks corneal clouding — closely paired MPS profiles.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 48,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — Tay-Sachs disease",
+    "question": "A 7-month-old of Ashkenazi-Jewish ancestry, developing normally until about 4 months, now shows loss of milestones, increasing irritability and an exaggerated startle response to sound (hyperacusis). Fundoscopy reveals the finding shown — a cherry-red spot at the macula — and there is notably NO hepatosplenomegaly. Enzyme assay shows deficient hexosaminidase A. Which substrate accumulates in the neurons?",
+    "options": [
+      "Galactocerebroside",
+      "GM2 ganglioside",
+      "Sphingomyelin",
+      "Glucocerebroside"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "GM2 ganglioside",
+    "explanation": "Tay-Sachs (HEXA mutation, hexosaminidase A deficiency) → GM2 ganglioside accumulation with a cherry-red macula, an exaggerated startle and regression, and NO hepatosplenomegaly. Glucocerebroside accumulates in Gaucher (HSM), sphingomyelin in Niemann-Pick (HSM + cherry-red), and galactocerebroside in Krabbe — the 'cherry-red/no-HSM' combination points to Tay-Sachs.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_cherry_red_spot.png",
+        "caption": "Fundus of the infant described.",
+        "credit": "18mlk7 · CC BY-SA 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 49,
+    "subtopic": "Orthopaedics",
+    "topic": "Orthopaedics — Perthes disease",
+    "question": "An 8-year-old boy, otherwise well and of normal build, has a 10-month history of a painless limp and intermittent aching referred to the knee; on examination the hip has restricted internal rotation and abduction. Plain radiographs of the pelvis show a smaller, sclerotic and partly fragmented left femoral capital epiphysis with preserved joint space. The orthopaedic team diagnoses an idiopathic osteonecrosis of the femoral head of childhood. What is the diagnosis?",
+    "options": [
+      "Legg-Calvé-Perthes disease",
+      "Slipped capital femoral epiphysis",
+      "Transient synovitis of the hip",
+      "Developmental dysplasia of the hip"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Legg-Calvé-Perthes disease",
+    "explanation": "Perthes disease is idiopathic avascular necrosis of the femoral head in children ~4–10 years, with an insidious limp and a sclerotic/fragmented head; management centres on containment. SUFE affects older/obese adolescents with epiphyseal slip, transient synovitis is acute and self-limiting, and DDH presents in infancy — all paediatric hip differentials.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 50,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — complementary feeding (IYCF)",
+    "question": "At a nutrition counselling session, the mother of a 7-month-old who is still being breastfed asks how much and how often she should give complementary foods now that milk alone is no longer sufficient. The counsellor explains the WHO/IAP Infant and Young Child Feeding recommendations for a 6–8-month-old, emphasising energy-dense foods in an amount and frequency appropriate to the child's small stomach while continuing breastfeeding. What is the recommended amount and frequency?",
+    "options": [
+      "About 2 katoris, 2 times per day",
+      "About ¼ katori, once per day",
+      "About 1 katori, 5–6 times per day",
+      "About ½–1 katori, ~3 times per day"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "About ½–1 katori, ~3 times per day",
+    "explanation": "At 6–8 months, give about ½–1 katori of energy-dense complementary food 2–3 times a day WHILE continuing breastfeeding, increasing to 3–4 meals a day at 9–11 months. Once daily is too little, and very frequent tiny or very large infrequent feeds do not match the IYCF norms.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 51,
+    "subtopic": "Immunology",
+    "topic": "Immunology — SCID",
+    "question": "A 10-month-old boy has had recurrent severe infections since early infancy — persistent oral thrush, chronic diarrhoea and two episodes of pneumonia (including Pneumocystis) — with failure to thrive and absent tonsils and lymph nodes. Immunological work-up shows markedly reduced numbers of B, T AND NK cells, and enzyme assay reveals very low adenosine-deaminase activity. The immunologist recognises a profound combined immunodeficiency correctable only by immune reconstitution. What is the diagnosis?",
+    "options": [
+      "Wiskott-Aldrich syndrome",
+      "X-linked agammaglobulinaemia",
+      "Severe combined immunodeficiency",
+      "DiGeorge syndrome"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Severe combined immunodeficiency",
+    "explanation": "Adenosine-deaminase deficiency lets toxic metabolites destroy ALL lymphocyte lineages → SCID (low B, T and NK cells); HSCT is curative. X-linked agammaglobulinaemia loses only B cells, DiGeorge loses only T cells (thymic aplasia), and Wiskott-Aldrich gives eczema + thrombocytopenia + infections — each a distinct immunodeficiency pattern.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 52,
+    "subtopic": "Emergency",
+    "topic": "Emergency — paediatric choking",
+    "question": "At a birthday party a conscious 2-year-old suddenly grasps his throat, cannot make any sound or cough effectively, and is going red in the face after swallowing a piece of sausage. A trained first-aider recognises a severe airway obstruction with an ineffective cough in a responsive child over one year of age and begins the recommended manoeuvres. What is the correct first-aid sequence for this child?",
+    "options": [
+      "Five back blows then five chest thrusts",
+      "Five back blows then five abdominal thrusts",
+      "A blind finger sweep then abdominal thrusts",
+      "Chest compressions as for cardiac arrest"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Five back blows then five abdominal thrusts",
+    "explanation": "For a conscious child over 1 year: alternate 5 back blows and 5 abdominal (Heimlich) thrusts. Chest thrusts (not abdominal) are used for INFANTS under 1 year, chest compressions begin only if the child becomes UNRESPONSIVE, and blind finger sweeps are contraindicated (risk of impacting the object).",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 53,
+    "subtopic": "Neurology",
+    "topic": "Neurology — febrile seizure",
+    "question": "A previously well 18-month-old is brought to the emergency department having a generalised tonic-clonic seizure that began about 6 minutes ago during a high fever from an upper respiratory infection, and is still convulsing on arrival. There are no focal features and the child was developmentally normal. While arranging antipyretics and looking for the source of fever, the team acts to terminate the ongoing seizure with the appropriate first-line agent. Which drug is first-line to stop the seizure?",
+    "options": [
+      "Buccal or intravenous midazolam",
+      "Intravenous levetiracetam",
+      "Intravenous phenytoin",
+      "Intravenous phenobarbitone"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Buccal or intravenous midazolam",
+    "explanation": "An ongoing seizure lasting more than 5 minutes is terminated with a benzodiazepine — IV/rectal diazepam or buccal/IM midazolam. Phenytoin, phenobarbitone and levetiracetam are SECOND-line agents used if benzodiazepines fail, not the first step. Most simple febrile seizures are brief and need no long-term therapy.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 54,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — perinatal HIV prophylaxis",
+    "question": "A baby is born to a mother with HIV whose viral load remains 1200 copies/mL near delivery despite antiretroviral therapy, placing the infant in a high-risk exposure category. The mother plans to breastfeed while continuing effective ART, and early infant diagnosis has been arranged. Under the national high-risk prophylaxis approach, which plan is appropriate?",
+    "options": [
+      "Nevirapine plus zidovudine for 6 weeks with exclusive breastfeeding",
+      "Nevirapine monotherapy for 12 weeks with exclusive breastfeeding",
+      "Zidovudine monotherapy for 12 weeks with exclusive breastfeeding",
+      "Nevirapine plus zidovudine for 12 weeks with exclusive breastfeeding"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Nevirapine plus zidovudine for 12 weeks with exclusive breastfeeding",
+    "explanation": "A maternal viral load above 1000 copies/mL near delivery makes the infant high risk. National guidance uses enhanced dual prophylaxis with nevirapine plus zidovudine, extended to 12 weeks when the infant is exclusively breastfed, together with uninterrupted maternal ART and scheduled virological testing. A shorter dual course or either drug alone does not match this high-risk breastfeeding regimen.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 55,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — congenital diaphragmatic hernia",
+    "question": "A term neonate develops severe respiratory distress and cyanosis within the first hours of life. The abdomen looks unusually flat (scaphoid), the apex beat is displaced to the right, and bowel sounds are audible over the left chest; a chest radiograph shows multiple gas-filled bowel loops in the left hemithorax with the mediastinum pushed to the right. The neonatal team recognises the condition, prioritising stabilisation before surgery. What is the diagnosis?",
+    "options": [
+      "Congenital cystic adenomatoid malformation",
+      "Congenital lobar emphysema",
+      "Congenital diaphragmatic hernia",
+      "Tension pneumothorax"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Congenital diaphragmatic hernia",
+    "explanation": "Bowel loops in the chest + a scaphoid abdomen + mediastinal shift = congenital diaphragmatic hernia (usually a left Bochdalek defect), which causes pulmonary hypoplasia and hypertension; stabilise (intubate, gastric decompression, avoid bag-mask ventilation) before repair. Lobar emphysema and CCAM are cystic/lucent lung lesions, and a pneumothorax lacks bowel loops and a scaphoid abdomen.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 56,
+    "subtopic": "Genetics",
+    "topic": "Genetics — Turner syndrome",
+    "question": "A 12-year-old girl is referred for short stature and lack of pubertal development. Examination shows a webbed neck, a low posterior hairline, widely spaced nipples on a broad chest and puffiness of the hands and feet, and echocardiography reveals a bicuspid aortic valve with mild coarctation. A karyotype is arranged. Considering the following statements about her likely diagnosis, decide which combination is correct. 1. The karyotype is 45,XO. 2. Coarctation and bicuspid aortic valve are recognised associations. 3. The ovaries are typically streak gonads. 4. Intellectual disability is a defining feature. Which combination is correct?",
+    "options": [
+      "1 and 4 only",
+      "1, 2 and 3",
+      "2, 3 and 4",
+      "1, 2 and 4"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "1, 2 and 3",
+    "explanation": "Turner syndrome (45,XO): short stature, webbed neck, lymphoedema, streak ovaries (ovarian failure) and cardiac lesions (coarctation, bicuspid aortic valve). Intelligence is usually NORMAL (specific visuospatial difficulties may occur), so statement 4 is false — making 1, 2 and 3 the correct combination.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 57,
+    "subtopic": "Emergency",
+    "topic": "Emergency — infant choking",
+    "question": "During a paediatric basic-life-support course, the instructor explains why the choking algorithm for infants under one year differs from that for older children, replacing abdominal thrusts with chest thrusts. She asks the trainees to evaluate the following pair of statements about this recommendation. Assertion (A): Abdominal thrusts are not recommended for a choking infant under 1 year. Reason (R): The infant's relatively large, poorly protected liver makes abdominal thrusts liable to cause visceral injury.",
+    "options": [
+      "Both A and R are true and R correctly explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Both A and R are true and R correctly explains A",
+    "explanation": "In infants, back blows and CHEST thrusts replace abdominal thrusts precisely because the large, relatively unprotected liver makes abdominal thrusts hazardous. R correctly explains A.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 58,
+    "subtopic": "Haematology",
+    "topic": "Haematology — IDA blood film (image)",
+    "question": "A 2-year-old with prolonged cow's-milk feeding and pica is pale and irritable. The peripheral film (shown) demonstrates small, pale red cells with a wide central zone of pallor and variation in size and shape. The paediatrician correlates this morphology with the underlying deficiency and its effect on haemoglobin synthesis. Which single laboratory finding best confirms iron deficiency as the cause?",
+    "options": [
+      "A low total iron-binding capacity",
+      "A low red-cell distribution width",
+      "A raised transferrin saturation",
+      "A low serum ferritin"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "A low serum ferritin",
+    "explanation": "Low serum ferritin confirms depleted iron stores when inflammation is absent; because ferritin is an acute-phase reactant, a normal or raised value during inflammation does not reliably exclude deficiency. Iron deficiency also raises TIBC and RDW while lowering serum iron and transferrin saturation.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_iron_def_smear.jpg",
+        "caption": "Peripheral blood film from the child described.",
+        "credit": "Roberto J. Galindo · CC BY-SA 3.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 59,
+    "subtopic": "Haematology",
+    "topic": "Haematology — spherocytes (image)",
+    "question": "A 6-year-old with lifelong intermittent jaundice, splenomegaly and pigment gallstones has the blood film shown, containing numerous dense, small red cells lacking central pallor, together with polychromasia. The direct antiglobulin (Coombs) test is negative and the mean cell haemoglobin concentration is raised. Which screening test best supports the suspected diagnosis?",
+    "options": [
+      "Haemoglobin HPLC",
+      "Direct antiglobulin testing",
+      "EMA-binding flow cytometry",
+      "Quantitative G6PD assay"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "EMA-binding flow cytometry",
+    "explanation": "The film shows spherocytes; with a negative Coombs test and a raised MCHC this indicates hereditary spherocytosis (a vertical membrane-cytoskeleton defect). EMA-binding flow cytometry (or osmotic fragility) is the screening test. A positive Coombs would instead indicate autoimmune haemolysis; Hb-HPLC screens for thalassaemia/variants; the G6PD assay detects a different enzymopathy.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/replacements/peds_hereditary_spherocytosis_smear.jpg",
+        "caption": "Peripheral blood smear from a patient with hereditary spherocytosis.",
+        "credit": "Paulo Henrique Orlandi Mourao; CC BY-SA 3.0; via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 60,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — duodenal atresia (image)",
+    "question": "A neonate with Down syndrome develops bilious vomiting on the first day of life. The erect abdominal radiograph (shown) demonstrates two gas-filled bubbles — a distended stomach and proximal duodenum — with no gas beyond. The mother's pregnancy was complicated by polyhydramnios. The surgical team recognises the classic sign and its embryological basis. This 'double-bubble' appearance indicates:",
+    "options": [
+      "Duodenal atresia",
+      "Jejunal atresia",
+      "Malrotation with midgut volvulus",
+      "Hypertrophic pyloric stenosis"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Duodenal atresia",
+    "explanation": "The 'double-bubble' with no distal gas is classic for duodenal atresia (failure of recanalisation), strongly associated with Down syndrome and antenatal polyhydramnios. Pyloric stenosis gives a single gastric bubble; malrotation/volvulus is a surgical emergency with a 'corkscrew' on contrast and usually some distal gas; jejunal atresia shows multiple dilated loops ('triple bubble').",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_duodenal_atresia.jpg",
+        "caption": "Erect abdominal radiograph of the neonate described.",
+        "credit": "Hellerhoff · CC BY-SA 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 61,
+    "subtopic": "Gastroenterology",
+    "topic": "GI surgery — pyloric stenosis US (image)",
+    "question": "A 5-week-old first-born boy has progressive projectile non-bilious vomiting, visible gastric peristalsis and a palpable epigastric olive. Ultrasound demonstrates an elongated, non-relaxing pyloric canal with muscle hypertrophy. Which pair of measurements supports hypertrophic pyloric stenosis?",
+    "options": [
+      "Muscle thickness at least 3 mm; canal length at least 15 mm",
+      "Muscle thickness at least 3 mm; canal length below 10 mm",
+      "Muscle thickness below 2 mm; canal length at least 15 mm",
+      "Muscle thickness below 2 mm; canal length below 10 mm"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Muscle thickness at least 3 mm; canal length at least 15 mm",
+    "explanation": "Common sonographic thresholds are pyloric muscle thickness of at least 3 mm and canal length around 15-17 mm or greater, interpreted with failure of relaxation and passage. Borderline measurements require repeat dynamic assessment, particularly in small or premature infants. Fluid and electrolyte abnormalities are corrected before Ramstedt pyloromyotomy.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_pyloric_us.jpg",
+        "caption": "Abdominal ultrasound of the infant described.",
+        "credit": "Dr Laughlin Dawes · CC BY-SA 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 62,
+    "subtopic": "Gastroenterology",
+    "topic": "GI surgery — Hirschsprung enema (image)",
+    "question": "A neonate with failure to pass meconium and abdominal distension undergoes the contrast enema shown, which reveals a narrow distal segment with a cone-shaped 'transition zone' to dilated proximal bowel. A suction rectal biopsy is planned to confirm the diagnosis. What will the biopsy characteristically demonstrate?",
+    "options": [
+      "Preserved ganglion cells with submucosal nerve-trunk hypertrophy",
+      "Sparse small ganglia without nerve-trunk hypertrophy",
+      "Giant submucosal ganglia with ganglion-cell hyperplasia",
+      "Absent ganglion cells with hypertrophied nerve trunks"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Absent ganglion cells with hypertrophied nerve trunks",
+    "explanation": "Hirschsprung disease is confirmed by absence of ganglion cells in the submucosal and myenteric plexuses, usually with hypertrophied acetylcholinesterase-positive nerve trunks. Hypoganglionosis and intestinal neuronal dysplasia can also produce dysmotility, but retain sparse ganglia or show giant hyperplastic ganglia rather than complete distal aganglionosis.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_hirschsprung.jpg",
+        "caption": "Contrast enema of the neonate described.",
+        "credit": "Wikimedia Commons · CC BY 2.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 63,
+    "subtopic": "Orthopaedics",
+    "topic": "Orthopaedics — Perthes radiograph (image)",
+    "question": "A 7-year-old boy has a several-month history of a painless limp with pain referred to the knee and restricted hip abduction and internal rotation. The pelvic radiograph (shown) shows a smaller, sclerotic and fragmented femoral capital epiphysis on one side. Recognising the underlying pathology, which process best explains these radiographic changes?",
+    "options": [
+      "Acetabular dysplasia with a shallow socket",
+      "Septic destruction of the joint",
+      "Avascular necrosis of the femoral head",
+      "Posterior slip of the capital femoral epiphysis"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Avascular necrosis of the femoral head",
+    "explanation": "Legg-Calvé-Perthes disease is idiopathic AVASCULAR NECROSIS of the femoral capital epiphysis in children ~4–10 years, giving a sclerotic, fragmented, later flattened head. A posterior epiphyseal slip is SUFE (older, often obese adolescents); septic arthritis is acutely painful and febrile; acetabular dysplasia is DDH (presents in infancy).",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/replacements/peds_perthes_radiograph.jpg",
+        "caption": "Pelvic radiograph showing unilateral Legg-Calve-Perthes disease.",
+        "credit": "J. Lengerke; public domain; via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 64,
+    "subtopic": "Oncology",
+    "topic": "Oncology — Burkitt histology (image)",
+    "question": "A 7-year-old presents with a rapidly enlarging jaw mass and a high LDH. The lymph-node histology (shown) reveals sheets of monomorphic intermediate-sized lymphoid cells interspersed with pale tingible-body macrophages, giving a 'starry-sky' pattern; the proliferation index approaches 100%. Immunophenotyping shows a mature B-cell profile (surface Ig+, TdT−). Which translocation underlies this tumour?",
+    "options": [
+      "t(9;22) BCR-ABL fusion",
+      "t(8;14) involving c-MYC",
+      "t(11;14) cyclin D1 (BCL1)",
+      "t(15;17) PML-RARA fusion"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "t(8;14) involving c-MYC",
+    "explanation": "The starry-sky histology, extremely high proliferation and mature B-cell phenotype are diagnostic of Burkitt lymphoma, driven by t(8;14) (or variant t(2;8)/t(8;22)) juxtaposing c-MYC to an immunoglobulin enhancer. t(9;22) is CML/Ph+ ALL, t(15;17) is acute promyelocytic leukaemia, and t(11;14) is mantle-cell lymphoma.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_burkitt_starrysky.jpg",
+        "caption": "Lymph-node histology from the child described.",
+        "credit": "Wikimedia Commons · Public domain · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 65,
+    "subtopic": "Neurology",
+    "topic": "Neurology — hypsarrhythmia (image)",
+    "question": "A 7-month-old has clusters of flexor spasms and developmental regression; the EEG shown demonstrates hypsarrhythmia. Examination reveals three hypomelanotic macules, and echocardiography identifies a cardiac rhabdomyoma, strongly suggesting tuberous sclerosis complex. Which treatment is preferred first-line for the spasms in this aetiology?",
+    "options": [
+      "Vigabatrin",
+      "Prednisolone",
+      "Levetiracetam",
+      "Carbamazepine"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Vigabatrin",
+    "explanation": "Vigabatrin is the preferred first-line treatment for infantile spasms caused by tuberous sclerosis complex. Hormonal therapy is central for spasms without TSC and may still be considered if response is inadequate, but the TSC-specific association changes the first choice. Visual-field toxicity is a recognised concern with prolonged vigabatrin exposure.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_hypsarrhythmia.jpg",
+        "caption": "Interictal EEG showing hypsarrhythmia.",
+        "credit": "Papadopoulou et al.; CC BY 4.0; via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 66,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — Hurler vs Hunter (image)",
+    "question": "A 2-year-old boy with coarse facial features, hepatosplenomegaly, joint stiffness and developmental delay is noted to have the corneal finding shown (diffuse clouding). Enzyme testing confirms a mucopolysaccharidosis. The presence of corneal clouding helps distinguish his condition from the X-linked form that otherwise shares the accumulated substrates. His most likely diagnosis is:",
+    "options": [
+      "Morquio syndrome (MPS IV)",
+      "Hunter syndrome (MPS II)",
+      "Sanfilippo syndrome (MPS III)",
+      "Hurler syndrome (MPS I)"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Hurler syndrome (MPS I)",
+    "explanation": "Corneal clouding with coarse facies, organomegaly and neurodegeneration in an infant indicates Hurler syndrome (MPS I, α-L-iduronidase deficiency; dermatan + heparan sulfate). Hunter (MPS II) is X-linked and characteristically LACKS corneal clouding. Morquio (keratan sulfate) has skeletal dysplasia with preserved intellect; Sanfilippo is dominated by behavioural/neurological decline.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/replacements/peds_mps1_corneal_clouding.jpg",
+        "caption": "Corneal clouding in mucopolysaccharidosis type I (left) compared with a clear cornea (right).",
+        "credit": "Javed et al., Journal of Clinical Medicine; CC BY 4.0; via PubMed Central PMC8348690"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 67,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — congenital infection rash (image)",
+    "question": "A growth-restricted neonate has the purpuric, non-blanching 'blueberry-muffin' skin lesions shown, together with hepatosplenomegaly, thrombocytopenia, cataracts and a continuous cardiac murmur due to a patent ductus arteriosus. The mother had a febrile rash illness in the first trimester and no rubella immunity. The most likely diagnosis is:",
+    "options": [
+      "Congenital leukaemia",
+      "Neonatal lupus",
+      "Congenital rubella syndrome",
+      "Haemolytic disease of the newborn"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Congenital rubella syndrome",
+    "explanation": "The blueberry-muffin rash (dermal extramedullary haematopoiesis) with deafness, cataracts and PDA and a first-trimester maternal rash illness indicates congenital rubella syndrome. A similar rash occurs in congenital CMV; but the deafness + cataract + PDA triad and the maternal history point to rubella. Haemolytic disease, congenital leukaemia and neonatal lupus give different systemic pictures.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_blueberry_muffin.jpg",
+        "caption": "Skin of the neonate described.",
+        "credit": "Sarra Benmiloud, Ghizlane Elhaddou, Zoubida Alaoui Belghiti, Moustapha Hida, Abdelhak Bouharrou · CC BY 2.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 68,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — pinworm ovum (image)",
+    "question": "A 6-year-old has intense nocturnal perianal pruritus. An early-morning adhesive-tape preparation shows the asymmetric, planoconvex ova illustrated, establishing Enterobius vermicularis infection. Which regimen best reduces both persistent infection and household reinfection?",
+    "options": [
+      "Albendazole daily for 3 days, with treatment limited to the child",
+      "Albendazole once, repeat after 2 weeks, and treat household contacts",
+      "Praziquantel once, repeat after 2 weeks, and treat household contacts",
+      "Ivermectin once, repeat after 2 weeks, and treat household contacts"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Albendazole once, repeat after 2 weeks, and treat household contacts",
+    "explanation": "Enterobiasis is treated with albendazole, mebendazole or pyrantel as a single dose repeated after 2 weeks because the drugs kill worms but not every egg. Simultaneous treatment of household contacts and hygiene measures reduce reinfection. Praziquantel targets trematodes and cestodes, while ivermectin is not the standard first-line pinworm regimen.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/replacements/peds_enterobius_eggs.jpg",
+        "caption": "Enterobius vermicularis eggs in a wet mount.",
+        "credit": "CDC Division of Parasitic Diseases and Malaria; public domain"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 69,
+    "subtopic": "Genetics",
+    "topic": "Genetics — Turner syndrome (image)",
+    "question": "A 13-year-old girl of short stature with primary amenorrhoea has the neck appearance shown (webbing) with a low posterior hairline, a broad 'shield' chest, and a mid-systolic murmur; echocardiography reveals a bicuspid aortic valve with coarctation. A karyotype is arranged. Which cardiovascular lesion is she MOST at long-term risk of, warranting surveillance?",
+    "options": [
+      "Aortic root dilatation and dissection",
+      "Eisenmenger physiology from a large VSD",
+      "Rheumatic mitral stenosis",
+      "Ebstein anomaly of the tricuspid valve"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Aortic root dilatation and dissection",
+    "explanation": "Turner syndrome (45,XO) is associated with left-sided lesions — bicuspid aortic valve and coarctation — and carries a long-term risk of aortic root dilatation and DISSECTION, so aortic surveillance is essential. Rheumatic mitral stenosis, Eisenmenger from a VSD and Ebstein anomaly are not the characteristic Turner-associated risks.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_turner_webbed.jpg",
+        "caption": "Clinical photograph of the patient described.",
+        "credit": "Imen Mehri Turki · CC BY 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 70,
+    "subtopic": "Genetics",
+    "topic": "Genetics — Marfan (image)",
+    "question": "A tall 15-year-old with long, slender fingers demonstrates the thumb (Steinberg) sign shown — the thumb projecting beyond the ulnar border of the clenched fist. He also has a high-arched palate, pectus deformity, upward lens dislocation and aortic root dilatation, with an autosomal-dominant family history. A defect in which protein underlies this disorder?",
+    "options": [
+      "Type I collagen",
+      "Cystathionine β-synthase",
+      "Elastin",
+      "Fibrillin-1"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Fibrillin-1",
+    "explanation": "Marfan syndrome is caused by mutations in FIBRILLIN-1 (FBN1), a microfibril glycoprotein; features include arachnodactyly (positive thumb/wrist signs), upward lens dislocation and aortic root dilatation. Type I collagen defects cause osteogenesis imperfecta, cystathionine β-synthase deficiency causes homocystinuria (DOWNWARD lens), and elastin defects cause Williams/cutis laxa.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_arachnodactyly.jpg",
+        "caption": "Hand of the patient described.",
+        "credit": "Graziella F. B. Cipriano; Guilherme C. Brech; Paulo A. T. Peres; Cássia C. Mendes; Gerson Cipriano Júnior; Antônio C. C. Carvalho · CC BY 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 71,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — Hurler enzyme (image)",
+    "question": "A 2-year-old with the coarse facial features shown, along with hepatosplenomegaly, a gibbus deformity, joint contractures, corneal clouding and regression, is diagnosed with a mucopolysaccharidosis after urinary glycosaminoglycans are found to be elevated. Which enzyme deficiency is responsible for this (most severe, corneal-clouding) form?",
+    "options": [
+      "Galactocerebrosidase",
+      "Hexosaminidase A",
+      "α-L-iduronidase",
+      "Iduronate-2-sulfatase"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "α-L-iduronidase",
+    "explanation": "Hurler syndrome (MPS I) results from α-L-iduronidase deficiency, with accumulation of dermatan and heparan sulfate, corneal clouding, coarse facies and neurodegeneration. Iduronate-2-sulfatase deficiency is Hunter (MPS II, X-linked, no corneal clouding); hexosaminidase A deficiency is Tay-Sachs; galactocerebrosidase deficiency is Krabbe disease.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_hurler_facies.jpg",
+        "caption": "Facial appearance of the child described.",
+        "credit": "Sydney S. Gellis and Murray Feingold · Public domain · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 72,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — measles complications (image)",
+    "question": "An unimmunised 3-year-old has high fever, cough, coryza and conjunctivitis, followed by the blotchy, confluent maculopapular rash shown that began at the hairline and spread downward. The parents ask about complications. Which is the MOST COMMON acute complication responsible for most measles-associated deaths in young children?",
+    "options": [
+      "Acute encephalitis",
+      "Pneumonia",
+      "Myocarditis",
+      "Subacute sclerosing panencephalitis"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Pneumonia",
+    "explanation": "Pneumonia (primary viral or secondary bacterial) is the commonest acute complication of measles and the leading cause of measles deaths in young children. SSPE is a rare, late (years later) complication; acute post-infectious encephalitis occurs in ~1/1000; myocarditis is uncommon. Vitamin A reduces measles morbidity and mortality.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_measles_rash.jpg",
+        "caption": "Skin of the child described.",
+        "credit": "Wikimedia Commons · Public domain · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 73,
+    "subtopic": "Growth & Development",
+    "topic": "Growth & development — growth chart (image)",
+    "question": "A child's weight tracked close to the 50th centile from birth to 9 months. Over the next four months, serial measurements remain technically reliable but flatten and cross downward through the 25th and then the 9th centile, while length and head circumference are initially preserved. How should this trajectory be interpreted?",
+    "options": [
+      "Growth faltering requiring clinical assessment",
+      "Constitutional delay of growth and puberty",
+      "Normal tracking within a single centile channel",
+      "Catch-up growth after an intercurrent illness"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Growth faltering requiring clinical assessment",
+    "explanation": "Crossing two major weight centile channels downward is growth faltering even if absolute weight has not fallen. Preserved length and head circumference may indicate an early or predominantly nutritional process, but intake, feeding interaction, malabsorption, chronic disease and measurement quality all require assessment. Normal tracking stays broadly within one channel; catch-up growth crosses upward.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 74,
+    "subtopic": "Growth & Development",
+    "topic": "Growth & development — milestones (image/table)",
+    "question": "A 9-month-old sits without support, transfers a cube between hands, babbles consonants and searches for a partly hidden toy. He rakes a small pellet but does not yet use a neat mature pincer grasp, pull to stand consistently or walk independently. Which interpretation is most appropriate?",
+    "options": [
+      "Isolated gross-motor delay",
+      "Global developmental delay",
+      "Development advanced by at least three months",
+      "Development within the expected age range"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Development within the expected age range",
+    "explanation": "These are appropriate 9-month abilities. A mature neat pincer grasp and reliable pulling to stand usually emerge around 9-12 months, and independent walking is expected later, commonly around 12-15 months. Surveillance should continue, but absence of these later skills at exactly 9 months does not by itself establish delay.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/gen_milestones_table.png",
+        "caption": "Selected developmental milestones by age.",
+        "credit": "Original figure — StudyDoc"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 75,
+    "subtopic": "Immunisation",
+    "topic": "Immunisation — schedule (image/table)",
+    "question": "A healthy infant attends a government immunisation clinic at 9 completed months. Birth and 6-, 10- and 14-week vaccines were received on schedule, and the family lives in a district where Japanese encephalitis vaccine is indicated. Which group includes vaccines scheduled at the 9-12-month visit under India's National Immunisation Schedule?",
+    "options": [
+      "Pentavalent third dose, rotavirus third dose and PCV second dose",
+      "DPT first booster, OPV booster and MR second dose",
+      "MR first dose, PCV booster and JE first dose",
+      "DPT second booster, Td first dose and MR second dose"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "MR first dose, PCV booster and JE first dose",
+    "explanation": "At 9-12 months, the national schedule includes MR-1, the PCV booster and JE-1 in endemic districts, with the first vitamin A dose; current programme materials should be checked for contemporaneous IPV updates. The 6/10/14-week primary series and the 16-24-month boosters belong to different visits. The previous on-page table was removed because it omitted scheduled components and exposed the answer directly.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 76,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — congenital toxoplasmosis",
+    "question": "A neonate has hydrocephalus, diffuse scattered intracranial calcifications on CT and bilateral chorioretinitis, with the mother reporting she had cleaned a cat's litter tray and eaten undercooked meat during pregnancy. The paediatric team distinguishes this congenital infection from CMV by the pattern of calcification and the eye findings. The most likely diagnosis is:",
+    "options": [
+      "Congenital herpes simplex",
+      "Congenital toxoplasmosis",
+      "Congenital cytomegalovirus",
+      "Congenital rubella"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Congenital toxoplasmosis",
+    "explanation": "The classic triad of hydrocephalus + DIFFUSE/scattered intracranial calcification + chorioretinitis, with the cat-litter/undercooked-meat exposure, indicates congenital toxoplasmosis. CMV instead causes PERIVENTRICULAR calcification and sensorineural deafness; rubella causes cataract/PDA/deafness; neonatal HSV causes vesicles and encephalitis without this calcification pattern.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 77,
+    "subtopic": "Metabolic/IEM",
+    "topic": "IEM — Tay-Sachs vs Niemann-Pick discriminator",
+    "question": "A 9-month-old of Ashkenazi-Jewish descent has developmental regression, an exaggerated startle and a cherry-red macular spot, but examination reveals NO hepatosplenomegaly and enzyme testing shows deficient hexosaminidase A. A tutor asks which single examination finding most reliably separates this disorder from the other classic 'cherry-red spot' lysosomal disease. Which finding is the key discriminator?",
+    "options": [
+      "Absence of hepatosplenomegaly",
+      "Progressive developmental regression",
+      "Presence of the cherry-red spot",
+      "The exaggerated startle response"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Absence of hepatosplenomegaly",
+    "explanation": "A cherry-red spot occurs in BOTH Tay-Sachs and Niemann-Pick disease, so it does not discriminate; the startle and regression are also shared. The key difference is that Tay-Sachs (hexosaminidase A, GM2 ganglioside) has NO hepatosplenomegaly, whereas Niemann-Pick (sphingomyelinase, sphingomyelin) has prominent hepatosplenomegaly.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 78,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — surfactant",
+    "question": "A neonatologist teaches the physiology of neonatal respiratory distress syndrome to a group of interns, using antenatal corticosteroids given to a mother in preterm labour as the example. Evaluate the following pair of statements. Assertion (A): Antenatal betamethasone given to the mother reduces the incidence of neonatal respiratory distress syndrome. Reason (R): Corticosteroids accelerate fetal type-II pneumocyte maturation and surfactant (lecithin) production.",
+    "options": [
+      "Both A and R are true and R correctly explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Both A and R are true and R correctly explains A",
+    "explanation": "Antenatal corticosteroids (betamethasone/dexamethasone) given 24–34 weeks accelerate type-II pneumocyte maturation and surfactant (DPPC/lecithin) synthesis, reducing RDS, intraventricular haemorrhage and mortality. Both statements are true and R is the correct mechanism.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 79,
+    "subtopic": "Endocrine",
+    "topic": "Endocrine — congenital hypothyroidism",
+    "question": "A newborn screen shows markedly raised TSH and low free T4, and congenital hypothyroidism is confirmed at 10 days of age. The infant has prolonged jaundice and a large posterior fontanelle but no acute illness. Which consequence of delaying levothyroxine is least likely to be fully reversible after later treatment?",
+    "options": [
+      "Constipation",
+      "Delayed skeletal maturation",
+      "Neurocognitive impairment",
+      "Reduced linear growth"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Neurocognitive impairment",
+    "explanation": "Thyroid hormone is critical for early brain development, so delayed treatment can cause permanent neurocognitive impairment even when later replacement corrects biochemical hypothyroidism. Constipation, growth slowing and delayed skeletal maturation generally improve substantially with treatment. Therapy should begin as soon as confirmation samples are obtained, ideally within the first 2 weeks.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 80,
+    "subtopic": "Emergency",
+    "topic": "Fluid-electrolyte — DKA cerebral oedema",
+    "question": "A 9-year-old receiving protocol-based treatment for diabetic ketoacidosis develops severe headache, declining consciousness, bradycardia and hypertension. The team suspects cerebral injury and does not wait for neuroimaging before treatment. Which immediate intervention is most appropriate?",
+    "options": [
+      "Give 0.9% saline 10 mL/kg promptly and continue planned fluid delivery",
+      "Give 3% saline 2.5-5 mL/kg promptly and reduce ongoing fluid delivery",
+      "Give sodium bicarbonate 1 mEq/kg promptly and continue planned insulin",
+      "Give mannitol 0.1 g/kg slowly and increase ongoing fluid delivery"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Give 3% saline 2.5-5 mL/kg promptly and reduce ongoing fluid delivery",
+    "explanation": "Neurological deterioration with a Cushing response during DKA treatment requires immediate hyperosmolar therapy. Hypertonic saline 3% at 2.5-5 mL/kg over about 10-15 minutes is an accepted first treatment; mannitol 0.5-1 g/kg is an alternative, and fluid administration is reassessed. Treatment must not be delayed for imaging, and routine bicarbonate, an indiscriminate fluid bolus or subtherapeutic mannitol followed by more fluid is inappropriate.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 81,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — cyanotic spell",
+    "question": "A 1-year-old with a known cyanotic congenital heart lesion has a sudden episode of deep cyanosis, irritability and hyperpnoea after crying, and instinctively squats, which relieves it. The paediatric cardiologist recognises a hypercyanotic ('tet') spell. Which manoeuvre relieves the spell by the same mechanism as the child's squatting?",
+    "options": [
+      "Sitting the child fully upright",
+      "Intravenous furosemide",
+      "Sublingual glyceryl trinitrate",
+      "Knee-to-chest positioning"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Knee-to-chest positioning",
+    "explanation": "Squatting and the knee-to-chest position both INCREASE systemic vascular resistance (and venous return), reducing the right-to-left shunt across the VSD in tetralogy of Fallot and improving pulmonary blood flow. Vasodilators (GTN) would LOWER systemic resistance and worsen the shunt; furosemide reduces preload unhelpfully; upright sitting does not raise afterload like squatting.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 82,
+    "subtopic": "Respiratory",
+    "topic": "Respiratory — epiglottitis vs croup",
+    "question": "A 4-year-old, unimmunised against Haemophilus influenzae type b, presents acutely toxic and febrile, sitting forward and drooling, with a muffled voice and soft stridor but NO barking cough. The team keeps him calm and avoids examining the throat. Which is the most appropriate immediate management?",
+    "options": [
+      "Immediate throat inspection in resus with senior paediatric support",
+      "Urgent lateral neck radiography with continuous airway monitoring",
+      "Nebulised adrenaline and dexamethasone in a high-dependency unit",
+      "Controlled tracheal intubation in theatre with anaesthesia and ENT support"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Controlled tracheal intubation in theatre with anaesthesia and ENT support",
+    "explanation": "A toxic child with drooling, tripod posture and a muffled voice has acute epiglottitis, an airway emergency. Priority is controlled airway management by senior anaesthesia and ENT staff in theatre. Throat instrumentation or transfer for radiography can distress the child and precipitate complete obstruction. Nebulised adrenaline and dexamethasone are used for croup, whose characteristic barking cough is absent here.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 83,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — severe acute malnutrition",
+    "question": "A paediatric ward reviews the management of severe acute malnutrition (SAM). Consider the following statements. 1. Hypoglycaemia and hypothermia are common early killers and must be prevented. 2. Feeds are started cautiously to avoid refeeding syndrome. 3. Iron is withheld during the initial stabilisation phase. 4. Broad-spectrum antibiotics are given even without obvious infection. Which combination is correct?",
+    "options": [
+      "1, 3 and 4 only",
+      "2 and 3 only",
+      "1, 2, 3 and 4",
+      "1 and 2 only"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "1, 2, 3 and 4",
+    "explanation": "All four are correct WHO principles: prevent/treat hypoglycaemia and hypothermia; start cautious feeding (F-75) to avoid refeeding syndrome; withhold iron during stabilisation (it can worsen infection and oxidative stress, added only in the rehabilitation phase); and give routine broad-spectrum antibiotics because signs of infection are often masked in SAM.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 84,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — physiological jaundice",
+    "question": "A healthy term breastfed neonate becomes mildly jaundiced on day 3, is feeding well and has an unconjugated bilirubin concentration below the treatment threshold. The clinician distinguishes this pattern from pathological neonatal jaundice. Which finding would require urgent evaluation for an underlying disorder?",
+    "options": [
+      "Peak unconjugated bilirubin on days 3-5",
+      "Visible jaundice during the first 24 hours",
+      "Gradual resolution over the first 1-2 weeks",
+      "Normal feeding with stable serial bilirubin values"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Visible jaundice during the first 24 hours",
+    "explanation": "Jaundice in the first 24 hours is pathological until proved otherwise and raises concern for haemolysis, infection or another serious cause. Physiological jaundice begins after 24 hours, peaks around days 3-5 and usually resolves over 1-2 weeks in term infants. Conjugated hyperbilirubinaemia, rapid rise, excessive level or prolonged jaundice also requires evaluation.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 85,
+    "subtopic": "Emergency",
+    "topic": "Fluid therapy — Ringer's lactate (image)",
+    "question": "A 2-year-old with severe dehydration from acute watery diarrhoea is classified as IMCI Plan C and started on rapid intravenous rehydration with the fluid whose printed composition is shown (Na⁺ 131, K⁺ 5, Ca²⁺ 2, Cl⁻ 111 and an organic anion 29 mmol/L). Identify the fluid and the metabolic fate of its organic anion, which helps counter the acidosis of dehydration.",
+    "options": [
+      "Ringer's lactate — lactate is converted to bicarbonate in the liver",
+      "5% dextrose — the glucose is metabolised, leaving free water",
+      "Plasma-Lyte — its acetate and gluconate are the organic anions",
+      "Normal (0.9%) saline — it carries no organic anion to metabolise"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Ringer's lactate — lactate is converted to bicarbonate in the liver",
+    "explanation": "The composition (Na⁺ 131, K⁺ 5, Ca²⁺ 2, Cl⁻ 111, lactate 29 mmol/L) identifies Ringer's lactate (Hartmann's solution) — the IMCI Plan C fluid of choice. Its lactate is metabolised by the liver to bicarbonate, buffering the metabolic acidosis of dehydration. Normal saline lacks potassium/calcium/buffer (and can cause hyperchloraemic acidosis); dextrose has no electrolytes; Plasma-Lyte uses acetate/gluconate and contains magnesium, not calcium.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_ringer_lactate.png",
+        "caption": "Printed composition of the intravenous fluid used.",
+        "credit": "Image provided by StudyDoc"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 86,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — Tetralogy of Fallot (image)",
+    "question": "A 1-year-old has episodes of deep cyanosis relieved by squatting, a harsh systolic murmur at the left sternal edge and clubbing. The chest radiograph (shown) reveals an uplifted cardiac apex with a concave pulmonary bay, giving a 'boot-shaped' heart with oligaemic lung fields. Which of the four anatomical components of this lesion determines the DEGREE of cyanosis?",
+    "options": [
+      "The size of the ventricular septal defect",
+      "The degree of aortic override above the septum",
+      "The extent of right-ventricular hypertrophy",
+      "The severity of right-ventricular outflow obstruction"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "The severity of right-ventricular outflow obstruction",
+    "explanation": "Tetralogy of Fallot = VSD + overriding aorta + RV outflow obstruction + RV hypertrophy. The degree of cyanosis is governed by the RV outflow (pulmonary stenosis) severity, which determines how much deoxygenated blood is shunted right-to-left across the VSD. The 'boot-shaped' heart reflects RVH with a small pulmonary artery.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_tof_boot.jpg",
+        "caption": "Chest radiograph of the child described.",
+        "credit": "Medicalpal · CC BY-SA 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 87,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — transposition of great arteries",
+    "question": "A term neonate becomes deeply cyanosed within hours of birth, with cyanosis unresponsive to oxygen and a single loud second heart sound; echocardiography shows the aorta arising from the right ventricle and the pulmonary artery from the left ventricle. While arranging a balloon atrial septostomy, the team gives a drug to keep the ductus arteriosus open. Which drug is used?",
+    "options": [
+      "Adenosine (an antiarrhythmic agent)",
+      "Indomethacin (a prostaglandin inhibitor)",
+      "Prostaglandin E1 (alprostadil)",
+      "Ibuprofen (a prostaglandin inhibitor)"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Prostaglandin E1 (alprostadil)",
+    "explanation": "In transposition of the great arteries the two circulations run in parallel, so survival depends on mixing; prostaglandin E1 maintains ductal patency (and hence mixing) until a balloon atrial septostomy or arterial switch is performed. Indomethacin/ibuprofen CLOSE the ductus (used for a symptomatic PDA) — the opposite of what is needed here.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 88,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — VSD / Eisenmenger",
+    "question": "A child with a large unrepaired ventricular septal defect, initially with a loud murmur and heart failure, is reviewed years later; the murmur has softened, he is now cyanosed, and the shunt has reversed. Assertion (A): A large left-to-right shunt can, over years, reverse to become right-to-left. Reason (R): Chronically increased pulmonary blood flow causes pulmonary vascular remodelling and a rise in pulmonary vascular resistance (Eisenmenger syndrome).",
+    "options": [
+      "Both A and R are true and R correctly explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Both A and R are true and R correctly explains A",
+    "explanation": "A large left-to-right shunt exposes the pulmonary vasculature to high flow/pressure, causing progressive remodelling and a rising pulmonary vascular resistance; when PVR exceeds systemic resistance the shunt reverses (right-to-left) → cyanosis = Eisenmenger syndrome, by then generally inoperable. R correctly explains A — hence early repair matters.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 89,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — innocent vs pathological murmur",
+    "question": "A well 5-year-old has a soft (grade 2/6) vibratory mid-systolic murmur at the lower left sternal border that becomes quieter when he stands and is not associated with any symptoms, thrill or abnormal heart sounds. His parents are anxious it signifies heart disease. Which feature most reassures that this is an innocent (Still) murmur rather than pathological?",
+    "options": [
+      "It softens on standing, with no other abnormal signs",
+      "It is accompanied by a fixed split second heart sound",
+      "It radiates prominently to both carotid arteries",
+      "It is loudest in the second right intercostal space"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "It softens on standing, with no other abnormal signs",
+    "explanation": "Innocent (Still) murmurs are soft, systolic, vibratory, vary with posture (often softening on standing as venous return falls), and have no thrill, no diastolic component and normal heart sounds/pulses. Radiation to the carotids (aortic stenosis) or a fixed split S2 (ASD) suggest structural disease and warrant echocardiography.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 90,
+    "subtopic": "Genetics",
+    "topic": "Genetics — Down syndrome (image)",
+    "question": "A newborn has the facial features shown (upslanting palpebral fissures, epicanthic folds, flat nasal bridge and a protruding tongue), a single palmar crease and hypotonia. Which cardiac lesion is the MOST characteristic association that must be excluded by echocardiography?",
+    "options": [
+      "Coarctation of the aorta",
+      "Atrioventricular septal defect",
+      "Supravalvular aortic stenosis",
+      "Ebstein anomaly of the tricuspid valve"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Atrioventricular septal defect",
+    "explanation": "Down syndrome (trisomy 21) is most characteristically associated with atrioventricular septal (endocardial cushion) defects; all newborns with Down syndrome need echocardiography. Coarctation is linked to Turner syndrome, supravalvular aortic stenosis to Williams syndrome, and Ebstein anomaly to lithium exposure — the distractors are real but wrong-syndrome pairings.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_downs_facies.jpg",
+        "caption": "Facial appearance of the child described.",
+        "credit": "Hastings Gilford, F.R.C.S. · Public domain · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 91,
+    "subtopic": "Genetics",
+    "topic": "Genetics — trisomy 18 vs 13",
+    "question": "A dysmorphic neonate has clenched hands with overlapping fingers, rocker-bottom feet, micrognathia, prominent occiput and a ventricular septal defect, with severe growth restriction. The geneticist recognises the second-commonest autosomal trisomy. Which is the most likely diagnosis?",
+    "options": [
+      "Patau syndrome (trisomy 13)",
+      "Down syndrome (trisomy 21)",
+      "Edwards syndrome (trisomy 18)",
+      "Turner syndrome (45,X)"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Edwards syndrome (trisomy 18)",
+    "explanation": "Clenched overlapping fingers, rocker-bottom feet, micrognathia and a prominent occiput characterise Edwards syndrome (trisomy 18). Patau syndrome (trisomy 13) features holoprosencephaly, cleft lip/palate, polydactyly and microphthalmia. Both carry a poor prognosis; the finger/feet pattern points specifically to trisomy 18.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 92,
+    "subtopic": "Genetics",
+    "topic": "Genetics — imprinting",
+    "question": "A floppy infant with poor feeding later becomes an insatiably hyperphagic, obese toddler with hypogonadism and short stature; genetic testing shows loss of the paternally-derived 15q11-q13 region. A geneticist contrasts this with the maternally-derived deletion of the same region. Which syndrome does this child have?",
+    "options": [
+      "Beckwith-Wiedemann syndrome",
+      "Prader-Willi syndrome",
+      "Williams syndrome",
+      "Angelman syndrome"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Prader-Willi syndrome",
+    "explanation": "Loss of the PATERNAL 15q11-q13 causes Prader-Willi syndrome (neonatal hypotonia → later hyperphagia/obesity, hypogonadism, short stature). Loss of the MATERNAL copy of the same region causes Angelman syndrome (ataxia, seizures, inappropriate laughter) — a classic example of genomic imprinting.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 93,
+    "subtopic": "Genetics",
+    "topic": "Genetics — cleft lip/palate (image)",
+    "question": "The infant shown has a unilateral cleft lip. Airway and cardiorespiratory status are stable, but direct breastfeeding assessment shows an ineffective seal and prolonged feeds; the palate must still be examined because feeding difficulty is greater when it is also cleft. What is the most appropriate immediate care priority?",
+    "options": [
+      "Feeding assessment with positioning or a specialised feeder as needed",
+      "Nasogastric feeding while awaiting early surgical assessment",
+      "Primary lip repair during the neonatal admission before feeding planning",
+      "Palatal obturator placement before a supervised trial of oral feeding"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Feeding assessment with positioning or a specialised feeder as needed",
+    "explanation": "The first priority is safe, adequate nutrition using lactation assessment, upright positioning and an appropriate teat or squeeze bottle when needed. Some infants with an isolated cleft lip can breastfeed, so neither nasogastric feeding nor a specialised bottle is automatic. Surgical repair is planned electively after multidisciplinary assessment rather than performed as a neonatal emergency.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/replacements/peds_unilateral_cleft_lip.jpg",
+        "caption": "Child with a unilateral cleft lip.",
+        "credit": "Raj d0509; public domain; via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 94,
+    "subtopic": "Rheumatology",
+    "topic": "Rheumatology — rheumatic fever (image)",
+    "question": "A 9-year-old, three weeks after a sore throat, has migratory arthritis of the large joints, a new pansystolic murmur, and the evanescent, serpiginous truncal rash shown. Applying the Jones criteria, which of his features is a MAJOR criterion and reflects the most serious long-term consequence?",
+    "options": [
+      "Fever",
+      "Raised acute-phase reactants",
+      "Arthralgia",
+      "Carditis"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Carditis",
+    "explanation": "Carditis is a major Jones criterion and the only feature causing permanent damage (chronic rheumatic valve disease, especially mitral). The rash shown is erythema marginatum (also major). Fever, arthralgia and raised acute-phase reactants are MINOR criteria. Secondary penicillin prophylaxis prevents recurrent carditis.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_erythema_marginatum.jpg",
+        "caption": "Skin of the child described.",
+        "credit": "Adsie · CC BY-SA 4.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 95,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — Kawasaki disease (image)",
+    "question": "The image shows bilateral non-exudative conjunctival injection in a 3-year-old with 6 days of fever, cracked red lips, polymorphous rash, cervical lymphadenopathy and erythematous swollen hands. Kawasaki disease is diagnosed and intravenous immunoglobulin with aspirin is started promptly. Which vascular complication is this treatment primarily intended to prevent?",
+    "options": [
+      "Aortic-root aneurysm and dissection",
+      "Pulmonary-artery aneurysm and rupture",
+      "Coronary-artery aneurysm and thrombosis",
+      "Renal-artery stenosis and hypertension"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Coronary-artery aneurysm and thrombosis",
+    "explanation": "Kawasaki disease is a medium-vessel vasculitis with a particular predilection for the coronary arteries. Timely IVIG, ideally within the first 10 days, markedly reduces coronary dilatation and aneurysm formation; echocardiographic surveillance remains necessary. The displayed finding is conjunctival injection, not a strawberry tongue, so the caption and stem now match the image.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_kawasaki_tongue.jpg",
+        "caption": "Bilateral non-exudative conjunctival injection in Kawasaki disease.",
+        "credit": "Dong Soo Kim and Natr; CC BY 2.0; via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 96,
+    "subtopic": "Haematology",
+    "topic": "Haematology — beta-thalassaemia major",
+    "question": "A 1-year-old of Mediterranean descent has severe pallor, failure to thrive, frontal bossing with 'chipmunk' facies and hepatosplenomegaly; blood shows a severe microcytic anaemia with target cells, and haemoglobin electrophoresis shows markedly raised HbF with absent HbA. A haematologist explains the skeletal changes. What causes the facial bone expansion?",
+    "options": [
+      "Iron deposition within the expanded facial bones",
+      "Marrow hyperplasia from ineffective erythropoiesis",
+      "Chronic osteomyelitis of the skull and face",
+      "Vitamin-D-deficiency rickets of the skull"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Marrow hyperplasia from ineffective erythropoiesis",
+    "explanation": "In β-thalassaemia major, absent β-globin causes ineffective erythropoiesis; compensatory marrow hyperplasia expands the medullary cavities of the skull and face (frontal bossing, 'chipmunk' facies, 'hair-on-end' skull) and causes extramedullary haematopoiesis (hepatosplenomegaly). Management: regular transfusion plus iron chelation; the iron overload it causes is a separate long-term problem.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 97,
+    "subtopic": "Haematology",
+    "topic": "Haematology — G6PD deficiency",
+    "question": "A 5-year-old boy develops sudden pallor, jaundice and dark urine two days after eating broad beans; the film shows bite cells and Heinz bodies, and the direct antiglobulin test is negative. A haematologist explains the X-linked enzyme defect that leaves red cells unable to handle oxidative stress. Which enzyme is deficient?",
+    "options": [
+      "Glucose-6-phosphate dehydrogenase",
+      "Glutathione synthetase",
+      "Hexokinase",
+      "Pyruvate kinase"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Glucose-6-phosphate dehydrogenase",
+    "explanation": "G6PD deficiency (X-linked) reduces NADPH generation, so red cells cannot regenerate reduced glutathione and are vulnerable to oxidative haemolysis triggered by fava beans, infections or oxidant drugs (bite cells, Heinz bodies). Pyruvate kinase deficiency causes a chronic non-spherocytic haemolysis without oxidative triggers.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 98,
+    "subtopic": "Haematology",
+    "topic": "Haematology — iron deficiency sign (image)",
+    "question": "A 3-year-old with prolonged cow's-milk feeding and a microcytic hypochromic anaemia is noted to have the nail changes shown (spoon-shaped, concave nails). A tutor names this sign and links it to the underlying deficiency. What is this nail sign called?",
+    "options": [
+      "Leukonychia",
+      "Onycholysis",
+      "Clubbing",
+      "Koilonychia"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Koilonychia",
+    "explanation": "Spoon-shaped concave nails = koilonychia, a classic sign of chronic iron deficiency. Clubbing is bulbous fingertip enlargement (cyanotic heart disease, suppurative lung disease); leukonychia is white nails (hypoalbuminaemia); onycholysis is nail-bed separation. Confirm iron deficiency with a low ferritin and treat the cause plus oral iron.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_koilonychia.jpg",
+        "caption": "Nails of the child described.",
+        "credit": "CHeitz · CC BY 2.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 99,
+    "subtopic": "Haematology",
+    "topic": "Haematology — haemophilia",
+    "question": "A 2-year-old boy has recurrent bleeding into joints (haemarthroses) and large muscle haematomas after minor trauma; the aPTT is prolonged, the PT and platelet count are normal, and factor assay confirms a deficiency. His mother's brother had a similar bleeding disorder. Which factor is most likely deficient?",
+    "options": [
+      "Factor VII",
+      "Factor XIII",
+      "Factor VIII",
+      "von Willebrand factor"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Factor VIII",
+    "explanation": "X-linked recurrent haemarthroses with an isolated prolonged aPTT (normal PT/platelets) in a boy indicate haemophilia A (factor VIII deficiency), the commonest severe inherited coagulation disorder. Factor VII deficiency prolongs the PT; von Willebrand disease causes mucocutaneous bleeding with a variable aPTT; factor XIII deficiency gives delayed bleeding with normal screening tests.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 100,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — kernicterus",
+    "question": "A breastfed term neonate with Rh haemolytic disease develops a rapidly rising unconjugated bilirubin and becomes lethargic with poor feeding, a high-pitched cry and retrocollis (arched neck). The team escalates therapy urgently to prevent permanent neurological injury. Which structure is preferentially damaged by unconjugated bilirubin?",
+    "options": [
+      "The periventricular white matter",
+      "The basal ganglia and brainstem nuclei",
+      "The cerebellar vermis and hemispheres",
+      "The cerebral cortical grey matter"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "The basal ganglia and brainstem nuclei",
+    "explanation": "Unconjugated (fat-soluble) bilirubin crosses the blood-brain barrier and is neurotoxic to the basal ganglia (especially globus pallidus and subthalamic nuclei) and brainstem nuclei, causing kernicterus (choreoathetoid cerebral palsy, sensorineural deafness, gaze palsy). Prevent with phototherapy and, if severe, exchange transfusion.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 101,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — necrotising enterocolitis",
+    "question": "A 29-week preterm neonate on enteral feeds develops abdominal distension, feeding intolerance, bloody stools and recurrent apnoea. Abdominal radiography shows linear and bubbly lucencies within the bowel wall, with no isolated free intraperitoneal air. Which diagnosis best unifies the systemic and radiographic findings?",
+    "options": [
+      "Necrotising enterocolitis",
+      "Meconium ileus",
+      "Malrotation with midgut volvulus",
+      "Spontaneous intestinal perforation"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Necrotising enterocolitis",
+    "explanation": "Intramural bowel gas is pneumatosis intestinalis, the characteristic radiographic sign of necrotising enterocolitis in a clinically unwell preterm infant. Initial management includes stopping enteral feeds, gastric decompression, antibiotics and supportive care; surgery is considered for perforation or deteriorating necrotic bowel. The alternatives have different imaging patterns and clinical contexts.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 102,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — neonatal sepsis",
+    "question": "A term neonate develops respiratory distress, temperature instability and poor perfusion at 18 hours of life after prolonged rupture of membranes. Blood culture grows beta-haemolytic Gram-positive cocci in chains that are catalase-negative and CAMP-test positive. Which organism has been identified?",
+    "options": [
+      "Enterococcus faecalis",
+      "Listeria monocytogenes",
+      "Staphylococcus aureus",
+      "Streptococcus agalactiae"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Streptococcus agalactiae",
+    "explanation": "Group B Streptococcus, Streptococcus agalactiae, is a beta-haemolytic, catalase-negative coccus that forms chains and is CAMP positive. It is an important cause of early-onset neonatal sepsis acquired from the maternal genital tract. The organism is identified by the microbiological clues rather than by an unreliable claim that one pathogen is universally the commonest in every region.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 103,
+    "subtopic": "Nephrology",
+    "topic": "Nephrology — post-streptococcal GN",
+    "question": "A 7-year-old develops smoky (cola-coloured) urine, periorbital oedema and hypertension two weeks after a sore throat; urinalysis shows haematuria with red-cell casts and mild proteinuria, and complement C3 is low. A nephrologist explains the mechanism of this nephritic syndrome. What is the underlying process?",
+    "options": [
+      "Podocyte foot-process effacement without deposits",
+      "IgA deposition concurrent with an active infection",
+      "Immune-complex deposition after streptococcal infection",
+      "Anti-glomerular-basement-membrane antibody disease"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Immune-complex deposition after streptococcal infection",
+    "explanation": "Post-streptococcal glomerulonephritis is an immune-complex nephritis ~1–3 weeks after a group A streptococcal throat/skin infection, giving a nephritic picture (haematuria with RBC casts, hypertension, oedema) and a transiently LOW C3. It is usually self-limiting. IgA nephropathy causes haematuria DURING an infection with normal complement; anti-GBM disease is Goodpasture.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 104,
+    "subtopic": "Nephrology",
+    "topic": "Nephrology — haemolytic uraemic syndrome",
+    "question": "A 3-year-old develops acute kidney injury with oliguria a week after bloody diarrhoea; blood shows a microangiopathic haemolytic anaemia with schistocytes, thrombocytopenia and a raised creatinine. A nephrologist links it to a specific bacterial toxin. Which organism is most often responsible for typical HUS?",
+    "options": [
+      "Campylobacter jejuni",
+      "Shiga-toxin-producing Escherichia coli",
+      "Streptococcus pneumoniae",
+      "Salmonella Typhi"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Shiga-toxin-producing Escherichia coli",
+    "explanation": "Typical (diarrhoea-associated) haemolytic uraemic syndrome follows Shiga-toxin-producing E. coli O157:H7 (undercooked meat, contaminated produce); the toxin injures endothelium, causing the triad of microangiopathic haemolytic anaemia, thrombocytopenia and acute kidney injury. Management is supportive; antibiotics may worsen it by increasing toxin release.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 105,
+    "subtopic": "Endocrinology",
+    "topic": "Endocrinology — congenital adrenal hyperplasia",
+    "question": "A 2-week-old with ambiguous genitalia (virilised female) presents with vomiting, dehydration, hyponatraemia and hyperkalaemia; investigations show a markedly raised 17-hydroxyprogesterone. A paediatric endocrinologist explains the enzyme block causing this salt-wasting crisis. Which enzyme is deficient?",
+    "options": [
+      "21-hydroxylase",
+      "17α-hydroxylase",
+      "11β-hydroxylase",
+      "5α-reductase"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "21-hydroxylase",
+    "explanation": "21-hydroxylase deficiency (>90% of congenital adrenal hyperplasia) impairs cortisol and aldosterone synthesis, diverting precursors to androgens (virilisation) and raising 17-hydroxyprogesterone; aldosterone lack causes a salt-wasting crisis (hyponatraemia, hyperkalaemia, shock). 11β-hydroxylase deficiency instead causes hypertension; 17α-hydroxylase causes hypertension with under-virilisation.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 106,
+    "subtopic": "Endocrinology",
+    "topic": "Endocrinology — type 1 diabetes presentation",
+    "question": "A previously well 8-year-old presents with a few weeks of polyuria, polydipsia and weight loss, then acute drowsiness with deep sighing breathing; capillary glucose is high and ketones are strongly positive. A tutor explains the underlying pathophysiology of the new diagnosis. What is the primary defect in type 1 diabetes?",
+    "options": [
+      "Excess counter-regulatory hormone from a tumour",
+      "Peripheral insulin resistance with hyperinsulinaemia",
+      "A structural defect in the insulin receptor",
+      "Autoimmune β-cell destruction with insulin deficiency"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Autoimmune β-cell destruction with insulin deficiency",
+    "explanation": "Type 1 diabetes results from autoimmune (T-cell-mediated) destruction of pancreatic β-cells → absolute insulin deficiency, presenting in children with polyuria/polydipsia/weight loss and often diabetic ketoacidosis. It requires lifelong insulin. Type 2 diabetes (insulin resistance) is the resistance/hyperinsulinaemia picture and rarely presents with DKA in this way.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 107,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — scarlet fever (image)",
+    "question": "A 6-year-old with fever and a sore throat develops a diffuse, finely punctate ('sandpaper') erythematous rash sparing the perioral area, with flushed cheeks and the tongue appearance shown. Recognising scarlet fever, which organism and toxin are responsible?",
+    "options": [
+      "Staphylococcus aureus (exfoliative toxin)",
+      "Measles virus (a paramyxovirus)",
+      "Group A Streptococcus (erythrogenic toxin)",
+      "Parvovirus B19 infection"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Group A Streptococcus (erythrogenic toxin)",
+    "explanation": "Scarlet fever is caused by group A Streptococcus (Streptococcus pyogenes) strains producing an erythrogenic (pyrogenic) exotoxin, giving a sandpaper rash, circumoral pallor, flushed cheeks and a strawberry tongue after streptococcal pharyngitis; treat with penicillin to prevent rheumatic fever. Staphylococcal exfoliative toxin causes scalded-skin syndrome, a different picture.",
+    "images": [
+      {
+        "src": "assets/practice_bank_images/peds_strawberry_tongue.jpg",
+        "caption": "Tongue of the child described.",
+        "credit": "Grook Da Oger · CC BY-SA 3.0 · via Wikimedia Commons"
+      }
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 108,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — bronchiolitis",
+    "question": "A 4-month-old has coryza followed by wheeze, fine crackles, hyperinflation and reduced feeding during an RSV season. Oxygen saturation is 91% while awake, hydration is borderline and there is no focal bacterial consolidation or previous recurrent wheeze. Which management plan is most appropriate for typical bronchiolitis?",
+    "options": [
+      "Nasal suction, feeding support and a monitored salbutamol trial",
+      "Nasal suction, feeding support and oxygen to a defined saturation target",
+      "Feeding support, oxygen and intravenous ampicillin plus gentamicin",
+      "Nasal suction, oxygen and systemic dexamethasone"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Nasal suction, feeding support and oxygen to a defined saturation target",
+    "explanation": "Bronchiolitis is managed with supportive care: gentle nasal clearance, hydration or assisted feeding, and oxygen when saturation remains below the locally recommended threshold. Bronchodilators, adrenaline, corticosteroids, antibiotics, chest physiotherapy and routine radiography are not used routinely in a typical case; selected atypical presentations require reassessment for another diagnosis.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 109,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — kwashiorkor vs marasmus",
+    "question": "A 2-year-old weaned onto a starchy, protein-poor diet has pitting oedema of the feet, a distended abdomen, an enlarged fatty liver, sparse depigmented ('flag-sign') hair and apathy, but is not severely wasted. A paediatrician distinguishes the two forms of severe malnutrition. Which diagnosis fits, and what chiefly distinguishes it from the other form?",
+    "options": [
+      "Kwashiorkor - oedema with relatively preserved subcutaneous fat",
+      "Nutritional stunting - low height-for-age without oedema",
+      "Marasmic-kwashiorkor - severe wasting with nutritional oedema",
+      "Marasmus - severe wasting without nutritional oedema"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Kwashiorkor - oedema with relatively preserved subcutaneous fat",
+    "explanation": "Kwashiorkor presents with nutritional oedema, hypoalbuminaemia, fatty liver, skin or hair changes and apathy, often with relatively preserved subcutaneous fat. Marasmus is severe wasting without oedema, while marasmic-kwashiorkor combines severe wasting with nutritional oedema. Stunting describes low height-for-age and is a chronic growth classification rather than a synonym for oedematous malnutrition.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 110,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — vitamin A deficiency",
+    "question": "A 4-year-old in a low-income setting has difficulty seeing at dusk, and eye examination shows dry, lustreless conjunctivae with foamy white patches at the limbus. A public-health paediatrician recognises a preventable cause of childhood blindness. Which deficiency is responsible, and what are the white patches called?",
+    "options": [
+      "Vitamin B2 deficiency — angular stomatitis",
+      "Vitamin C deficiency — corneal vascularisation",
+      "Zinc deficiency — acrodermatitis",
+      "Vitamin A deficiency — Bitot spots"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Vitamin A deficiency — Bitot spots",
+    "explanation": "Night blindness (impaired rod function from lack of retinal) with conjunctival xerosis and Bitot spots (foamy keratin patches) indicates vitamin A deficiency — a leading preventable cause of childhood blindness, progressing to keratomalacia. High-dose vitamin A supplementation prevents and treats it (and reduces measles mortality).",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 111,
+    "subtopic": "Neurology",
+    "topic": "Neurology — Duchenne muscular dystrophy",
+    "question": "A 4-year-old boy has delayed walking, difficulty climbing stairs, calf 'pseudohypertrophy' and rises from the floor by walking his hands up his legs (Gower sign); creatine kinase is markedly elevated. A neurologist explains the X-linked defect. Which protein is deficient?",
+    "options": [
+      "Emerin",
+      "Sarcoglycan",
+      "Dystrophin",
+      "Merosin"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Dystrophin",
+    "explanation": "Duchenne muscular dystrophy is an X-linked recessive disorder of dystrophin (largest human gene), causing progressive proximal weakness, calf pseudohypertrophy, a positive Gower sign and a very high CK, with loss of ambulation by ~12 years and cardiorespiratory decline. Becker muscular dystrophy is a milder allelic disorder with reduced (not absent) dystrophin.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 112,
+    "subtopic": "Neurology",
+    "topic": "Neurology — cerebral palsy",
+    "question": "A 2-year-old born at 28 weeks has delayed motor milestones, lower-limb spasticity, brisk reflexes and scissoring. Skills are not being lost, but contractures are becoming more apparent as the child grows; MRI shows periventricular white-matter injury. Which description best characterises the underlying disorder?",
+    "options": [
+      "Progressive perinatal white-matter disease with evolving spasticity",
+      "Static perinatal brain injury with evolving motor manifestations",
+      "Static anterior-horn-cell injury with evolving lower-motor-neuron signs",
+      "Progressive neuromuscular disease with secondary contractures"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Static perinatal brain injury with evolving motor manifestations",
+    "explanation": "Cerebral palsy results from a non-progressive injury to the developing brain, although its clinical manifestations change with growth and secondary musculoskeletal complications. Periventricular white-matter injury after prematurity commonly causes spastic diplegia. Developmental regression or continuing loss of neurological function should prompt investigation for a progressive disorder instead.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 113,
+    "subtopic": "Emergency",
+    "topic": "Emergency — paediatric anaphylaxis",
+    "question": "A 6-year-old with a known peanut allergy develops urticaria, facial swelling, stridor, wheeze and hypotension minutes after eating a biscuit. The team recognises anaphylaxis and gives the single most important first-line drug. Which drug, by which route, is first-line?",
+    "options": [
+      "Intramuscular adrenaline (epinephrine)",
+      "Intravenous chlorphenamine (antihistamine)",
+      "Nebulised salbutamol (a β2-agonist)",
+      "Intravenous hydrocortisone infusion"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Intramuscular adrenaline (epinephrine)",
+    "explanation": "Intramuscular adrenaline into the anterolateral thigh is the immediate, life-saving first-line treatment of anaphylaxis (dose ~10 micrograms/kg), repeated as needed, with airway/oxygen and fluids. Antihistamines and corticosteroids are ADJUNCTS that do not treat the airway/circulatory compromise and must never delay adrenaline.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 114,
+    "subtopic": "Emergency",
+    "topic": "Emergency — paediatric shock",
+    "question": "An 18-month-old with several days of diarrhoea is lethargic, tachycardic with weak pulses, has cool peripheries and a capillary refill of 4 seconds; blood pressure is still maintained. Recognising compensated hypovolaemic shock, what is the appropriate initial resuscitation?",
+    "options": [
+      "Packed red cells 10 mL/kg, then reassess perfusion",
+      "Dopamine 5 mcg/kg/min, then reassess perfusion",
+      "Five-percent dextrose 10 mL/kg, then reassess perfusion",
+      "Isotonic crystalloid 10-20 mL/kg, then reassess perfusion"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Isotonic crystalloid 10-20 mL/kg, then reassess perfusion",
+    "explanation": "Compensated hypovolaemic shock requires rapid IV or IO isotonic crystalloid, commonly 10-20 mL/kg, followed by immediate reassessment and further treatment guided by response. Blood is selected for haemorrhagic shock, vasoactive support follows adequate volume resuscitation when shock is fluid-refractory, and maintenance-rate fluid is not an initial shock bolus.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 115,
+    "subtopic": "Gastrointestinal",
+    "topic": "GI — intussusception",
+    "question": "A previously well 8-month-old has sudden episodes of screaming with drawing-up of the legs every 15–20 minutes, vomiting, and later passes a stool resembling redcurrant jelly; a sausage-shaped mass is palpable in the right abdomen. Ultrasound shows a 'target' sign. What is the first-line management of a stable child with this diagnosis?",
+    "options": [
+      "Immediate laparotomy and bowel resection",
+      "Nasogastric decompression and observation alone",
+      "Air (or contrast) enema reduction",
+      "Broad-spectrum antibiotics and discharge"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Air (or contrast) enema reduction",
+    "explanation": "Intussusception (commonest ~3 months–3 years, usually ileocolic) presents with colicky pain, vomiting, a sausage-shaped mass and later redcurrant-jelly stool; ultrasound shows a target/doughnut sign. In a stable child without peritonitis or perforation, air (or contrast) enema is both diagnostic and therapeutic (reduction); surgery is reserved for failed reduction, perforation or peritonitis.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 116,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — CHD classification (figure/table)",
+    "question": "A 3-year-old has cyanosis, exertional squatting and episodic hypercyanotic spells. Examination reveals a harsh ejection systolic murmur, chest radiography shows a boot-shaped cardiac silhouette with reduced pulmonary vascularity, and echocardiography demonstrates right-ventricular outflow obstruction with a large ventricular septal defect. Which cyanotic congenital heart lesion is present?",
+    "options": [
+      "Transposition of the great arteries",
+      "Tetralogy of Fallot",
+      "Truncus arteriosus",
+      "Total anomalous pulmonary venous connection"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Tetralogy of Fallot",
+    "explanation": "The combination of hypercyanotic spells, squatting, right-ventricular outflow obstruction, VSD, boot-shaped heart and reduced pulmonary blood flow identifies tetralogy of Fallot. The distractors are also cyanotic congenital heart diseases, so the diagnosis depends on the physiology and imaging rather than on one cyanotic option standing among acyanotic lesions.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 117,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — patent ductus arteriosus",
+    "question": "A preterm infant has a continuous 'machinery' murmur below the left clavicle, bounding pulses and a wide pulse pressure; echocardiography confirms a persistent ductus arteriosus with left-to-right flow. Which pharmacological agent is used to promote ductal closure?",
+    "options": [
+      "Indomethacin (a prostaglandin inhibitor)",
+      "Digoxin (a positive inotrope)",
+      "Adenosine (an antiarrhythmic drug)",
+      "Prostaglandin E1 (a ductal dilator)"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Indomethacin (a prostaglandin inhibitor)",
+    "explanation": "A prostaglandin-synthesis inhibitor — indomethacin or ibuprofen — promotes closure of a symptomatic patent ductus arteriosus in preterm infants. Prostaglandin E1 does the opposite (keeps the duct OPEN, used in duct-dependent cyanotic lesions). Persistent or large PDAs may need catheter or surgical closure.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 118,
+    "subtopic": "Cardiology",
+    "topic": "Cardiology — atrial septal defect",
+    "question": "A 6-year-old with a secundum atrial septal defect has an ejection systolic murmur at the upper left sternal edge and a characteristic auscultatory finding that does not vary with respiration. Which second-heart-sound feature is typical of an ASD?",
+    "options": [
+      "An opening snap after the second sound",
+      "A reversed (paradoxical) split second sound",
+      "A single loud second heart sound",
+      "A fixed, widely split second heart sound"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "A fixed, widely split second heart sound",
+    "explanation": "A fixed (respiration-independent) wide splitting of S2 is characteristic of an atrial septal defect, because the left-to-right shunt equalises the effect of respiration on right-heart filling. A single S2 occurs in transposition/pulmonary atresia; reversed splitting suggests aortic stenosis/LBBB; an opening snap indicates mitral stenosis.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 119,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — APGAR score",
+    "question": "At 1 minute after birth, a neonate has a heart rate of 110/min, a weak cry with some flexion, a grimace in response to suction, a pink body with blue extremities, and slow irregular breathing. What is the APGAR score?",
+    "options": [
+      "4",
+      "10",
+      "6",
+      "8"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "6",
+    "explanation": "Scoring: heart rate >100 = 2; cry/tone with some flexion = 1; grimace = 1; body pink with blue limbs (acrocyanosis) = 1; slow irregular respiration = 1. Total = 2+1+1+1+1 = 6. The APGAR is assessed at 1 and 5 minutes; it monitors transition but does not by itself dictate resuscitation, which is guided by heart rate and breathing.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 120,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — resuscitation",
+    "question": "A term newborn is limp, apnoeic and cyanosed at birth. After the initial steps of warming, drying, positioning and stimulation, the baby is still not breathing and the heart rate is 80/min. According to the neonatal resuscitation algorithm, what is the next intervention?",
+    "options": [
+      "Chest compressions immediately",
+      "Positive-pressure ventilation",
+      "Intravenous adrenaline",
+      "Endotracheal surfactant"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Positive-pressure ventilation",
+    "explanation": "The single most important step in neonatal resuscitation is effective positive-pressure ventilation, indicated when the baby is apnoeic/gasping or the heart rate is <100/min despite initial steps. Chest compressions are added only if the heart rate stays <60/min despite adequate ventilation; adrenaline follows if it remains <60/min.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 121,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — retinopathy of prematurity",
+    "question": "A 27-week infant with a birth weight of 850 g requires respiratory support and is enrolled for retinal screening. The neonatal team reviews modifiable exposures that influence abnormal retinal vascular development in addition to the non-modifiable effect of extreme prematurity. Which risk profile is most strongly associated with retinopathy of prematurity?",
+    "options": [
+      "Extreme prematurity with large oxygen-saturation fluctuations",
+      "Extreme prematurity with antenatal corticosteroid exposure",
+      "Extreme prematurity with early caffeine treatment",
+      "Extreme prematurity with predominantly human-milk feeding"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Extreme prematurity with large oxygen-saturation fluctuations",
+    "explanation": "The strongest baseline risks are low gestational age and low birth weight; excessive or fluctuating oxygen exposure is an important modifiable contributor. Careful saturation targeting and timely retinal screening reduce preventable visual loss. The other profiles do not combine the core developmental and exposure risks for ROP.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 122,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — birth injury (Erb palsy)",
+    "question": "After a difficult delivery with shoulder dystocia, a newborn holds one arm adducted and internally rotated with the forearm pronated and wrist flexed (the 'waiter's tip' posture), but grip is preserved. Which nerve roots are injured?",
+    "options": [
+      "The radial nerve in the upper arm",
+      "Lower trunk roots C8–T1 (Klumpke palsy)",
+      "The entire brachial plexus C5–T1",
+      "Upper trunk roots C5–C6 (Erb palsy)"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Upper trunk roots C5–C6 (Erb palsy)",
+    "explanation": "The 'waiter's tip' posture with preserved grip is Erb palsy from injury to the upper brachial plexus (C5–C6), typically after shoulder dystocia. Klumpke palsy (C8–T1) affects the hand (claw hand, ± Horner syndrome). Most Erb palsies recover with physiotherapy; persistent cases need specialist review.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 123,
+    "subtopic": "Oncology",
+    "topic": "Oncology — acute lymphoblastic leukaemia",
+    "question": "A 4-year-old has fever, pallor, bruising, bone pain and marrow replacement by lymphoblasts. Flow cytometry is used to distinguish the common precursor B-cell form of acute lymphoblastic leukaemia from T-ALL, AML and mature B-cell disease. Which immunophenotype is most likely?",
+    "options": [
+      "TdT positive, cytoplasmic CD3 positive, CD7 positive",
+      "Myeloperoxidase positive, CD13 positive, CD33 positive",
+      "TdT positive, CD10 positive, cytoplasmic CD79a positive",
+      "Surface immunoglobulin positive, CD20 positive, TdT negative"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "TdT positive, CD10 positive, cytoplasmic CD79a positive",
+    "explanation": "Common childhood precursor B-ALL is typically TdT positive with B-lineage markers such as CD10, CD19, CD79a and PAX5. Cytoplasmic CD3 identifies T-lineage ALL, myeloperoxidase with CD13/CD33 supports AML, and surface immunoglobulin with absent TdT indicates a mature B-cell neoplasm. All options are parallel marker profiles rather than one detailed answer among unrelated distractors.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 124,
+    "subtopic": "Oncology",
+    "topic": "Oncology — Wilms tumour vs neuroblastoma",
+    "question": "A 3-year-old has a smooth, unilateral abdominal mass that does not cross the midline, with haematuria and hypertension; imaging shows an intrinsic renal tumour. Which tumour and gene are implicated?",
+    "options": [
+      "Retinoblastoma; RB1",
+      "Wilms tumour; WT1",
+      "Hepatoblastoma; CTNNB1",
+      "Neuroblastoma; MYCN"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Wilms tumour; WT1",
+    "explanation": "A smooth intrarenal mass that does not cross the midline, with haematuria/hypertension in a toddler, is Wilms tumour (nephroblastoma), associated with WT1 (WAGR, Denys-Drash). Neuroblastoma arises from adrenal/sympathetic chain, often CROSSES the midline, is calcified and raises urinary catecholamines with N-myc amplification — the key differential.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 125,
+    "subtopic": "Oncology",
+    "topic": "Oncology — neuroblastoma",
+    "question": "A 2-year-old has an irregular abdominal mass crossing the midline, periorbital bruising, and opsoclonus-myoclonus; urinary VMA and HVA are elevated. Imaging confirms metastatic neuroblastoma. Which tumour feature most strongly indicates an adverse prognosis?",
+    "options": [
+      "MYCN amplification",
+      "High TrkA expression",
+      "Hyperdiploid tumour DNA content",
+      "Schwannian stroma-rich histology"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "MYCN amplification",
+    "explanation": "MYCN amplification is a major adverse biological marker in neuroblastoma and is associated with aggressive disease even after accounting for stage. High TrkA expression, hyperdiploid tumour DNA in younger children, and Schwannian stroma-rich favourable histology generally correlate with better outcomes.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 126,
+    "subtopic": "Oncology",
+    "topic": "Oncology — retinoblastoma",
+    "question": "A 15-month-old is brought because a photograph shows a white rather than red reflex in one eye (leukocoria), and examination confirms an intraocular tumour; there is a family history of eye tumours. Which gene is mutated, and what is its normal function?",
+    "options": [
+      "MYCN, a proto-oncogene",
+      "RET, a receptor tyrosine kinase",
+      "WT1, a transcription factor gene",
+      "RB1, a tumour-suppressor gene"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "RB1, a tumour-suppressor gene",
+    "explanation": "Leukocoria with an intraocular tumour is retinoblastoma, caused by biallelic inactivation of RB1, a tumour-SUPPRESSOR gene (Knudson two-hit; heritable germline cases are bilateral and carry a risk of osteosarcoma). MYCN and RET are oncogenes; WT1 is linked to Wilms tumour. Early recognition of leukocoria is sight- and life-saving.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 127,
+    "subtopic": "Emergency",
+    "topic": "Toxicology — antidotes (figure/table)",
+    "question": "A 3-year-old ingests many iron tablets and develops vomiting, haematemesis, shock and a high-anion-gap metabolic acidosis. Serum iron is markedly elevated and radio-opaque tablets remain visible on abdominal radiography despite supportive resuscitation. Which chelator is indicated for severe acute iron toxicity?",
+    "options": [
+      "Deferasirox",
+      "Deferiprone",
+      "Desferrioxamine",
+      "Succimer"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Desferrioxamine",
+    "explanation": "Parenteral desferrioxamine chelates circulating iron in severe acute poisoning, particularly with systemic toxicity, acidosis, shock or a markedly elevated iron concentration. Deferasirox and deferiprone are used mainly for chronic transfusional iron overload, while succimer treats selected heavy-metal poisonings such as lead. Activated charcoal does not bind iron effectively.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 128,
+    "subtopic": "Emergency",
+    "topic": "Toxicology — hydrocarbon (kerosene) ingestion",
+    "question": "A 2-year-old swallows kerosene and coughs immediately but is now alert with stable observations and no hypoxaemia. The principal danger is aspiration pneumonitis, and further aspiration can be provoked by gastrointestinal decontamination. Which initial plan is most appropriate?",
+    "options": [
+      "Activated charcoal with six-hour pulse-oximetry observation",
+      "Supportive observation with serial pulse oximetry",
+      "Protected gastric aspiration with immediate chest radiography",
+      "Prophylactic antibiotic and corticosteroid with respiratory observation"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Supportive observation with serial pulse oximetry",
+    "explanation": "Hydrocarbons are managed with airway assessment, observation and supportive care; emesis, lavage and routine charcoal are avoided because aspiration risk exceeds decontamination benefit. Chest radiography is guided by symptoms and timing rather than used to clear an asymptomatic child immediately. Prophylactic antibiotics and corticosteroids do not prevent chemical pneumonitis.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 129,
+    "subtopic": "Emergency",
+    "topic": "Toxicology — lead poisoning",
+    "question": "A toddler living in an old house has pica, irritability, abdominal pain and a microcytic anaemia. The smear shows coarse basophilic stippling and a long-bone radiograph shows dense metaphyseal bands. Which test most directly confirms clinically significant lead exposure?",
+    "options": [
+      "Venous blood lead concentration",
+      "Serum ferritin concentration",
+      "Haemoglobin electrophoresis",
+      "Erythrocyte G6PD activity"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Venous blood lead concentration",
+    "explanation": "A properly collected venous blood lead concentration confirms and quantifies exposure and guides public-health action and treatment. Basophilic stippling and metaphyseal lead lines are supportive but not specific enough to replace measurement. Ferritin, haemoglobin electrophoresis and G6PD testing evaluate important alternative causes of anaemia but do not confirm lead toxicity.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 130,
+    "subtopic": "Gastrointestinal",
+    "topic": "GI — coeliac disease",
+    "question": "A 2-year-old develops chronic diarrhoea, abdominal distension, irritability and faltering growth after wheat was introduced into the diet; a first-line serological test is strongly positive and duodenal biopsy shows villous atrophy. Which antibody is the recommended first-line screening test?",
+    "options": [
+      "Perinuclear ANCA",
+      "Antimitochondrial antibody",
+      "Anti-Saccharomyces cerevisiae antibody",
+      "Anti-tissue-transglutaminase IgA"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Anti-tissue-transglutaminase IgA",
+    "explanation": "Coeliac disease (gluten-sensitive enteropathy) is screened with anti-tissue-transglutaminase (anti-tTG) IgA (checking total IgA to exclude deficiency); diagnosis is supported by duodenal villous atrophy and response to a gluten-free diet. Anti-mitochondrial (PBC), ASCA (Crohn) and pANCA (ulcerative colitis) mark other conditions.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 131,
+    "subtopic": "Gastrointestinal",
+    "topic": "GI — Meckel diverticulum",
+    "question": "A 2-year-old has painless, brisk rectal bleeding without vomiting or a mass; a nuclear medicine scan localises ectopic gastric mucosa in the distal small bowel. Which investigation confirmed the diagnosis?",
+    "options": [
+      "Abdominal ultrasonography",
+      "Hydrogen breath testing",
+      "Technetium-99m pertechnetate scintigraphy",
+      "Small-bowel barium follow-through"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Technetium-99m pertechnetate scintigraphy",
+    "explanation": "Painless lower-GI bleeding in a young child suggests a Meckel diverticulum (the 'rule of 2s': 2% of people, 2 feet from the ileocaecal valve, 2 inches long, often by age 2). Ectopic gastric mucosa is detected by a technetium-99m pertechnetate scan (a 'Meckel scan'). Symptomatic diverticula are resected.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 132,
+    "subtopic": "Nephrology",
+    "topic": "Nephrology — urinary tract infection",
+    "question": "A 10-month-old boy has a second culture-proven febrile urinary tract infection. Ultrasound shows mild bilateral pelvicalyceal dilatation without a thick-walled bladder, ureterocele or obvious obstructing lesion, and the paediatrician is concerned about recurrent pyelonephritis and renal scarring. Which congenital abnormality is the leading consideration?",
+    "options": [
+      "Pelvi-ureteric junction obstruction",
+      "Vesicoureteric reflux",
+      "Posterior urethral valves",
+      "Duplex system with ureterocele"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Vesicoureteric reflux",
+    "explanation": "Vesicoureteric reflux permits retrograde infected urine to reach the upper tract and is an important association of recurrent febrile UTI and renal scarring in infancy. The other anomalies can also predispose to infection, but they more often produce characteristic obstructive or structural ultrasound findings. Imaging strategy should follow current age- and recurrence-based guidelines rather than be automatic after every simple UTI.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 133,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — meningitis CSF",
+    "question": "A paediatric tutor asks students to interpret cerebrospinal-fluid patterns to distinguish types of meningitis before cultures return. Match each CSF pattern in Column I with the likely aetiology in Column II.  [Column I (CSF pattern) — P) Neutrophils, very low glucose, high protein; Q) Lymphocytes, normal glucose, mildly high protein; R) Lymphocytes, very low glucose, very high protein; S) Normal CSF]  [Column II (aetiology) — 1) viral (aseptic) meningitis; 2) bacterial meningitis; 3) no meningitis; 4) tuberculous meningitis]",
+    "options": [
+      "P-2, Q-1, R-4, S-3",
+      "P-1, Q-2, R-4, S-3",
+      "P-2, Q-4, R-1, S-3",
+      "P-4, Q-1, R-2, S-3"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "P-2, Q-1, R-4, S-3",
+    "explanation": "Bacterial meningitis: neutrophils, very low glucose, high protein (P-2). Viral: lymphocytes, normal glucose, mildly raised protein (Q-1). Tuberculous: lymphocytes, very low glucose, very high protein, often with a fibrin web (R-4). Normal CSF = no meningitis (S-3).",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 134,
+    "subtopic": "Infectious Disease",
+    "topic": "Infectious disease — diphtheria",
+    "question": "An unimmunised 5-year-old has fever, cervical swelling and a grey adherent pharyngeal membrane that bleeds when disturbed. Diphtheria is suspected clinically, and the child is isolated while specimens are obtained because delayed toxin neutralisation increases cardiac and neurological injury. Which specific treatment plan should be started without waiting for culture confirmation?",
+    "options": [
+      "Erythromycin plus toxoid while antitoxin awaits culture confirmation",
+      "Antitoxin plus toxoid without antimicrobial eradication",
+      "Intravenous immunoglobulin plus ceftriaxone after culture confirmation",
+      "Antitoxin plus erythromycin and subsequent active immunisation"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "Antitoxin plus erythromycin and subsequent active immunisation",
+    "explanation": "Diphtheria antitoxin neutralises circulating unbound toxin and must be given on clinical suspicion after appropriate hypersensitivity precautions; antibiotics eradicate C. diphtheriae and reduce transmission. Antitoxin cannot reverse toxin already internalised, which makes delay dangerous. Isolation, contact management and completion of active immunisation are also required.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 135,
+    "subtopic": "Immunology",
+    "topic": "Immunology — chronic granulomatous disease",
+    "question": "A 2-year-old boy has recurrent abscesses and pneumonia with catalase-positive organisms (Staphylococcus aureus, Serratia, Aspergillus); neutrophils fail to kill ingested bacteria and the dihydrorhodamine (or nitroblue-tetrazolium) test is abnormal. Which functional defect underlies this immunodeficiency?",
+    "options": [
+      "A defect in leukocyte adhesion molecules",
+      "Absent B cells with agammaglobulinaemia",
+      "A defective NADPH oxidase respiratory burst",
+      "Deficient adenosine deaminase in lymphocytes"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "A defective NADPH oxidase respiratory burst",
+    "explanation": "Chronic granulomatous disease results from a defective phagocyte NADPH oxidase, so neutrophils ingest but cannot kill catalase-positive organisms (no respiratory burst; abnormal DHR/NBT test). XLA (Bruton) is absent B cells; ADA deficiency causes SCID; leukocyte-adhesion deficiency impairs neutrophil migration (delayed cord separation) — distinct phagocyte/immune defects.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 136,
+    "subtopic": "Neurology",
+    "topic": "Neurology — absence epilepsy",
+    "question": "A 6-year-old has frequent brief episodes of staring and unresponsiveness lasting a few seconds, with eyelid flutter and no post-ictal drowsiness, often provoked by hyperventilation; the EEG shows generalised 3-Hz spike-and-wave discharges. Which is the first-line drug?",
+    "options": [
+      "Phenytoin",
+      "Ethosuximide",
+      "Vigabatrin",
+      "Carbamazepine"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Ethosuximide",
+    "explanation": "Childhood absence epilepsy (brief staring spells, 3-Hz generalised spike-and-wave, provoked by hyperventilation) is treated first-line with ethosuximide (or valproate). Carbamazepine, phenytoin and vigabatrin can WORSEN absence seizures. The condition often remits in adolescence.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 137,
+    "subtopic": "Neurology",
+    "topic": "Neurology — neural tube defects",
+    "question": "A pregnancy is found on maternal serum screening to have a raised alpha-fetoprotein, and ultrasound shows an open spinal defect. Public-health advice emphasises a periconceptional intervention that markedly reduces the recurrence risk of this malformation. Which intervention is it?",
+    "options": [
+      "Periconceptional folic acid supplementation",
+      "Iodine supplementation in the first trimester",
+      "Iron supplementation throughout pregnancy",
+      "Vitamin A supplementation before conception"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Periconceptional folic acid supplementation",
+    "explanation": "Neural tube defects (spina bifida, anencephaly) — suggested by a raised maternal serum alpha-fetoprotein and an open spinal lesion — are substantially prevented by periconceptional folic acid (higher dose if a previous affected pregnancy). Excess vitamin A is teratogenic; iodine prevents cretinism; iron prevents anaemia — none prevent NTDs.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 138,
+    "subtopic": "Genetics",
+    "topic": "Genetics — neurofibromatosis type 1",
+    "question": "A 6-year-old has six flat, light-brown skin macules over 5 mm across, freckling in the axillae and groin, and small pigmented iris hamartomas; a parent has similar skin findings. Which gene and inheritance pattern underlie this disorder?",
+    "options": [
+      "VHL tumour suppressor; autosomal dominant",
+      "TSC1/TSC2 (hamartin/tuberin); autosomal dominant",
+      "FMR1 trinucleotide repeat; X-linked",
+      "NF1 (neurofibromin); autosomal dominant"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "NF1 (neurofibromin); autosomal dominant",
+    "explanation": "Café-au-lait macules, axillary/inguinal freckling and Lisch nodules (iris hamartomas) with a dominant family history indicate neurofibromatosis type 1, caused by mutations in NF1 (neurofibromin, a tumour suppressor), inherited autosomal dominantly. TSC causes tuberous sclerosis (ash-leaf macules, seizures); VHL and FMR1 cause other syndromes.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 139,
+    "subtopic": "Genetics",
+    "topic": "Genetics — osteogenesis imperfecta",
+    "question": "An infant has multiple fractures after minimal trauma, blue sclerae and a family history of easy fractures; there is no evidence of non-accidental injury, and hearing loss runs in the family. A defect in which protein is responsible?",
+    "options": [
+      "Type IV collagen",
+      "Dystrophin",
+      "Type I collagen",
+      "Fibrillin-1"
+    ],
+    "answerIndex": 2,
+    "correctAnswer": "Type I collagen",
+    "explanation": "Osteogenesis imperfecta (brittle-bone disease) results from defective type I collagen, causing fragile bones with recurrent fractures, blue sclerae, dentinogenesis imperfecta and conductive hearing loss — an important mimic of non-accidental injury. Fibrillin-1 causes Marfan; dystrophin causes Duchenne; type IV collagen defects cause Alport syndrome.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 140,
+    "subtopic": "Nutrition",
+    "topic": "Nutrition — breastfeeding",
+    "question": "A new mother is counselled on the benefits of the first milk (colostrum) produced in the initial days after delivery. Which component of colostrum is most important for the newborn's mucosal immune defence?",
+    "options": [
+      "Monomeric immunoglobulin G",
+      "Dimeric secretory immunoglobulin A",
+      "Pentameric immunoglobulin M",
+      "Monomeric immunoglobulin E"
+    ],
+    "answerIndex": 1,
+    "correctAnswer": "Dimeric secretory immunoglobulin A",
+    "explanation": "Colostrum is rich in secretory IgA, which coats the infant's gut and respiratory mucosa and provides passive local immunity against enteric and respiratory pathogens; it is also rich in leucocytes, lactoferrin and growth factors. Placental transfer supplies IgG; breastfeeding chiefly adds secretory IgA at the mucosal surface.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 141,
+    "subtopic": "Endocrine",
+    "topic": "Endocrine — iodine deficiency",
+    "question": "In an iodine-deficient mountainous region, a child has severe intellectual disability, short stature, deaf-mutism and a characteristic coarse facies, dating from untreated congenital hypothyroidism. What is this preventable condition called, and how is it prevented at population level?",
+    "options": [
+      "Endemic cretinism; universal salt iodisation",
+      "Kwashiorkor; protein supplementation",
+      "Pellagra; niacin fortification",
+      "Rickets; vitamin D fortification"
+    ],
+    "answerIndex": 0,
+    "correctAnswer": "Endemic cretinism; universal salt iodisation",
+    "explanation": "Maternal/neonatal iodine deficiency causes endemic cretinism (intellectual disability, deaf-mutism, short stature, spasticity), prevented at population level by universal salt iodisation and, where needed, iodised oil. Kwashiorkor (protein), rickets (vitamin D) and pellagra (niacin) are different deficiency states.",
+    "images": [
+
+    ],
+    "year": "2026"
+  },
+  {
+    "number": 142,
+    "subtopic": "Neonatology",
+    "topic": "Neonatology — physiological adaptations",
+    "question": "A neonatologist reviews normal transition in a healthy term newborn. Consider the statements: 1. Weight loss of about 7-10% may occur during the first week. 2. Physiological jaundice begins after 24 hours and usually peaks on days 3-5. 3. Meconium is usually passed within the first 24-48 hours. 4. Recurrent temperature instability is an expected benign adaptation and needs no evaluation. Which combination is correct?",
+    "options": [
+      "1, 2 and 4 only",
+      "1, 3 and 4 only",
+      "2, 3 and 4 only",
+      "1, 2 and 3 only"
+    ],
+    "answerIndex": 3,
+    "correctAnswer": "1, 2 and 3 only",
+    "explanation": "Statements 1, 2 and 3 describe common normal transition. Statement 4 is false: recurrent hypothermia or fever is not a routine benign adaptation and requires assessment of environment, feeding, glucose and possible infection. Jaundice in the first 24 hours, excessive weight loss or delayed meconium passage also warrants evaluation.",
+    "images": [
+
+    ],
+    "year": "2026"
+  }
+]
