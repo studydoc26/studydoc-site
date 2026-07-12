@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="491" height="485" version="1.0">
+<g fill="none" stroke="#000">
+<path d="M56.38 288.79H194.96" stroke="#898989"/>
+<g stroke="red" stroke-width="3">
+<path d="M224.17 323.48c83.52 0 167.05 0 250.57 0"/>
+<path d="M56.38 323.48h418.36" stroke="#898989" stroke-dasharray="6,3"/>
+<path d="M56.38 323.48H184.93c3.31-10.84 6.85-22.29 10.41-33.81 12.31-39.84 24.87-80.58 28.75-100.01 29.02-145.56 39.12-136.86 47.59 3.16 4.1 67.6 22.1 144.99 39.01 173.88 26.48 45.25 40.98 60.66 75.55 7.83 31.63-48.35 43.28-50.45 88.5-51.05"/>
+<path d="M184.93 323.48c15.12-34.92 38.55-10.32 53.4 0M184.93 323.48c9.65-8.85 24.05-12.3 41.19 0" stroke-width="2"/>
+</g>
+<path d="M185.67 348.34V331.86" stroke-width="1.14"/>
+<path d="M56.38 19.28V433.13H477" stroke-width="2"/>
+</g>
+<path d="M185.67 326.22l1.85 4.54 1.86 4.55h-3.71-3.72l1.86-4.55 1.86-4.54Z"/>
+<g font-family="Verdana" font-size="16">
+<switch><text x="-243" y="20" transform="rotate(-90)" id="trsvg24-fr" systemLanguage="fr"><tspan id="trsvg1-fr">Voltage (mV)</tspan></text><text x="-243" y="20" transform="rotate(-90)" id="trsvg24-yue" systemLanguage="yue"><tspan id="trsvg1-yue">&#x96FB;&#x58D3; (&#x4F0F;&#x7279;)</tspan></text><text x="-243" y="20" transform="rotate(-90)" id="trsvg24"><tspan id="trsvg1">Voltage (mV)</tspan></text></switch>
+<switch><text x="-203" y="258" transform="rotate(-75.14)" id="trsvg25-fr" systemLanguage="fr"><tspan id="trsvg2-fr">D&#xE9;polarisation</tspan></text><text x="-203" y="258" transform="rotate(-75.14)" id="trsvg25-yue" systemLanguage="yue"><tspan id="trsvg2-yue">&#x53BB;&#x6975;&#x5316;</tspan></text><text x="-203" y="258" transform="rotate(-75.14)" id="trsvg25"><tspan id="trsvg2">Depolarization</tspan></text></switch>
+<switch><text x="199" y="-253" transform="rotate(82.35)" id="trsvg26-fr" systemLanguage="fr"><tspan id="trsvg3-fr">Repolarisation</tspan></text><text x="199" y="-253" transform="rotate(82.35)" id="trsvg26-yue" systemLanguage="yue"><tspan id="trsvg3-yue">&#x91CD;&#x6975;&#x5316;</tspan></text><text x="199" y="-253" transform="rotate(82.35)" id="trsvg26"><tspan id="trsvg3">Repolarization</tspan></text></switch>
+<switch><text x="59.9" y="286.28" id="trsvg27-fr" systemLanguage="fr"><tspan id="trsvg4-fr">Seuil</tspan></text><text x="59.9" y="286.28" id="trsvg27-yue" systemLanguage="yue"><tspan id="trsvg4-yue">&#x9580;&#x6ABB;</tspan></text><text x="59.9" y="286.28" id="trsvg27"><tspan id="trsvg4">Threshold</tspan></text></switch>
+<switch><text x="111.43" y="346.74" id="trsvg28-fr" systemLanguage="fr"><tspan id="trsvg5-fr">Stimulus</tspan></text><text x="111.43" y="346.74" id="trsvg28-yue" systemLanguage="yue"><tspan id="trsvg5-yue">&#x523A;&#x6FC0;</tspan></text><text x="111.43" y="346.74" id="trsvg28"><tspan id="trsvg5">Stimulus</tspan></text></switch>
+<g text-anchor="middle">
+<switch><text x="256.2" y="53.3" id="trsvg29-fr" systemLanguage="fr"><tspan id="trsvg6-fr">Potentiel</tspan><tspan x="256.2" y="73.3" id="trsvg7-fr">d'action</tspan></text><text x="256.2" y="53.3" id="trsvg29-yue" systemLanguage="yue"><tspan id="trsvg6-yue">&#x884C;&#x52D5;</tspan><tspan x="256.2" y="73.3" id="trsvg7-yue">&#x6F5B;&#x529B;</tspan></text><text x="256.2" y="53.3" id="trsvg29"><tspan id="trsvg6">Action</tspan><tspan x="256.2" y="73.3" id="trsvg7">potential</tspan></text></switch>
+<switch><text x="243.4" y="279" id="trsvg30-fr" systemLanguage="fr"><tspan id="trsvg8-fr">stimulation</tspan><tspan x="243.4" y="299" id="trsvg9-fr">infraliminaire</tspan></text><text x="243.4" y="279" id="trsvg30-yue" systemLanguage="yue"><tspan id="trsvg8-yue">&#x5931;&#x6557;&#x5605;</tspan><tspan x="243.4" y="299" id="trsvg9-yue">&#x555F;&#x52D5;</tspan></text><text x="243.4" y="279" id="trsvg30"><tspan id="trsvg8">Failed</tspan><tspan x="243.4" y="299" id="trsvg9">initiations</tspan></text></switch>
+<switch><text x="351.6" y="357.4" id="trsvg31-fr" systemLanguage="fr"><tspan id="trsvg10-fr">P&#xE9;riode</tspan><tspan x="351.6" y="377.4" id="trsvg11-fr">r&#xE9;fractaire</tspan></text><text x="351.6" y="357.4" id="trsvg31-yue" systemLanguage="yue"><tspan id="trsvg10-yue">&#x96E3;&#x6CBB;&#x5605;</tspan><tspan x="351.6" y="377.4" id="trsvg11-yue">&#x9031;&#x671F;</tspan></text><text x="351.6" y="357.4" id="trsvg31"><tspan id="trsvg10">Refractory</tspan><tspan x="351.6" y="377.4" id="trsvg11">period</tspan></text></switch>
+</g>
+<switch><text x="375.8" y="317" id="trsvg32-fr" systemLanguage="fr"><tspan id="trsvg12-fr">potentiel de repos</tspan></text><text x="375.8" y="317" id="trsvg32-yue" systemLanguage="yue"><tspan id="trsvg12-yue">&#x4F11;&#x606F;&#x72C0;&#x614B;</tspan></text><text x="375.8" y="317" id="trsvg32"><tspan id="trsvg12">Resting state</tspan></text></switch>
+<switch><text x="17.9" y="91.9" id="trsvg33-fr" systemLanguage="fr"><tspan id="trsvg13-fr">+40</tspan></text><text x="17.9" y="91.9" id="trsvg33"><tspan id="trsvg13">+40</tspan></text></switch>
+<switch><text x="41.1" y="190.1" id="trsvg34"><tspan id="trsvg14">0</tspan></text></switch>
+<switch><text x="23.8" y="295.1" id="trsvg35-fr" systemLanguage="fr"><tspan id="trsvg15-fr">-55</tspan></text><text x="23.8" y="295.1" id="trsvg35"><tspan id="trsvg15">-55</tspan></text></switch>
+<switch><text x="23.7" y="328.4" id="trsvg36-fr" systemLanguage="fr"><tspan id="trsvg16-fr">-70</tspan></text><text x="23.7" y="328.4" id="trsvg36"><tspan id="trsvg16">-70</tspan></text></switch>
+<switch><text x="96.6" y="450.2" id="trsvg37"><tspan id="trsvg17">0</tspan></text></switch>
+<switch><text x="166.1" y="450.2" id="trsvg38-fr" systemLanguage="fr"><tspan id="trsvg18-fr">1</tspan></text><text x="166.1" y="450.2" id="trsvg38"><tspan id="trsvg18">1</tspan></text></switch>
+<switch><text x="232.8" y="450.2" id="trsvg39-fr" systemLanguage="fr"><tspan id="trsvg19-fr">2</tspan></text><text x="232.8" y="450.2" id="trsvg39"><tspan id="trsvg19">2</tspan></text></switch>
+<switch><text x="302.9" y="450.2" id="trsvg40-fr" systemLanguage="fr"><tspan id="trsvg20-fr">3</tspan></text><text x="302.9" y="450.2" id="trsvg40"><tspan id="trsvg20">3</tspan></text></switch>
+<switch><text x="374.4" y="450.2" id="trsvg41-fr" systemLanguage="fr"><tspan id="trsvg21-fr">4</tspan></text><text x="374.4" y="450.2" id="trsvg41"><tspan id="trsvg21">4</tspan></text></switch>
+<switch><text x="441" y="450" id="trsvg42-fr" systemLanguage="fr"><tspan id="trsvg22-fr">5</tspan></text><text x="441" y="450" id="trsvg42"><tspan id="trsvg22">5</tspan></text></switch>
+<switch><text x="232.5" y="473.4" id="trsvg43-fr" systemLanguage="fr"><tspan id="trsvg23-fr">Temps (ms)</tspan></text><text x="232.5" y="473.4" id="trsvg43-yue" systemLanguage="yue"><tspan id="trsvg23-yue">&#x6642;&#x9593; (&#x79D2;)</tspan></text><text x="232.5" y="473.4" id="trsvg43"><tspan id="trsvg23">Time (ms)</tspan></text></switch>
+</g>
+</svg>
