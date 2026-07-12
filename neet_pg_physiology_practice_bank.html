@@ -182,13 +182,18 @@ input,select,textarea{background:#11111b;color:var(--ink);border-color:var(--lin
 .qimages figure{background:#11111b;border-color:var(--line)}
 .qrow-img{color:#5eead4}.qrow-subject,.qrow-topic{color:#c9b6ff}.qrow-id{color:#c3c4d6}
 }
-  .qimages figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.45;}
+  .image-attributions{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);display:grid;gap:7px;}
+  .image-attributions h4{margin:0;font-size:13px;color:var(--ink);}
+  .image-attribution{font-size:12px;color:var(--muted);line-height:1.45;}
 </style>
+<link rel="stylesheet" href="question_bank_menu.css">
+<script src="question_bank_menu.js" defer></script>
 </head>
 <body>
 <nav class="topnav">
   <a class="nav-brand" href="index.html"><picture class="brand-logo-picture"><source srcset="assets/studydoc_logo_primary_dark.svg" media="(prefers-color-scheme: dark)"><img class="brand-logo-img" src="assets/studydoc_logo_primary.svg" alt="StudyDoc"></picture></a>
   <div class="nav-right">
+    <study-qbank-menu></study-qbank-menu>
     <a class="nav-back" href="index.html">Home</a>
     <a class="nav-back" href="neet_pg_recall_quiz.html">NEET-PG</a>
   </div>
@@ -2756,7 +2761,7 @@ function renderQuiz() {
   const key = itemKey(item);
   const att = attempts.get(key);
   const imageNote = '';
-  const images = imageList(item).length ? `<div class="qimages">${imageList(item).map((im, i) => { const s = typeof im === 'string' ? im : im.src; const cap = (typeof im === 'object' && (im.caption || im.credit)) ? `<figcaption>${escapeHtml([im.caption, im.credit].filter(Boolean).join(' \u2014 '))}</figcaption>` : ''; return `<figure><img src="${escapeHtml(s)}" alt="Figure ${i + 1} for question ${current + 1}" loading="lazy">${cap}</figure>`; }).join('')}</div>` : '';
+  const images = imageList(item).length ? `<div class="qimages">${imageList(item).map((im, i) => { const s = typeof im === 'string' ? im : im.src; return `<figure><img src="${escapeHtml(s)}" alt="Figure ${i + 1} for question ${current + 1}" loading="lazy"></figure>`; }).join('')}</div>` : '';
   const opts = item.options.map((opt, idx) => {
     let cls = '';
     if (att) cls = idx === item.answerIndex ? ' correct' : (idx === att.choice ? ' wrong' : '');
@@ -2768,7 +2773,9 @@ function renderQuiz() {
     feedback = `<div class="feedback ${att.correct ? 'ok' : 'bad'}">${att.correct ? 'Correct.' : 'Wrong.'} Correct answer: ${escapeHtml(answerText(item))}</div>`;
     const optionNoteItems = (item.optionExplanations || []).map((note, idx) => ({ note: String(note || '').trim(), idx })).filter(entry => entry.note);
     const optionNotes = optionNoteItems.length ? `<div class="option-notes">${optionNoteItems.map(({note, idx}) => `<div class="option-note"><b>${String.fromCharCode(65 + idx)}.</b> ${escapeHtml(note)}</div>`).join('')}</div>` : '';
-    explanation = `<div class="explanation"><h3>Why this is the answer</h3><p>${escapeHtml(item.explanation)}</p>${optionNotes}</div>`;
+    const imageAttributions = imageList(item).map((im, idx) => ({ idx, text: typeof im === 'object' ? [im.caption, im.credit].filter(Boolean).join(' \u2014 ') : '' })).filter(entry => entry.text);
+    const imageSources = imageAttributions.length ? `<div class="image-attributions"><h4>Image attribution</h4>${imageAttributions.map(({idx, text}) => `<div class="image-attribution"><b>Figure ${idx + 1}:</b> ${escapeHtml(text)}</div>`).join('')}</div>` : '';
+    explanation = `<div class="explanation"><h3>Why this is the answer</h3><p>${escapeHtml(item.explanation)}</p>${optionNotes}${imageSources}</div>`;
   }
   const remaining = Math.max(items.length - current - 1, 0);
   const progress = items.length ? Math.round(((current + 1) / items.length) * 100) : 0;
