@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-label="Unlabelled normal time capnogram waveform">
+  <rect width="960" height="460" fill="#ffffff"/>
+  <g stroke="#e6edf3" stroke-width="1">
+    <path d="M40 40H920M40 90H920M40 140H920M40 190H920M40 240H920M40 290H920M40 340H920M40 390H920"/>
+    <path d="M40 40V410M100 40V410M160 40V410M220 40V410M280 40V410M340 40V410M400 40V410M460 40V410M520 40V410M580 40V410M640 40V410M700 40V410M760 40V410M820 40V410M880 40V410M920 40V410"/>
+  </g>
+  <path d="M45 372
+           C85 374 120 373 170 372
+           C190 372 201 359 211 325
+           C222 285 236 221 258 176
+           C278 135 304 118 340 116
+           C405 113 477 108 548 104
+           C594 102 628 101 650 104
+           C661 105 669 117 671 141
+           C675 188 680 262 689 322
+           C694 354 706 369 731 372
+           C775 375 827 374 910 372"
+        fill="none" stroke="#155e75" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

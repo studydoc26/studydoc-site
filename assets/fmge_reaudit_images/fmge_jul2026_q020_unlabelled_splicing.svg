@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520" role="img" aria-label="Unlabelled exon processing schematic">
+  <rect width="980" height="520" fill="#ffffff"/>
+  <g stroke="#334155" stroke-width="8" stroke-linecap="round">
+    <path d="M80 105H900"/>
+    <path d="M80 255H900"/>
+    <path d="M80 425H900"/>
+  </g>
+  <g stroke="#0f172a" stroke-width="4">
+    <rect x="130" y="70" width="110" height="70" rx="4" fill="#0ea5a4"/>
+    <rect x="330" y="70" width="110" height="70" rx="4" fill="#22c55e"/>
+    <rect x="530" y="70" width="110" height="70" rx="4" fill="#f59e0b"/>
+    <rect x="730" y="70" width="110" height="70" rx="4" fill="#ef4444"/>
+
+    <rect x="170" y="220" width="110" height="70" rx="4" fill="#0ea5a4"/>
+    <rect x="390" y="220" width="110" height="70" rx="4" fill="#22c55e"/>
+    <rect x="610" y="220" width="110" height="70" rx="4" fill="#ef4444"/>
+
+    <rect x="170" y="390" width="110" height="70" rx="4" fill="#0ea5a4"/>
+    <rect x="390" y="390" width="110" height="70" rx="4" fill="#f59e0b"/>
+    <rect x="610" y="390" width="110" height="70" rx="4" fill="#ef4444"/>
+  </g>
+  <g fill="none" stroke="#64748b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M385 154C385 178 310 185 280 212"/>
+    <path d="M585 154C585 180 555 190 500 212"/>
+    <path d="M785 154C785 182 744 194 720 212"/>
+    <path d="M385 154C385 240 310 315 280 382"/>
+    <path d="M585 154C585 245 545 318 500 382"/>
+    <path d="M785 154C785 250 747 328 720 382"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+    <text x="185" y="117">1</text><text x="385" y="117">2</text><text x="585" y="117">3</text><text x="785" y="117">4</text>
+    <text x="225" y="267">1</text><text x="445" y="267">2</text><text x="665" y="267">4</text>
+    <text x="225" y="437">1</text><text x="445" y="437">3</text><text x="665" y="437">4</text>
+  </g>
+</svg>

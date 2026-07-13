@@ -281,11 +281,14 @@ function renderQuiz() {
   }).join('');
   let feedback = '';
   if (att && canCheck) feedback = `<div class="feedback ${att.correct ? 'ok' : 'bad'}">${att.correct ? 'Correct.' : 'Wrong.'} Correct answer: ${String.fromCharCode(65 + item.answerIndex)}. ${escapeHtml(item.options[item.answerIndex])}</div>`;
+  const explanation = att && item.explanation
+    ? `<section class="explanation" aria-label="Answer explanation"><h3>Explanation</h3><p>${escapeHtml(item.explanation)}</p></section>`
+    : '';
   const remaining = Math.max(items.length - current - 1, 0);
   const progress = items.length ? Math.round(((current + 1) / items.length) * 100) : 0;
   const subjectPill = `<span class="pill topic">${escapeHtml((item.subjectTags && item.subjectTags[0]) || item.subject || 'FMGE')}</span>`;
   const progressMeter = `<span class="remaining-meter" role="meter" aria-label="${remaining} questions remaining" aria-valuemin="0" aria-valuemax="${items.length}" aria-valuenow="${current + 1}"><span class="remaining-track"><span class="remaining-fill" style="width:${progress}%"></span></span><span class="remaining-count">${remaining} left</span></span>`;
-  $('#quiz').innerHTML = `<div class="qtop">${subjectPill}${progressMeter}</div><h2 class="question">Q${escapeHtml(item.number)}. ${escapeHtml(item.question)}</h2>${imgNote}<div class="options">${opts}</div>${feedback}<div class="nav"><button id="prev">Previous</button><button id="next">Next</button><button id="reset">Reset this answer</button><button id="report-question" class="report-btn" type="button">Report this question</button></div>`;
+  $('#quiz').innerHTML = `<div class="qtop">${subjectPill}${progressMeter}</div><h2 class="question">Q${escapeHtml(item.number)}. ${escapeHtml(item.question)}</h2>${imgNote}<div class="options">${opts}</div>${feedback}${explanation}<div class="nav"><button id="prev">Previous</button><button id="next">Next</button><button id="reset">Reset this answer</button><button id="report-question" class="report-btn" type="button">Report this question</button></div>`;
   [...document.querySelectorAll('.option')].forEach(btn => btn.onclick = () => {
     if (!canCheck) return;
     const choice = Number(btn.dataset.choice);
