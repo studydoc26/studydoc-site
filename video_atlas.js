@@ -1,4 +1,4 @@
-const ATLAS_DATA_PATH = 'video_atlas_data.json';
+const ATLAS_DATA_PATH = 'video_atlas_data.json?v=20260715-v2';
 const YOUTUBE_ID_PATTERN = /^[A-Za-z0-9_-]{11}$/;
 const YOUTUBE_URL_PATTERN = /^https:\/\/www\.youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})(?:&t=(\d+)s)?$/;
 const STRING_FIELDS = [
@@ -14,6 +14,7 @@ const STRING_FIELDS = [
   'youtubeUrl',
   'youtubeId'
 ];
+const OPTIONAL_STRING_FIELDS = ['differentiation', 'clipType'];
 
 let ATLAS = [];
 
@@ -27,6 +28,7 @@ const nowTitle = document.getElementById('nowTitle');
 const nowMeta = document.getElementById('nowMeta');
 const nowDesc = document.getElementById('nowDesc');
 const nowYoutube = document.getElementById('nowYoutube');
+const videoStat = document.getElementById('videoStat');
 
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({
   '&':'&amp;',
@@ -57,6 +59,11 @@ function validateAtlas(payload) {
 
     STRING_FIELDS.forEach(field => {
       if (typeof item[field] !== 'string') {
+        throw new TypeError(`Atlas entry ${index + 1} has an invalid ${field} field.`);
+      }
+    });
+    OPTIONAL_STRING_FIELDS.forEach(field => {
+      if (field in item && (typeof item[field] !== 'string' || !item[field].trim())) {
         throw new TypeError(`Atlas entry ${index + 1} has an invalid ${field} field.`);
       }
     });
@@ -149,11 +156,12 @@ function embedUrl(item) {
 function cardMarkup(item) {
   const anchors = item.anchors.map(anchor => `<span>${esc(anchor)}</span>`).join('');
   const differentials = item.differentials.map(differential => `<div class="differential-row"><strong>${esc(differential.name)}</strong><span>${esc(differential.clue)}</span></div>`).join('');
+  const differentiation = item.differentiation || '';
   const differentialSearch = item.differentials.flatMap(differential => [differential.name, differential.clue]);
-  const searchText = [item.title, item.subject, item.summary, item.identify, item.management, item.quickRevision, item.source, ...item.anchors, ...differentialSearch].join(' ');
+  const searchText = [item.title, item.subject, item.summary, item.identify, item.examAngle, item.management, item.quickRevision, item.source, item.clipType || '', differentiation, ...item.anchors, ...differentialSearch].join(' ');
   return `<article class="atlas-card" data-search="${esc(searchText.toLowerCase())}" data-subject="${esc(item.tags.join('|'))}">
     <div class="card-top">
-      <span class="topic-num">${String(item.number).padStart(2, '0')}</span>
+      <span class="topic-num">${String(item.number).padStart(3, '0')}</span>
       <div class="topic-meta">
         <div class="subject-line">${esc(item.subject)}</div>
         <h2 class="topic-title"><button class="topic-title-button" type="button" data-number="${item.number}">${esc(item.title)}</button></h2>
@@ -163,7 +171,9 @@ function cardMarkup(item) {
     <p class="topic-summary"><strong>What to watch for:</strong> ${esc(item.summary || item.identify)}</p>
     ${item.identify && item.identify !== item.summary ? `<p class="look-for"><strong>Visual clue:</strong> ${esc(item.identify)}</p>` : ''}
     ${anchors ? `<div><p class="mini-label">High-yield facts</p><div class="anchor-list">${anchors}</div></div>` : ''}
+    ${item.examAngle && item.examAngle !== item.management ? `<p class="exam-angle"><strong>Exam focus:</strong> ${esc(item.examAngle)}</p>` : ''}
     ${item.management ? `<p class="exam-angle"><strong>Clinical relevance:</strong> ${esc(item.management)}</p>` : ''}
+    ${differentiation ? `<details class="differential-panel"><summary>Diagnosis and differentiation</summary><div class="differential-list"><div class="differential-row"><strong>Clinical approach</strong><span>${esc(differentiation)}</span></div></div></details>` : ''}
     ${differentials ? `<details class="differential-panel"><summary>Closest differentials (${item.differentials.length})</summary><div class="differential-list">${differentials}</div></details>` : ''}
     ${item.source ? `<p class="source-credit">Source: ${esc(item.source)}</p>` : ''}
     <div class="card-actions">
@@ -181,7 +191,7 @@ function selectVideo(number, shouldScroll = false) {
   videoFrame.src = embedUrl(item);
   videoFrame.title = item.title + ' clinical video';
   nowTitle.textContent = item.title;
-  nowMeta.textContent = [item.subject, item.segment].filter(Boolean).join(' · ');
+  nowMeta.textContent = [item.subject, item.clipType, item.segment].filter(Boolean).join(' · ');
   nowDesc.textContent = item.summary || item.identify || '';
   nowYoutube.href = item.youtubeUrl;
   nowYoutube.textContent = 'YouTube link';
@@ -193,12 +203,12 @@ function render() {
   const subject = subjectFilter.value;
   const filtered = ATLAS.filter(item => {
     const differentialSearch = item.differentials.flatMap(differential => [differential.name, differential.clue]);
-    const haystack = [item.title, item.subject, item.summary, item.identify, item.management, item.quickRevision, item.source, ...item.anchors, ...item.tags, ...differentialSearch].join(' ').toLowerCase();
+    const haystack = [item.title, item.subject, item.summary, item.identify, item.examAngle, item.management, item.quickRevision, item.source, item.clipType || '', item.differentiation || '', ...item.anchors, ...item.tags, ...differentialSearch].join(' ').toLowerCase();
     const subjectMatch = subject === 'all' || item.tags.includes(subject) || item.subject === subject;
     return subjectMatch && (!term || haystack.includes(term));
   });
   grid.innerHTML = filtered.map(cardMarkup).join('');
-  resultCount.textContent = filtered.length + ' videos';
+  resultCount.textContent = filtered.length + (filtered.length === 1 ? ' video' : ' videos');
   noResults.classList.toggle('show', filtered.length === 0);
 }
 
@@ -214,6 +224,7 @@ subjectFilter.addEventListener('change', render);
 loadAtlas()
   .then(atlas => {
     ATLAS = atlas;
+    if (videoStat) videoStat.textContent = ATLAS.length;
     populateSubjects();
     render();
   })
