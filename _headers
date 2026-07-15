@@ -8,3 +8,15 @@
   Cross-Origin-Opener-Policy: same-origin
   X-Permitted-Cross-Domain-Policies: none
   X-XSS-Protection: 0
+
+/assets/neetpg_advanced_2026/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/neetpg_advanced_2026/data/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/neetpg_advanced_2026/catalog.json
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/neetpg_advanced_2026/image_sources.json
+  Cache-Control: public, max-age=0, must-revalidate

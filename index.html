@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>StudyDoc — NEET-PG, INICET &amp; FMGE Practice</title>
-<meta name="description" content="Previous year questions (PYQs), a topic-wise PYT question bank, and curated PDFs for NEET-PG, INICET and FMGE.">
+<meta name="description" content="Previous year questions (PYQs), a 19-subject PYT-based question bank, and curated PDFs for NEET-PG, INICET and FMGE.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--ink:#0F172A;--bg:#F6F7FB;--accent:#4F46E5;--accent-d:#4338CA;--teal:#2DD4BF;--panel:#0F172A;--tile:#1E293B}
@@ -39,6 +39,14 @@ a{color:var(--accent);text-decoration:none}
 .dd-inner a:hover,.dd-inner a:focus-visible{background:#EEF0FB;color:var(--accent)}
 .dd-inner b{display:block;font-weight:600;font-size:16px}
 .dd-inner small{display:block;font-size:11.5px;color:#0F172A99;margin-top:3px;line-height:1.35}
+.nav-dd>.dd.qbank-dd{left:auto;right:0;width:min(650px,calc(100vw - 24px));transform:translateY(8px)}
+.nav-dd:hover>.dd.qbank-dd,.nav-dd:focus-within>.dd.qbank-dd{transform:translateY(0)}
+.nav-dd>.dd.qbank-dd::before{left:auto;right:44px;transform:rotate(45deg)}
+.qbank-dd .dd-inner{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;max-height:calc(100vh - 88px);overflow-y:auto}
+.qbank-dd .dd-inner a{min-width:0;padding:8px 9px}
+.qbank-dd .dd-inner b{font-size:12.5px;overflow-wrap:anywhere}
+.qbank-dd .dd-inner small{font-size:10px}
+.qbank-dd .dd-overview{grid-column:1/-1;margin-bottom:4px;border-bottom:1px solid #0F172A1F}
 .tg-pill{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg)!important;padding:10px 18px;border-radius:999px;font-size:14px}
 .tg-pill:hover{background:var(--accent)}
 .blink{width:7px;height:7px;border-radius:50%;background:var(--teal);display:inline-block;animation:blinkDot 1.6s infinite}
@@ -183,6 +191,7 @@ a{color:var(--accent);text-decoration:none}
   .dd-inner{background:#171826;border-color:#ffffff1f;box-shadow:0 24px 54px -20px #000000cc}
   .dd-inner a{color:#e8e9f4}.dd-inner a:hover,.dd-inner a:focus-visible{background:#23233a;color:#a5a1f7}
   .dd-inner small{color:#ffffff80}
+  .qbank-dd .dd-overview{border-bottom-color:#ffffff1f}
   .tg-pill{background:#1c1d2e;border:1px solid #ffffff1f}.tg-pill:hover{background:var(--accent)}
   .eyebrow,.eyebrow .ln,.sec-tag,.rcard-arrow,.hero-h1 em,.comm-eyebrow{color:#a5a1f7}
   .eyebrow .ln{background:#a5a1f7}
@@ -238,13 +247,27 @@ a{color:var(--accent);text-decoration:none}
       </span>
       <span class="nav-dd">
         <span class="nav-trigger" tabindex="0" role="button" aria-haspopup="true">Question Bank <span class="caret">▾</span></span>
-        <span class="dd"><span class="dd-inner">
-          <a href="pyt_based_question_bank.html"><b>All PYT banks</b><small class="mono">1,035 topic-wise MCQs</small></a>
-          <a href="neet_pg_medicine_pyt_bank.html"><b>Medicine</b><small class="mono">260 questions · 135 image/data</small></a>
-          <a href="neet_pg_surgery_pyt_bank.html"><b>Surgery</b><small class="mono">263 questions · 155 image/data</small></a>
-          <a href="neet_pg_obgyn_pyt_bank.html"><b>ObGyn</b><small class="mono">237 questions · 129 image/data</small></a>
-          <a href="neet_pg_pediatrics_practice_bank.html"><b>Pediatrics</b><small class="mono">142 questions · 31 image/data</small></a>
-          <a href="neet_pg_physiology_practice_bank.html"><b>Physiology</b><small class="mono">133 questions · 25 image/data</small></a>
+        <span class="dd qbank-dd"><span class="dd-inner">
+          <a class="dd-overview" href="pyt_based_question_bank.html"><b>PYT-Based Question Bank</b><small class="mono">19 subjects · 4,835 MCQs · 1,995 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=anatomy"><b>Anatomy</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_physiology_practice_bank.html"><b>Physiology</b><small class="mono">333 · 105 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=biochemistry"><b>Biochemistry</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=pathology"><b>Pathology</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=pharmacology"><b>Pharmacology</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=microbiology"><b>Microbiology</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=forensic-medicine"><b>Forensic Medicine</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=community-medicine-psm"><b>Community Medicine (PSM)</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_medicine_pyt_bank.html"><b>Medicine</b><small class="mono">460 · 215 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pediatrics_practice_bank.html"><b>Pediatrics</b><small class="mono">342 · 111 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=dermatology"><b>Dermatology</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=psychiatry"><b>Psychiatry</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_surgery_pyt_bank.html"><b>Surgery</b><small class="mono">463 · 235 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=orthopedics"><b>Orthopedics</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=radiodiagnosis"><b>Radiodiagnosis</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=anaesthesiology"><b>Anaesthesiology</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=ophthalmology"><b>Ophthalmology</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_pyt_subject_bank.html?subject=ent"><b>ENT</b><small class="mono">200 · 80 image/data</small></a>
+          <a class="dd-subject" href="neet_pg_obgyn_pyt_bank.html"><b>Obstetrics &amp; Gynaecology</b><small class="mono">437 · 209 image/data</small></a>
         </span></span>
       </span>
       <a href="resources.html">Resources</a>
@@ -276,8 +299,8 @@ a{color:var(--accent);text-decoration:none}
       </svg>
       <div class="vgrid">
         <div class="vstat"><div class="n">3,115</div><div class="l mono">PYQ MCQs</div></div>
-        <div class="vstat"><div class="n">1,035</div><div class="l mono">QBank MCQs</div></div>
-        <div class="vstat"><div class="n">475</div><div class="l mono">Image/data Qs</div></div>
+        <div class="vstat"><div class="n">4,835</div><div class="l mono">QBank MCQs</div></div>
+        <div class="vstat"><div class="n">1,995</div><div class="l mono">Image/data Qs</div></div>
         <div class="vstat"><div class="n">3</div><div class="l mono">Exams · PG &amp; FMGE</div></div>
         <div class="vstat"><div class="n">2021–26</div><div class="l mono">Years covered</div></div>
         <div class="vstat"><div class="n" style="color:#2DD4BF">₹0</div><div class="l mono">Free to practice</div></div>
@@ -336,16 +359,10 @@ a{color:var(--accent);text-decoration:none}
       <div class="scard scard-q">
         <div class="scard-ic">Q</div>
         <div>
-          <div class="scard-ttl"><a href="pyt_based_question_bank.html">PYT-based question bank</a></div>
-          <div class="scard-desc">Topic-wise high-yield sets built from previous-year themes — Medicine, Surgery, ObGyn, Pediatrics and Physiology.</div>
+          <div class="scard-ttl"><a href="pyt_based_question_bank.html">PYT-Based Question Bank</a></div>
+          <div class="scard-desc">4,835 high-yield MCQs across all 19 subjects, including 1,995 image/data questions.</div>
           <div class="scard-go mono"><a href="pyt_based_question_bank.html">Open overview →</a></div>
-          <div class="qbank-subjects" aria-label="PYT subject banks">
-            <a href="neet_pg_medicine_pyt_bank.html">Medicine</a>
-            <a href="neet_pg_surgery_pyt_bank.html">Surgery</a>
-            <a href="neet_pg_obgyn_pyt_bank.html">ObGyn</a>
-            <a href="neet_pg_pediatrics_practice_bank.html">Pediatrics</a>
-            <a href="neet_pg_physiology_practice_bank.html">Physiology</a>
-          </div>
+          <div class="qbank-subjects" aria-label="NEET-PG question bank overview"><a href="pyt_based_question_bank.html">Browse all 19 subjects</a></div>
         </div>
       </div>
     </div>

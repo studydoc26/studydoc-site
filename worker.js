@@ -1,3 +1,20 @@
+const PYT_SUBJECT_DATA = Object.freeze({
+  'anaesthesiology': '/assets/neetpg_advanced_2026/data/anaesthesiology.json',
+  'anatomy': '/assets/neetpg_advanced_2026/data/anatomy.json',
+  'biochemistry': '/assets/neetpg_advanced_2026/data/biochemistry.json',
+  'community-medicine-psm': '/assets/neetpg_advanced_2026/data/community-medicine-psm.json',
+  'dermatology': '/assets/neetpg_advanced_2026/data/dermatology.json',
+  'ent': '/assets/neetpg_advanced_2026/data/ent.json',
+  'forensic-medicine': '/assets/neetpg_advanced_2026/data/forensic-medicine.json',
+  'microbiology': '/assets/neetpg_advanced_2026/data/microbiology.json',
+  'ophthalmology': '/assets/neetpg_advanced_2026/data/ophthalmology.json',
+  'orthopedics': '/assets/neetpg_advanced_2026/data/orthopedics.json',
+  'pathology': '/assets/neetpg_advanced_2026/data/pathology.json',
+  'pharmacology': '/assets/neetpg_advanced_2026/data/pharmacology.json',
+  'psychiatry': '/assets/neetpg_advanced_2026/data/psychiatry.json',
+  'radiodiagnosis': '/assets/neetpg_advanced_2026/data/radiodiagnosis.json',
+});
+
 const REPORT_SOURCES = Object.freeze({
   '/fmge_quiz': {
     data: '/fmge_quiz_data.json',
@@ -35,6 +52,10 @@ const REPORT_SOURCES = Object.freeze({
     exam: 'NEET-PG Physiology PYT Bank',
     subject: 'Physiology',
   },
+  '/neet_pg_pyt_subject_bank': {
+    exam: 'NEET-PG PYT Subject Bank',
+    subjectData: PYT_SUBJECT_DATA,
+  },
 });
 
 const ISSUE_TYPES = new Set([
@@ -54,7 +75,9 @@ const REPORT_FIELDS = new Set([
   'practice_number',
   'practice_total',
   'question_number',
+  'question_id',
   'session',
+  'subject_slug',
   'year',
 ]);
 
@@ -87,6 +110,17 @@ function hasValidFormShape(form) {
     seen.add(name);
   }
   return true;
+}
+
+function jsonFormData(rawBody) {
+  const payload = JSON.parse(new TextDecoder().decode(rawBody));
+  if (!payload || typeof payload !== 'object' || Array.isArray(payload)) throw new Error('Invalid JSON report');
+  const form = new FormData();
+  for (const [name, value] of Object.entries(payload)) {
+    if (typeof value !== 'string') throw new Error('JSON report values must be strings');
+    form.append(name, value);
+  }
+  return form;
 }
 
 function formspreeEndpoint(env) {
@@ -136,9 +170,26 @@ async function loadQuestion(requestUrl, env, config, form) {
   const number = getText(form, 'question_number', 12, true);
   const year = getText(form, 'year', 8, Boolean(config.matchYear));
   const session = getText(form, 'session', 80, Boolean(config.matchSession));
-  if (!number || !/^\d+$/.test(number) || year === null || session === null) return null;
+  const subjectScoped = Boolean(config.subjectData);
+  const subjectSlug = getText(form, 'subject_slug', 40, subjectScoped);
+  const questionId = getText(form, 'question_id', 32, subjectScoped);
+  if (!number || !/^\d+$/.test(number) || year === null || session === null || subjectSlug === null || questionId === null) return null;
 
-  const dataUrl = new URL(config.data, requestUrl);
+  let dataPath = config.data;
+  if (subjectScoped) {
+    if (
+      !subjectSlug ||
+      !questionId ||
+      !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(subjectSlug) ||
+      !/^[A-Z][A-Z0-9]{1,11}-\d{3}$/.test(questionId) ||
+      !Object.hasOwn(config.subjectData, subjectSlug)
+    ) return null;
+    dataPath = config.subjectData[subjectSlug];
+  }
+  if (typeof dataPath !== 'string') throw new Error('Question data path unavailable');
+
+  const dataUrl = new URL(dataPath, requestUrl);
+  if (dataUrl.origin !== requestUrl.origin) throw new Error('Question data must be same-origin');
   const response = await env.ASSETS.fetch(new Request(dataUrl, { method: 'GET' }));
   if (!response.ok) throw new Error(`Question data unavailable: ${response.status}`);
   const data = await response.json();
@@ -146,6 +197,7 @@ async function loadQuestion(requestUrl, env, config, form) {
 
   const matches = data.filter(item => {
     if (!item || !Number.isSafeInteger(item.number) || String(item.number) !== number) return false;
+    if (subjectScoped && (item.subjectSlug !== subjectSlug || item.id !== questionId)) return false;
     if (config.matchYear && String(item.year || '') !== year) return false;
     if (config.matchSession && String(item.session || '') !== session) return false;
     return typeof item.question === 'string' && Array.isArray(item.options) && item.options.every(option => typeof option === 'string');
@@ -165,7 +217,7 @@ async function handleReport(request, env) {
 
   const contentType = request.headers.get('Content-Type') || '';
   const mediaType = contentType.split(';', 1)[0].trim().toLowerCase();
-  if (mediaType !== 'multipart/form-data' && mediaType !== 'application/x-www-form-urlencoded') {
+  if (mediaType !== 'multipart/form-data' && mediaType !== 'application/x-www-form-urlencoded' && mediaType !== 'application/json') {
     return jsonResponse(415, { error: 'Unsupported form encoding' });
   }
   const declaredLength = request.headers.get('Content-Length');
@@ -194,11 +246,13 @@ async function handleReport(request, env) {
 
   let form;
   try {
-    form = await new Request(request.url, {
-      method: 'POST',
-      headers: { 'Content-Type': contentType },
-      body: rawBody,
-    }).formData();
+    form = mediaType === 'application/json'
+      ? jsonFormData(rawBody)
+      : await new Request(request.url, {
+          method: 'POST',
+          headers: { 'Content-Type': contentType },
+          body: rawBody,
+        }).formData();
   } catch {
     return jsonResponse(400, { error: 'Malformed report form' });
   }
@@ -225,14 +279,22 @@ async function handleReport(request, env) {
   const year = String(item.year || getText(form, 'year', 8) || '2026').slice(0, 8);
   const session = String(item.session || '').slice(0, 80);
   const options = optionLines(item);
-  const contextLabel = `Q${item.number}`;
+  const contextLabel = config.subjectData ? item.id : `Q${item.number}`;
+  const subjectSlug = typeof item.subjectSlug === 'string' ? item.subjectSlug : '';
+  const pageUrl = config.subjectData && subjectSlug
+    ? `${requestUrl.origin}${pagePath}?subject=${encodeURIComponent(subjectSlug)}`
+    : `${requestUrl.origin}${pagePath}`;
   const upstream = new FormData();
   upstream.set('exam', config.exam);
   upstream.set('year', year);
   upstream.set('session', session);
   upstream.set('question_number', String(item.number));
+  if (config.subjectData) {
+    upstream.set('question_id', contextLabel);
+    upstream.set('subject_slug', subjectSlug);
+  }
   upstream.set('subject', subjectText(item, config.subject));
-  upstream.set('page_url', `${requestUrl.origin}${pagePath}`);
+  upstream.set('page_url', pageUrl);
   upstream.set('answer', answerText(item));
   upstream.set('question', item.question);
   upstream.set('options', options.join('\n'));

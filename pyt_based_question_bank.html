@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PYT-Based Question bank | StudyDoc</title>
+<title>NEET-PG PYT-Based Question Bank | StudyDoc</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--ink:#18202f;--muted:#64748b;--line:#e2e8f0;--bg:#f5f7fb;--purple:#7C3AED;--purple-soft:#F3EFFE;--green:#0f8a63;--green-soft:#e7f7f1}
@@ -24,7 +24,7 @@ h1{font-size:40px;line-height:1.08;letter-spacing:-1px;margin-bottom:12px;color:
 .subject-card{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:20px;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s,transform .1s}
 .subject-card:hover{border-color:#bca9ff;box-shadow:0 14px 34px rgba(124,58,237,.1)}
 .subject-card:active{transform:scale(.99)}
-.subject-icon{width:56px;height:56px;border-radius:14px;background:var(--green-soft);display:flex;align-items:center;justify-content:center}
+.subject-icon{width:56px;height:56px;border-radius:14px;background:var(--green-soft);display:flex;align-items:center;justify-content:center;color:var(--green);font-size:14px;font-weight:950;letter-spacing:.02em}
 .subject-icon svg{width:28px;height:28px;stroke:var(--green);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 .subject-name{font-size:20px;font-weight:900;letter-spacing:-.25px;margin-bottom:4px;color:#0f172a}
 .subject-meta{font-size:13px;color:var(--muted);font-weight:650}
@@ -55,8 +55,8 @@ footer strong{color:#a5a1f7}
 .arrow{stroke:#ffffff80}
 }
 </style>
-<link rel="stylesheet" href="question_bank_menu.css">
-<script src="question_bank_menu.js" defer></script>
+<link rel="stylesheet" href="question_bank_menu.css?v=20260716-19-subjects">
+<script src="question_bank_menu.js?v=20260716-19-subjects" defer></script>
   <link rel="stylesheet" href="legal_footer.css">
 </head>
 <body>
@@ -74,66 +74,35 @@ footer strong{color:#a5a1f7}
 </nav>
 <main class="wrap">
   <section class="hero">
-    <div class="eyebrow">Subject-wise practice</div>
-    <h1>PYT-Based Question bank</h1>
-    <p class="sub">Choose a subject. Each bank opens as an interactive MCQ set with images, answer checking, score tracking, and full explanations.</p>
-    <div class="subject-grid" aria-label="PYT subject question bank">
-      <a class="subject-card" href="neet_pg_medicine_pyt_bank.html">
-        <div class="subject-icon">
-          <svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4"/><path d="M21 12c0 4.5-3.5 8-9 8a9.7 9.7 0 0 1-5.3-1.4L3 20l1.3-3.4A7.8 7.8 0 0 1 3 12c0-4.5 3.5-8 9-8s9 3.5 9 8z"/></svg>
-        </div>
-        <div>
-          <div class="subject-name">Medicine</div>
-          <div class="subject-meta">260 MCQs · 135 image/data questions</div>
-        </div>
-        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </a>
-      <a class="subject-card" href="neet_pg_surgery_pyt_bank.html">
-        <div class="subject-icon">
-          <svg viewBox="0 0 24 24"><path d="M14.5 4.5l5 5"/><path d="M3.5 20.5l7.5-7.5"/><path d="M9 15l6.8-6.8a2.5 2.5 0 0 1 3.5 3.5L12.5 18.5"/><path d="M6.5 17.5l3 3"/></svg>
-        </div>
-        <div>
-          <div class="subject-name">Surgery</div>
-          <div class="subject-meta">263 MCQs · 155 image/data questions</div>
-        </div>
-        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </a>
-      <a class="subject-card" href="neet_pg_obgyn_pyt_bank.html">
-        <div class="subject-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 4v16"/><path d="M8 6c-2 1.5-3 3.7-3 6 0 3.8 3.1 7 7 7s7-3.2 7-7c0-2.3-1-4.5-3-6"/><path d="M8 6c1.1 1.3 2.4 2 4 2s2.9-.7 4-2"/><path d="M9 14h6"/></svg>
-        </div>
-        <div>
-          <div class="subject-name">ObGyn</div>
-          <div class="subject-meta">237 MCQs · 129 image/data questions</div>
-        </div>
-        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </a>
-      <a class="subject-card" href="neet_pg_physiology_practice_bank.html">
-        <div class="subject-icon">
-          <svg viewBox="0 0 24 24"><polyline points="3 12 7 12 9 5 13 19 15 12 21 12"/></svg>
-        </div>
-        <div>
-          <div class="subject-name">Physiology</div>
-          <div class="subject-meta">133 practice MCQs · 25 image/data questions</div>
-        </div>
-        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </a>
-      <a class="subject-card" href="neet_pg_pediatrics_practice_bank.html">
-        <div class="subject-icon">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="3"/><path d="M6 21v-3a6 6 0 0 1 12 0v3"/><path d="M9 13l3 2 3-2"/></svg>
-        </div>
-        <div>
-          <div class="subject-name">Pediatrics</div>
-          <div class="subject-meta">142 practice MCQs · 31 image/data questions</div>
-        </div>
-        <svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
-      </a>
+    <div class="eyebrow">19-subject practice</div>
+    <h1>NEET-PG PYT-Based Question Bank</h1>
+    <p class="sub">Choose a subject from one unified PYT question bank. All 19 subjects include answer checking, saved progress and full explanations at NEET-PG 2025+ and FMGE June 2026 standard.</p>
+    <div class="subject-grid" aria-label="NEET-PG question banks">
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=anatomy"><div class="subject-icon" aria-hidden="true">AN</div><div><div class="subject-name">Anatomy</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_physiology_practice_bank.html"><div class="subject-icon" aria-hidden="true">PH</div><div><div class="subject-name">Physiology</div><div class="subject-meta">333 MCQs · 105 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=biochemistry"><div class="subject-icon" aria-hidden="true">BC</div><div><div class="subject-name">Biochemistry</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=pathology"><div class="subject-icon" aria-hidden="true">PA</div><div><div class="subject-name">Pathology</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=pharmacology"><div class="subject-icon" aria-hidden="true">RX</div><div><div class="subject-name">Pharmacology</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=microbiology"><div class="subject-icon" aria-hidden="true">MI</div><div><div class="subject-name">Microbiology</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=forensic-medicine"><div class="subject-icon" aria-hidden="true">FM</div><div><div class="subject-name">Forensic Medicine</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=community-medicine-psm"><div class="subject-icon" aria-hidden="true">PSM</div><div><div class="subject-name">Community Medicine</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_medicine_pyt_bank.html"><div class="subject-icon" aria-hidden="true">MD</div><div><div class="subject-name">Medicine</div><div class="subject-meta">460 MCQs · 215 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pediatrics_practice_bank.html"><div class="subject-icon" aria-hidden="true">PD</div><div><div class="subject-name">Pediatrics</div><div class="subject-meta">342 MCQs · 111 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=dermatology"><div class="subject-icon" aria-hidden="true">DE</div><div><div class="subject-name">Dermatology</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=psychiatry"><div class="subject-icon" aria-hidden="true">PSY</div><div><div class="subject-name">Psychiatry</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_surgery_pyt_bank.html"><div class="subject-icon" aria-hidden="true">SU</div><div><div class="subject-name">Surgery</div><div class="subject-meta">463 MCQs · 235 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=orthopedics"><div class="subject-icon" aria-hidden="true">OR</div><div><div class="subject-name">Orthopedics</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=radiodiagnosis"><div class="subject-icon" aria-hidden="true">RD</div><div><div class="subject-name">Radiodiagnosis</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=anaesthesiology"><div class="subject-icon" aria-hidden="true">ANES</div><div><div class="subject-name">Anaesthesiology</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=ophthalmology"><div class="subject-icon" aria-hidden="true">OPH</div><div><div class="subject-name">Ophthalmology</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_pyt_subject_bank.html?subject=ent"><div class="subject-icon" aria-hidden="true">ENT</div><div><div class="subject-name">ENT</div><div class="subject-meta">200 MCQs · 80 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
+      <a class="subject-card" href="neet_pg_obgyn_pyt_bank.html"><div class="subject-icon" aria-hidden="true">OBG</div><div><div class="subject-name">Obstetrics &amp; Gynaecology</div><div class="subject-meta">437 MCQs · 209 image/data questions</div></div><svg class="arrow" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></a>
     </div>
   </section>
-  <section class="summary" aria-label="PYT question bank summary">
-    <div class="stat"><strong>5</strong><span>Subjects</span></div>
-    <div class="stat"><strong>1035</strong><span>Total MCQs</span></div>
-    <div class="stat"><strong>475</strong><span>Image/data</span></div>
+  <section class="summary" aria-label="Question bank summary">
+    <div class="stat"><strong>19</strong><span>Subjects covered</span></div>
+    <div class="stat"><strong>4,835</strong><span>Total MCQs</span></div>
+    <div class="stat"><strong>1,995</strong><span>Image/data</span></div>
   </section>
 </main>
 <footer class="legal-footer">

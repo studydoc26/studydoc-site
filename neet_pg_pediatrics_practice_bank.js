@@ -1,5 +1,5 @@
 const DATA_URL = 'neet_pg_pediatrics_practice_bank_data.json';
-const REPORT_EXAM = 'NEET-PG Pediatrics Practice Bank';
+const REPORT_EXAM = 'NEET-PG Pediatrics PYT Bank';
 const REPORT_ENDPOINT = '/api/report';
 const STORAGE_KEY = 'studydoc_pediatrics_practice_attempts_v1';
 let DATA = [];
@@ -8,7 +8,7 @@ let subtopic = 'all';
 let imageOnly = false;
 const SUBTOPIC_ORDER = ["Neonatology", "Cardiology", "Genetics", "Haematology", "Oncology", "Infectious Disease", "Neurology", "Nephrology", "Endocrinology", "Respiratory", "Gastroenterology", "Nutrition", "Metabolic/IEM", "Immunology", "Rheumatology", "Emergency", "Orthopaedics", "Growth & Development", "Community Paediatrics", "Immunisation"];
 const $ = s => document.querySelector(s);
-const ITEM_KEYS = new Set(['number', 'subtopic', 'topic', 'question', 'options', 'answerIndex', 'correctAnswer', 'explanation', 'optionExplanations', 'images', 'references', 'year']);
+const ITEM_KEYS = new Set(['number', 'subtopic', 'topic', 'question', 'options', 'answerIndex', 'correctAnswer', 'explanation', 'optionExplanations', 'images', 'references', 'year', 'difficulty', 'integratedSubjects', 'sourceQuestionId']);
 const IMAGE_KEYS = new Set(['src', 'caption', 'credit', 'source', 'width', 'height']);
 
 function dataError(message) { throw new TypeError(`Invalid Pediatrics question data: ${message}`); }
@@ -219,9 +219,10 @@ function renderQuiz() {
     feedback = `<div class="feedback ${att.correct ? 'ok' : 'bad'}">${att.correct ? 'Correct.' : 'Wrong.'} Correct answer: ${escapeHtml(answerText(item))}</div>`;
     const optionNoteItems = (item.optionExplanations || []).map((note, idx) => ({ note: String(note || '').trim(), idx })).filter(entry => entry.note);
     const optionNotes = optionNoteItems.length ? `<div class="option-notes">${optionNoteItems.map(({note, idx}) => `<div class="option-note"><b>${String.fromCharCode(65 + idx)}.</b> ${escapeHtml(note)}</div>`).join('')}</div>` : '';
-    const imageAttributions = imageList(item).map((im, idx) => ({ idx, text: typeof im === 'object' ? [im.caption, im.credit].filter(Boolean).join(' \u2014 ') : '' })).filter(entry => entry.text);
-    const imageSources = imageAttributions.length ? `<div class="image-attributions"><h4>Image attribution</h4>${imageAttributions.map(({idx, text}) => `<div class="image-attribution"><b>Figure ${idx + 1}:</b> ${escapeHtml(text)}</div>`).join('')}</div>` : '';
-    explanation = `<div class="explanation"><h3>Why this is the answer</h3><p>${escapeHtml(item.explanation)}</p>${optionNotes}${imageSources}</div>`;
+    const imageAttributions = imageList(item).map((im, idx) => ({ idx, text: typeof im === 'object' ? [im.caption, im.credit].filter(Boolean).join(' \u2014 ') : '', source: typeof im === 'object' ? im.source : '' })).filter(entry => entry.text || entry.source);
+    const imageSources = imageAttributions.length ? `<div class="image-attributions"><h4>Image attribution</h4>${imageAttributions.map(({idx, text, source}) => `<div class="image-attribution"><b>Figure ${idx + 1}:</b> ${escapeHtml(text)}${source ? ` <a href="${escapeHtml(source)}" target="_blank" rel="noopener noreferrer">View source</a>` : ''}</div>`).join('')}</div>` : '';
+    const references = item.references.length ? `<div class="image-attributions"><h4>Guidance and references</h4><ul>${item.references.map(reference => `<li><a href="${escapeHtml(reference.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(reference.title)}</a></li>`).join('')}</ul></div>` : '';
+    explanation = `<div class="explanation"><h3>Why this is the answer</h3><p>${escapeHtml(item.explanation)}</p>${optionNotes}${imageSources}${references}</div>`;
   }
   const remaining = Math.max(items.length - current - 1, 0);
   const progress = items.length ? Math.round(((current + 1) / items.length) * 100) : 0;

@@ -39,6 +39,22 @@ function isSafeImagePath(path) {
   const resolved = new URL(path, pageBase);
   return resolved.origin === window.location.origin && resolved.pathname.startsWith(assetsBase.pathname) && !resolved.search && !resolved.hash;
 }
+function isSafeImage(image) {
+  if (typeof image === 'string') return isSafeImagePath(image);
+  if (!isPlainObject(image) || !isSafeImagePath(image.src)) return false;
+  for (const key of ['caption', 'credit', 'source']) if (image[key] !== undefined && typeof image[key] !== 'string') return false;
+  for (const key of ['width', 'height']) if (image[key] !== undefined && (!Number.isSafeInteger(image[key]) || image[key] < 1 || image[key] > 20000)) return false;
+  if (image.source) {
+    try { const url = new URL(image.source); if (url.protocol !== 'https:' || url.username || url.password) return false; }
+    catch { return false; }
+  }
+  return true;
+}
+function isSafeReference(reference) {
+  if (!isPlainObject(reference) || typeof reference.title !== 'string' || typeof reference.url !== 'string') return false;
+  try { const url = new URL(reference.url); return url.protocol === 'https:' && !url.username && !url.password; }
+  catch { return false; }
+}
 function validateQuestionData(value) {
   if (!Array.isArray(value)) throw new Error('Question data must be an array.');
   const seenNumbers = new Set();
@@ -51,7 +67,8 @@ function validateQuestionData(value) {
     if (!Array.isArray(item.options) || item.options.length === 0 || !item.options.every(option => typeof option === 'string')) throw new Error(`${label} has invalid options.`);
     if (!Number.isSafeInteger(item.answerIndex) || item.answerIndex < 0 || item.answerIndex >= item.options.length) throw new Error(`${label} has an invalid answer index.`);
     if (typeof item.explanation !== 'string') throw new Error(`${label} has an invalid explanation.`);
-    if (!Array.isArray(item.images) || !item.images.every(isSafeImagePath)) throw new Error(`${label} has an unsafe image path.`);
+    if (!Array.isArray(item.images) || !item.images.every(isSafeImage)) throw new Error(`${label} has an unsafe image record.`);
+    if (item.references !== undefined && (!Array.isArray(item.references) || !item.references.every(isSafeReference))) throw new Error(`${label} has invalid references.`);
     if (item.subtopic !== undefined && typeof item.subtopic !== 'string') throw new Error(`${label} has an invalid subtopic.`);
     if (item.optionExplanations !== undefined && (!Array.isArray(item.optionExplanations) || !item.optionExplanations.every(note => typeof note === 'string'))) throw new Error(`${label} has invalid option explanations.`);
   });
@@ -119,9 +136,21 @@ function resetAllProgress() {
 }
 function itemKey(item) { return String(item.number); }
 function imageList(item) { return item.images || []; }
+function imageSrc(image) { return typeof image === 'string' ? image : image.src; }
 function isImageBased(item) { return imageList(item).length > 0; }
 function escapeHtml(s) { return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])); }
 function answerText(item) { return `${String.fromCharCode(65 + item.answerIndex)}. ${item.options[item.answerIndex] || ''}`; }
+function evidenceHtml(item) {
+  const attributions = imageList(item).map((image, index) => {
+    if (typeof image === 'string') return '';
+    const text = [image.caption, image.credit].filter(Boolean).join(' — ');
+    const source = image.source ? ` <a href="${escapeHtml(image.source)}" target="_blank" rel="noopener noreferrer">View source</a>` : '';
+    return text || source ? `<div class="image-attribution"><b>Figure ${index + 1}:</b> ${escapeHtml(text)}${source}</div>` : '';
+  }).filter(Boolean);
+  const references = (item.references || []).map(reference => `<li><a href="${escapeHtml(reference.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(reference.title)}</a></li>`);
+  if (!attributions.length && !references.length) return '';
+  return `<div class="image-attributions">${attributions.length ? `<h4>Image attribution</h4>${attributions.join('')}` : ''}${references.length ? `<h4>Guidance and references</h4><ul>${references.join('')}</ul>` : ''}</div>`;
+}
 function reportPreviewHtml(item, practiceNumber, practiceTotal) { return `<strong>Question being reported</strong><div><span class="qrow-id">Q${practiceNumber}</span></div><div>${escapeHtml(item.question)}</div><ol type="A">${(item.options || []).map(opt => `<li>${escapeHtml(opt)}</li>`).join('')}</ol>`; }
 function populateSubtopics() {
   const subtopics = [...new Set(DATA.map(item => item.subtopic || 'Surgery').filter(Boolean))]
@@ -170,7 +199,7 @@ function renderQuiz() {
   const key = itemKey(item);
   const att = attempts.get(key);
   const imageNote = '';
-  const images = imageList(item).length ? `<div class="qimages">${imageList(item).map((src, i) => `<figure><img src="${escapeHtml(src)}" alt="Surgery PYT image ${i + 1} for question ${current + 1}"></figure>`).join('')}</div>` : '';
+  const images = imageList(item).length ? `<div class="qimages">${imageList(item).map((image, i) => `<figure><img src="${escapeHtml(imageSrc(image))}" alt="Surgery PYT image ${i + 1} for question ${current + 1}" loading="lazy"></figure>`).join('')}</div>` : '';
   const opts = item.options.map((opt, idx) => {
     let cls = '';
     if (att) cls = idx === item.answerIndex ? ' correct' : (idx === att.choice ? ' wrong' : '');
@@ -182,7 +211,7 @@ function renderQuiz() {
     feedback = `<div class="feedback ${att.correct ? 'ok' : 'bad'}">${att.correct ? 'Correct.' : 'Wrong.'} Correct answer: ${escapeHtml(answerText(item))}</div>`;
     const optionNoteItems = (item.optionExplanations || []).map((note, idx) => ({ note: String(note || '').trim(), idx })).filter(entry => entry.note);
     const optionNotes = optionNoteItems.length ? `<div class="option-notes">${optionNoteItems.map(({note, idx}) => `<div class="option-note"><b>${String.fromCharCode(65 + idx)}.</b> ${escapeHtml(note)}</div>`).join('')}</div>` : '';
-    explanation = `<div class="explanation"><h3>Why this is the answer</h3><p>${escapeHtml(item.explanation)}</p>${optionNotes}</div>`;
+    explanation = `<div class="explanation"><h3>Why this is the answer</h3><p>${escapeHtml(item.explanation)}</p>${optionNotes}${evidenceHtml(item)}</div>`;
   }
   const remaining = Math.max(items.length - current - 1, 0);
   const progress = items.length ? Math.round(((current + 1) / items.length) * 100) : 0;
