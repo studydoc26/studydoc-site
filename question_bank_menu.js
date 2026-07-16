@@ -3,28 +3,28 @@ class StudyQuestionBankMenu extends HTMLElement {
     if (this.dataset.ready === 'true') return;
     this.dataset.ready = 'true';
     const subjects = [
-      ['Anatomy', 'neet_pg_pyt_subject_bank.html?subject=anatomy', '200 · 80 image/data'],
-      ['Physiology', 'neet_pg_physiology_practice_bank.html', '333 · 105 image/data'],
-      ['Biochemistry', 'neet_pg_pyt_subject_bank.html?subject=biochemistry', '200 · 80 image/data'],
-      ['Pathology', 'neet_pg_pyt_subject_bank.html?subject=pathology', '200 · 80 image/data'],
-      ['Pharmacology', 'neet_pg_pyt_subject_bank.html?subject=pharmacology', '200 · 80 image/data'],
-      ['Microbiology', 'neet_pg_pyt_subject_bank.html?subject=microbiology', '200 · 80 image/data'],
-      ['Forensic Medicine', 'neet_pg_pyt_subject_bank.html?subject=forensic-medicine', '200 · 80 image/data'],
-      ['Community Medicine (PSM)', 'neet_pg_pyt_subject_bank.html?subject=community-medicine-psm', '200 · 80 image/data'],
-      ['Medicine', 'neet_pg_medicine_pyt_bank.html', '460 · 215 image/data'],
-      ['Pediatrics', 'neet_pg_pediatrics_practice_bank.html', '342 · 111 image/data'],
-      ['Dermatology', 'neet_pg_pyt_subject_bank.html?subject=dermatology', '200 · 80 image/data'],
-      ['Psychiatry', 'neet_pg_pyt_subject_bank.html?subject=psychiatry', '200 · 80 image/data'],
-      ['Surgery', 'neet_pg_surgery_pyt_bank.html', '463 · 235 image/data'],
-      ['Orthopedics', 'neet_pg_pyt_subject_bank.html?subject=orthopedics', '200 · 80 image/data'],
-      ['Radiodiagnosis', 'neet_pg_pyt_subject_bank.html?subject=radiodiagnosis', '200 · 80 image/data'],
-      ['Anaesthesiology', 'neet_pg_pyt_subject_bank.html?subject=anaesthesiology', '200 · 80 image/data'],
-      ['Ophthalmology', 'neet_pg_pyt_subject_bank.html?subject=ophthalmology', '200 · 80 image/data'],
-      ['ENT', 'neet_pg_pyt_subject_bank.html?subject=ent', '200 · 80 image/data'],
-      ['Obstetrics & Gynaecology', 'neet_pg_obgyn_pyt_bank.html', '437 · 209 image/data']
+      ['Anatomy', 'neet_pg_pyt_subject_bank.html?subject=anatomy'],
+      ['Physiology', 'neet_pg_physiology_practice_bank.html'],
+      ['Biochemistry', 'neet_pg_pyt_subject_bank.html?subject=biochemistry'],
+      ['Pathology', 'neet_pg_pyt_subject_bank.html?subject=pathology'],
+      ['Pharmacology', 'neet_pg_pyt_subject_bank.html?subject=pharmacology'],
+      ['Microbiology', 'neet_pg_pyt_subject_bank.html?subject=microbiology'],
+      ['Forensic Medicine', 'neet_pg_pyt_subject_bank.html?subject=forensic-medicine'],
+      ['Community Medicine (PSM)', 'neet_pg_pyt_subject_bank.html?subject=community-medicine-psm'],
+      ['Medicine', 'neet_pg_medicine_pyt_bank.html'],
+      ['Pediatrics', 'neet_pg_pediatrics_practice_bank.html'],
+      ['Dermatology', 'neet_pg_pyt_subject_bank.html?subject=dermatology'],
+      ['Psychiatry', 'neet_pg_pyt_subject_bank.html?subject=psychiatry'],
+      ['Surgery', 'neet_pg_surgery_pyt_bank.html'],
+      ['Orthopedics', 'neet_pg_pyt_subject_bank.html?subject=orthopedics'],
+      ['Radiodiagnosis', 'neet_pg_pyt_subject_bank.html?subject=radiodiagnosis'],
+      ['Anaesthesiology', 'neet_pg_pyt_subject_bank.html?subject=anaesthesiology'],
+      ['Ophthalmology', 'neet_pg_pyt_subject_bank.html?subject=ophthalmology'],
+      ['ENT', 'neet_pg_pyt_subject_bank.html?subject=ent'],
+      ['Obstetrics & Gynaecology', 'neet_pg_obgyn_pyt_bank.html']
     ];
-    const subjectLinks = subjects.map(([name, href, meta]) => `
-      <a class="qb-menu-subject" href="${href}"><b>${name}</b><small>${meta}</small></a>`).join('');
+    const subjectLinks = subjects.map(([name, href]) => `
+      <a class="qb-menu-subject" href="${href}"><b>${name}</b></a>`).join('');
     this.innerHTML = `
       <details class="qb-menu">
         <summary aria-label="Open all 19 PYT question-bank subjects">
@@ -33,7 +33,7 @@ class StudyQuestionBankMenu extends HTMLElement {
           <span class="qb-menu-caret" aria-hidden="true">&#9662;</span>
         </summary>
         <div class="qb-menu-panel">
-          <a class="qb-menu-all" href="pyt_based_question_bank.html"><b>PYT-Based Question Bank</b><small>19 subjects · 4,835 MCQs · 1,995 image/data</small></a>
+          <a class="qb-menu-all" href="pyt_based_question_bank.html"><b>All PYT banks</b><small>4,835 questions</small></a>
           <div class="qb-menu-subjects" aria-label="All 19 question-bank subjects">${subjectLinks}</div>
         </div>
       </details>`;
