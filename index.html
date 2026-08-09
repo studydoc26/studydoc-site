@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>StudyDoc — NEET-PG, INICET &amp; FMGE Practice</title>
-<meta name="description" content="Previous year questions (PYQs), a 19-subject PYT-based question bank, and curated PDFs for NEET-PG, INICET and FMGE.">
+<meta name="description" content="Free PDF resources, previous year questions (PYQs), and a 19-subject PYT-based question bank for NEET-PG, INICET and FMGE.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--ink:#0F172A;--bg:#F6F7FB;--accent:#4F46E5;--accent-d:#4338CA;--teal:#2DD4BF;--panel:#0F172A;--tile:#1E293B}
@@ -111,7 +111,7 @@ a{color:var(--accent);text-decoration:none}
 /* Study cards */
 .scard{display:flex;gap:22px;align-items:flex-start;border-radius:16px;padding:28px;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
 .scard:hover{transform:translateY(-4px)}
-.scard-pdf{background:var(--accent);color:var(--bg)}
+.scard-pdf{grid-column:1/-1;align-items:center;background:var(--accent);color:var(--bg);padding:34px}
 .scard-pdf:hover{box-shadow:0 18px 36px -18px #4F46E599}
 .scard-q{background:#fff;border:1px solid #0F172A26;color:var(--ink)}
 .scard-q:hover{box-shadow:0 18px 36px -18px #0F172A4D;border-color:#4F46E566}
@@ -124,7 +124,7 @@ a{color:var(--accent);text-decoration:none}
 .scard-menu-wrap:hover,.scard-menu-wrap:focus-within{z-index:8}
 .scard-menu-wrap:hover .scard-q,.scard-menu-wrap:focus-within .scard-q{box-shadow:0 18px 36px -18px #0F172A4D;border-color:#4F46E566;transform:translateY(-4px)}
 .scard-menu-wrap:hover .qbank-subjects,.scard-menu-wrap:focus-within .qbank-subjects{max-height:116px;opacity:1;pointer-events:auto;margin-top:14px}
-.scard-video{grid-column:1/-1;background:var(--panel);color:var(--bg)}
+.scard-video{background:var(--panel);color:var(--bg)}
 .scard-video:hover{box-shadow:0 18px 36px -18px #0F172A80}
 .scard-ic{font-family:'Instrument Serif',serif;font-size:30px;line-height:1;border-radius:12px;width:58px;height:58px;display:grid;place-items:center;flex-shrink:0}
 .scard-pdf .scard-ic{border:1px solid #F6F7FB4D}
@@ -281,11 +281,11 @@ a{color:var(--accent);text-decoration:none}
   <div class="hero-l">
     <div class="eyebrow mono"><span class="ln"></span>NEET-PG · INICET · FMGE</div>
     <h1 class="hero-h1 serif">Practice like it's <em>exam day,</em> every day.</h1>
-    <p class="hero-p">Previous year questions, a topic-wise PYT question bank, and curated PDFs — the full workup for your PG entrance, in one place. No fluff, just the questions that keep coming back.</p>
+    <p class="hero-p">Free PDF resources, previous year questions, and a topic-wise PYT question bank — the full workup for your PG entrance, in one place.</p>
     <div class="cta">
-      <a class="btn-p" href="neet_pg_recall_quiz.html">Start NEET-PG PYQs →</a>
-      <a class="btn-g" href="pyt_based_question_bank.html">Browse the question bank</a>
-      <a class="btn-g" href="video_atlas.html">Open video atlas</a>
+      <a class="btn-p" href="resources.html">Browse free resources →</a>
+      <a class="btn-g" href="neet_pg_recall_quiz.html">Start NEET-PG PYQs</a>
+      <a class="btn-g" href="pyt_based_question_bank.html">Question bank</a>
     </div>
   </div>
   <div class="hero-r">
@@ -301,7 +301,7 @@ a{color:var(--accent);text-decoration:none}
         <div class="vstat"><div class="n">3,115</div><div class="l mono">PYQ MCQs</div></div>
         <div class="vstat"><div class="n">4,835</div><div class="l mono">QBank MCQs</div></div>
         <div class="vstat"><div class="n">1,995</div><div class="l mono">Image/data Qs</div></div>
-        <div class="vstat"><div class="n">3</div><div class="l mono">Exams · PG &amp; FMGE</div></div>
+        <div class="vstat"><div class="n">64</div><div class="l mono">Curated PDFs</div></div>
         <div class="vstat"><div class="n">2021–26</div><div class="l mono">Years covered</div></div>
         <div class="vstat"><div class="n" style="color:#2DD4BF">₹0</div><div class="l mono">Free to practice</div></div>
       </div>
@@ -320,39 +320,17 @@ a{color:var(--accent);text-decoration:none}
 <section class="sec wrap">
   <div class="sec-hd">
     <span class="sec-tag mono">SEC 01</span>
-    <h2 class="sec-h2 serif">Previous year questions</h2>
+    <h2 class="sec-h2 serif">Free study resources</h2>
     <span class="sec-rule"></span>
-    <span class="sec-note mono">sorted by exam · year · subject</span>
-  </div>
-  <div class="grid2">
-    <a class="rcard" href="neet_pg_recall_quiz.html">
-      <div class="rcard-top"><span class="badge badge-solid mono">Most attempted</span><span class="rcard-arrow">→</span></div>
-      <div class="rcard-title">NEET-PG</div>
-      <div class="rcard-desc">Real previous-year MCQs from exam papers — the closest thing to reattempting the paper.</div>
-      <div class="chips mono"><span class="chip">1,041 questions</span><span class="chip">2021–2025</span></div>
-    </a>
-    <a class="rcard" href="fmge_quiz.html">
-      <div class="rcard-top"><span class="badge badge-outline mono">Largest bank</span><span class="rcard-arrow">→</span></div>
-      <div class="rcard-title">FMGE</div>
-      <div class="rcard-desc">Ten sessions of screening-exam PYQs, December 2021 through July 2026.</div>
-      <div class="chips mono"><span class="chip">2,074 questions</span><span class="chip">Dec 2021 – Jul 2026</span></div>
-    </a>
-  </div>
-</section>
-
-<section class="sec-2 wrap">
-  <div class="sec-hd">
-    <span class="sec-tag mono">SEC 02</span>
-    <h2 class="sec-h2 serif">Targeted study material</h2>
-    <span class="sec-rule"></span>
+    <span class="sec-note mono">64 PDFs · 19 subject folders · 200 videos</span>
   </div>
   <div class="grid2">
     <a class="scard scard-pdf" href="resources.html">
       <div class="scard-ic">℞</div>
       <div>
-        <div class="scard-row"><div class="scard-ttl">PDF resources</div><span class="scard-tag mono">Freshly stocked</span></div>
-        <div class="scard-desc">NEET-PG &amp; INICET PDFs, PYQ analysis and revision sheets — download and revise offline.</div>
-        <div class="scard-go mono">Browse PDFs →</div>
+        <div class="scard-row"><div class="scard-ttl">Free PDF Resources</div><span class="scard-tag mono">NEET-PG + INICET</span></div>
+        <div class="scard-desc">48 NEET-PG PDFs arranged into 19 subject folders, plus Recent Advances for NEET-PG '26, PYT revision, most-asked topics, clinical atlases, and 16 INICET PDFs.</div>
+        <div class="scard-go mono">Explore the resource library →</div>
       </div>
     </a>
     <div class="scard-menu-wrap">
@@ -373,6 +351,29 @@ a{color:var(--accent);text-decoration:none}
         <div class="scard-desc">Clinical signs, examination findings, ultrasound clips and emergency procedures with in-page YouTube playback and exam hooks.</div>
         <div class="scard-go mono">Open the atlas →</div>
       </div>
+    </a>
+  </div>
+</section>
+
+<section class="sec-2 wrap">
+  <div class="sec-hd">
+    <span class="sec-tag mono">SEC 02</span>
+    <h2 class="sec-h2 serif">Previous year questions</h2>
+    <span class="sec-rule"></span>
+    <span class="sec-note mono">sorted by exam · year · subject</span>
+  </div>
+  <div class="grid2">
+    <a class="rcard" href="neet_pg_recall_quiz.html">
+      <div class="rcard-top"><span class="badge badge-solid mono">Most attempted</span><span class="rcard-arrow">→</span></div>
+      <div class="rcard-title">NEET-PG</div>
+      <div class="rcard-desc">Real previous-year MCQs from exam papers — the closest thing to reattempting the paper.</div>
+      <div class="chips mono"><span class="chip">1,041 questions</span><span class="chip">2021–2025</span></div>
+    </a>
+    <a class="rcard" href="fmge_quiz.html">
+      <div class="rcard-top"><span class="badge badge-outline mono">Largest bank</span><span class="rcard-arrow">→</span></div>
+      <div class="rcard-title">FMGE</div>
+      <div class="rcard-desc">Ten sessions of screening-exam PYQs, December 2021 through July 2026.</div>
+      <div class="chips mono"><span class="chip">2,074 questions</span><span class="chip">Dec 2021 – Jul 2026</span></div>
     </a>
   </div>
 </section>
