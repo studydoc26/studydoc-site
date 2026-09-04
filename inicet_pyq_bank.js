@@ -1,5 +1,5 @@
 const DATA_URL = 'inicet_pyq_bank_data.json';
-const YEARS = ["2021", "2022"];
+const YEARS = ["2021", "2022", "2023"];
 const SUBJECTS = ["Anatomy", "Physiology", "Biochemistry", "Pharmacology", "Pathology", "Microbiology", "Forensic medicine & toxicology", "PSM", "ENT", "Ophthalmology", "Medicine", "Surgery", "ObGy", "Pediatrics", "Orthopedics", "Anesthesia", "Radiology", "Dermatology", "Psychiatry"];
 let year = (function(){
   const p = new URLSearchParams(window.location.search).get('year');
@@ -80,7 +80,7 @@ function normalizeQuestion(raw, index) {
   validateKnownKeys(raw, ITEM_KEYS, field);
   if (!YEARS.includes(raw.year)) dataError(`${field}.year`);
   if (!Number.isSafeInteger(raw.number) || raw.number < 1 || raw.number > 10000) dataError(`${field}.number`);
-  if (!Array.isArray(raw.options) || raw.options.length !== 4) dataError(`${field}.options`);
+  if (!Array.isArray(raw.options) || raw.options.length < 4 || raw.options.length > 6) dataError(`${field}.options`);
   const options = Object.freeze(raw.options.map((option, optionIndex) => readString(option, `${field}.options[${optionIndex}]`, 5000)));
   if (!Number.isSafeInteger(raw.answerIndex) || raw.answerIndex < 0 || raw.answerIndex >= options.length) dataError(`${field}.answerIndex`);
   const imageRef = raw.imageRef === undefined ? false : raw.imageRef;

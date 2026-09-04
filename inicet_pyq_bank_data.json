@@ -16346,5 +16346,1846 @@
   "images": [],
   "imageRef": false,
   "explanation": "Orthopnea, paroxysmal nocturnal dyspnea (waking with breathlessness), and hepatic congestion leading to RUQ pain are all signs of heart failure"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 1,
+  "question": "A girl from the village was found dead in the lake and was taken out. It is a case of antemortem drowning. All are true about this case except?",
+  "options": [
+   "Water in the stomach",
+   "Froth on nose and mouth",
+   "Washerman hand and finger",
+   "Diatoms test positive",
+   "Cadaveric spasm in hand muscle"
+  ],
+  "answerIndex": 2,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Washerman hand and finger develop after prolonged immersion, usually postmortem, whereas findings like water in the stomach and froth are typical of antemortem drowning"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 2,
+  "question": "Drunk man presented with alcoholic smell and congested conjunctiva and normal motor functions (walking normally). Which of the following is correct?",
+  "options": [
+   "Drunk but not influenced by alcohol",
+   "Drunk but influenced by alcohol",
+   "Drunk",
+   "Not drunk"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The presence of alcoholic smell and congested conjunctiva with normal motor function suggests the person is under the influence of alcohol"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 3,
+  "question": "The bitter taste of toxic substances prevents us from its consumption, which of the following elicits the bitterness?",
+  "options": [
+   "Aldehyde",
+   "Amino acids",
+   "Alkaloids",
+   "Hydrogen ions"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Alkaloids are responsible for the bitter taste, serving as a natural warning against consuming potentially toxic substances"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 4,
+  "question": "Identify the following image?",
+  "options": [
+   "Hinderer's line",
+   "Langer's lines",
+   "Blaschko lines",
+   "Dermatomes"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q4_b7e3d7d300.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Langer’s lines represent skin tension lines important for surgical incisions and forensic analysis, as they affect wound healing"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 5,
+  "question": "Which is responsible for fetal heart rate acceleration?",
+  "options": [
+   "Carotid baroreceptor",
+   "Aortic baroreceptor",
+   "Autonomic function of brainstem",
+   "Chemoreceptors"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The autonomic function of the fetal brainstem is primarily responsible for heart rate acceleration in response to stimuli"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 6,
+  "question": "A South Indian male farmer presents to the ENT OPD with complaints of reddish mass coming out from the nose as shown in the image below and the histopathology examination is also given below. What is the likely diagnosis?",
+  "options": [
+   "Rhinosporidiosis",
+   "Rhinoscleroma",
+   "Rhinophyma",
+   "Nasal polyp"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q6_cecf0579bd.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Rhinosporidiosis is a chronic granulomatous infection caused by Rhinosporidium seeberi, presenting as polypoidal nasal masses"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 7,
+  "question": "Windkessel effect is not shown by which of the following vessel?",
+  "options": [
+   "Aorta",
+   "Renal",
+   "Radial",
+   "Abdominal"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The Windkessel effect is seen in large elastic arteries like the aorta, not in smaller muscular arteries such as the radial artery"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 8,
+  "question": "A 27 years old female presents with thyroid swelling that compresses the nearby structures. Which of the following symptom is not seen in this patient?",
+  "options": [
+   "Hoarseness of voice due to recurrent laryngeal nerve compression",
+   "Dysphagia due to oesophagus compression",
+   "Superior vena cava syndrome",
+   "None of the above"
+  ],
+  "answerIndex": 2,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Superior vena cava syndrome is not a typical complication of thyroid swelling; it is more commonly due to mediastinal masses"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 9,
+  "question": "Blackfoot disease with peripheral neuropathy is seen in which metal poisoning?",
+  "options": [
+   "Arsenic",
+   "Lead",
+   "Mercury",
+   "Cadmium"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Chronic arsenic poisoning is associated with Blackfoot disease, a form of peripheral vascular disease and neuropathy"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 10,
+  "question": "Cystic fibrosis leads to defect in which of the following channels?",
+  "options": [
+   "Na+",
+   "Ca2+",
+   "Cl-",
+   "K+"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Cystic fibrosis is caused by mutations in the CFTR gene, leading to defective chloride ion channels"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 11,
+  "question": "Find the correct Auditory pathway sequence.",
+  "options": [
+   "Eight nerve → cochlear nuclei → superior olivary nucleus → lateral lemniscus → inferior colliculus",
+   "Cochlear nuclei → superior olivary nucleus → lateral lemniscus → inferior colliculus → medial",
+   "Superior olivary nucleus → lateral lemniscus → inferior colliculus → medial geniculate body →",
+   "Superior olivary nucleus → inferior colliculus → medial geniculate body → auditory cortex → Eight"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "This is the correct physiological sequence of the auditory pathway from the periphery to the brain"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 12,
+  "question": "Which of the following is an incorrect match?",
+  "options": [
+   "Gastrin - G cells from stomach",
+   "Motilin - M cells from duodenum and jejunum",
+   "CCK - I cells of duodenum and pancreas",
+   "Secretin - S cells of duodenum and jejunum"
+  ],
+  "answerIndex": 1,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "While Motilin is secreted by M cells, its primary source is the duodenum and jejunum. This match is often considered incorrect in standard physiology contexts"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 13,
+  "question": "Which of the following has maximum thermogenic effect?",
+  "options": [
+   "Fat",
+   "Protein",
+   "Carbohydrates",
+   "All have same effect"
+  ],
+  "answerIndex": 1,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Protein has the highest thermogenic (specific dynamic) effect, increasing energy expenditure more than fat or carbohydrates"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 14,
+  "question": "A 14-year-old female patient presents to the ENT OPD and complains that she can hear the sound, but is unable to understand the meaning. Her Pure tone audiometry and ABR are normal. What is the likely diagnosis in this patient?",
+  "options": [
+   "Malingering",
+   "Auditory cortex lesion",
+   "Mixed transcortical aphasia",
+   "Wernicke’s aphasia"
+  ],
+  "answerIndex": 3,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Wernicke’s aphasia is characterized by fluent but nonsensical speech and poor comprehension, despite normal hearing tests (PTA/ABR)"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 15,
+  "question": "Arrange the following parts of sarcomere from periphery to center: 1. Z line, 2. M line, 3. A band, 4. H zone",
+  "options": [
+   "1, 3, 4,",
+   "4, 2, 3,",
+   "2, 3, 4,",
+   "3, 1, 4,"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The correct order from periphery to center is Z line, A band, H zone, and finally the M line"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 16,
+  "question": "Blood pressure changes in radial artery were measured. Which of the following is the reason for initial raise in BP while performing Valsalva maneuver?",
+  "options": [
+   "Increase in Left ventricular volume",
+   "Increase in Left ventricular pressure",
+   "Increase in aortic pressure",
+   "Decrease in aortic pressure"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q16_d26f22ad59.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The initial rise in BP during the Valsalva maneuver is specifically due to increased aortic pressure"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 17,
+  "question": "Assertion: RMP depends on proteins and phosphate ions. Reason: Diffusion potential can be calculated using Nernst equation. Choose the best statement regarding the assertion and reason.",
+  "options": [
+   "Both true, Reason is not the explanation of assertion",
+   "Assertion true",
+   "Both true, Reason is the explanation of assertion",
+   "Reason true"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "RMP depends on proteins and phosphate ions, and the Nernst equation is the standard method used to calculate these diffusion potentials. INI CET 2023 Answer Key PDF"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 18,
+  "question": "CO poisoning causes which type of hypoxia?",
+  "options": [
+   "Anemic hypoxia",
+   "Hypoxic hypoxia",
+   "Stagnant hypoxia",
+   "Histotoxic hypoxia"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "CO poisoning causes anemic hypoxia by reducing the overall oxygen-carrying capacity of hemoglobin"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 19,
+  "question": "A 40-year-old man presents with daytime sleepiness and impaired concentration and memory. On examination his BMI is 41 kg/m2, BP is 160/100 mmHg. His awake ABG analysis is given: PaO2 = 66 mm Hg, PaCO2 = 50 mm Hg, HCO3 = mEq/L. What is the most likely diagnosis?",
+  "options": [
+   "Obstructive sleep apnea",
+   "Narcolepsy",
+   "Obesity hypoventilation syndrome",
+   "Central sleep apnea"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "This syndrome is characterized by obesity (high BMI), daytime hypoventilation, and sleep-disordered breathing"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 20,
+  "question": "A 35-year-old female presents with skin thickening and muscle weakness. Her peripheries became pale on exposure to cold. Her ANA pos, creatine kinase is increased, scl-70 pos and perifascicular infiltration is noted in biopsy. What is the antibody associated with this condition?",
+  "options": [
+   "Anti PMscl antibody",
+   "Anti Jo1 antibody",
+   "Anticentromere antibody",
+   "Antinuclear antibody"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Anti-PM-Scl antibody is specifically associated with overlap syndrome involving both scleroderma and polymyositis"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 21,
+  "question": "What is the possible cause of irreversible dementia?",
+  "options": [
+   "NPH",
+   "Hypothyroid",
+   "Lewy body",
+   "Vitamin B12 deficiency"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Lewy body dementia is an irreversible cause of dementia, while the others listed are potentially reversible"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 22,
+  "question": "All of the following are tests done for Turner mosaic screening except?",
+  "options": [
+   "ANA",
+   "Audiometry",
+   "Echo",
+   "GTT"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Antinuclear antibody (ANA) testing is not a relevant screening test for Turner syndrome or Turner mosaicism"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 23,
+  "question": "With the lack of CD40 in B cells, which immunological abnormality is seen?",
+  "options": [
+   "Total lack of NK cells",
+   "Lack of CD8 mediated cytotoxicity",
+   "Decreased IgG and increase in IgM",
+   "Inability of neutrophil against infections"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A lack of CD40 leads to Hyper IgM syndrome, characterized by a failure to class-switch, resulting in low IgG and high IgM"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 24,
+  "question": "What is the correct order for cardiac auscultation on the left side, from superior to inferior?",
+  "options": [
+   "Pulmonary > Aortic > Mitral",
+   "Aortic > Pulmonary > Mitral",
+   "Mitral > Aortic > Pulmonary",
+   "Mitral > Pulmonary > Aortic"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "This represents the correct order for cardiac auscultation on the left side, moving from superior to inferior"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 25,
+  "question": "Match the following: | Disease/Condition | Feature/Finding | | :--- | :--- | | A) Caplan syndrome | 1) Found first in coal worker | | B) Asbestosis | 2) Crazy pavement | | C) Mesothelioma | 3) Involves lower lobe | | D) Sarcoidosis | 4) Pleural effusion is seen | Options:",
+  "options": [
+   "A-1, B-4, C-3, D-2",
+   "A-4, B-2, C-3, D-1",
+   "A-3, B-4, C-2, D-1",
+   "A-2, B-4, C-3, D-1"
+  ],
+  "answerIndex": 3,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Match: Caplan syndrome (coal worker), Asbestosis (pleural effusion), Mesothelioma (lower lobe), Sarcoidosis (crazy pavement)"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 26,
+  "question": "Which of the following statements given below is incorrect regarding CPR?",
+  "options": [
+   "Depth of chest compression up to 5-6 cm",
+   "Allow adequate chest recoil",
+   "Ventilation 22-25/min",
+   "Chest compression rate 100-120/min"
+  ],
+  "answerIndex": 2,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "During adult CPR, a rate of 22–25/min is incorrect and excessive; the correct rate is about 10–12/min"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 27,
+  "question": "A 30-year-old man came with complaints of fever and cough for 3 days. On examination, SPO2 is 98% RA, BP=110/70 mm Hg. Chest-x ray shows diffuse consolidation on both lungs. Nasopharyngeal swab shows Rhinovirus. Which antibiotics are suitable for this patient?",
+  "options": [
+   "Ceftazidime + Azithromycin",
+   "Ceftriaxone",
+   "Ceftriaxone + Levofloxacin",
+   "Piptaz + Ciprofloxacin"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Viral pneumonia (rhinovirus) typically doesn't need antibiotics, but Azithromycin is added if bacterial co-infection is suspected"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 28,
+  "question": "A 35 year old male patient with schizophrenia is being treated with clozapine. The patient has to undergo regular blood monitoring because of which side effect?",
+  "options": [
+   "Agranulocytosis",
+   "Myocarditis",
+   "Cerebral bleed",
+   "Seizures"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Clozapine can cause agranulocytosis, requiring mandatory and regular blood count monitoring"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 29,
+  "question": "Patient of pneumonia on ventilator with wt.-50kg, RR 14/min, bicarbonate-18, pH 7.3, pCO2 48 mmHg, pO2 110 mmHg, PEEP 12 cmH2O, tidal volume 420 mL, Spo2-100% with FiO2 90%. What is next step in management?",
+  "options": [
+   "Increase PEEP",
+   "Decrease FiO2",
+   "Decrease RR",
+   "Increase tidal volume"
+  ],
+  "answerIndex": 1,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "FiO2 should be decreased to avoid oxygen toxicity since the patient is already perfectly oxygenated (SpO2 100%)"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 30,
+  "question": "A female patient with diabetes was given some oral drug which reduced her HbA1c from 7.6 to 6.7. The patient had high GIP and GLP1 levels with low glucagon levels. The drug given to the patient is?",
+  "options": [
+   "Liraglutide",
+   "Pramlintide",
+   "Voglibose",
+   "Sitagliptin"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sitagliptin is a DPP-4 inhibitor that increases incretin hormones (GIP, GLP-1) and lowers glucagon"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 31,
+  "question": "A patient presented with complaints of pain in the flank region with hematuria. On investigation, X-ray shows multiple calcification (stones) in both kidneys. What is the probable diagnosis?",
+  "options": [
+   "Parathyroid Adenoma",
+   "Renal calculi",
+   "Polycystic kidney disease",
+   "CKD"
+  ],
+  "answerIndex": 1,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Multiple calcifications seen on X-ray in the flank region are characteristic of kidney stones (nephrolithiasis)"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 32,
+  "question": "A female patient presented with vulvovaginal pruritis. On detailed history taking, it was found that she was on some antidiabetic drugs. Which antidiabetic drug can cause the above- mentioned side effect?",
+  "options": [
+   "Canagliflozin",
+   "Metformin",
+   "Linagliptin",
+   "Liraglutide"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "SGLT2 inhibitors like Canagliflozin increase urinary glucose, which predisposes patients to genital mycotic infections and pruritis"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 33,
+  "question": "A new monoclonal antibody approved for Rett syndrome is?",
+  "options": [
+   "Trofinetide",
+   "Folinic acid",
+   "L-carnitine",
+   "Naltrexone"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Trofinetide is a new monoclonal antibody specifically approved for the treatment of Rett syndrome"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 34,
+  "question": "Which of the following ribs are fractured in the X-ray given below?",
+  "options": [
+   "1",
+   "3",
+   "6",
+   "7"
+  ],
+  "answerIndex": 2,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q34_5a7b2953ba.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The provided radiological image demonstrates a fracture of the 6th rib"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 35,
+  "question": "Keynotes trial 189 for pembrolizumab and nivolumab is done for?",
+  "options": [
+   "Pembrolizumab with chemo given for NSCLC",
+   "Nivolumab with chemo given for NSCLC",
+   "Only Pembrolizumab for NSCLC",
+   "Only nivolumab for NSCLC"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The Keynote 189 trial studied the efficacy of pembrolizumab in combination with chemotherapy for non-small cell lung cancer"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 36,
+  "question": "What is the name of the test performed in the image given below?",
+  "options": [
+   "Allen test",
+   "Adson test",
+   "Barbeau test",
+   "Homan’s test"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q36_ed787f1e48.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The Allen test is used to assess the arterial blood supply to the hand, usually before radial artery cannulation"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 37,
+  "question": "A man presents with a rash on his flank with itching for the past 2 weeks. The patient has tried several over-the-counter medications, including lotrimin and hydrocortisone, without any improvement. In physical examination, the rash is seen on his palms and the sole of one foot, but no oral lesions are found. What is the likely diagnosis?",
+  "options": [
+   "Urticaria",
+   "Viral exanthem",
+   "Erythema multiforme",
+   "Tinea corporis"
+  ],
+  "answerIndex": 2,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q37_d7a67672ab.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Erythema multiforme typically presents with \"target\" or \"iris\" lesions on the palms and soles"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 38,
+  "question": "Which of the following is true about clinical therapeutic index?",
+  "options": [
+   "Therapeutic index is ED50/LD50",
+   "Dose in which efficacy and toxicity can be balanced in an individual",
+   "Measures therapeutic index in a population vs individual",
+   "It is only used for specific individual"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The clinical therapeutic index refers to the specific dose range that balances efficacy and toxicity for an individual patient"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 39,
+  "question": "Match the following Wood's lamp findings: | Condition | Finding | | :--- | :--- | | 1. Erythrasma | a. Yellow | | 2. Pityriasis versicolor | b. Coral red | | 3. Tinea capitis | c. Milky white | | 4. Vitiligo | d. Green | Options:",
+  "options": [
+   "1-b, 2-a, 3-d, 4-c",
+   "1-b, 2-d, 3-a, 4-c",
+   "1-d, 2-a, 3-c, 4-b",
+   "1-a, 2-c, 3-e, 4-d"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Match: Erythrasma (coral red), Pityriasis versicolor (yellow), Tinea capitis (green), and Vitiligo (milky white) under Wood's lamp"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 40,
+  "question": "What is the treatment for HER-2 positive trastuzumab resistant breast cancer?",
+  "options": [
+   "Lapatinib",
+   "Sorafenib",
+   "Vemurafenib",
+   "Erlotinib"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Lapatinib is used specifically for HER-2 positive breast cancer that has become resistant to trastuzumab"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 41,
+  "question": "Which nomogram scale is used for vancomycin dosage?",
+  "options": [
+   "Hallstead scale",
+   "Salazar scale",
+   "Rumack Matthew nomogram",
+   "Matzke scale"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The Matzke scale is a nomogram used for adjusting the dosage of vancomycin based on renal function"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 42,
+  "question": "A patient on anti-PD1 immunotherapy (nivolumab) comes with pruritis, eczema, and urticarial rashes. Histopathological examination reveals a subepidermal blister and direct immunofluorescence of the lesions showed linear C3 and IgG on basement membrane. What is the diagnosis?",
+  "options": [
+   "Dermatitis herpetiformis",
+   "Pemphigus vulgaris",
+   "Pemphigus foliaceous",
+   "Bullous Pemphigoid"
+  ],
+  "answerIndex": 3,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The histopathology (subepidermal blister) and linear C3/IgG on the basement membrane are diagnostic for Bullous Pemphigoid"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 43,
+  "question": "Osimertinib is used in NSCLC with mutation due to",
+  "options": [
+   "L858R mutation",
+   "T890M mutation",
+   "T790M mutation",
+   "M790T mutation"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Osimertinib is specifically used to treat NSCLC patients who have developed the T790M EGFR resistance mutation"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 44,
+  "question": "A 40 year male patient presented to the ER with a history of fall and C/O pain and swelling in right shoulder region. The x-ray of the patient suggests tear in which of the following ligament?",
+  "options": [
+   "Coracoclavicular ligament",
+   "Acromioclavicular ligament",
+   "Both the above",
+   "Glenohumeral ligament"
+  ],
+  "answerIndex": 2,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q44_9e47ddf36c.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "In this injury pattern, both the coracoclavicular and acromioclavicular ligaments are typically torn"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 45,
+  "question": "Match the following? | Receptor | Drug | | :--- | :--- | | a. Beta1 | 1. Mirabegron | | b. Beta2 | 2. Betaxolol | | c. Beta3 | 3. Isoprenaline | Options:",
+  "options": [
+   "a-2, b-1, c-3",
+   "a-3, b-1, c-2",
+   "a-2, b-3, c-1",
+   "a-3, b-2, c-1"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Match: Beta1 (Betaxolol), Beta2 (Isoprenaline), and Beta3 (Mirabegron)"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 46,
+  "question": "Non-scarring alopecia is associated with all except?",
+  "options": [
+   "Alopecia areata",
+   "Androgenetic alopecia",
+   "Frontal fibrosing alopecia",
+   "Telogen effluvium"
+  ],
+  "answerIndex": 2,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Frontal fibrosing alopecia is a scarring type of hair loss, whereas the others listed are non-scarring"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 47,
+  "question": "A 14 year old male presents with mushroom like tumor in the distal femur for past 2 years. Which of the following features suggest malignant transformation?",
+  "options": [
+   "Cartilage thickness >2cm",
+   "Bone marrow is continuous with the parent bone",
+   "The cartilaginous growth goes towards the joint",
+   "Cartilage thickness >3cm"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q47_e1cb209008.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Cartilage cap thickness exceeding 2cm in an osteochondroma is highly suggestive of malignant transformation"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 48,
+  "question": "A 35-year male patient presents to surgery emergency with painful erection for past 7 hours. He has a history of mood disorder and was recently prescribed a medication by treating psychiatrist. Which is the likely offending drug?",
+  "options": [
+   "Mirtazapine",
+   "Venlafaxine",
+   "Trazodone",
+   "Tianeptine"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Trazodone is well-known to cause priapism (a prolonged, painful erection) as a rare side effect"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 49,
+  "question": "Abnormal accumulation of misfolded protein is seen in?",
+  "options": [
+   "Creutzfeldt Jakob disease",
+   "Nephritic syndrome",
+   "Sickle cell anemia",
+   "Megaloblastic anemia"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Prion diseases like CJD are defined by the abnormal accumulation of misfolded prion proteins in the brain"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 50,
+  "question": "A 24-year-old male presents with asymptomatic scaly lesions over the body as shown in the image below. What is the likely diagnosis?",
+  "options": [
+   "Lichen planus",
+   "Pityriasis Rosea",
+   "Seborrheic Dermatitis",
+   "Atopic Dermatitis"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q50_eb64a6eb37.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Pityriasis rosea typically presents with scaly lesions in a \"Christmas tree\" distribution"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 51,
+  "question": "Identify the ECG given below?",
+  "options": [
+   "Pericarditis",
+   "Viral myocarditis",
+   "Torsades de pointes",
+   "Cardiac tamponade"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q51_e968496ea6.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Torsades de pointes is a polymorphic ventricular tachycardia identified by the \"twisting\" of QRS complexes on an ECG"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 52,
+  "question": "What should be done as an immediate measure for ongoing bleeding in a patient with pelvic bone fracture?",
+  "options": [
+   "Rapid blood transfusion",
+   "External fixation",
+   "Internal definite fixation",
+   "Use Pelvic Binders"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "For ongoing bleeding in a pelvic fracture, rapid blood transfusion is the immediate life-saving measure during resuscitation"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 53,
+  "question": "Statement 1: A 59-year-old patient presents with flaccid bullae. Histopathology shows a suprabasal acantholytic split. Statement 2: The row of tombstones appearance is diagnostic of Pemphigus vulgaris.",
+  "options": [
+   "Statements 1 & 2 are correct, 2 is not explaining",
+   "Statement 1 is incorrect",
+   "Statement 1 and 2 is incorrect",
+   "Statements 1 and 2 are correct and 2 is the correct explanation for"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Both clinical findings are correct for Pemphigus vulgaris, but the \"row of tombstones\" doesn't explain the mechanism of the split"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 54,
+  "question": "Which of the following describes aortic regurgitation murmur?",
+  "options": [
+   "Ventricular contraction",
+   "Ejection systolic murmur",
+   "Diastolic murmur",
+   "Systolic murmur"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Aortic regurgitation is characterized by an early diastolic murmur best heard at the left sternal border"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 55,
+  "question": "A 60-year-old female presents with eczematous itching lesions. Biopsy revealed a subepidermal cleft with Direct Immunofluorescence showing Linear C3 & IgG deposition along the basement membrane. What is the diagnosis?",
+  "options": [
+   "Pemphigus vulgaris",
+   "Bullous pemphigoid",
+   "Dermatitis herpetiformis",
+   "Linear IgA disease"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p1_q55_622daf59b9.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Bullous pemphigoid is defined by subepidermal blisters and linear C3/IgG deposition along the basement membrane"
+ },
+ {
+  "session": "May 2023",
+  "year": "2023",
+  "number": 56,
+  "question": "Which of the following is most likely in a patient with continuous colonic involvement and rectal bleeding?",
+  "options": [
+   "Crohn’s disease",
+   "Ulcerative colitis",
+   "Celiac disease",
+   "Irritable bowel syndrome"
+  ],
+  "answerIndex": 1,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ulcerative colitis involves continuous colonic inflammation that always affects the rectum and presents with bleeding"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 2,
+  "question": "Identify the organism whose cell wall structure is shown in the image.",
+  "options": [
+   "E.coli",
+   "Neisseria meningitidis",
+   "Staphylococcus",
+   "Pseudomonas"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q2_549f7fccba.png"
+  ],
+  "imageRef": true,
+  "explanation": "The image shows a Gram-negative cell wall with a label for \"Lipooligosaccharide\" (LOS), which is a specific structural hallmark of Neisseria species compared to the Lipopolysaccharide (LPS) found in most other Gram-negative bacteria"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 3,
+  "question": "Following ANA Pattern if it's seen, identity the pattern?",
+  "options": [
+   "NUCLEOLAR",
+   "SPECKLED",
+   "CENTROMERIC",
+   "DIFFUSE"
+  ],
+  "answerIndex": 2,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q3_3f67f2f57e.png"
+  ],
+  "imageRef": true,
+  "explanation": "The immunofluorescence image shows discrete green speckles within the nuclei of interphase cells and alignment on the metaphase plate in dividing cells, which is diagnostic of the anti-centromere antibody pattern"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 4,
+  "question": "Which of the following points are in favour of the malignancy of the given X-ray?",
+  "options": [
+   "Growth along medullary cavity",
+   "Hyaline cap thickness >2 cm",
+   "Infection of the adjoining bone",
+   "None of the above"
+  ],
+  "answerIndex": 1,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q4_411198100d.png"
+  ],
+  "imageRef": true,
+  "explanation": "In an adult, a cartilage (hyaline) cap thickness exceeding 2 cm on an osteochondroma is the most reliable radiological indicator of malignant transformation into a chondrosarcoma"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 5,
+  "question": "What is the diagnosis of the case shown in the image below?",
+  "options": [
+   "Choledocholithiasis",
+   "CBD Stricture",
+   "Cholelithiasis",
+   "Pancreatic duct calculi"
+  ],
+  "answerIndex": 0,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q5_7577924461.png"
+  ],
+  "imageRef": true,
+  "explanation": "The MRCP (Magnetic Resonance Cholangiopancreatography) image shows multiple low-signal filling defects within a dilated common bile duct, representing gallstones"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 6,
+  "question": "What is not an advantage of USG over mammography:",
+  "options": [
+   "USG can be used to detect mammography undetectable tumours which are palpable",
+   "Can be used to differentiate solid vs cystic lesions",
+   "Can be used for guided biopsy",
+   "In young females with dense breast"
+  ],
+  "answerIndex": 3,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "While all listed options are benefits of ultrasound, USG is specifically indicated as the primary imaging modality for young females with dense breast tissue because mammography has low sensitivity in these patients"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 7,
+  "question": "A young patient met with a road traffic accident and now presented to the casualty and a chest Xray was performed. Which of the ribs are fractured?",
+  "options": [
+   "4,5,6,7",
+   "3,4,5,6",
+   "2,3,4,5",
+   "1,3,4,5"
+  ],
+  "answerIndex": 1,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q7_4a5fd5f790.png"
+  ],
+  "imageRef": true,
+  "explanation": "By counting downwards from the first rib, the fracture lines are clearly visible in the 3rd, 4th, 5th, and 6th ribs on the patient's left side within the highlighted circle"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 8,
+  "question": "Match the following with their regards to thyroid swelling obstruction: A) Trachea 1) Dysphagia B) Oesophagus 2) Hoarseness of voice C) Recurrent laryngeal nerve 3) Horner’s Syndrome D) Sympathetic chain 4) Dyspnea 7 Select the correct answer from the given below code:",
+  "options": [
+   "A2, B4, C1, D3",
+   "Al, B2, C3, D4",
+   "A4, Bl, C2, D3",
+   "A4, Cl, B2, D3"
+  ],
+  "answerIndex": 2,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "This match identifies the clinical symptoms caused by compression: Trachea (Dyspnea), Oesophagus (Dysphagia), Recurrent Laryngeal Nerve (Hoarseness), and Sympathetic Chain (Horner's Syndrome)"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 9,
+  "question": "A young patient presented with a swelling above the knee joint which was increasing slowly for the last few years and now presented with sudden increase in size. A radiograph performed showed the following findings. Which of the statements given below is correct regarding malignant transformation of the lesion?",
+  "options": [
+   "Thickness of cartilaginous cap > 2 cm on MRI",
+   "Growth towards the joint instead of moving away from it",
+   "Continuation with the marrow cavity on Imaging",
+   "New appearance of Pain"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q9_05a79dc9ff.png"
+  ],
+  "imageRef": true,
+  "explanation": "Consistent with Q4, a cartilage cap thicker than 2 cm is the most significant radiological sign that an osteochondroma is undergoing malignant transformation in an adult"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 10,
+  "question": "What is the diagnosis of the given USG image?",
+  "options": [
+   "GB Polyp",
+   "Cholelithiasis",
+   "Phrygian cap",
+   "Floating Gallbladder"
+  ],
+  "answerIndex": 2,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q10_a594c16512.png"
+  ],
+  "imageRef": true,
+  "explanation": "The ultrasound shows a fold in the fundus of the gallbladder, a common and benign anatomical variation known as a Phrygian cap"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 11,
+  "question": "Banana sign USG is commonly seen in which of the following?",
+  "options": [
+   "Omphalocele",
+   "Spina bifida",
+   "Anencephaly",
+   "Encephalocele"
+  ],
+  "answerIndex": 1,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The \"banana sign\" refers to the shape of the cerebellum on fetal ultrasound when it is displaced downward into the foramen magnum, which is a characteristic finding in open neural tube defects"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 13,
+  "question": "Which of the following deficiencies can cause Xanthinuria?",
+  "options": [
+   "Manganese",
+   "Magnesium",
+   "Molybdenum",
+   "Zinc"
+  ],
+  "answerIndex": 2,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Molybdenum is an essential trace element that serves as a cofactor for xanthine oxidase; its deficiency prevents the conversion of xanthine to uric acid"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 14,
+  "question": "Which enzyme deficiency causes Pompe’s disease?",
+  "options": [
+   "Lysosomal alpha glucosidase",
+   "Muscle Glycogen Phosphorylase",
+   "Glucose 6 phosphatase",
+   "Beta glucosidase"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Pompe disease (Glycogen Storage Disease Type II) is caused by a deficiency of acid alpha-glucosidase, which is required to break down glycogen within lysosomes"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 15,
+  "question": "Xanthurenic Acid is excreted in urine due to the deficiency of?",
+  "options": [
+   "B6",
+   "B1",
+   "B2",
+   "B12"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In Vitamin B6 (pyridoxine) deficiency, the metabolism of tryptophan is diverted, leading to the excretion of xanthurenic acid in the urine. INI CET 2023 Answer Key PDF"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 16,
+  "question": "Calculate Anion Gap: Na: 145 K: 4 Cl: 30 10 HCO3: 18",
+  "options": [
+   "35",
+   "44",
+   "28",
+   "12"
+  ],
+  "answerIndex": 2,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Assuming a typo in the provided values (where Cl should likely be 103), the anion gap is calculated as [Na+K] - [Cl+HCO3], which equals 28"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 17,
+  "question": "True about Iron Deficiency anaemia",
+  "options": [
+   "Low Iron",
+   "Low Ferritin",
+   "High Total Iron Binding Capacity",
+   "Low Transferrin Saturation"
+  ],
+  "answerIndex": 1,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Although all options are features of Iron Deficiency Anaemia, a low serum ferritin level is the most sensitive and specific laboratory indicator of depleted body iron stores"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 18,
+  "question": "Template strand is 5’ CGTTATTTACTA3’. If this is transcribed by RNA polymerase, the sequence of the new RNA will be",
+  "options": [
+   "5'GCAATAAATGAT3’",
+   "5'GCAAUAAAUGAUS'",
+   "5'UAGUAAAUAACG3’",
+   "5'CGUUAUUUACUA3’"
+  ],
+  "answerIndex": 2,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "RNA is synthesized 5' to 3' complementary to the template strand; since the template is given 5' to 3', the RNA sequence is the complement of the template read in the reverse direction"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 19,
+  "question": "Thermic effect is:",
+  "options": [
+   "Highest for fats",
+   "Highest for carbohydrates",
+   "Highest for proteins",
+   "Equal for all the fuels"
+  ],
+  "answerIndex": 2,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The thermic effect of food (the energy required for digestion and absorption) is highest for proteins (20-30%) compared to carbohydrates and fats"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 20,
+  "question": "Which is false about collagen?",
+  "options": [
+   "Phenylalanine is the most abundant amino acid",
+   "It is a fibrillar protein",
+   "Hydroxyproline and proline are present",
+   "Cross Linkage formation uses Vitamin C and Copper"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "This statement is false; Glycine is the most abundant amino acid in collagen, representing approximately one-third of the total amino acid content"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 21,
+  "question": "A mother while kissing the child finds the sweat of the child to be salty. Which of the following channels is affected?",
+  "options": [
+   "Sodium",
+   "Chloride",
+   "Potassium",
+   "Iodide"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Salty sweat is the classic clinical sign of Cystic Fibrosis, which is caused by a defect in the CFTR protein, a cAMP-activated chloride channel"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 22,
+  "question": "A young boy with Type I diabetes presents with unconsciousness. His urine is subjected to a test and the result is provided below. The test that is done is?",
+  "options": [
+   "Benedict's test",
+   "Rothera’s test",
+   "Biuret Test",
+   "Fouchet test"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q22_da6be07ce3.png"
+  ],
+  "imageRef": true,
+  "explanation": "Rothera's test is used to detect ketone bodies in the urine; a positive result is indicated by the formation of a purple or permanganate-colored ring at the junction of the fluids"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 23,
+  "question": "Barth syndrome presents with heart failure. Deficiency of which of the following structures in mitochondrial membrane is the cause of this syndrome?",
+  "options": [
+   "Lysolecithin",
+   "Plasmalogen",
+   "Lecithin",
+   "Cardiolipin"
+  ],
+  "answerIndex": 3,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Barth syndrome is an X-linked genetic disorder caused by a deficiency in cardiolipin, a phospholipid essential for the structure and function of the inner mitochondrial membrane"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 24,
+  "question": "SRY gene is located in?",
+  "options": [
+   "Long arm of chromosome X",
+   "Long arm of chromosome Y",
+   "Short arm of chromosome Y",
+   "Short arm of chromosome X"
+  ],
+  "answerIndex": 2,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The SRY (Sex-determining Region Y) gene is located on the short arm (p arm) of the Y chromosome"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 25,
+  "question": "Massive Blood Transfusion causes all of the following except:",
+  "options": [
+   "Hypokalemia",
+   "Hypocalcemia",
+   "Hypomagnesemia",
+   "Alkalosis"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Massive blood transfusion typically results in hyperkalemia (due to potassium release from stored red cells) and hypocalcemia (due to citrate binding)"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 26,
+  "question": "Severe vomiting leads to:",
+  "options": [
+   "Hypokalemia",
+   "Hypochloremia",
+   "Metabolic alkalosis",
+   "Respiratory Alkalosis"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Severe vomiting leads to the loss of hydrochloric acid and potassium from the stomach, resulting in hypochloremic, hypokalemic metabolic alkalosis"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 27,
+  "question": "Liver can’t utilise ketone bodies because of lack of?",
+  "options": [
+   "Thiolase",
+   "Thiophorase",
+   "Thioesterase",
+   "HMG CoA synthase"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The liver is unable to utilize the ketone bodies it produces because it lacks the enzyme thiophorase (succinyl-CoA:3-ketoacid CoA-transferase)"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 28,
+  "question": "The hormone which acts through the JAK STAT pathway is?",
+  "options": [
+   "Calcitonin",
+   "Leptin",
+   "Aldosterone",
+   "Vasopressin"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Leptin receptors signal through the JAK-STAT (Janus Kinase - Signal Transducer and Activator of Transcription) pathway"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 29,
+  "question": "Cholestasis is mediated through defects of which of the following proteins?",
+  "options": [
+   "OAT1b1",
+   "MRP3",
+   "ABCA1",
+   "MRP2"
+  ],
+  "answerIndex": 3,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Cholestasis can be caused by defects in the MRP2 (Multidrug Resistance-associated Protein 2) transporter, which is responsible for the secretion of conjugated bilirubin into bile"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 30,
+  "question": "A 27 years old female present with thyroid swelling that compresses the nearby structures. Which of the following symptoms is not seen in this patient?",
+  "options": [
+   "Hoarseness of voice due to recurrent laryngeal nerve compression",
+   "Dysphagia due to oesophagus compression",
+   "Superior vena cava syndrome",
+   "All of the above"
+  ],
+  "answerIndex": 2,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "While thyroid swelling commonly causes hoarseness, dysphagia, and dyspnea via local compression, Superior Vena Cava (SVC) syndrome is much rarer and typically associated with malignant mediastinal masses"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 31,
+  "question": "A 14 years old female patient presents to the ENT OPD complaints that she can understand the language and hears the sound. But unable to understand the meaning. Her Pure tone audiometry and ABR is normal. What is the likely diagnosis in this patient?",
+  "options": [
+   "Malingering",
+   "Wernicke's aphasia / auditory neuropathy",
+   "Otosclerosis",
+   "Michael aplasia"
+  ],
+  "answerIndex": 1,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The ability to hear sound but inability to understand meaning despite normal peripheral hearing tests (PTA and ABR) suggests a central receptive language disorder or auditory processing defect"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 32,
+  "question": "Non scarring alopecia is associated with all except ?",
+  "options": [
+   "Alopecia areata",
+   "Androgenetic alopecia",
+   "Frontal fibrosing alopecia",
+   "Telogen efluvium"
+  ],
+  "answerIndex": 2,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Frontal fibrosing alopecia is a form of primary scarring (cicatricial) alopecia, whereas the other options are examples of non-scarring hair loss"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 33,
+  "question": "A 24 years old male presents with asymptomatic scaly lesions over the body as shown in the image below. What is the ikely diagnosis?",
+  "options": [
+   "Lichen planus",
+   "Pityriasis Rosea",
+   "Seborrheic Dermatitis",
+   "Atopic Dermatitis"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_2023_images/inicet2023_p2_q33_f673cd60ac.png"
+  ],
+  "imageRef": true,
+  "explanation": "The image shows multiple oval, scaly plaques distributed in a \"Christmas tree\" pattern on the back, which is diagnostic of Pityriasis Rosea"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 34,
+  "question": "Statement 1 - A 59 year old patient presents with flaccid blisters. Histopathology shows suprabasal acantholytic split. Statement 2 - Row of tombstones is diagnostic of Pemphigus vulgaris.",
+  "options": [
+   "Statement 1 & 2 are correct, 2 is not explaining",
+   "Statement 1 is incorrect",
+   "Statement 1 and 2 is incorrect",
+   "Statement 1 and 2 are correct and 2 is the correct explanation for"
+  ],
+  "answerIndex": 3,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The \"row of tombstones\" appearance refers to the basal layer remaining attached to the basement membrane during the suprabasal acantholytic split seen in Pemphigus Vulgaris"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 35,
+  "question": "A 60 year old female presents with eczematous itching - lesions, Biopsy revealed subepidermal cleft with Direct Immunofluorescence showing Linear C3 & lgG deposition along basement membrane zone. What Is the likely diagnosis?",
+  "options": [
+   "Pemphigus vulgaris",
+   "Bullous Pemphigoid",
+   "Dermatitis herpetiformis",
+   "Pemphigus foliaceus"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Subepidermal blistering with linear IgG and C3 deposition along the basement membrane zone is the classic finding for Bullous Pemphigoid"
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 36,
+  "question": "Slapped cheek appearance is associated with which of the following ?",
+  "options": [
+   "Erythema infectiosum",
+   "Molluscum contagiosum",
+   "Herpes zoster",
+   "Kaposi sarcoma"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The \"slapped cheek\" appearance is the characteristic clinical sign of Erythema infectiosum (Fifth Disease), caused by Parvovirus B19"
  }
 ]

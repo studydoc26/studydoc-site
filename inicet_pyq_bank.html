@@ -20,7 +20,7 @@
     main { display:grid; grid-template-columns:minmax(260px, 360px) 1fr; gap:18px; padding:18px; max-width:1500px; margin:0 auto; }
     aside, section.quiz { background:var(--panel); border:1px solid var(--line); border-radius:8px; min-width:0; }
     aside { height:calc(100vh - 132px); position:sticky; top:16px; display:flex; flex-direction:column; }
-    .tabs { display:grid; grid-template-columns:repeat(2,1fr); gap:6px; padding:12px; border-bottom:1px solid var(--line); }
+    .tabs { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; padding:12px; border-bottom:1px solid var(--line); }
     .year-tab { border:1px solid var(--line); background:#fff; padding:9px 6px; border-radius:6px; cursor:pointer; font-weight:700; font-size:13px; }
     .year-tab.active { background:var(--accent); color:white; border-color:var(--accent); }
     .tools { padding:12px; border-bottom:1px solid var(--line); display:grid; gap:8px; }
@@ -192,7 +192,8 @@ input,select,textarea{background:#11111b;color:var(--ink);border-color:var(--lin
 <main>
   <aside>
     <div class="tabs"><button class="year-tab" data-year="2021">2021</button>
-<button class="year-tab" data-year="2022">2022</button></div>
+<button class="year-tab" data-year="2022">2022</button>
+<button class="year-tab" data-year="2023">2023</button></div>
     <div class="tools">
       <input id="search" placeholder="Search INICET questions">
       <select id="filter">
@@ -256,7 +257,7 @@ input,select,textarea{background:#11111b;color:var(--ink);border-color:var(--lin
     <div id="report-status" class="report-status" aria-live="polite"></div>
   </div>
 </div>
-<script src="inicet_pyq_bank.js?v=inicet-20260904b" defer></script>
+<script src="inicet_pyq_bank.js?v=inicet-20260904c" defer></script>
 <footer class="legal-footer">
   <div class="legal-footer-inner">
     <div class="legal-footer-main">
