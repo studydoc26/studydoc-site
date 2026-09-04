@@ -40,9 +40,9 @@
 !/neet_pg_physiology_practice_bank_data.json
 !/neet_pg_pyt_subject_bank.html
 !/neet_pg_pyt_subject_bank.js
-!/inicet_2021_pyq_bank.html
-!/inicet_2021_pyq_bank.js
-!/inicet_2021_pyq_bank_data.json
+!/inicet_pyq_bank.html
+!/inicet_pyq_bank.js
+!/inicet_pyq_bank_data.json
 !/_headers
 !/assets/
 !/assets/**

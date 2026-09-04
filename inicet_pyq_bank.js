@@ -1,5 +1,5 @@
-const DATA_URL = 'inicet_2021_pyq_bank_data.json';
-const YEARS = ["2021"];
+const DATA_URL = 'inicet_pyq_bank_data.json';
+const YEARS = ["2021", "2022"];
 const SUBJECTS = ["Anatomy", "Physiology", "Biochemistry", "Pharmacology", "Pathology", "Microbiology", "Forensic medicine & toxicology", "PSM", "ENT", "Ophthalmology", "Medicine", "Surgery", "ObGy", "Pediatrics", "Orthopedics", "Anesthesia", "Radiology", "Dermatology", "Psychiatry"];
 let year = (function(){
   const p = new URLSearchParams(window.location.search).get('year');
@@ -10,7 +10,7 @@ let session = 'all';
 let sortMode = 'number';
 let current = 0;
 let imageOnly = false;
-const REPORT_EXAM = 'INICET 2021 PYQ Bank';
+const REPORT_EXAM = 'INICET PYQ Bank';
 const REPORT_ENDPOINT = '/api/report';
 let DATA = [];
 const attempts = new Map();
