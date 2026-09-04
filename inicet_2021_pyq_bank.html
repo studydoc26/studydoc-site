@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INICET 2021 PYQ Bank | StudyDoc</title>
+  <style>
+    :root { --ink:#17202a; --muted:#657080; --line:#d8dee8; --bg:#f7f9fb; --panel:#ffffff; --accent:#116466; --ok:#147a45; --bad:#b42318; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:'Instrument Sans',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; color:var(--ink); background:var(--bg); }
+    .topnav{background:#fff;border-bottom:1px solid #e5e3dc;padding:0 1.25rem;height:64px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+    .nav-brand{display:flex;align-items:center;text-decoration:none;flex-shrink:0}
+    .brand-logo-picture{display:block;line-height:0}
+    .brand-logo-img{display:block;width:190px;height:auto;max-height:54px}
+    .nav-right{display:flex;align-items:center;gap:1rem}
+    .nav-back{display:flex;align-items:center;gap:4px;color:#888;text-decoration:none;font-size:13px;font-weight:500;transition:color .15s}
+    .nav-back:hover{color:#534AB7}
+    .nav-insta{display:flex;align-items:center;gap:6px;color:#888;text-decoration:none;font-size:13px;transition:color .15s}
+    .nav-insta:hover{color:#c13584}
+    main { display:grid; grid-template-columns:minmax(260px, 360px) 1fr; gap:18px; padding:18px; max-width:1500px; margin:0 auto; }
+    aside, section.quiz { background:var(--panel); border:1px solid var(--line); border-radius:8px; min-width:0; }
+    aside { height:calc(100vh - 132px); position:sticky; top:16px; display:flex; flex-direction:column; }
+    .tabs { display:grid; grid-template-columns:1fr; gap:6px; padding:12px; border-bottom:1px solid var(--line); }
+    .year-tab { border:1px solid var(--line); background:#fff; padding:9px 6px; border-radius:6px; cursor:pointer; font-weight:700; font-size:13px; }
+    .year-tab.active { background:var(--accent); color:white; border-color:var(--accent); }
+    .tools { padding:12px; border-bottom:1px solid var(--line); display:grid; gap:8px; }
+    input, select { width:100%; border:1px solid var(--line); border-radius:6px; padding:10px; font:inherit; }
+    .stats { display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; font-size:13px; color:var(--muted); }
+    .stats b { display:block; color:var(--ink); font-size:18px; }
+    .qlist { overflow:auto; padding:8px; display:grid; gap:6px; }
+    .qrow { border:1px solid var(--line); background:white; border-radius:6px; padding:9px; text-align:left; cursor:pointer; }
+    .qrow.active { border-color:var(--accent); box-shadow:0 0 0 2px rgba(17,100,102,.16); }
+    .quiz { min-height:calc(100vh - 132px); padding:clamp(16px, 4vw, 34px); }
+    .qtop { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:14px; }
+    .pill { display:inline-flex; align-items:center; border:1px solid var(--line); background:#fff; border-radius:999px; padding:5px 10px; font-size:12px; font-weight:850; color:var(--muted); }
+    .pill.topic { color:#5B21B6; border-color:#ddd4ff; background:#f7f3ff; }
+    .remaining-meter { display:inline-flex; align-items:center; gap:8px; min-width:150px; color:#7a8494; font-size:12px; font-weight:850; }
+    .remaining-track { width:90px; height:6px; border-radius:999px; background:#e7edf4; overflow:hidden; }
+    .remaining-fill { display:block; height:100%; border-radius:inherit; background:linear-gradient(90deg, var(--accent), #5B21B6); }
+    .remaining-count { white-space:nowrap; }
+    .question { font-size:22px; line-height:1.45; margin:0 0 20px; }
+    .options { display:grid; gap:10px; max-width:960px; }
+    .option { border:1px solid var(--line); background:white; border-radius:8px; padding:14px 16px; cursor:pointer; text-align:left; font-size:17px; line-height:1.35; }
+    .option.correct { border-color:var(--ok); background:#eefaf3; color:#075532; }
+    .option.wrong { border-color:var(--bad); background:#fff1f0; color:#7a1711; }
+    .feedback { margin-top:16px; padding:12px 14px; border-radius:8px; border:1px solid var(--line); max-width:960px; }
+    .feedback.ok { border-color:#a9e5c2; background:#edfdf3; color:#075532; }
+    .feedback.bad { border-color:#ffb4ab; background:#fff1f0; color:#7a1711; }
+    .explanation { margin-top:12px; padding:16px; border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:8px; background:#f8fafc; max-width:960px; }
+    .explanation h3 { margin:0 0 7px; color:var(--ink); font-size:16px; line-height:1.3; }
+    .explanation p { margin:0; color:var(--ink); font-size:16px; line-height:1.65; white-space:pre-line; overflow-wrap:anywhere; }
+    .nav { display:flex; gap:8px; margin-top:22px; flex-wrap:wrap; }
+    .nav button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:10px 14px; cursor:pointer; font-weight:700; }
+    .report-btn { border:1px solid var(--line); background:#f8fafc; color:var(--muted); border-radius:6px; padding:10px 14px; cursor:pointer; font-weight:700; }
+    .report-btn:hover { border-color:var(--accent); color:var(--accent); }
+    .report-modal[hidden] { display:none; }
+    .report-modal { position:fixed; inset:0; z-index:500; background:rgba(15,23,42,.44); display:flex; align-items:center; justify-content:center; padding:18px; }
+    .report-panel { width:min(520px, 100%); background:#fff; border:1px solid var(--line); border-radius:8px; box-shadow:0 24px 70px rgba(15,23,42,.24); padding:20px; position:relative; }
+    .report-close { position:absolute; top:10px; right:10px; width:34px; height:34px; border:0; border-radius:6px; background:#f1f5f9; cursor:pointer; font-size:22px; line-height:1; }
+    .report-panel h3 { margin:0 38px 8px 0; font-size:20px; }
+    .report-panel p { margin:0 0 14px; color:var(--muted); line-height:1.45; }
+    .report-form { display:grid; gap:10px; }
+    .report-form label { display:grid; gap:5px; color:var(--ink); font-size:13px; font-weight:700; }
+    .report-form textarea,.report-form input,.report-form select { width:100%; border:1px solid var(--line); border-radius:6px; padding:10px; font:inherit; }
+    .report-form textarea { min-height:110px; resize:vertical; }
+    .report-form input.report-honeypot { position:absolute; left:-10000px; width:1px; height:1px; padding:0; border:0; opacity:0; pointer-events:none; }
+    .report-question-preview { border:1px solid var(--line); border-radius:6px; background:#f8fafc; padding:10px; color:#334155; font-size:13px; line-height:1.45; max-height:170px; overflow:auto; }
+    .report-question-preview strong { display:block; color:var(--ink); margin-bottom:4px; }
+    .report-question-preview ol { margin:6px 0 0 20px; padding:0; }
+    .report-email-hint { margin:-4px 0 2px; color:var(--muted); font-size:12px; line-height:1.35; }
+    .report-actions { display:flex; gap:8px; justify-content:flex-end; flex-wrap:wrap; margin-top:4px; }
+    .report-actions button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:10px 14px; cursor:pointer; font-weight:700; }
+    .report-actions .submit-report { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .report-status { min-height:20px; color:var(--muted); font-size:13px; }
+    .empty-state { color:var(--muted); margin-top:18px; max-width:960px; line-height:1.5; }
+    .qrow-meta { display:flex; gap:6px; flex-wrap:wrap; margin-top:5px; font-size:11px; font-weight:700; }
+    .qrow-subject { color:#5B21B6; }
+    .qrow-img { color:var(--accent); }
+    .img-filter-btn { width:100%; border:1.5px solid var(--line); background:#fff; border-radius:6px; padding:9px 12px; font:inherit; font-size:13px; font-weight:600; cursor:pointer; display:flex; align-items:center; gap:7px; color:var(--muted); transition:border-color .15s, background .15s, color .15s; }
+    .img-filter-btn .btn-dot { width:8px; height:8px; border-radius:50%; background:var(--line); flex-shrink:0; transition:background .15s; }
+    .img-filter-btn .btn-label { flex:1; text-align:left; }
+    .img-filter-btn .btn-state { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.4px; color:#bbb; transition:color .15s; }
+    .img-filter-btn.active { border-color:var(--accent); background:#e8f4f4; color:#0a4040; }
+    .img-filter-btn.active .btn-dot { background:var(--accent); }
+    .img-filter-btn.active .btn-state { color:var(--accent); }
+    .qimages { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 360px)); gap:12px; margin:0 0 18px; max-width:960px; }
+    .qimages figure { margin:0; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:#fff; }
+    .qimages img { display:block; width:100%; height:auto; object-fit:contain; max-height:400px; }
+    .qrow-meta { display:flex; gap:6px; flex-wrap:wrap; margin-top:5px; font-size:11px; font-weight:700; }
+    .qrow-subject { color:#5B21B6; }
+    .qrow-img { color:var(--accent); }
+    @media (max-width: 850px) {
+      .topnav{padding:0 1rem}
+      .nav-back{white-space:nowrap}
+      main { display:flex; flex-direction:column; padding:10px; }
+      aside { order:2; position:relative; top:0; height:auto; }
+      .tabs{padding:10px;gap:5px}
+      .year-tab{padding:8px 4px;font-size:13px}
+      .tools{padding:10px;gap:7px}
+      .stats{gap:6px}
+      .qlist{display:flex;overflow-x:auto;gap:8px;padding:8px 10px;border-top:1px solid var(--line);scroll-snap-type:x proximity}
+      .qrow{flex:0 0 78%;min-width:220px;max-width:250px;scroll-snap-align:start}
+      .quiz { order:1; min-height:auto; padding:18px 14px; }
+      .question { font-size:19px; }
+      .brand-logo-img{width:190px;max-height:54px}
+      .nav-insta{display:none}
+      .nav-right{gap:.55rem}
+    }
+    @media (max-width: 480px) {
+      .topnav{padding:0 .75rem}
+      .brand-logo-img{width:160px;max-height:46px}
+      .nav-back{font-size:12px}
+      main{padding:8px}
+      aside,section.quiz{border-radius:7px}
+      .tabs{grid-template-columns:repeat(3,1fr)}
+      .tools input,.tools select{padding:9px}
+      .qrow{flex-basis:84%;min-width:210px}
+      .question{font-size:18px;line-height:1.4}
+      .option{font-size:15.5px;padding:12px 13px}
+      .qimages{grid-template-columns:1fr}
+      .nav button,.report-btn{flex:1 1 130px}
+    }
+    @media (prefers-color-scheme:dark){
+:root{--ink:#e8e9f4;--muted:#c3c4d6;--line:#ffffff1f;--bg:#0c0b13;--panel:#171826;--accent:#2DD4BF;--accent2:#a5a1f7}
+body{color:var(--ink);background:var(--bg)}
+.topnav{background:#0c0b13;border-bottom-color:#ffffff1a}
+.nav-back,.nav-insta{color:#e8e9f4}
+.nav-back:hover,.nav-insta:hover{color:#a5a1f7}
+aside,section.quiz,.bank-title{background:var(--panel);border-color:var(--line)}
+h1,.question,.stats b,.head-stat b{color:var(--ink)}
+.sub,.head-stat span,.remaining-meter,.empty-state{color:var(--muted)}
+.head-stat{background:#14141f;border-color:#ffffff1a}
+.year-tab{background:#1c1d2e;border-color:var(--line);color:var(--ink)}
+.year-tab.active{background:var(--accent);border-color:var(--accent);color:#071311}
+input,select,textarea{background:#11111b;color:var(--ink);border-color:var(--line)}
+.qrow,.qrow.done{background:#1c1d2e;color:var(--ink);border-color:var(--line)}
+.qrow b{color:var(--ink)}
+.qrow.active{border-color:var(--accent);box-shadow:0 0 0 2px rgba(45,212,191,.28)}
+.pill{background:#1c1d2e;color:var(--muted);border-color:var(--line)}
+.pill.topic{color:#c9b6ff;border-color:#403463;background:#221d34}
+.remaining-track{background:#243044}
+.option{background:#1c1d2e;color:var(--ink);border-color:var(--line)}
+.option:hover{border-color:#8b87f5}
+.option.correct{background:#0f2a1e;color:#86efac;border-color:#1f6f47}
+.option.wrong{background:#301718;color:#fda4a4;border-color:#7a2a26}
+.feedback{background:#171826;color:var(--ink);border-color:var(--line)}
+.feedback.ok{border-color:#1f6f47;background:#0f2a1e;color:#86efac}
+.feedback.bad{border-color:#7a2a26;background:#301718;color:#fda4a4}
+.feedback.warn{border-color:#7c5d21;background:#2f2410;color:#fde68a}
+.explanation{background:#171826;color:var(--ink);border-color:var(--line)}
+.option-note{background:#14141f;color:#d8d9e8;border-color:#ffffff1a}
+.image-note{background:#111827;color:#cbd5e1;border-color:#334155}
+.nav button{background:#1c1d2e;color:var(--ink);border-color:var(--line)}
+.report-btn{background:#1c1d2e;color:var(--muted);border-color:var(--line)}
+.report-panel{background:#171826;color:var(--ink);border-color:var(--line)}
+.report-panel h3,.report-question-preview strong,.report-form label{color:var(--ink)}
+.report-close{background:#1f2937;color:var(--ink)}
+.report-question-preview{background:#11111b;color:#cbd5e1;border-color:var(--line)}
+.report-actions button{background:#1c1d2e;color:var(--ink);border-color:var(--line)}
+.img-filter-btn{background:#1c1d2e;color:var(--muted);border-color:var(--line)}
+.img-filter-btn.active{background:#123536;color:#5eead4;border-color:#2dd4bf}
+.reset-bank-btn{background:#301718;color:#fda4a4;border-color:#7a2a26}
+.reset-bank-btn:disabled{background:#1c1d2e;color:#777f91;border-color:var(--line)}
+.qimages figure{background:#11111b;border-color:var(--line)}
+.qrow-img{color:#5eead4}.qrow-subject,.qrow-topic{color:#c9b6ff}.qrow-id{color:#c3c4d6}
+}
+  </style>
+<link rel="stylesheet" href="question_bank_menu.css?v=20260716-19-subjects">
+<script src="question_bank_menu.js?v=20260716-names-only" defer></script>
+  <link rel="stylesheet" href="legal_footer.css">
+</head>
+<body>
+<nav class="topnav">
+  <a class="nav-brand" href="index.html">
+    <picture class="brand-logo-picture">
+      <source srcset="assets/studydoc_logo_primary_dark.svg" media="(prefers-color-scheme: dark)">
+      <img class="brand-logo-img" src="assets/studydoc_logo_primary.svg" alt="StudyDoc">
+    </picture>
+  </a>
+  <div class="nav-right">
+    <study-qbank-menu></study-qbank-menu>
+    <a class="nav-back" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><polyline points="15 18 9 12 15 6"/></svg>
+      Home
+    </a>
+    <a class="nav-insta" href="https://www.instagram.com/study4inicet" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="17" height="17"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+      @study4inicet
+    </a>
+  </div>
+</nav>
+<main>
+  <aside>
+    <div class="tabs"><button class="year-tab" data-year="2021">INICET 2021</button></div>
+    <div class="tools">
+      <input id="search" placeholder="Search INICET 2021 questions">
+      <select id="filter">
+        <option value="all">All questions</option>
+        <option value="unanswered">Unanswered</option>
+        <option value="wrong">Wrong answers</option>
+      </select>
+      <select id="session-filter" aria-label="Session filter"></select>
+      <select id="subject-filter" aria-label="Subject filter"></select>
+      <select id="sort" aria-label="Sort questions">
+        <option value="number">Sort by question order</option>
+        <option value="subject">Sort by subject</option>
+      </select>
+      <button id="img-toggle" class="img-filter-btn" type="button">
+        <span class="btn-dot"></span>
+        <span class="btn-label">Image-based questions only</span>
+        <span class="btn-state" id="img-state">Off</span>
+      </button>
+      <div class="stats"><span><b id="count">0</b>Total</span><span><b id="answered">0</b>Attempted</span><span><b id="score">0</b>Correct</span></div>
+    </div>
+    <div id="qlist" class="qlist"></div>
+  </aside>
+  <section class="quiz" id="quiz"></section>
+</main>
+<div class="report-modal" id="report-modal" hidden>
+  <div class="report-panel" role="dialog" aria-modal="true" aria-labelledby="report-title">
+    <button class="report-close" id="report-close" type="button" aria-label="Close report form">&times;</button>
+    <h3 id="report-title">Report this question</h3>
+    <p id="report-summary">Tell us what needs correction.</p>
+    <div id="report-question-preview" class="report-question-preview"></div>
+    <form id="report-form" class="report-form" action="/api/report" method="POST">
+      <input type="hidden" name="year">
+      <input type="hidden" name="question_number">
+      <input type="hidden" name="practice_number">
+      <input type="hidden" name="practice_total">
+      <input type="hidden" name="session">
+      <input type="hidden" name="page_path">
+      <input type="text" name="_gotcha" class="report-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>Issue type
+        <select name="issue_type" required>
+          <option value="">Choose one</option>
+          <option value="Wrong answer">Wrong answer</option>
+          <option value="Wrong image">Wrong image</option>
+          <option value="Missing image">Missing image</option>
+          <option value="Wrong subject tag">Wrong subject tag</option>
+          <option value="Question or options need correction">Question or options need correction</option>
+        </select>
+      </label>
+      <label>What should be corrected?
+        <textarea name="details" required maxlength="2000" placeholder="Write the correction or describe the issue"></textarea>
+      </label>
+      <p id="report-email-rule" class="report-email-hint">Email is required so we can follow up. Reports are processed by Formspree.</p>
+      <label>Email
+        <input name="email" type="email" required maxlength="254" autocomplete="email" placeholder="name@example.com" aria-describedby="report-email-rule">
+      </label>
+      <div class="report-actions">
+        <button type="button" id="report-cancel">Cancel</button>
+        <button class="submit-report" type="submit">Send report</button>
+      </div>
+    </form>
+    <div id="report-status" class="report-status" aria-live="polite"></div>
+  </div>
+</div>
+<script src="inicet_2021_pyq_bank.js?v=inicet-2021-20260904" defer></script>
+<footer class="legal-footer">
+  <div class="legal-footer-inner">
+    <div class="legal-footer-main">
+      <div class="legal-footer-brand">&copy; 2026 <strong>StudyDoc</strong>. All rights reserved.</div>
+      <nav class="legal-footer-links" aria-label="Legal links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html">Contact</a>
+        <a href="content-removal.html">Copyright / DMCA / Removal</a>
+      </nav>
+    </div>
+    <p class="legal-footer-note">Educational use only. Not medical advice. Verify clinical decisions from standard references. Not affiliated with exam bodies or private coaching/prep platforms.</p>
+  </div>
+</footer>
+</body>
+</html>
