@@ -9511,7 +9511,7 @@
    "REM sleep",
    "NREM I sleep",
    "NREM II sleep",
-   "NREM II sleep"
+   "NREM III sleep"
   ],
   "answerIndex": 0,
   "subject": "Psychiatry",
@@ -19968,5 +19968,1283 @@
   ],
   "imageRef": true,
   "explanation": "A solitary hypoechoic lesion in the right lobe of the liver after weeks of dysentery, with right upper quadrant pain, indicates an amoebic liver abscess."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 1,
+  "question": "60 year old male presented with ulcer near medial canthus :-",
+  "options": [
+   "Basal cell carcinoma",
+   "Squamous cell carcinoma",
+   "Melanoma",
+   "Discoid lupus erythematosus"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q0_80bf9338fa.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "An ulcer near the medial canthus in an elderly man, slowly growing with a pearly rolled edge and telangiectasia, is a basal cell carcinoma. This is the commonest periocular malignancy and the inner canthus is its classic site."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 2,
+  "question": "A 25 year young male patient, has with asymptomatic scaly skin lesions on his back, symmetrically distributed. The provided images showcase the lesions. Can you identify the pattern of these skin lesions & the specific disease?",
+  "options": [
+   "Woronoff ring - Seborrheic dermatitis",
+   "Wickham’s striae-Lichen planus",
+   "Collarette scale - Christmas tree pattern - pityriasis",
+   "Christmas tree pattern psoriasis"
+  ],
+  "answerIndex": 2,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q1_bb83bf7cf8.jpeg",
+   "assets/inicet_nov2023_images/inicetnov2023_q1_dc918357e1.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Asymptomatic oval scaly plaques on the back arranged along the lines of cleavage give the Christmas tree pattern of pityriasis rosea, and the trailing collarette of scale at the edge of each lesion is its hallmark."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 3,
+  "question": "Which type of image is given here?",
+  "options": [
+   "Direct immunofluorescent",
+   "Indirect immunofluorescent",
+   "Fish net pattern",
+   "Tomb stone appearance"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q2_1cdb7bc8c3.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Bright deposition along the dermo-epidermal junction of the patient's own biopsy is direct immunofluorescence, in which labelled antibody is applied to the patient's tissue. Indirect immunofluorescence uses patient serum on a substrate."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 4,
+  "question": "A person presents with flaccid blister’s and oral mucosal lesions as shown in the image, along with histological finding shown below",
+  "options": [
+   "Pemphigus vulgaris",
+   "Pemphigus foliaceus",
+   "Bullous pemphigoid",
+   "IgA disease"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q3_76bf9b2101.jpeg",
+   "assets/inicet_nov2023_images/inicetnov2023_q3_1099cfff8f.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Flaccid blisters with oral mucosal erosions and a suprabasal split on histology indicate pemphigus vulgaris. Pemphigus foliaceus spares mucosa and splits subcorneally, and pemphigoid gives a subepidermal split with tense bullae."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 5,
+  "question": "All are features of non-scarring alopecia except ?",
+  "options": [
+   "Tenogen effluvium",
+   "Androgenic alopecia",
+   "Alopecia areata",
+   "Frontal fibrozing"
+  ],
+  "answerIndex": 3,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Frontal fibrosing alopecia is a lymphocytic scarring alopecia with permanent loss of follicular ostia. Telogen effluvium, androgenetic alopecia and alopecia areata are all non-scarring."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 6,
+  "question": "Case I: A patient having flaccid bullae with painful erosions, will show suprabasal split and inflammatory infiltrate in the blister cleft on HPE. Case 2: Row of tombstones appearance is diagnostic of Pemphigus vulgaris",
+  "options": [
+   "Case 1 is false and Case 2 is true",
+   "Case 1 is false and Case 2 is false",
+   "Both the Case are true",
+   "Both the case are false"
+  ],
+  "answerIndex": 2,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Both statements are correct. Flaccid bullae with painful erosions and a suprabasal split describe pemphigus vulgaris, and the row of tombstones, the basal cells remaining attached to the basement membrane after acantholysis, is characteristic of it."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 7,
+  "question": "Identify the type of joint marked in the given image?",
+  "options": [
+   "Ball and Socket Joint",
+   "Saddle Joint",
+   "Pivot Joint",
+   "Gliding Joint"
+  ],
+  "answerIndex": 1,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q6_c7ea489163.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The arrow marks the articulation between the head of the malleus and the body of the incus. The incudomalleolar joint is a saddle type synovial joint, whereas the incudostapedial joint is ball and socket."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 8,
+  "question": "A 33 years old male patient presented with URTI with pus in his left nasal cavity and orbital pain along with blurring of vision. CT Scan was done and following findings were seen. What is the most likely diagnosis?",
+  "options": [
+   "sinusitis",
+   "sinusitis plus orbital cellulitis",
+   "sinusitis plus septal cellulitis",
+   "sinusitis plus sub periosteal cellulitis"
+  ],
+  "answerIndex": 1,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q7_513fc26018.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The scan shows swelling of the left orbital soft tissues with proptosis but no discrete rim enhancing collection along the lamina papyracea. With orbital pain and blurring of vision this is orbital cellulitis complicating sinusitis."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 9,
+  "question": "Apocrine Glands are seen in?",
+  "options": [
+   "Face",
+   "Scalp",
+   "Palm and Sole",
+   "Axilla"
+  ],
+  "answerIndex": 3,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Apocrine glands are concentrated in the axilla, and also in the areola, the perineum and as modified glands in the external auditory canal and eyelid. Palms and soles carry only eccrine glands."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 10,
+  "question": "A 60 years old patient presented with following lesion which is slowly progressively increasing in size. What is the most likely diagnosis?",
+  "options": [
+   "Squamous Cell Carcinoma",
+   "Basal Cell Carcinoma",
+   "Melanoma",
+   "Nevus"
+  ],
+  "answerIndex": 1,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q9_6a63b5bdd9.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "A slowly enlarging ulcer with a rolled pearly margin and surface telangiectasia on the lower lid of an elderly patient is a basal cell carcinoma, the commonest eyelid malignancy."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 11,
+  "question": "A child was playing alone and is found to be drooling and choking. X-Ray was done and is shown below. What is the likely foreign body ingested?",
+  "options": [
+   "Coin",
+   "Mettalic Ball",
+   "Cold drink bottle cap",
+   "Button Battery"
+  ],
+  "answerIndex": 3,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q10_cfe5d9258f.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The disc in the upper oesophagus shows a peripheral double ring or halo, which distinguishes a button battery from a plain coin. This is a surgical emergency because of rapid caustic mucosal injury."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 12,
+  "question": "A lady presented with bilateral hearing loss, more on right side. It was decided to do stapedectomy after examination. What is the likely Rinne’s and weber’s test findings in this patient?",
+  "options": [
+   "Bilateral Rinne’s Negative, Weber’s Centralized",
+   "Bilateral Rinne’s Positive, Weber’s to Right",
+   "Bilateral Rinne’s Positive, Weber’s to Left",
+   "Bilateral Rinne’s Negative, Weber’s to Right"
+  ],
+  "answerIndex": 3,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Otosclerosis requiring stapedectomy causes bilateral conductive deafness, so Rinne's test is negative on both sides. Weber lateralises to the ear with the greater conductive loss, that is the right."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 13,
+  "question": "A HIV positive patient presented with white non scrapable lesion on lateral border of tongue as shown below. Which of the following is the most likely responsible for this lesion?",
+  "options": [
+   "EBV",
+   "HHV- 8",
+   "Candida",
+   "HSV-1"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q12_e5f1c6e36f.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "A white corrugated plaque on the lateral border of the tongue that cannot be scraped off, in an HIV positive patient, is oral hairy leukoplakia, caused by Epstein-Barr virus. Candidal plaques are removable."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 14,
+  "question": "In a patient with history of dementia, which of the following acetylcholine esterase inhibitor is used if patient is not able to tolerate the oral drugs:",
+  "options": [
+   "Donepezil",
+   "Memantine",
+   "Gallantamine",
+   "Rivastigmine"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Rivastigmine is available as a transdermal patch, so it can be continued when oral medication is not tolerated. Memantine is not a cholinesterase inhibitor at all."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 15,
+  "question": "A 26 year old patient with history of MTB was started on anti tubercular agent. 6 months later, patient presented with neck swelling and increased TSH level. This is possibly associated with which drug:",
+  "options": [
+   "Rifampicin",
+   "Pyrazinamide",
+   "Cycloserine",
+   "Ethionamide"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ethionamide inhibits thyroid hormone synthesis and causes goitre with a raised TSH, and the effect appears after months of therapy. It resolves when the drug is stopped."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 16,
+  "question": "A patient was started on doxorubicin. Cardiotoxicity of this agent can be reduced by:",
+  "options": [
+   "Aprepitant",
+   "Dexrazoxane",
+   "Amifostine",
+   "Leucovorin"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Dexrazoxane is an iron chelator that reduces the formation of anthracycline-iron free radicals in the myocardium, and it is the accepted cardioprotective agent with doxorubicin."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 17,
+  "question": "A patient is on mood stabilizer, now presented with raised hepatic enzymes and hyperammonaemia. Possible offending agent:",
+  "options": [
+   "Lamotrigine",
+   "Topiramate",
+   "Carbamazepine",
+   "Sodium valproate"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sodium valproate causes hepatic enzyme elevation and hyperammonaemic encephalopathy through inhibition of the urea cycle enzyme carbamoyl phosphate synthetase."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 18,
+  "question": "In a female patient with history of bleeding manifestation, petechial rashes, heavy menstrual bleeding and easy bruising, which of the following TK inhibitor can be used:",
+  "options": [
+   "Fostamatinib",
+   "Bosutinib",
+   "Oprelvekin",
+   "Romiplstim"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fostamatinib is a spleen tyrosine kinase inhibitor licensed for chronic immune thrombocytopenia. It reduces macrophage mediated destruction of antibody coated platelets."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 19,
+  "question": "Which of the following anti diabetic agent is approved for heart failure patient with reduced ejection fraction:",
+  "options": [
+   "Liraglutide",
+   "Degludec",
+   "Canagliflozin",
+   "Dapagliflozin"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Dapagliflozin, an SGLT2 inhibitor, improves survival and reduces hospitalisation in heart failure with reduced ejection fraction, in patients with and without diabetes."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 20,
+  "question": "Which of the following is NOT seen with TCA toxicity:",
+  "options": [
+   "Confusion",
+   "Hypothermia",
+   "Pupil dilation",
+   "Arrhythmia"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Tricyclic overdose produces an anticholinergic picture with hyperthermia, not hypothermia, along with confusion, dilated pupils and cardiac conduction delay with arrhythmia."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 21,
+  "question": "Which of the following protease inhibitors can maximally produce hepatotoxicity:",
+  "options": [
+   "Tipranavir",
+   "Saquinavir",
+   "Atazanavir",
+   "Nelfinavir"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Tipranavir carries a boxed warning for severe hepatotoxicity and is the protease inhibitor most associated with hepatic failure. Atazanavir causes unconjugated hyperbilirubinaemia without true hepatotoxicity."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 22,
+  "question": "A patient on MDR TB therapy presented with multiple joint pain and increased uric acid level with AST/ALT 55-65. next line of management:",
+  "options": [
+   "Stop all and monitor uric acid and start when level become normal",
+   "Stop only pyrazinamide and monitor uric acid and AST ALT",
+   "Stop all hepatotoxic and monitor liver enzymes",
+   "Continue all and add uric acid lowering drug"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Joint pain with hyperuricaemia is the classic pyrazinamide effect, and the transaminase rise here is under three times the upper limit, so hepatotoxic drugs need not be stopped. Withdraw pyrazinamide and monitor."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 23,
+  "question": "A 55 year old male patient with history of hypertension and occasional spikes of blood glucose also. Which of the following is most preferred agent for this patient:",
+  "options": [
+   "Advise for exercise and Prazosin",
+   "Exercise and Amlodipine",
+   "Exercise and Metoprolol",
+   "Advise for only life style modification"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Amlodipine is metabolically neutral, so it controls blood pressure without worsening glycaemia. Beta blockers and thiazides impair glucose tolerance, and prazosin is not a first line antihypertensive."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 24,
+  "question": "All of the following side effect are more common with carbamazepine than oxcarbazepine except:",
+  "options": [
+   "Hepatotoxicity",
+   "Rash",
+   "Thrombocytopenia",
+   "Dilutional hyponatremia"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Dilutional hyponatraemia is more frequent with oxcarbazepine than with carbamazepine. Rash, hepatotoxicity and thrombocytopenia are all commoner with carbamazepine."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 25,
+  "question": "A farmer aged 60 years presented with fever, body ache and cough. Upon examination there was a black spot seen on chest as shown in image. there is positive evidence of IgM for scrub typhus. Preferred treatment:",
+  "options": [
+   "Doxycycline alone",
+   "Doxycycline + Azithromycin",
+   "Ceftriaxone + Doxycycline",
+   "Ceftriaxone alone"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "An eschar with fever and myalgia in a farmer is scrub typhus, and doxycycline alone is the treatment of choice. Azithromycin is the alternative in pregnancy or doxycycline intolerance."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 26,
+  "question": "A 28 year old male patient presented with altered sensorium and Pinpoint pupil. Which of the following poisoning is suspected:",
+  "options": [
+   "Morphine poisoning",
+   "Cocaine poisoning",
+   "Amphetamine poisoning",
+   "Dhatura poisoining"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Altered sensorium with pinpoint pupils is the hallmark of opioid poisoning. Cocaine and amphetamine dilate the pupils, and datura causes an anticholinergic picture with wide pupils."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 27,
+  "question": "A child was brought with history of iron tablet intake. Treatment with deferoxamine is started at this level of iron:",
+  "options": [
+   "> 350 mcg/dL",
+   "> 400 mcg/dL",
+   "> 450 mcg/dL",
+   "> 500 mcg/dL"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Deferoxamine chelation is indicated when the serum iron exceeds about 500 micrograms per decilitre, or earlier if there is shock, altered sensorium or persistent vomiting."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 28,
+  "question": "Which of the following pathogen is not sensitive to shown drug",
+  "options": [
+   "Aspergillus niger – Voriconazole",
+   "Candida Krusei – Fluconazole",
+   "Candida Glabrata – Amphotericin B",
+   "Itraconazole – Sporothrix"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Candida krusei is intrinsically resistant to fluconazole, which is why an echinocandin or amphotericin is used instead. The other pairings are appropriate."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 29,
+  "question": "A 75 year old patient with CHF and cardiac enlargement. Which of the following will decrease mortality and reduce further enlargement:",
+  "options": [
+   "Digoxin",
+   "Furosemide",
+   "Captopril",
+   "Carvedilol"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Angiotensin converting enzyme inhibitors such as captopril reduce mortality and hospitalisation in heart failure with reduced ejection fraction. Digoxin and furosemide relieve symptoms without improving survival."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 30,
+  "question": "Which of the following is avoided in thyroid storm:",
+  "options": [
+   "Propranolol",
+   "Lugol’s iodine",
+   "PTU",
+   "Aspirin"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Aspirin displaces thyroid hormone from thyroid binding globulin and raises free hormone levels, so it is avoided in thyroid storm. Paracetamol is used for fever instead."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 31,
+  "question": "If a immunosuppressive patient have white patches and cannot rub lesion seen in",
+  "options": [
+   "candida",
+   "HSV 1",
+   "HSV 8",
+   "EBV"
+  ],
+  "answerIndex": 3,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A white patch that cannot be rubbed off in an immunosuppressed patient is oral hairy leukoplakia due to Epstein-Barr virus. Candidal pseudomembranes are scrapable."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 32,
+  "question": "Scrub typhus image (chest Black lesion )",
+  "options": [
+   "Doxycycline + Azithromycin",
+   "I/V Doxycycline",
+   "Doxycycline + ceftriaxone",
+   "Azithromycin"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q33_fa93842fcb.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "An eschar with fever indicates scrub typhus. Doxycycline is the drug of choice, with azithromycin as the alternative, and the combination is used in severe or uncertain cases."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 33,
+  "question": "Identify the organism and stanining",
+  "options": [
+   "Nocardia acid fast stain",
+   "Streptococcus gram stain",
+   "Cryptococcus india ink",
+   "Coccidioidomycosis pas stain"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q35_fe9695ce1f.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Thin, delicate, branching filaments that retain carbol fuchsin on modified acid-fast staining are Nocardia. Its weak acid-fastness with 1 percent sulphuric acid distinguishes it from Actinomyces."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 34,
+  "question": "Which of the following virus' PCR needs Reverse transcriptase:-",
+  "options": [
+   "Respiratory syncytial virus",
+   "HHV",
+   "EBV",
+   "CMV"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Respiratory syncytial virus has an RNA genome, so its genome must first be transcribed into complementary DNA by reverse transcriptase before amplification. The herpesviruses listed are DNA viruses."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 35,
+  "question": "Elongation factor 2 inhibitor ?",
+  "options": [
+   "clostridium difficile",
+   "Corynebacterium diphtheriae",
+   "listeria",
+   "streptococcus"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Diphtheria toxin ADP-ribosylates elongation factor 2 and halts protein synthesis. Pseudomonas exotoxin A acts on the same target."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 36,
+  "question": "THE following investigation is used for measurement of",
+  "options": [
+   "Proptosis",
+   "Diplopia",
+   "Squint",
+   "Stereopsis"
+  ],
+  "answerIndex": 0,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q41_6664ab680c.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The instrument resting on both lateral orbital rims with mirrors is a Hertel exophthalmometer, which measures the forward projection of the cornea and so quantifies proptosis."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 37,
+  "question": "Prescription of glasses shows - 1.0 DS /-2.0 DCX 180 .What kind of astigmatism ?",
+  "options": [
+   "Mixed astigmatism",
+   "Simple hypermetropic astigmatism",
+   "compound myopic with the rule astigmatism",
+   "Compound Myopic against the rule astigmatism"
+  ],
+  "answerIndex": 2,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Both the spherical and the cylindrical components are minus, so the ametropia is compound myopic. A minus cylinder at axis 180 corrects the steeper vertical meridian, which defines with-the-rule astigmatism."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 38,
+  "question": "year boxer wants to get rid of spectacles. Which refractive procedure should be AVOIDED ?",
+  "options": [
+   "SMILE",
+   "LASIK",
+   "PRK",
+   "RK"
+  ],
+  "answerIndex": 1,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "LASIK creates a corneal flap that can be displaced by blunt trauma, so it is avoided in boxers and other contact sport athletes. Surface ablation such as PRK is preferred."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 39,
+  "question": "A 50 year old diabetic patient with history of diabetic since 20 year. Fundus examination shows NPDR . Which of the following would NOT be observed?",
+  "options": [
+   "Disc neovascularization",
+   "Retinal haemorrhage",
+   "Soft exudates",
+   "Venous beading"
+  ],
+  "answerIndex": 0,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Neovascularisation of the disc defines proliferative diabetic retinopathy. Haemorrhages, cotton wool spots and venous beading all occur within the non-proliferative stage."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 40,
+  "question": "point relationship marks not affected in which of the following Elbow fracture:-",
+  "options": [
+   "supracondylar",
+   "Lateral condylar",
+   "Infracondylar",
+   "Medial condylar"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In a supracondylar fracture the fracture line lies above the epicondyles and olecranon, so the three bony points retain their normal triangular relationship. Condylar fractures and dislocation disturb it."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 41,
+  "question": "Hawkins classification for which bone fracture:-",
+  "options": [
+   "Talus",
+   "Tibia",
+   "Humerus",
+   "Calcaneus"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Hawkins classification grades fractures of the neck of the talus and predicts the risk of avascular necrosis, which rises steeply with increasing displacement."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 42,
+  "question": "while bearing weight on right lower limb, the pelvis drooped down towards left side, which of the following structures are likely to be affected ?",
+  "options": [
+   "Superiar gluteal nerve",
+   "gluteal medius",
+   "gluteal minimus",
+   "sciatic nerve"
+  ],
+  "answerIndex": 1,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "When the pelvis drops on the unsupported side during single leg stance, the abductors of the weight bearing limb have failed. This positive Trendelenburg sign reflects gluteus medius weakness."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 43,
+  "question": "Bankart lesion ?",
+  "options": [
+   "avulsion from anterosuperior part of Glenoid labrum",
+   "avulsion from anteroinferior part of glenoid labrum",
+   "depression on posterolateral part of humeral head",
+   "depression on anteromedial part of humeral head"
+  ],
+  "answerIndex": 1,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A Bankart lesion is avulsion of the anteroinferior glenoid labrum after anterior shoulder dislocation. The posterolateral humeral head depression is the Hill-Sachs lesion."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 44,
+  "question": "Fracture fibula neck causes:",
+  "options": [
+   "extensor lurch",
+   "Waddling gait",
+   "Broad base gait",
+   "High stepping gait"
+  ],
+  "answerIndex": 3,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q49_aa989262cd.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The common peroneal nerve winds around the neck of the fibula and is injured there, causing foot drop. The patient lifts the knee high to clear the toes, producing a high stepping gait."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 45,
+  "question": "A baby vaccinated at 14 weeks. Which vaccine to be given next, route and site",
+  "options": [
+   "MR vaccine at 8 months, subcutaneous, left arm",
+   "MR vaccine at 9 months, subcutaneous, left arm",
+   "MR vaccine at 9 months, subcutaneous, right arm",
+   "MR vaccine at 8 months, subcutaneous, right arm"
+  ],
+  "answerIndex": 2,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "After the 14 week visit the next due vaccine is measles-rubella at 9 months, given subcutaneously in the right upper arm under the national schedule."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 46,
+  "question": "How do you assess perinatal asphyxia",
+  "options": [
+   "Apgar score of 4-7 after 5 mins",
+   "Cord ph <7.2",
+   "Hypotonia",
+   "Hypocalcemia"
+  ],
+  "answerIndex": 0,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Perinatal asphyxia is assessed by a persistently low Apgar score, with a score of 4 to 7 still low at 5 minutes indicating moderate asphyxia. The accepted cord pH cut-off is below 7.0, not 7.2."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 47,
+  "question": "HEADSS assessment is done for",
+  "options": [
+   "Neonates",
+   "Below 28 days",
+   "Under 5 yrs",
+   "Adolescent"
+  ],
+  "answerIndex": 3,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "HEADSS is a structured psychosocial interview for adolescents, covering home, education, activities, drugs, sexuality and suicide or depression."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 48,
+  "question": "Transferrin saturation decrease in",
+  "options": [
+   "Pernicious anemia",
+   "Iron deficiency anemia",
+   "Anemia of chronic disease",
+   "Thalassemia"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Transferrin saturation falls in iron deficiency because serum iron drops while total iron binding capacity rises. In anaemia of chronic disease both iron and binding capacity fall, so saturation is less reduced."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 49,
+  "question": "Sickle cell as compared to normal RBC has ?",
+  "options": [
+   "High osmotic and high mechanical fragility",
+   "Both low mechanical fragility and osmotic fragility",
+   "Low mechanical fragility, low osmotic fragility",
+   "Low osmotic fragility, high mechanical fragility"
+  ],
+  "answerIndex": 3,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sickled cells are rigid and rupture readily in the circulation, so mechanical fragility is high, while their reduced surface to volume behaviour makes them resistant to osmotic lysis."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 50,
+  "question": "Which of the following is found in the image given below ?",
+  "options": [
+   "Prostaglandins",
+   "Interferon gamma",
+   "Cytochrome 5a",
+   "Bradykinin"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q55_42289e193a.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The section shows epithelioid cell granulomas with a lymphocyte cuff. Granuloma formation depends on interferon gamma from T helper 1 lymphocytes activating macrophages."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 51,
+  "question": "years old female on strict vegetarian diet presented with fatigue, pallor. Hb = 9 gm /dL, MCV = 110 fl. Suggest the diagnosis.",
+  "options": [
+   "IDA",
+   "Megaloblastic anemia",
+   "Sideroblastic anemia",
+   "Sickle cell anemia"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A strict vegetarian with anaemia and a mean corpuscular volume of 110 femtolitres has a macrocytic anaemia, which in this setting is due to vitamin B12 deficiency."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 52,
+  "question": "Patient comes with nephrotic syndrome. His creatinine values is 4.25. Which of the following statement is true?",
+  "options": [
+   "FSGS can’t be diagnosed with biopsy alone",
+   "24 hr observation after renal biopsy",
+   "Amyloidosis- Renal biopsy must be done",
+   "If hematuria - then suggestive of hematoma"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Observation for about 24 hours after percutaneous renal biopsy is standard, since most bleeding complications declare themselves within that period."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 53,
+  "question": "Seminoma marker is?",
+  "options": [
+   "OCT",
+   "PLAP",
+   "HCG",
+   "NANOG"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Placental alkaline phosphatase is the marker expressed by seminoma. Alpha fetoprotein is never raised in pure seminoma, and beta hCG rises only in a minority."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 54,
+  "question": "Preservative for light blue vial, aim is glucose estimation?",
+  "options": [
+   "NaF",
+   "Na citrate",
+   "K oxalate",
+   "EDTA"
+  ],
+  "answerIndex": 0,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sodium fluoride inhibits enolase and so halts glycolysis in the sample, preserving glucose for estimation. Citrate, oxalate and EDTA are anticoagulants without this action."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 55,
+  "question": "Hbs Ag : Negative Anti Hbs Antibody : Negative Anti Hbc Antibody : Positive Anti Hbe : Negative",
+  "options": [
+   "Chronic Hepatitis",
+   "Acute Hepatitis",
+   "Vaccinated",
+   "Window period"
+  ],
+  "answerIndex": 3,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Isolated anti-HBc positivity with negative surface antigen and negative surface antibody is the window period, after the surface antigen has cleared but before the antibody appears."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 56,
+  "question": "Insulin independent absorption occurs in all except:",
+  "options": [
+   "Adipose",
+   "RBC",
+   "Pancreas",
+   "Brain"
+  ],
+  "answerIndex": 2,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Glucose uptake by brain, red cells, liver and intestine is insulin independent through GLUT1, GLUT2 and GLUT3. Adipose tissue and skeletal muscle depend on insulin-responsive GLUT4."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 57,
+  "question": "The adjoining graph shows the effect of PTH on blood calcium and phosphate in an experimental animal. How does PTH increase plasma calcium?",
+  "options": [
+   "By increasing osteoclast activity",
+   "By increasing osteoblastic activity",
+   "By decreasing renal excretion",
+   "By increasing osteoclastic activity"
+  ],
+  "answerIndex": 3,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q63_1073c7f57f.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Parathyroid hormone raises plasma calcium by stimulating osteoclastic bone resorption and by increasing calcium reabsorption in the distal tubule, while promoting phosphate excretion."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 58,
+  "question": "The motor supply of the muscle spindle is which of the following?",
+  "options": [
+   "A alpha neuron",
+   "A gamma",
+   "A beta",
+   "A delta"
+  ],
+  "answerIndex": 1,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q64_b1301853b2.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "Intrafusal fibres of the muscle spindle receive motor supply from A gamma efferents, which keep the spindle sensitive as the whole muscle shortens. A alpha fibres supply extrafusal fibres."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 59,
+  "question": "In the adjoining image of the muscle fiber action potential, the phase marked B is due to which of the following?",
+  "options": [
+   "Efflux of potassium",
+   "Influx of potassium",
+   "Sodium efflux",
+   "Calcium influx"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q65_14e35b338a.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The slow descending limb of the action potential is repolarisation, produced by efflux of potassium through delayed rectifier channels after the sodium channels have inactivated."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 60,
+  "question": "The graph given below shows the normal FEV1 and FVC curves for a normal lung and a diseased lung. The abnormal graph represents which of the following?:",
+  "options": [
+   "Bronchiectasis",
+   "Sarcoidosis",
+   "Pulmonary fibrosis",
+   "COPD"
+  ],
+  "answerIndex": 3,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [
+   "assets/inicet_nov2023_images/inicetnov2023_q66_767a44e815.jpeg"
+  ],
+  "imageRef": true,
+  "explanation": "The abnormal curve reaches a normal vital capacity but takes much longer to do so, with a reduced FEV1 to FVC ratio. That is an obstructive pattern, typified by chronic obstructive pulmonary disease."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 61,
+  "question": "Which of the following is incorrect about baroreceptors?",
+  "options": [
+   "Located in the thick muscle layer",
+   "Stretch receptors",
+   "Afferent fibers pass via the glossopharyngeal nerve branch",
+   "Sensitive to changes in arterial pressure"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Baroreceptors are bare nerve endings in the adventitia, the thin outer coat of the carotid sinus and aortic arch, not in the thick muscular media. They are stretch receptors responding to arterial pressure."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 62,
+  "question": "2,3-BPG binds with which of the following?",
+  "options": [
+   "Globin part of myoglobin",
+   "Globin part of hemoglobin",
+   "Heme part of myoglobin",
+   "Heme part of hemoglobin"
+  ],
+  "answerIndex": 1,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "2,3-bisphosphoglycerate binds the central cavity between the beta chains of deoxyhaemoglobin, stabilising the T state and shifting the dissociation curve right. Myoglobin has no such site."
  }
 ]
