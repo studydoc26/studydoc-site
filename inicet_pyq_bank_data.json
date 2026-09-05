@@ -25065,5 +25065,3585 @@
   "images": [],
   "imageRef": false,
   "explanation": "Delayed cord clamping is recommended for term and preterm babies who do not need immediate resuscitation, improving iron stores and reducing intraventricular haemorrhage."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 1,
+  "question": "Which cerebellar peduncle connects the medulla to the cerebellum?",
+  "options": [
+   "Superior cerebellar peduncle",
+   "Middle cerebellar peduncle",
+   "Inferior cerebellar peduncle",
+   "None of the above"
+  ],
+  "answerIndex": 2,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The inferior cerebellar peduncle, or restiform body, carries the olivocerebellar and dorsal spinocerebellar fibres from the medulla into the cerebellum."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 2,
+  "question": "The structure forming the lateral wall of the 3rd ventricle is",
+  "options": [
+   "Thalamus",
+   "Hypothalamus",
+   "Internal capsule",
+   "Caudate nucleus"
+  ],
+  "answerIndex": 0,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The thalamus forms the upper part of the lateral wall of the third ventricle, with the hypothalamus below it separated by the hypothalamic sulcus."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 3,
+  "question": "Which lobe of the brain is responsible for visual tracing?",
+  "options": [
+   "Frontal lobe",
+   "Parietal lobe",
+   "Temporal lobe",
+   "Occipital lobe"
+  ],
+  "answerIndex": 3,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Smooth pursuit and visual tracking depend on the occipital visual cortex and its projections, so the occipital lobe is the answer."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 4,
+  "question": "Which muscle is NOT involved in dysphagia or dysarthria?",
+  "options": [
+   "Tongue muscle",
+   "Uvula",
+   "Torus tubarius",
+   "Longus colli"
+  ],
+  "answerIndex": 3,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Longus colli is a prevertebral neck flexor with no role in speech or swallowing, unlike the tongue, uvula and torus tubarius musculature."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 5,
+  "question": "Which bony part of the pelvis gives attachment to muscles that flex both hip and knee joints?",
+  "options": [
+   "ASIS",
+   "Ischial tuberosity",
+   "Surface of ilium",
+   "Ischial spine"
+  ],
+  "answerIndex": 0,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sartorius arises from the anterior superior iliac spine and crosses both joints, flexing the hip and the knee."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 6,
+  "question": "Which of the following is true about Gaucher’s disease? A. Crumbled paper appearance B. Foam cells C. Glucocerebrosidase defect D. Sphingomyelinase defect",
+  "options": [
+   "A & D",
+   "A & C",
+   "B & D",
+   "B & C"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Gaucher disease results from glucocerebrosidase deficiency, and the storage macrophages show the crumpled tissue paper cytoplasm. Foam cells belong to Niemann-Pick."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 7,
+  "question": "In the TCA cycle, which intermediate serves as the main substrate for fatty acid synthesis?",
+  "options": [
+   "Citrate",
+   "Malate",
+   "Succinyl-CoA",
+   "α-Ketoglutarate"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Citrate leaves the mitochondrion and is cleaved by ATP citrate lyase to give cytosolic acetyl-CoA, the building block of fatty acid synthesis."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 8,
+  "question": "Match the following pairs correctly: Amino acid Derivative A. Tyrosine 1. Thyroid hormone B. Tryptophan 2. Melatonin C. Glycine 3. Creatine D. Cysteine 4. Taurine",
+  "options": [
+   "A–1, B–2, C–3, D–4",
+   "A–2, B–1, C–4, D–3",
+   "A–4, B–3, C–1, D–2",
+   "A–3, B–2, C–4, D–1"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Tyrosine yields thyroid hormone and catecholamines, tryptophan yields melatonin and serotonin, and glycine and the remaining amino acid pair as shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 9,
+  "question": "Which of the following statements are correct regarding the HMP shunt? 1. No ATP is produced 2. Produces Ribose-5-phosphate (R5P), CO₂, NADPH 3. Transketolase requires thiamine 4. Non-oxidative phase is reversible",
+  "options": [
+   "1, 2, 3 correct",
+   "1, 3, 4 correct",
+   "3 and 4 correct",
+   "1 and 4 correct"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The hexose monophosphate shunt generates NADPH and ribose-5-phosphate without producing ATP, and it is the source of reducing power for biosynthesis and for glutathione."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 10,
+  "question": "The most common symptom with glucose-6-phosphatase deficiency is",
+  "options": [
+   "Fasting hypoglycemia",
+   "Decreased glycogen in liver biopsy",
+   "Fasting ketosis",
+   "Hypercholesterolemia"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Von Gierke disease blocks the final step of both glycogenolysis and gluconeogenesis, so glucose cannot leave the liver and severe fasting hypoglycaemia dominates."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 11,
+  "question": "During tryptophan metabolism, xanthurenic acid excretion increases due to deficiency of",
+  "options": [
+   "Pyridoxine (Vitamin B6)",
+   "Thiamine (Vitamin B1)",
+   "Biotin (Vitamin B7)",
+   "Niacin (Vitamin B3)"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Pyridoxal phosphate is the cofactor for kynureninase, so in vitamin B6 deficiency the pathway is diverted and xanthurenic acid appears in urine."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 12,
+  "question": "A patient receiving folate therapy develops worsening neurological symptoms. What is the reason?",
+  "options": [
+   "Folate trap",
+   "Depletion of SAM",
+   "Impaired thymidylate synthesis",
+   "Methylmalonic acid accumulation"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Giving folate in undiagnosed B12 deficiency corrects the anaemia but not the neurological disease, and by consuming methyl groups it can precipitate or worsen subacute combined degeneration."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 13,
+  "question": "Length of a transcript is increased only in cancer cells. What is the most likely mechanism?",
+  "options": [
+   "Differential polyadenylation",
+   "Alternate splicing",
+   "Gene amplification",
+   "Promoter mutation"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Use of an alternative, more distal polyadenylation site lengthens the transcript, which is a recognised feature of transformed cells."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 14,
+  "question": "Which of the following statements about the Carnitine shuttle is correct?",
+  "options": [
+   "CPT I and II are located on mitochondrial membranes",
+   "ATP is hydrolyzed in this process",
+   "CoA is released on the cytosolic side during acylcarnitine formation",
+   "Carnitine is released in cytosol"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Carnitine palmitoyltransferase I sits on the outer mitochondrial membrane and CPT II on the inner, transferring the acyl group onto carnitine and back onto coenzyme A inside the matrix."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 15,
+  "question": "In a patient with rheumatoid arthritis, synovial tissue shows increased expression of TNF-α and IL-6. Which epigenetic change most likely explains this?",
+  "options": [
+   "Activation of DNA methylation",
+   "Inhibition of DNA methylation",
+   "Activation of histone deacetylation",
+   "Inhibition of histone acetylation"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Loss of promoter methylation de-represses inflammatory genes, so hypomethylation of the synovial fibroblast genome drives the sustained cytokine output."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 16,
+  "question": "How many patients in the given OGTT graph show diabetes mellitus?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Only the curves whose two hour value exceeds 200 mg per decilitre meet the diagnostic threshold, which in the graph shown is the number marked."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 17,
+  "question": "Deficiency of which enzyme leads to increased 2,3-BPG and low glucose levels in vitro?",
+  "options": [
+   "Pyruvate kinase",
+   "Phosphoglycerate kinase",
+   "G6PD",
+   "Hexokinase"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Phosphoglycerate kinase deficiency blocks glycolysis beyond 1,3-BPG, so the substrate is shunted through the Rapoport-Luebering pathway and 2,3-BPG accumulates."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 18,
+  "question": "Which of the following represents the correct order of steps in Polymerase Chain Reaction (PCR)?",
+  "options": [
+   "Denaturation → Annealing → Extension",
+   "Denaturation → Annealing → Extension → Hybridization",
+   "Annealing → Denaturation → Extension",
+   "Denaturation → Hybridization → Annealing"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Each PCR cycle runs denaturation of the template, annealing of the primers and then extension by the polymerase."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 19,
+  "question": "The Nobel Prize in Physiology or Medicine for the year 2025 was awarded for the discovery of which of the following?",
+  "options": [
+   "Gene regulation",
+   "Peripheral Immune tolerance",
+   "Cellular transport",
+   "None"
+  ],
+  "answerIndex": 1,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The 2025 prize recognised the discovery of peripheral immune tolerance and the regulatory T cells that maintain it."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 20,
+  "question": "In a stable patient, which of the following parameters is the best indicator of homeostasis?",
+  "options": [
+   "Urine output",
+   "Respiratory rate",
+   "Heart rate",
+   "Stable oxygen saturation"
+  ],
+  "answerIndex": 3,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A stable oxygen saturation reflects adequate ventilation, perfusion and gas exchange together, so it is the most reliable single index of homeostasis among those listed."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 21,
+  "question": "In a graph of the pressure–volume curve of the left ventricle, the curve has shifted upwards with no rightward shift. What does this represent?",
+  "options": [
+   "Increased peripheral resistance",
+   "Increased aortic compliance",
+   "Increased venous return",
+   "Decreased afterload"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "An upward shift without rightward displacement means a higher pressure is generated for the same volume, which reflects increased afterload from raised peripheral resistance."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 22,
+  "question": "Which of the following is not seen in Conn’s syndrome?",
+  "options": [
+   "Hyponatremia",
+   "Hypernatremia",
+   "Hypokalemia",
+   "Alkalosis"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Primary hyperaldosteronism retains sodium and loses potassium and hydrogen, so sodium is normal or high with hypokalaemia and metabolic alkalosis. Hyponatraemia is not a feature."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 23,
+  "question": "Serum magnesium levels are mainly maintained by which of the following mechanisms?",
+  "options": [
+   "Dietary intake",
+   "Renal absorption",
+   "Intestinal absorption",
+   "Bone metabolism"
+  ],
+  "answerIndex": 1,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Renal handling, chiefly reabsorption in the thick ascending limb, is the principal regulator of magnesium balance."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 24,
+  "question": "Why does systemic arterial blood pressure decrease during inspiration?",
+  "options": [
+   "Decreased filling of the left ventricle",
+   "Increased filling of the right ventricle",
+   "Increased intrathoracic pressure",
+   "Increased systemic vascular resistance"
+  ],
+  "answerIndex": 0,
+  "subject": "Physiology",
+  "subjectTags": [
+   "Physiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Inspiration pools blood in the expanded pulmonary vasculature, so left ventricular filling and hence stroke volume fall, producing the normal inspiratory dip in arterial pressure."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 25,
+  "question": "The parasite is being transmitted via the shown crab. Preferred DOC",
+  "options": [
+   "Albendazole",
+   "Ivermectin",
+   "Praziquantel",
+   "Diethylcarbamazine"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Freshwater crabs carry the metacercariae of Paragonimus, and praziquantel is the drug of choice for paragonimiasis."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 26,
+  "question": "Match the following poisons with their specific antidotes: Poison Antidote 1. Methanol A. Naloxone 2. Benzodiazepines B. Fomepizole 3. Opioid C. Flumazenil 4. Arsenic D. BAL (Dimercaprol)",
+  "options": [
+   "1–B, 2–A, 3–C, 4-D",
+   "1–A, 2–B, 3–C, 4-D",
+   "1–B, 2–C, 3–A, 4-D",
+   "1–C, 2–A, 3–B, 4-D"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Methanol is treated with fomepizole, benzodiazepines with flumazenil and opioids with naloxone, giving the pairing shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 27,
+  "question": "A new experimental drug was found to suppress the production of several pro-inflammatory interleukins by targeting epigenetic modifications. Which of the following is the most likely mechanism of action of this drug?",
+  "options": [
+   "Inhibition of histone acetylase",
+   "Inhibition of histone deacetylase (HDAC)",
+   "Inhibition of DNA methylase",
+   "Inhibition of DNA methyltransferase-1"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Histone deacetylase inhibition alters chromatin acetylation and, through it, the transcription of inflammatory cytokine genes."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 28,
+  "question": "Which of the following parasitic infections are best treated with ivermectin as the drug of choice?",
+  "options": [
+   "Wuchereria bancrofti and Brugia malayi",
+   "Loa loa and Strongyloides stercoralis",
+   "Onchocerca volvulus and Strongyloides stercoralis",
+   "Loa loa and Onchocerca volvulus"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ivermectin is the drug of choice for onchocerciasis and for strongyloidiasis. Diethylcarbamazine is used for the lymphatic filariae."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 29,
+  "question": "Dronabinol, a synthetic form of Δ⁹-tetrahydrocannabinol (THC), all of the following are true except ?",
+  "options": [
+   "It is used in pain management",
+   "Used in AIDS related weight loss management",
+   "Agonist at cannabinoid CB₁ receptors in the CNS",
+   "Excreted unchanged in urine"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Dronabinol is a CB1 agonist used for chemotherapy induced nausea and for appetite stimulation in AIDS. It is extensively metabolised in the liver, so it is not excreted unchanged."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 30,
+  "question": "The treatment of choice for cryptococcal meningitis in an immunocompromised patient (e.g., HIV-positive) is: A. Amphotericin B + 5-Flucytosine B. Amphotericin B + Fluconazole C. Liposomal Amphotericin B + Itraconazole D. Caspofungin + Fluconazole",
+  "options": [
+   "A & B only",
+   "A only",
+   "A & C only",
+   "A & D only"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Induction therapy is amphotericin B with flucytosine, followed by fluconazole consolidation, so the option naming amphotericin based induction is correct."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 31,
+  "question": "A patient with HIV infection is newly diagnosed with tuberculosis. What is the recommended timing for initiation of antiretroviral therapy (ART)?",
+  "options": [
+   "Start ART at the same time as ATT",
+   "Start ART 2 weeks after starting ATT",
+   "Start ART after completion of ATT",
+   "Start ART 6 months after ATT initiation"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Antiretroviral therapy is started about two weeks after antitubercular treatment, which balances the mortality benefit of early treatment against the risk of immune reconstitution syndrome."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 32,
+  "question": "Which of the following is false regarding Rifampicin?",
+  "options": [
+   "Resistance is due to rpoB gene mutation",
+   "Undergoes enterohepatic circulation",
+   "P-glycoprotein inhibits BBB crossing",
+   "Should be given with fatty meal"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Rifampicin is absorbed best on an empty stomach; food, and particularly a fatty meal, reduces its absorption."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 33,
+  "question": "Which of the following DPP-4 inhibitors requires dose adjustment when co-administered with ketoconazole (a strong CYP3A4 inhibitor)?",
+  "options": [
+   "Sitagliptin",
+   "Saxagliptin",
+   "Vildagliptin",
+   "Linagliptin"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Saxagliptin is metabolised by CYP3A4 and 3A5, so a strong inhibitor such as ketoconazole raises its levels and the dose must be halved."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 34,
+  "question": "Which of the following regimens is recommended for HIV pre-exposure prophylaxis (PrEP) in high-risk individuals?",
+  "options": [
+   "Tenofovir + Lamivudine",
+   "Tenofovir + Emtricitabine",
+   "Zidovudine + Lamivudine",
+   "Tenofovir alone"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Tenofovir with emtricitabine is the standard oral regimen for pre-exposure prophylaxis."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 35,
+  "question": "The following graph shows the dose–response curve of acetylcholine (ACh). When another drug is added, the response to ACh is augmented (shifted upward). Which of the following drugs most likely causes this effect? A + C A",
+  "options": [
+   "Atropine",
+   "Bethanechol",
+   "Physostigmine",
+   "Adrenaline"
+  ],
+  "answerIndex": 2,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A leftward shift with augmentation of the acetylcholine response indicates inhibition of its breakdown, which is what physostigmine, an anticholinesterase, produces."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 36,
+  "question": "Which of the following statements best describes the difference between finerenone and spironolactone?",
+  "options": [
+   "Both are steroidal mineralocorticoid receptor antagonists",
+   "Finerenone is a nonsteroidal, selective mineralocorticoid receptor antagonist with less endocrine side effects",
+   "Finerenone causes more gynecomastia than spironolactone",
+   "Finerenone blocks aldosterone synthesis"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Finerenone is a non-steroidal, selective mineralocorticoid receptor antagonist, so it lacks the anti-androgenic effects such as gynaecomastia seen with spironolactone."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 37,
+  "question": "A patient of schizophrenia on chronic therapy with Haloperidol presents with neck muscle stiffness & rigidity. Most preferred treatment option",
+  "options": [
+   "Stop antipsychotics & add bromocriptine",
+   "Continue antipsychotics & add hydration",
+   "Give benzotropine immediately",
+   "Stop antipsychotics"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Acute dystonia from a typical antipsychotic is reversed with an anticholinergic, and the offending drug is reduced or changed. The option marked is the one the key gives."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 38,
+  "question": "Which of the following agent act by inhibiting Na+K+ ATPase as shown in the image",
+  "options": [
+   "Ivabradine",
+   "Digoxin",
+   "Amlodipine",
+   "Trimetazidine"
+  ],
+  "answerIndex": 1,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Digoxin inhibits the sodium potassium ATPase, raising intracellular sodium and, through the sodium calcium exchanger, intracellular calcium, which increases contractility."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 39,
+  "question": "Which of the following agent act by inhibiting VEGF?",
+  "options": [
+   "Ramucirumab",
+   "Atezolizumab",
+   "Pemprolizumab",
+   "Dostralimab"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ramucirumab is a monoclonal antibody against VEGF receptor 2. The others listed are checkpoint inhibitors acting on PD-1 or PD-L1."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 40,
+  "question": "True about Rimegepant",
+  "options": [
+   "It is given in treatment of migraine",
+   "It is given by SC route",
+   "It causes vasoconstriction",
+   "It is CGRP agonist"
+  ],
+  "answerIndex": 0,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Rimegepant is an orally administered small molecule CGRP receptor antagonist used for acute migraine, and it does not cause vasoconstriction."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 41,
+  "question": "Which of the following is not a side effect of inhaled beta adrenergic agonists ?",
+  "options": [
+   "Tremors",
+   "Pulmonary edema",
+   "Palpitation",
+   "Hyperkalemia"
+  ],
+  "answerIndex": 3,
+  "subject": "Pharmacology",
+  "subjectTags": [
+   "Pharmacology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Beta-2 agonists drive potassium into cells and cause hypokalaemia, not hyperkalaemia. Tremor and palpitation are typical effects."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 42,
+  "question": "A culture of Streptococcus pneumoniae shows alpha-hemolysis and draughtsman colonies on blood agar. Which of the following tests is useful for its identification?",
+  "options": [
+   "Vancomycin is the drug of choice",
+   "Bile solubility test",
+   "Catalase positive",
+   "no available vaccine"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Pneumococcus is distinguished from viridans streptococci by bile solubility and optochin sensitivity."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 43,
+  "question": "Match the following parasites with the disease they cause: A. Toxocara canis 1. Larva migrans (visceral) B. Ancylostoma braziliense 2. Cutaneous larva migrans C. Strongyloides stercoralis 3. Larva currens D. Ancylostoma duodenale 4. Hookworm infection",
+  "options": [
+   "A-1, B-2, C-3, D-4",
+   "A-2, B-3, C-1, D-4",
+   "A-1, B-3, C-2, D-4",
+   "A-4, B-2, C-3, D-1"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Toxocara canis causes visceral larva migrans and Ancylostoma braziliense cutaneous larva migrans, with the remaining parasites pairing as shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 44,
+  "question": "Why is innate immunity considered first line/ non specific",
+  "options": [
+   "Has memory like acquired immunity",
+   "Does not differentiate between self and non self antigen",
+   "Targets common pathogenic antigen",
+   "Needs to undergo some sort of processing"
+  ],
+  "answerIndex": 2,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Innate immunity recognises conserved molecular patterns shared by broad classes of pathogens, so it responds immediately without prior exposure and without antigen specific memory."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 45,
+  "question": "The following image shows an oval, thin-shelled egg with segmented ovum observed in a fecal sample. Identify the helminth",
+  "options": [
+   "Enterobius vermicularis",
+   "Ancylostoma duodenale",
+   "Ascaris lumbricoides",
+   "Trichuris trichiura"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A thin shelled, colourless egg containing a segmented ovum is the hookworm egg, Ancylostoma duodenale, passed in fresh faeces."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 46,
+  "question": "A patient presents with multiple sinuses discharging black granules. What is the most likely causative organism?",
+  "options": [
+   "Staphylococcus aureus",
+   "Nocardia asteroides",
+   "Actinomyces israelii",
+   "Madurella mycetomatis"
+  ],
+  "answerIndex": 3,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Black grains in a mycetoma indicate a fungal cause, and Madurella mycetomatis is the commonest agent of eumycetoma."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 47,
+  "question": "Which of the following is an obligate intracellular organism?",
+  "options": [
+   "Ehrlichia chaffeensis",
+   "Staphylococcus aureus",
+   "Tropheryma whipplei",
+   "Streptococcus pyogenes"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ehrlichia is a rickettsial organism that can only replicate inside host cells, in this case within leucocyte vacuoles as morulae."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 48,
+  "question": "All of the following infections can be acquired through a thorn prick, except",
+  "options": [
+   "Sporothrix schenckii",
+   "Chromoblastomycosis",
+   "Dermatophytosis",
+   "Mycetoma"
+  ],
+  "answerIndex": 2,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sporotrichosis, chromoblastomycosis and mycetoma all follow implantation of soil fungi through a thorn. Dermatophytosis is acquired by surface contact."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 49,
+  "question": "The most common cause of viral diarrhea in adults is",
+  "options": [
+   "Rotavirus",
+   "Adenovirus 40/41",
+   "Norovirus",
+   "Astrovirus"
+  ],
+  "answerIndex": 2,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Norovirus is the leading cause of epidemic gastroenteritis in adults, while rotavirus predominates in young children."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 50,
+  "question": "Lab dealing with MTB. BSL??",
+  "options": [
+   "BSL-1",
+   "BSL-2",
+   "BSL-3",
+   "BSL-4"
+  ],
+  "answerIndex": 2,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Work with cultures of Mycobacterium tuberculosis requires biosafety level 3 containment, with directional airflow and respiratory protection."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 51,
+  "question": "HCW vaccinated with 6 scheduled doses of Hep B vaccine. But tested non-responsive after 3 months",
+  "options": [
+   "Ig now, followed by repeat after 2 weeks",
+   "Ig now, with 3 doses of complete vaccination",
+   "only complete Hep B vaccination",
+   "booster only"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A true non-responder after two complete vaccine series is managed with immunoglobulin for exposure protection, since further vaccination is unlikely to seroconvert them."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 52,
+  "question": "Candida albicans can be identified in the lab by demonstrating which of the following?",
+  "options": [
+   "Germ tube formation",
+   "Capsule formation",
+   "Hyphal septation",
+   "Yeast budding with pseudohyphae"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Candida albicans forms germ tubes when incubated in serum at 37 degrees for two hours, the Reynolds-Braude phenomenon."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 53,
+  "question": "A fungal infection of the mitral valve shows silver/Gomori stain positivity showing hyphae with acute angle branching. Which of the following organisms is most likely?",
+  "options": [
+   "Candida albicans",
+   "Aspergillus fumigatus",
+   "Mucor",
+   "Histoplasma capsulatum"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Septate hyphae branching at acute angles are Aspergillus. Mucorales are broad, aseptate and branch at right angles."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 54,
+  "question": "In Wuchereria bancrofti infection, when microfilariae are not detected in peripheral blood, they are found in",
+  "options": [
+   "Liver capillaries",
+   "Pulmonary vessels",
+   "Splenic sinusoids",
+   "Skeletal muscles"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Between nocturnal peaks the microfilariae of Wuchereria sequester in the pulmonary capillaries."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 55,
+  "question": "The virus life cycle corresponding to the epidermal layers (infection in basal cells, replication in spinous layer, assembly in granular layer, and release in cornified layer) represents which of the following viruses?",
+  "options": [
+   "Human papillomavirus (HPV)",
+   "Molluscum contagiosum virus",
+   "Varicella-zoster virus",
+   "Herpes simplex virus"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Human papillomavirus infects basal keratinocytes and couples its replication and assembly to epithelial differentiation, completing its cycle only in the superficial layers."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 56,
+  "question": "A virus lifecycle is shown below.Which of the following statements is true regarding the virus?",
+  "options": [
+   "It has 100% case fatality rate in humans",
+   "Fruit bats act as the natural reservoir",
+   "It is a DNA virus of the Rhabdoviridae family",
+   "It primarily spreads through mosquito bites"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fruit bats of the genus Pteropus are the natural reservoir for this virus, which spreads to humans through contaminated date palm sap and by direct contact."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 57,
+  "question": "A patient presents with pulmonary symptoms after ingestion of crab. stool wet mout shows following image. what is the DOC?",
+  "options": [
+   "Praziquental",
+   "Triclabendazole",
+   "Ivermectin",
+   "DEC"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Paragonimus westermani acquired from undercooked freshwater crab causes pulmonary paragonimiasis, treated with praziquantel."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 58,
+  "question": "Which of the following statements regarding stains is correct?",
+  "options": [
+   "Perls’ Prussian blue – Iron, red",
+   "Alizarin S – Calcium, black",
+   "Van Gieson – Elastin, blue",
+   "Giemsa – Mast cells, purple"
+  ],
+  "answerIndex": 3,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Giemsa stains mast cell granules metachromatically purple. Perls' Prussian blue shows iron as blue, alizarin red shows calcium and van Gieson stains collagen red."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 59,
+  "question": "All the following statements regarding Peutz–Jeghers syndrome are true, except?",
+  "options": [
+   "It is inherited as an autosomal recessive disorder",
+   "Intestinal polyps show arborizing smooth muscle on histology",
+   "Associated with extraintestinal manifestations",
+   "Presence of numerous intestinal hamartomatous polyps"
+  ],
+  "answerIndex": 0,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Peutz-Jeghers is inherited as an autosomal dominant trait through STK11 mutation, so the statement calling it recessive is untrue."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 60,
+  "question": "All the following are major and minor criteria of revised Jones criteria for Rheumatic fever except?",
+  "options": [
+   "Carditis",
+   "Fever",
+   "Erythema nodosum",
+   "Prolonged PR interval (e) Sydenham’s chorea"
+  ],
+  "answerIndex": 2,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Erythema marginatum, not erythema nodosum, is the major cutaneous criterion in acute rheumatic fever."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 61,
+  "question": "Which of the following is true regarding the virus depicted below?",
+  "options": [
+   "No vaccine available",
+   "Oncogenic virus",
+   "Produces painful lesions",
+   "RNA virus"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The virus shown is oncogenic, transforming infected cells and predisposing to malignancy."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 62,
+  "question": "A patient presents with microcytic hypochromic anemia but with a normal or increased RBC count. Peripheral smear shows target cells. What is the investigation of choice?",
+  "options": [
+   "Bone marrow examination",
+   "Serum ferritin estimation",
+   "Hb electrophoresis",
+   "Serum iron and TIBC"
+  ],
+  "answerIndex": 2,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A microcytic picture with a preserved or high red cell count and target cells suggests thalassaemia trait, and haemoglobin electrophoresis with a raised HbA2 confirms it."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 63,
+  "question": "All the following statements about Retinoblastoma are FALSE, except?",
+  "options": [
+   "It is always unilateral",
+   "The gene involved is called the “guardian of the genome”",
+   "The RB protein is inactive (hypophosphorylated)",
+   "Oncogenesis occurs by loss of function mutation"
+  ],
+  "answerIndex": 3,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Retinoblastoma follows the two-hit model, requiring loss of both alleles of the RB1 tumour suppressor for tumour formation."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 64,
+  "question": "Which of the following are markers for Mantle Cell Lymphoma?",
+  "options": [
+   "CD10",
+   "CD200",
+   "CD23",
+   "SOX11"
+  ],
+  "answerIndex": 3,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "SOX11 is expressed in mantle cell lymphoma including the cyclin D1 negative cases, and it is the most useful distinguishing marker."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 65,
+  "question": "A 24-year-old athlete collapses during play and dies suddenly. Autopsy shows asymmetric septal hypertrophy and myofiber disarray. What is the most likely diagnosis?",
+  "options": [
+   "Dilated cardiomyopathy",
+   "Restrictive cardiomyopathy",
+   "Hypertrophic obstructive cardiomyopathy (HOCM)",
+   "Arrhythmogenic right ventricular cardiomyopathy"
+  ],
+  "answerIndex": 2,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Asymmetric septal hypertrophy with myofibre disarray is hypertrophic cardiomyopathy, the commonest cause of sudden cardiac death in young athletes."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 66,
+  "question": "A boy with karyotype 46,XY,del(15)(q11q13) presents with obesity, hypotonia, hypogonadism, and developmental delay. What is the most likely diagnosis?",
+  "options": [
+   "Angelman syndrome",
+   "Prader–Willi syndrome",
+   "Cri du chat syndrome",
+   "Fragile X syndrome"
+  ],
+  "answerIndex": 1,
+  "subject": "Pathology",
+  "subjectTags": [
+   "Pathology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Loss of the paternal 15q11-q13 region causes Prader-Willi syndrome, with neonatal hypotonia followed by hyperphagia, obesity and hypogonadism."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 67,
+  "question": "In a population of 500 people, 20 new cases of a disease were reported over 2 years. The total person-time observed was 950 person-years. Calculate the incidence rate of the disease",
+  "options": [
+   "20 per 100 person-years",
+   "2.1 per 100 person-years",
+   "2.1 per 1,000 person-years",
+   "4 per 1,000 person-years"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Incidence rate is new cases divided by person-time at risk, which with the figures given works out to the value marked per 100 person-years."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 68,
+  "question": "Why is PM2.5 considered particularly harmful to human health? Because it can enter the —",
+  "options": [
+   "Trachea",
+   "Alveoli",
+   "Bronchioles",
+   "Nose"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Particles under 2.5 micrometres escape upper airway filtration and reach the alveoli, where they cross into the circulation and drive systemic inflammation."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 69,
+  "question": "A study finds that exercise reduces the incidence of cardiovascular disease. However, people who exercise also tend to eat a healthier diet, and a good diet itself lowers the risk. In this context, diet acts as a —",
+  "options": [
+   "Confounder",
+   "Effect modifier",
+   "Mediator",
+   "Independent variable"
+  ],
+  "answerIndex": 0,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Diet is associated with both the exposure and the outcome and does not lie on the causal path, which is the definition of a confounder."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 70,
+  "question": "In a study, the p-value obtained was 0.03. What does this imply?",
+  "options": [
+   "There is a 3% probability that the result occurred due to chance",
+   "There is 97% probability that the null hypothesis is true",
+   "The observed difference is not statistically significant",
+   "The null hypothesis is accepted"
+  ],
+  "answerIndex": 0,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The p-value is the probability of observing a difference at least this large if the null hypothesis were true, so it is about three percent here."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 71,
+  "question": "Which of the following is NOT a component of Bradford Hill’s criteria for causation?",
+  "options": [
+   "Temporality",
+   "Dose–response relationship",
+   "Biological plausibility",
+   "Sensitivity"
+  ],
+  "answerIndex": 3,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Bradford Hill's viewpoints include temporality, strength, dose-response, plausibility, consistency and specificity. Sensitivity is a property of a test, not a causation criterion."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 72,
+  "question": "In a patient co-infected with Tuberculosis (TB) and HIV, when both Anti-Tubercular Therapy (ATT) and Antiretroviral Therapy (ART) are indicated, the recommended interval between starting ATT and ART is approximately",
+  "options": [
+   "Start both on the same day",
+   "Start ART immediately after ATT",
+   "Start ART 2 weeks after initiating ATT",
+   "Start ART after completing ATT"
+  ],
+  "answerIndex": 2,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Antitubercular therapy is started first and antiretroviral therapy added about two weeks later, which reduces mortality while limiting immune reconstitution disease."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 73,
+  "question": "A previously vaccinated healthcare worker (HCW) sustains a needle-stick injury from an HBsAg-positive patient. The HCW is a known non-responder. What is the next step in management?",
+  "options": [
+   "Give 2 doses of HBIG immediately, at separate sites",
+   "Give 2 doses of HBIG – one immediately and another after 4 weeks",
+   "Give 1 dose of HBIG and start a complete Hepatitis B vaccination series",
+   "No further action required"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A known non-responder gets passive protection with immunoglobulin, given as two doses a month apart, because further vaccination will not raise antibody."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 74,
+  "question": "In a case–control study, which of the following statements is true?",
+  "options": [
+   "Matching eliminates all confounders",
+   "Choosing hospital controls leads to selection bias",
+   "Using more than one control per case increases study power",
+   "Case–control studies provide incidence directly"
+  ],
+  "answerIndex": 2,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Increasing the number of controls per case improves statistical power, with most of the gain achieved by about four controls per case."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 75,
+  "question": "Which of the following is a function of NITI Aayog?",
+  "options": [
+   "Formulating Five-Year Plans",
+   "Providing long-term policy and strategic inputs to government",
+   "Conducting national population census",
+   "Implementing health programs directly"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "NITI Aayog replaced the Planning Commission as a policy think tank, providing strategic and long term direction rather than formulating five year plans."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 76,
+  "question": "Under India’s National Family Welfare Programme, which of the following kits is not given to men?",
+  "options": [
+   "Condom kit",
+   "Oral contraceptive kit",
+   "ECP (emergency contraception) kit",
+   "CuT (IUCD) kit"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Oral contraceptive pills are a female method, so that kit is not supplied to men."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 77,
+  "question": "Crocodile skin like lesions are seen after",
+  "options": [
+   "Adipocere",
+   "Mummification",
+   "Arsenic poisoning",
+   "High voltage Electric burns"
+  ],
+  "answerIndex": 3,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "High voltage electrical injury produces the crocodile skin or Lichtenberg pattern of horny, cracked skin at the contact points."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 78,
+  "question": "A strong sexual arousal from a specific non-living object or a non-genital body part is known as?",
+  "options": [
+   "Fetishism",
+   "Frotterheurism",
+   "Exhibitionism",
+   "Voyeurism"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fetishistic disorder is recurrent arousal from a non-living object or a non-genital body part."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 79,
+  "question": "An 18-year-old girl is assaulted by a 24-year-old male at her workplace. Her mother does not want a medicolegal case. What should the doctor do?",
+  "options": [
+   "Take written consent from parents before examination",
+   "Take consent from the girl and examine her,inform police",
+   "Take legal evidence without consent",
+   "Document informed refusal from parents"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "At 18 she is an adult and can consent for herself, so her own informed consent is taken and the examination proceeds on that basis."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 80,
+  "question": "A man killed his boss believing he was about to poison him. Later, he was diagnosed with schizophrenia. According to the McNaughten rule, he is",
+  "options": [
+   "Legally guilty",
+   "Unfit to stand trial",
+   "Not punishable due to insanity",
+   "Fit for trial after treatment"
+  ],
+  "answerIndex": 2,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Under the McNaughten rules a person who, through disease of the mind, did not know the nature or wrongfulness of the act is not criminally responsible."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 81,
+  "question": "During autopsy examination,Forensic expert found blisters with soddening with clear line of demarcation over lower limb & thighs.These are characteristic of",
+  "options": [
+   "Chemical burns",
+   "Moist burn",
+   "Dry burn",
+   "Lightning injury"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Scalding by hot liquid produces moist burns with sodden, blistered skin and a clear line where the fluid ran, without singeing of hair."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 82,
+  "question": "A case of hanging shows dribbling of saliva, dilated pupils, one eye open and the other closed. Damage to which structure explains this?",
+  "options": [
+   "Cervical sympathetic chain",
+   "Vagus nerve",
+   "Aorta",
+   "Internal jugular vein"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Compression of the cervical sympathetic chain in the ligature produces the asymmetric pupillary and eyelid signs described."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 83,
+  "question": "A girl was found unconscious & brought dead in hospital and showing cherry red discolouration.During crime scene investigation police found congested area with no ventilation & gas geyser.The cause is",
+  "options": [
+   "Carbon monoxide poisoning",
+   "Carbon dioxide poisoning",
+   "Hydrogen cyanide poisoning",
+   "Methane inhalation"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Carboxyhaemoglobin gives the characteristic cherry red discolouration of skin and hypostasis in carbon monoxide poisoning."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 84,
+  "question": "Identify the condition",
+  "options": [
+   "EDH",
+   "SDH",
+   "SAH",
+   "ICH"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The imaging shows the biconvex, lens shaped collection that does not cross suture lines, which is an extradural haematoma."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 85,
+  "question": "A 30-year-old contact lens wearer presents with severe pain, redness, photophobia & blurred vision with below clinical presentation. Which of the following stains is most useful for diagnosis?",
+  "options": [
+   "Gram stain",
+   "Gomori methenamine silver stain",
+   "Calcofluor white stain",
+   "Ziehl–Neelsen stain"
+  ],
+  "answerIndex": 2,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Acanthamoeba keratitis is the concern in a contact lens wearer, and calcofluor white binds cyst walls and shows them by fluorescence."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 86,
+  "question": "A young myopic patient presents with sudden pain, watering, and marked loss of vision in one eye. Previous records show frequent change of spectacles.Procedure is done whose image is given below. Identify the procedure",
+  "options": [
+   "DALK",
+   "Corneal Collagen Cross-Linking (C3R)",
+   "DSAEK",
+   "Intracameral gas injection"
+  ],
+  "answerIndex": 3,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Acute corneal hydrops from a break in Descemet membrane is managed with intracameral gas to tamponade the break and hasten resolution."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 87,
+  "question": "Krukenberg spindle is seen in which of the following conditions?",
+  "options": [
+   "Pseudoexfoliation (PEX) syndrome",
+   "Pigmentary glaucoma",
+   "Juvenile open-angle glaucoma",
+   "Primary open-angle glaucoma"
+  ],
+  "answerIndex": 1,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A vertical spindle of pigment on the corneal endothelium is the hallmark of pigment dispersion and pigmentary glaucoma."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 88,
+  "question": "Which of the following methods is used to assess visual acuity in a preverbal child?",
+  "options": [
+   "ETDRS chart",
+   "Cardiff visual acuity cards",
+   "Optokinetic drum",
+   "Landolt’s C chart"
+  ],
+  "answerIndex": 1,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Cardiff acuity cards use preferential looking and are designed for infants and preverbal children."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 89,
+  "question": "A 60-year-old patient presents with sudden onset of severe ocular pain, headache, nausea, vomiting, and blurred vision with coloured halos. On examination, the cornea appears steamy, the pupil is mid-dilated and fixed, and the intraocular pressure is 60 mmHg. What is the most likely diagnosis?",
+  "options": [
+   "Acute angle-closure glaucoma",
+   "Secondary angle-closure glaucoma due to uveitis",
+   "Phacomorphic glaucoma",
+   "Neovascular glaucoma"
+  ],
+  "answerIndex": 0,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Severe pain with haloes, a hazy cornea, a fixed mid-dilated pupil and vomiting is acute angle closure glaucoma."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 90,
+  "question": "A 65-year-old male reports difficulty hearing high-frequency sounds, but can hear low-frequency sounds normally. Which part of the cochlea is most likely affected?",
+  "options": [
+   "Inner hair cells of Base of cochlea",
+   "Outer hair cells of apex",
+   "Tectorial membrane",
+   "Stria vascularis"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "High frequencies are encoded at the base of the cochlea, so basal hair cell loss produces the high frequency loss of presbycusis."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 91,
+  "question": "The muscle of mastication that causes depression of the mandible is being discussed. Which of the following statements about it is FALSE?",
+  "options": [
+   "It is attached to the medial pterygoid",
+   "It is attached near the temporomandibular joint (TMJ)",
+   "It is supplied by the mandibular nerve",
+   "It helps in protrusion of the mandible"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The lateral pterygoid depresses and protrudes the mandible, and its lower head attaches to the neck of the condyle with the upper head to the disc and capsule."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 92,
+  "question": "Identify the nerve block performed in the image below",
+  "options": [
+   "Greater palatine nerve block",
+   "Mandibular nerve block",
+   "Anterior ethmoidal nerve block",
+   "Infratrochlear nerve block"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The needle is directed into the greater palatine foramen at the junction of the hard and soft palate, which blocks the greater palatine nerve."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 93,
+  "question": "A 45-year-old male presents with hoarseness of voice for 6 months. Examination shows a laryngeal mass involving the vocal cords, with cord fixation, preglottic space involvement, and erosion of the inner perichondrium of thyroid cartilage, but no lymph node involvement. What is the T stage (AJCC 8th edition)?",
+  "options": [
+   "T2 N0 M0",
+   "T3 N0 M0",
+   "T4a N0 M0",
+   "T4b N0 M0"
+  ],
+  "answerIndex": 1,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A laryngeal tumour that fixes the vocal cord, without extension beyond the larynx, is staged T3."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 94,
+  "question": "In a CT of the temporal bone, the marked structure represents which of the following?",
+  "options": [
+   "Internal acoustic meatus",
+   "External acoustic meatus",
+   "Carotid canal",
+   "Jugular foramen"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The canal running medially from the posterior surface of the petrous bone towards the labyrinth is the internal acoustic meatus, carrying the facial and vestibulocochlear nerves."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 95,
+  "question": "Which of the following is NOT used for neonatal hearing screening?",
+  "options": [
+   "Pure tone audiometry",
+   "Otoacoustic emissions (OAE)",
+   "Brainstem evoked response audiometry (BERA)",
+   "Automated auditory brainstem response (AABR)"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Newborn screening uses otoacoustic emissions and automated brainstem response, both objective. Pure tone audiometry needs a behavioural response and cannot be used."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 96,
+  "question": "Which among the following is the correct sequence in which functional endoscopic sinus surgery is performed?",
+  "options": [
+   "Uncinectomy – Maxillary ostium widened – Removal of bulla – Removal of ground lamella",
+   "Maxillary ostium widened – Uncinectomy – Posterior ethmoidectomy – Removal of ground lamella",
+   "Uncinectomy – maxillary sinus is widened – posterior ethmoidectomy – bulla ethmoidectomy",
+   "Uncinectomy – maxillary sinus is widened – Ground lamella removal – bulla ethmoidectomy"
+  ],
+  "answerIndex": 0,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The uncinate process is removed first to expose the infundibulum, then the maxillary ostium is identified and widened, and dissection proceeds posteriorly."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 97,
+  "question": "All of the following are advantages of ketamine except",
+  "options": [
+   "Used for induction",
+   "Augments opioid analgesia",
+   "Prevents opioid tolerance",
+   "Produces a dissociative state Correct Answr"
+  ],
+  "answerIndex": 0,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ketamine provides dissociative anaesthesia, analgesia and bronchodilation, but it raises intracranial pressure and causes emergence phenomena, so it is not a routine induction agent."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 98,
+  "question": "Match the following substances with their appropriate antidotes: Substance Antidote 1. Benzodiazepines I. BAL 2. Methanol II. Naloxone 3. Opioids III. Flumazenil 4. Arsenic IV. Fomepizole",
+  "options": [
+   "1-III, 2-IV, 3-II, 4-I",
+   "1-II, 2-III, 3-IV, 4-I",
+   "1-III, 2-I, 3-II, 4-IV",
+   "1-IV, 2-III, 3-II, 4-I"
+  ],
+  "answerIndex": 0,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Benzodiazepines are reversed by flumazenil, methanol by fomepizole and the remaining agents pair with their antidotes as shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 99,
+  "question": "In an emergency casualty setting, which of the following patients should be attended to first, based on triage priority?",
+  "options": [
+   "A 6-year-old child, crying inconsolably, due to pain",
+   "A 60-year-old conscious patient with trousers soaked in blood",
+   "A 40-year-old patient, unconscious, and having noisy breathing",
+   "A 25-year-old agitated woman having anxiety and has rapid breathing and sweating"
+  ],
+  "answerIndex": 2,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "An unconscious patient with a compromised airway or circulation is the highest priority, since airway and breathing take precedence over pain or agitation."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 100,
+  "question": "The given lesion in the thigh of the patient is seen on 3 different occasions on the same site. What is the diagnosis?",
+  "options": [
+   "Cutaneous mastocytosis",
+   "Fixed drug eruption",
+   "HSV 1",
+   "Erythema multiforme"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Recurrence at exactly the same site on repeated drug exposure defines a fixed drug eruption."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 101,
+  "question": "Which of the following is not caused by thorn prick?",
+  "options": [
+   "Chromoblastomycosis",
+   "Sporotrichosis",
+   "Eumycetoma",
+   "Dermatophytosis"
+  ],
+  "answerIndex": 3,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sporotrichosis, chromoblastomycosis and eumycetoma follow implantation of soil fungi. Dermatophytosis is a superficial infection acquired by contact."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 102,
+  "question": "Most common site of melanoma in Indians",
+  "options": [
+   "Trunk",
+   "Hands and feet (acral/subungual)",
+   "Genitals",
+   "Face"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Acral lentiginous melanoma of the palms, soles and nail units is the commonest pattern in Indian and other darkly pigmented populations."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 103,
+  "question": "A farmer presents with swelling of ankle with black granules being discharged. What is the likely causative agent?",
+  "options": [
+   "Madurella mycetomatis",
+   "Actinomadura madurae",
+   "Nocardia braziliensis",
+   "Staphylococcus aureus"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Black grains indicate eumycetoma, of which Madurella mycetomatis is the commonest cause. Actinomycetoma produces white or red granules."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 104,
+  "question": "Match the following signs with their conditions: Signs Conditions A. Auspitz sign I. Cutaneous mastocytosis B. Carpet track sign II. Psoriasis C. Darier’s sign III. Kwashiorkor D. Flag sign IV. Discoid lupus erythematosus",
+  "options": [
+   "A-II, B-IV, C-I, D-III",
+   "A-I, B-II, C-I, D-IV",
+   "A-IV, B-II, C-I, D-III",
+   "A-II, B-I, C-IV, D-III"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Auspitz sign belongs to psoriasis and Darier sign to cutaneous mastocytosis, with the remaining signs pairing as shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 105,
+  "question": "60 year-old female with atrophic and parchment like skin over the genitalia with intense itching. HPE shows loss of rete ridges. What is the diagnosis?",
+  "options": [
+   "Lichen planus",
+   "Lichen sclerosus",
+   "Chronic Candidiasis",
+   "Vulval intraepithelial neoplasia"
+  ],
+  "answerIndex": 1,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Lichen sclerosus gives atrophic, parchment like vulval skin with intense itch, and histology shows epidermal atrophy with a homogenised dermal band."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 106,
+  "question": "“Strawberry cervix” on speculum examination is characteristic of",
+  "options": [
+   "Trichomonas vaginalis",
+   "Bacterial vaginosis",
+   "Candida albicans",
+   "Neisseria gonorrhoeae"
+  ],
+  "answerIndex": 0,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Punctate subepithelial haemorrhages giving the strawberry cervix are characteristic of Trichomonas vaginalis infection."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 107,
+  "question": "Which of the following is not included in syndromic management in males?",
+  "options": [
+   "Urethral discharge",
+   "Genital ulcers",
+   "Inguinal swelling",
+   "Lower abdominal pain"
+  ],
+  "answerIndex": 3,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Lower abdominal pain is the female syndrome of pelvic inflammatory disease. Male syndromes are urethral discharge, genital ulcer and inguinal bubo."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 108,
+  "question": "A patient on Haloperidol develops high-grade fever, muscle rigidity, and altered sensorium. What is the next step in management?",
+  "options": [
+   "Stop the antipsychotic and give Bromocriptine",
+   "Give Acetylcholine",
+   "Administer Atropine",
+   "Stop Haloperidol & give dantrolene not bromocriptine"
+  ],
+  "answerIndex": 0,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fever with lead pipe rigidity and altered sensorium on an antipsychotic is neuroleptic malignant syndrome, treated by stopping the drug and giving dantrolene with bromocriptine."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 109,
+  "question": "A patient develops sudden loss of vision following a traumatic incident. Ophthalmic examination is normal, and the patient appears unconcerned about the blindness. What is the most likely diagnosis?",
+  "options": [
+   "Somatoform disorder",
+   "Conversion disorder",
+   "Factitious disorder",
+   "Malingering"
+  ],
+  "answerIndex": 1,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Neurological loss without organic explanation, arising after psychological stress and without conscious feigning, is conversion disorder."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 110,
+  "question": "A 7-year-old child has frequent anger outbursts disproportionate to the situation, with irritable mood between episodes for over one year. What is the most likely diagnosis?",
+  "options": [
+   "Oppositional defiant disorder (ODD)",
+   "Conduct disorder",
+   "Disruptive mood dysregulation disorder (DMDD)",
+   "Intermittent explosive disorder (IED)"
+  ],
+  "answerIndex": 2,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Severe recurrent temper outbursts with a persistently irritable mood between them, beginning in childhood, defines disruptive mood dysregulation disorder."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 111,
+  "question": "A person derives sexual pleasure from using non-living, inanimate objects. What is this condition called?",
+  "options": [
+   "Fetishism",
+   "Frotteurism",
+   "Exhibitionism",
+   "Voyeurism"
+  ],
+  "answerIndex": 0,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Arousal focused on inanimate objects is fetishism."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 112,
+  "question": "Match the following types of delusions with their correct descriptions: Type of Delusion Description A. Persecution 1. Being controlled by external forces B. Grandiosity 2. Having great powers or importance C. Nihilistic 3. Parts of body or world do not exist D. Influence 4. Being harmed or conspired against",
+  "options": [
+   "A–4, B–2, C–3, D–1",
+   "A–3, B–1, C–4, D–2",
+   "A–2, B–4, C–3, D–1",
+   "A–1, B–2, C–3, D–4"
+  ],
+  "answerIndex": 0,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Delusion of persecution, reference, grandeur and control pair with their descriptions as shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 113,
+  "question": "A man kills his boss, believing the boss was trying to poison him. He is later diagnosed with schizophrenia. What is his legal status?",
+  "options": [
+   "Legally guilty",
+   "Unfit to stand trial",
+   "Not punishable on the ground of insanity",
+   "Criminally negligent"
+  ],
+  "answerIndex": 2,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Under the McNaughten rules the accused is not punishable if disease of the mind prevented him knowing the nature or wrongfulness of his act."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 114,
+  "question": "A 42 year old retroviral-positive patient presents with low-grade fever, productive cough and one episode of hemoptysis. X-ray of the patient is shown below. What is the most likely diagnosis?",
+  "options": [
+   "Tuberculosis",
+   "Pneumothorax",
+   "Lung abscess",
+   "Metastasis"
+  ],
+  "answerIndex": 0,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fever, cough and haemoptysis in an HIV positive patient with the radiographic changes shown is pulmonary tuberculosis, the commonest opportunistic infection in this setting."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 115,
+  "question": "A 55 year old smoker presents with drooping of the right eye, constricted pupil and absence of sweating on the right side of the face. He also complains of tingling and numbness in his arm. His Chest x-ray is shown below. Which investigation will provide a definitive diagnosis?",
+  "options": [
+   "Ultrasonography",
+   "Carotid Doppler",
+   "CT-guided biopsy",
+   "Sputum for microscopy"
+  ],
+  "answerIndex": 2,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Horner syndrome with anhidrosis in a smoker suggests a Pancoast tumour, and tissue diagnosis by image guided biopsy is required."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 116,
+  "question": "A patient with a history of head trauma had two episodes of vomiting at the scene and is now unconscious. What is the appropriate management?",
+  "options": [
+   "Craniectomy",
+   "ICU admission and observation",
+   "Conservative management",
+   "Burr hole and evacuation"
+  ],
+  "answerIndex": 0,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Deteriorating consciousness after head injury with a mass lesion requires urgent surgical decompression rather than observation."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 117,
+  "question": "A 13-year-old child presents with swelling and pain in the upper arm. X-ray is shown. He has fever, ESR is 60, and mild neutrophilia is noted. What should be the next step?",
+  "options": [
+   "PET scan",
+   "MRI",
+   "Humeral lesion biopsy",
+   "Bone marrow biopsy"
+  ],
+  "answerIndex": 2,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A lytic lesion with fever and raised inflammatory markers could be Ewing sarcoma or osteomyelitis, and biopsy of the lesion settles the diagnosis before treatment."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 118,
+  "question": "A patient has chronic abdominal pain with elevated amylase and lipase but normal exocrine pancreatic function. Ultrasound appears normal. MRCP findings are shown. What is the most likely diagnosis?",
+  "options": [
+   "Chronic pancreatitis",
+   "Choledochal cyst",
+   "Annular pancreas",
+   "Pancreatic divisum"
+  ],
+  "answerIndex": 3,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Recurrent pancreatitis with preserved exocrine function and the ductal anatomy shown indicates pancreas divisum, a failure of fusion of the dorsal and ventral ducts."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 119,
+  "question": "Patient with bone pain is being evaluated. His calcium is high, Phosphate is low and has generalised osteoporosis. What is the best investigation for diagnosing the condition?",
+  "options": [
+   "Sestamibi scan",
+   "PET CT",
+   "MRI",
+   "USG abdomen"
+  ],
+  "answerIndex": 0,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Hypercalcaemia with hypophosphataemia and bone loss indicates primary hyperparathyroidism, and a sestamibi scan localises the adenoma."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 120,
+  "question": "A 35 year old man presents to the emergency department with sudden onset shortness of breath. He has tachycardia and his BP is 90/40 mm Hg. Below is the CT of the patient. What is the next step in management?",
+  "options": [
+   "Needle Thoracostomy",
+   "Intercostal Chest tube insertion",
+   "Sputum Microscopy & culture",
+   "Thoracic USG Corrct Answer"
+  ],
+  "answerIndex": 0,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A hypotensive, tachycardic patient with a tension pneumothorax needs immediate needle decompression before any imaging or formal drain insertion."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 121,
+  "question": "A 20-year-old athlete presents with sudden cardiac death. The echo finding is depicted below. What is the most probable diagnosis?",
+  "options": [
+   "Dilated cardiomyopathy",
+   "Hypertrophic obstructive cardiomyopathy",
+   "Restrictive cardiomyopathy",
+   "Arrhythmogenic right ventricular cardiomyopathy"
+  ],
+  "answerIndex": 1,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Asymmetric septal hypertrophy with systolic anterior motion of the mitral valve is hypertrophic obstructive cardiomyopathy, the leading cause of sudden death in young athletes."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 122,
+  "question": "Which of the following is the best initial test for diagnosis of Cushing’s syndrome?",
+  "options": [
+   "Serum cortisol and ACTH stimulation test",
+   "Low-dose and high-dose dexamethasone suppression tests",
+   "ACTH levels and FDST",
+   "24-hour urinary free cortisol estimation"
+  ],
+  "answerIndex": 3,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Screening uses 24-hour urinary free cortisol, late night salivary cortisol or the overnight low dose dexamethasone test, before any attempt to localise the cause."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 123,
+  "question": "Which hypothalamic nucleus is responsible for leptin resistance?",
+  "options": [
+   "Ventral posteromedial nucleus (VPM)",
+   "Arcuate nucleus",
+   "Paraventricular nucleus (PVN)",
+   "Dorsomedial nucleus"
+  ],
+  "answerIndex": 1,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Leptin acts on POMC and AgRP neurons of the arcuate nucleus, and impaired signalling here underlies leptin resistance in obesity."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 124,
+  "question": "According to GOLD criteria, staging of COPD is based on post-bronchodilator FEV₁ percentage. Identify the correct classification",
+  "options": [
+   "Mild >80%, Moderate 50–80%, Severe 30–50%, Very severe <30%",
+   "Mild >70%, Moderate 50–70%, Severe 30–50%, Very severe <30%",
+   "Mild >90%, Moderate 70–90%, Severe 50–70%, Very severe <50%",
+   "Mild >80%, Moderate 60–80%, Severe 40–60%, Very severe <40%"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "GOLD grades airflow limitation by post-bronchodilator FEV1 percent predicted: mild above 80, moderate 50 to 80, severe 30 to 50 and very severe below 30."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 125,
+  "question": "Which of the following drugs used in pulmonary arterial hypertension acts as a prostaglandin receptor agonist?",
+  "options": [
+   "Bosentan",
+   "Ambrisentan",
+   "Selexipag",
+   "Sildenafil"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Selexipag is an oral, selective prostacyclin IP receptor agonist. Bosentan and ambrisentan are endothelin antagonists and sildenafil a phosphodiesterase-5 inhibitor."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 126,
+  "question": "A child with bronchial asthma develops centripetal obesity, moon face, and striae. What is the most likely cause?",
+  "options": [
+   "Disease progression",
+   "Exogenous steroid therapy",
+   "Adrenal hyperplasia",
+   "Pituitary adenoma"
+  ],
+  "answerIndex": 1,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Cushingoid features in an asthmatic child are almost always iatrogenic, from systemic or high dose inhaled corticosteroid."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 127,
+  "question": "Which of the following is not a common side effect of β₂-agonist therapy in asthma?",
+  "options": [
+   "Hyperkalemia",
+   "Tremor",
+   "Palpitations",
+   "Tachycardia"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Beta-2 agonists shift potassium into cells and cause hypokalaemia. Tremor, palpitation and tachycardia are the usual effects."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 128,
+  "question": "In a patient with weakness of the lower limbs, which finding will confirm compression myelopathy?",
+  "options": [
+   "Babinski sign",
+   "Hypotonia",
+   "Cremasteric reflex present",
+   "Absent deep tendon reflex"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "An extensor plantar response indicates an upper motor neuron lesion, which is what distinguishes cord compression from a peripheral cause."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 129,
+  "question": "Which of the following features is not seen in primary hyperaldosteronism?",
+  "options": [
+   "Hyperkalemia",
+   "Hypernatremia",
+   "Hypokalemia",
+   "Metabolic alkalosis"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Aldosterone excess causes potassium loss, so hypokalaemia with metabolic alkalosis is typical and hyperkalaemia is not seen."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 130,
+  "question": "The mechanism of heart failure is similar in all of the following conditions except",
+  "options": [
+   "Fever",
+   "Anemia",
+   "Thyrotoxicosis",
+   "Excessive salt intake"
+  ],
+  "answerIndex": 3,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fever, anaemia and thyrotoxicosis all cause high output failure by reducing systemic vascular resistance. Excessive salt intake acts by volume overload instead."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 131,
+  "question": "Which of the following is associated with inspiration and change in systemic arterial blood pressure?",
+  "options": [
+   "Increased right ventricular filling",
+   "Increased pulmonary vascular resistance",
+   "Increased systemic vascular resistance",
+   "Decreased venous return"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Inspiration increases venous return and right ventricular filling while pooling blood in the lungs, which reduces left ventricular output and lowers arterial pressure."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 132,
+  "question": "A 35-year-old female with systemic lupus erythematosus on long-term corticosteroid therapy presents with central obesity, moon facies, and purple striae. What is the most appropriate confirmatory diagnostic test?",
+  "options": [
+   "Low-dose dexamethasone suppression test followed by high-dose dexamethasone suppression test",
+   "ACTH levels followed by low-dose dexamethasone suppression test",
+   "Only ACTH levels",
+   "ACTH stimulation test"
+  ],
+  "answerIndex": 0,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "When exogenous steroid is the suspected cause, the low dose dexamethasone suppression test is used to demonstrate that the axis is suppressed rather than autonomously overactive."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 133,
+  "question": "At what FEV₁/FVC percentage does hypoxemia develop in COPD?",
+  "options": [
+   "30%",
+   "40%",
+   "50%",
+   "80%"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Resting hypoxaemia generally appears once airflow obstruction becomes severe, at about the level marked."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 134,
+  "question": "In laparoscopic surgery, the angle formed between two working ports is known as",
+  "options": [
+   "Azimuth angle",
+   "Manipulating angle",
+   "Elevating angle",
+   "Pivot angle"
+  ],
+  "answerIndex": 1,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The angle between the two working instruments at the target is the manipulation angle, while the azimuth angle relates each instrument to the telescope."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 135,
+  "question": "A patient presents with RIF pain for 24 hours suggestive of appendicitis. Which statement is incorrect?",
+  "options": [
+   "Interval appendectomy is mandatory after initial conservative management",
+   "Appendicular lump is managed by Ochsner–Sherren regimen",
+   "McBurney’s point is a reliable clinical indicator",
+   "Immediate appendectomy is avoided in lump formation"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Interval appendicectomy is not mandatory after successful conservative treatment of an appendicular mass, and current practice is selective."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 136,
+  "question": "After cholecystectomy, a patient develops progressive abdominal distension and jaundice. Ultrasound shows a 200 mL collection. What is the next step?",
+  "options": [
+   "USG-guided aspiration",
+   "ERCP with stenting",
+   "Laparotomy",
+   "Observe and repeat imaging"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A postoperative biliary collection is first managed by image guided aspiration or drainage to control sepsis, before defining the leak."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 137,
+  "question": "A patient on postoperative Day 7 has 300 mL bile in the drain. MRCP shows a cystic duct leak, no collection. Next step?",
+  "options": [
+   "ERCP with stent placement",
+   "Percutaneous drainage",
+   "Re-laparoscopy",
+   "Observation only"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A controlled cystic duct leak without a collection is treated endoscopically, since a stent lowers the transpapillary pressure gradient and lets the leak seal."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 138,
+  "question": "Arrange the following steps in correct order: 1. Identify Calot’s triangle 2. Clip and divide cystic artery 3. Clip and divide cystic duct 4. Dissect gallbladder from liver bed 5. Remove gallbladder through port",
+  "options": [
+   "1 → 2 → 3 → 4 → 5",
+   "1 → 3 → 2 → 5 → 4",
+   "3 → 1 → 2 → 5 → 4",
+   "1 → 2 → 4 → 3 → 5"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Calot's triangle is dissected first to obtain the critical view, then the cystic artery and duct are clipped and divided before the gallbladder is separated."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 139,
+  "question": "Arrange the following steps of hernioplasty: 1. Identify the sac & separation of sack from the chord 2. Pushing the sac content into the abdominal cavity 3. Mesh placement 4. Skin closure",
+  "options": [
+   "1 → 3 → 2 → 4",
+   "1 → 2 → 3 → 4",
+   "3 → 1 → 2 → 4",
+   "1 → 3 → 4 → 2"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The sac is identified and separated from the cord, its contents reduced, the sac dealt with, and the mesh then placed and fixed."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 140,
+  "question": "An intraoperative image shows appendix within the hernia sac. What type of hernia is this?",
+  "options": [
+   "Amyand hernia",
+   "Littre hernia",
+   "Gibbon hernia",
+   "Sliding hernia"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "An inguinal hernia containing the appendix is an Amyand hernia. A Littre hernia contains a Meckel diverticulum."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 141,
+  "question": "A child spills hot milk on the forearm. The area is red, blistered, painful, and blanches on pressure. Depending on the depth of burn, what is the type of burn?",
+  "options": [
+   "Superficial (epidermal)",
+   "Superficial partial thickness",
+   "Deep partial thickness",
+   "Full thickness"
+  ],
+  "answerIndex": 1,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A red, blistered, painful burn that blanches on pressure involves the papillary dermis, which is a superficial partial thickness burn and heals without grafting."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 142,
+  "question": "Which absorbable suture material causes maximum tissue reaction?",
+  "options": [
+   "Polyglycolic acid (Dexon)",
+   "Catgut",
+   "Polydioxanone (PDS)",
+   "Vicryl"
+  ],
+  "answerIndex": 1,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Catgut is a natural collagen suture removed by proteolysis, so it excites much more inflammation than the synthetic absorbables."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 143,
+  "question": "TIGAR-O classification is used for",
+  "options": [
+   "Acute pancreatitis",
+   "Chronic pancreatitis",
+   "Cystic pancreatic lesions",
+   "Periampullary carcinoma"
+  ],
+  "answerIndex": 1,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "TIGAR-O groups the aetiologies of chronic pancreatitis: toxic-metabolic, idiopathic, genetic, autoimmune, recurrent severe acute and obstructive."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 144,
+  "question": "Identify the bariatric procedure shown in image",
+  "options": [
+   "BPD",
+   "Mini-gastric bypass",
+   "Roux-en-Y gastric bypass",
+   "Duodenal switch"
+  ],
+  "answerIndex": 3,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The configuration shown, with a sleeve gastrectomy and a long biliopancreatic limb anastomosed to the duodenum, is the duodenal switch."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 145,
+  "question": "In emergency triage, which color code has the highest priority?",
+  "options": [
+   "Black",
+   "Red",
+   "Yellow",
+   "Green"
+  ],
+  "answerIndex": 1,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Red marks the immediate category, patients with life threatening but salvageable injuries who are treated first."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 146,
+  "question": "A patient has hypercalcemia, low phosphate, and osteoporosis. Most likely diagnosis?",
+  "options": [
+   "Parathyroid adenoma",
+   "Chronic kidney disease",
+   "Vitamin D deficiency",
+   "Post-renal transplant state"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Raised calcium with low phosphate and bone loss is the biochemical signature of primary hyperparathyroidism from an adenoma."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 147,
+  "question": "A patient with recurrent gastric ulcers and a duodenal nodule should be evaluated next with",
+  "options": [
+   "Serum gastrin levels",
+   "Biopsy from ulcer margin",
+   "Secretin stimulation test",
+   "Endoscopic ultrasound"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Recurrent ulceration with a duodenal wall nodule suggests gastrinoma, and a fasting serum gastrin is the first step."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 148,
+  "question": "Which statement about intestinal stomas is incorrect?",
+  "options": [
+   "Ileostomy has the highest electrolyte loss",
+   "Colostomy output is thick and less irritating",
+   "Ileostomy effluent is rich in sodium and bicarbonate",
+   "Colostomy has maximum electrolyte loss"
+  ],
+  "answerIndex": 3,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ileostomy effluent is liquid and rich in sodium and bicarbonate, so electrolyte loss is greatest with an ileostomy, not a colostomy."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 149,
+  "question": "All are features of late dumping syndrome except",
+  "options": [
+   "Lightheadedness and palpitations",
+   "Relief by lying down",
+   "Occurs 2 hours after meals",
+   "Due to hyperglycemia"
+  ],
+  "answerIndex": 1,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Late dumping is reactive hypoglycaemia one to three hours after eating and is relieved by carbohydrate, not by lying down, which relieves early dumping."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 150,
+  "question": "Match the Following: A. Manometry B. SESTAMIBI C. EUS D. 24 hrs, pH monitoring 1. Parathyroid adenoma 2. Achalasia 3. GERD 4. Pancreatic lesion",
+  "options": [
+   "A-2, B-1, C-4, D-3",
+   "A-3, B-1, C-2, D-4",
+   "A-2, B-3, C-4, D-1",
+   "A-1, B-2, C-3, D-4"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Manometry diagnoses achalasia, sestamibi localises a parathyroid adenoma, endoscopic ultrasound stages submucosal lesions and pH monitoring assesses reflux."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 151,
+  "question": "Following is the image of the patient with breast cancer. What would be the possible management for the following clinical scenario?",
+  "options": [
+   "Simple mastectomy followed by management of complications",
+   "Neo chemotherapy followed by radical mastectomy",
+   "Modified radical mastectomy followed by radiotherapy",
+   "New chemotherapy followed by modified radical mastectomy"
+  ],
+  "answerIndex": 3,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Locally advanced disease is downstaged with neoadjuvant chemotherapy before definitive surgery."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 152,
+  "question": "A patient presented with abdominal pain on evaluation. The patient has been found to have raised Mucin and elevated CEA levels with normal amylase. What is the possible diagnosis for this condition?",
+  "options": [
+   "Cystic neoplasm of pancreas",
+   "Pseudo cyst of pancreas",
+   "Mucinous adenoma",
+   "IPMN"
+  ],
+  "answerIndex": 2,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A pancreatic cystic lesion with thick mucin and high carcinoembryonic antigen in the aspirate indicates a mucinous neoplasm, which carries malignant potential."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 153,
+  "question": "A patient presents with a history of fall on an outstretched hand and complains of pain in the left shoulder. X-ray shows empty glenoid. What is the most likely diagnosis?",
+  "options": [
+   "Anterior dislocation of shoulder",
+   "Posterior dislocation of shoulder",
+   "Fracture of humerus",
+   "Fracture of clavicle"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "An empty glenoid with the head displaced antero-inferiorly is an anterior shoulder dislocation, the commonest type."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 154,
+  "question": "A 13-year-old boy presents with pain and tenderness in the right arm. X-ray of the humerus shows a lytic lesion in the upper end. ESR is 60 mm/hr. What is the next best investigation?",
+  "options": [
+   "Ultrasound scan",
+   "Bone marrow biopsy",
+   "Biopsy of lesion of humerus",
+   "PET scan"
+  ],
+  "answerIndex": 2,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A lytic lesion in a child with systemic features requires tissue diagnosis, so biopsy of the humeral lesion is the next step."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 155,
+  "question": "A child presents with a closed supracondylar fracture of the humerus after a fall. Apart from local pain and swelling, he is unable to make the “OK sign” with his thumb and index finger. Which of the following structures is injured?",
+  "options": [
+   "Radial nerve",
+   "Ulnar nerve",
+   "Median nerve",
+   "Brachial artery"
+  ],
+  "answerIndex": 2,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The anterior interosseous branch of the median nerve is the one most often injured in an extension type supracondylar fracture, so the child cannot make the OK sign."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 156,
+  "question": "A postmenopausal woman presents with multiple bone pains and lethargy. Investigations show raised serum calcium and high parathyroid hormone (PTH) levels. What is the next best investigation?",
+  "options": [
+   "CT skull",
+   "Sestamibi scan",
+   "PET CT",
+   "All of the above"
+  ],
+  "answerIndex": 1,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Hypercalcaemia with a raised parathyroid hormone indicates primary hyperparathyroidism, and sestamibi scanning localises the adenoma before surgery."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 157,
+  "question": "Match the following foot deformities with their characteristic findings: Column A Column B A. Equinus 1. Dorsiflexion of foot B. Planus 2. Plantar flexion of foot C. Cavus 3. Flattening of arch D. Calcaneus 4. High arch foot",
+  "options": [
+   "A-2, B-3, C-4, D-1",
+   "A-1, B-2, C-3, D-4",
+   "A-3, B-4, C-1, D-2",
+   "A-4, B-3, C-2, D-1"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Equinus is fixed plantar flexion, calcaneus is dorsiflexion, and varus and valgus describe inversion and eversion of the hindfoot, giving the pairing shown."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 158,
+  "question": "Patient with RA, which deformity is this?",
+  "options": [
+   "⁠Piano key sign",
+   "Boutonniere",
+   "Z deformity",
+   "Swan neck"
+  ],
+  "answerIndex": 1,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Flexion at the proximal interphalangeal joint with hyperextension at the distal joint is the boutonnière deformity, from rupture of the central slip."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 159,
+  "question": "10 year old boy with swollen elbow for 8 months. Neutrophils and ESR increased X-ray AP and lateral given. Next most appropriate investigation?",
+  "options": [
+   "Biopsy",
+   "MRI",
+   "PET scan",
+   "CT scan"
+  ],
+  "answerIndex": 1,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A chronic joint swelling with raised inflammatory markers needs magnetic resonance imaging to define the extent of marrow and soft tissue involvement before biopsy."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 160,
+  "question": "A 7-year-old child presents with short stature. The upper segment to lower segment (US:LS) ratio is 1.4:1. Which of the follow- ing is the most probable diagnosis?",
+  "options": [
+   "Spondyloepiphyseal dysplasia",
+   "Severe acute malnutrition (SAM)",
+   "Achondroplasia",
+   "Growth hormone deficiency"
+  ],
+  "answerIndex": 2,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A disproportionately short child with a high upper to lower segment ratio has short limbs, which points to a skeletal dysplasia such as achondroplasia."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 161,
+  "question": "A 3-month-old infant presents with prolonged jaundice, high-colored urine, and pale stools. The child is exclusively breastfed and otherwise well. HIDA scan is non-excretory. What is the next best step in management?",
+  "options": [
+   "Check for cataract and rule out galactosemia",
+   "Urgent liver biopsy to confirm diagnosis",
+   "Go for genetic testing for metabolic disorders",
+   "Stop breastfeeding and switch to formula feeds"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Conjugated jaundice with pale stools at this age is biliary atresia until proved otherwise, and time matters because the Kasai procedure must be done early."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 162,
+  "question": "A term newborn presents with tachypnea and cyanosis. Chest X-ray shows prominent interlobar fissure and hyperinflated lungs. Respiratory distress resolved in 48 hours. What is the likely diagnosis?",
+  "options": [
+   "Respiratory distress syndrome",
+   "Transient tachypnea of newborn (TTNB)",
+   "Aspiration pneumonia",
+   "Congenital pneumonia"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fluid in the fissure with hyperinflation in a term baby whose distress settles within a day or two is transient tachypnoea of the newborn, from delayed clearance of lung fluid."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 163,
+  "question": "A child presents with recurrent pneumonia and respiratory distress but no cyanosis. A continuous murmur is heard below the left clavicle. What is the most probable diagnosis?",
+  "options": [
+   "Ventricular septal defect (VSD)",
+   "Atrial septal defect (ASD)",
+   "Patent ductus arteriosus (PDA)",
+   "Coarctation of aorta"
+  ],
+  "answerIndex": 2,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A continuous machinery murmur below the left clavicle with recurrent chest infections and no cyanosis is a patent ductus arteriosus."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 164,
+  "question": "A 10-year-old child with diabetic ketoacidosis (DKA) presents with blood sugar 450 mg/dL, bicarbonate 4, pH 7.0, potassium 4.9, sodium 146, urea 73, and creatinine 0.6. What is the best initial management?",
+  "options": [
+   "Start insulin and then give normal saline bolus",
+   "Give 10 mL/kg NS bolus, then start insulin with NS (maintenance +10% deficit) with 40 mEq/L KCl",
+   "Give 20 mL/kg NS bolus, then start insulin with half-normal saline with 20 mEq/L KCl",
+   "Give 10 mL/kg NS bolus, start insulin with maintenance +7% deficit"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Fluid resuscitation precedes insulin in paediatric ketoacidosis, and boluses are kept modest because rapid fluid shifts risk cerebral oedema."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 165,
+  "question": "A child with nephrotic syndrome has massive proteinuria (4+), hyperlipidemia, and edema. He does not respond to steroids. Renal biopsy shows segmental sclerosis and hyalinosis of glomeruli. What is the diagnosis?",
+  "options": [
+   "Focal segmental glomerulosclerosis (FSGS)",
+   "Membranous nephropathy",
+   "IgA nephropathy",
+   "Minimal change disease"
+  ],
+  "answerIndex": 0,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Steroid resistance in childhood nephrotic syndrome most often reflects focal segmental glomerulosclerosis on biopsy."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 166,
+  "question": "A 3-year-old child presents with recurrent infections, wheeze, obesity, excessive weight gain, and hirsutism. BMI > +2 SD. Neu- rodevelopment is normal. What is the next best step in management?",
+  "options": [
+   "Check thyroid profile for congenital hypothyroidism",
+   "Evaluate for Prader–Willi syndrome",
+   "Advise exercise and dietary changes",
+   "Check serum cortisol and evaluate for exogenous Cushing’s syndrome"
+  ],
+  "answerIndex": 3,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Weight gain with hirsutism and recurrent infection, particularly in a child on steroids for asthma, requires assessment of cortisol excess."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 167,
+  "question": "Which of the following are major or minor criteria for acute rheumatic fever (ARF)? A. Polyarthralgia B. Chorea C. Carditis D. Subcutaneous nodules",
+  "options": [
+   "A, B, C",
+   "B, C, D",
+   "A, B, C, D",
+   "A, C, D"
+  ],
+  "answerIndex": 2,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Carditis and chorea are major criteria while polyarthralgia and fever are minor, so all the listed items appear in the revised Jones criteria."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 168,
+  "question": "A term neonate presents with respiratory distress. Chest X-ray shows hyperinflation with prominent fissure and bulging middle lobe fissure. Distress resolves after 2 hours. What is the likely diagnosis?",
+  "options": [
+   "Transient tachypnea of newborn (TTNB)",
+   "Respiratory distress syndrome (RDS)",
+   "Congenital pneumonia",
+   "Meconium aspiration syndrome"
+  ],
+  "answerIndex": 0,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Hyperinflation with fluid in the fissure and rapid resolution indicates transient tachypnoea of the newborn."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 169,
+  "question": "Which of the following drugs is not used in the management of status epilepticus?",
+  "options": [
+   "Valproate",
+   "Ethosuximide",
+   "Fosphenytoin",
+   "Levetiracetam"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ethosuximide works only on absence seizures through T-type calcium channels and has no role in status epilepticus."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 170,
+  "question": "A boy with stunting and excessive weight gain has a height below –2 SD and weight above +2 SD. Development is normal. He has recurrent respiratory infections treated frequently with oral medications. What is the next best step?",
+  "options": [
+   "Promote physical activity",
+   "Screen for growth hormone deficiency",
+   "Check thyroid profile",
+   "Test for Cushing’s syndrome secondary to steroid use"
+  ],
+  "answerIndex": 3,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Short stature with obesity is the endocrine pattern, and cortisol excess must be excluded, unlike nutritional obesity where growth is preserved."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 171,
+  "question": "The recommended timing for postpartum intrauterine contraceptive device (PPIUCD) insertion is",
+  "options": [
+   "Within 10 minutes of placental delivery",
+   "24–48 hours after delivery",
+   "6 weeks after delivery",
+   "3 months after delivery"
+  ],
+  "answerIndex": 0,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Post-placental insertion within ten minutes of placental delivery gives the lowest expulsion rate among the immediate postpartum options."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 172,
+  "question": "A 30-week pregnant woman presents with mild bleeding per vaginum and is diagnosed with placenta previa. What is the next step in management?",
+  "options": [
+   "Expectant (conservative) management",
+   "Immediate cesarean section",
+   "Induction of labor",
+   "Manual removal of placenta"
+  ],
+  "answerIndex": 0,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "With a preterm fetus, mild bleeding and a stable mother, expectant management with steroids and monitoring is appropriate."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 173,
+  "question": "A 30-year-old woman has postpartum hemorrhage (PPH) not controlled with uterine massage and uterotonics. What is the next step?",
+  "options": [
+   "Balloon tamponade (Bakri balloon)",
+   "Uterine devascularization",
+   "Hysterectomy",
+   "Uterine artery embolization"
+  ],
+  "answerIndex": 0,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "When uterotonics fail, intrauterine balloon tamponade is the next step, before proceeding to devascularisation or hysterectomy."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 174,
+  "question": "Which of the following is NOT a marker of ovarian reserve?",
+  "options": [
+   "Anti-Müllerian hormone (AMH)",
+   "Antral follicle count (AFC)",
+   "Early follicular phase FSH",
+   "Early follicular phase estradiol"
+  ],
+  "answerIndex": 3,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Anti-Müllerian hormone, antral follicle count and early follicular FSH assess ovarian reserve. Oestradiol alone is used only to interpret the FSH value."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 175,
+  "question": "A 30-year-old woman presents with intermenstrual bleeding. Pap smear reveals atypical glandular cells. What is the next step?",
+  "options": [
+   "Repeat Pap after 6 months",
+   "Colposcopy with endocervical and endometrial sampling",
+   "High-risk HPV testing",
+   "Cone biopsy directly"
+  ],
+  "answerIndex": 1,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Atypical glandular cells require colposcopy with endocervical sampling, and endometrial sampling as well when age or risk factors warrant it."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 176,
+  "question": "A 35-year-old woman has irregular bleeding and TVS shows a thickened endometrium. What is the next step?",
+  "options": [
+   "Pap smear",
+   "Endometrial sampling",
+   "Hormonal therapy",
+   "Hysterosalpingography"
+  ],
+  "answerIndex": 1,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A thickened endometrium with abnormal bleeding requires tissue diagnosis, so endometrial sampling is the next step."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 177,
+  "question": "Which of the following are signs of imminent eclampsia? 1. Severe headache 2. Blurring of vision 3. Epigastric or right upper quadrant pain 4. B/L Pedal Edema",
+  "options": [
+   "1 & 4",
+   "1 & 2",
+   "2 & 4",
+   "1, 2 & 3"
+  ],
+  "answerIndex": 0,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Severe headache, visual disturbance, epigastric pain and hyperreflexia herald imminent eclampsia, and the combination marked is the one the key gives."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 178,
+  "question": "A cervix showing punctate hemorrhages (“strawberry cervix”) is characteristic of infection with",
+  "options": [
+   "Candida albicans",
+   "Trichomonas vaginalis",
+   "Chlamydia trachomatis",
+   "Gardnerella vaginalis"
+  ],
+  "answerIndex": 1,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The strawberry cervix of punctate subepithelial haemorrhage is characteristic of trichomoniasis."
+ },
+ {
+  "session": "Nov 2025",
+  "year": "2025",
+  "number": 179,
+  "question": "Which of the following instruments is NOT typically used during a cesarean section?",
+  "options": [
+   "Allis tissue forceps",
+   "Doyen’s retractor",
+   "Green-Armytage forceps",
+   "Sim’s speculum"
+  ],
+  "answerIndex": 3,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sim's speculum is a vaginal instrument. Allis forceps, Doyen's retractor and Green-Armytage forceps are all used at caesarean section."
  }
 ]

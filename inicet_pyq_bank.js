@@ -1,5 +1,5 @@
 const DATA_URL = 'inicet_pyq_bank_data.json';
-const YEARS = ["2021", "2022", "2023", "2024"];
+const YEARS = ["2021", "2022", "2023", "2024", "2025"];
 const SUBJECTS = ["Anatomy", "Physiology", "Biochemistry", "Pharmacology", "Pathology", "Microbiology", "Forensic medicine & toxicology", "PSM", "ENT", "Ophthalmology", "Medicine", "Surgery", "ObGy", "Pediatrics", "Orthopedics", "Anesthesia", "Radiology", "Dermatology", "Psychiatry"];
 let year = (function(){
   const p = new URLSearchParams(window.location.search).get('year');
