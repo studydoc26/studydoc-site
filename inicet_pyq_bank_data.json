@@ -28645,5 +28645,405 @@
   "images": [],
   "imageRef": false,
   "explanation": "Sim's speculum is a vaginal instrument. Allis forceps, Doyen's retractor and Green-Armytage forceps are all used at caesarean section."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 63,
+  "question": "Which of the following is complementary to the active site of an enzyme?",
+  "options": [
+   "Substrate",
+   "Product",
+   "Allosteric modifiers",
+   "Transition state"
+  ],
+  "answerIndex": 3,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The active site is complementary to the transition state rather than to the substrate itself, which is how the enzyme lowers the activation energy."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 64,
+  "question": "Glycogen phosphorylase is activated by?",
+  "options": [
+   "ATP",
+   "Calcium",
+   "Glucose-6-P",
+   "Protein kinase and AMP"
+  ],
+  "answerIndex": 1,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Calcium released during muscle contraction binds the calmodulin subunit of phosphorylase kinase and activates glycogen phosphorylase. ATP and glucose-6-phosphate are inhibitors."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 65,
+  "question": "Which of the following is not helpful in DNA double-strand break repair?",
+  "options": [
+   "MSH2",
+   "BRCA",
+   "Ku",
+   "Protein Kinase"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "MSH2 belongs to the mismatch repair system. Double-strand breaks are repaired by homologous recombination involving BRCA and by non-homologous end joining involving Ku and DNA-dependent protein kinase."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 66,
+  "question": "Hepatomegaly in glycogen storage disease with glucose-6-phosphatase deficiency is due to:",
+  "options": [
+   "Overactive glycogen phosphorylase",
+   "Excess Insulin mediated stimulation of Glycogen synthase",
+   "No feed back inhibition of Glycogen synthase",
+   "G6P mediated stimulation of Glycogen synthase"
+  ],
+  "answerIndex": 3,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In von Gierke disease glucose-6-phosphate cannot be dephosphorylated, so it accumulates and allosterically stimulates glycogen synthase, loading the liver with glycogen."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 67,
+  "question": "HPV vaccine component is derived from which viral protein",
+  "options": [
+   "L1",
+   "E1 +E2",
+   "L2",
+   "E6,7"
+  ],
+  "answerIndex": 0,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "HPV vaccines are made from virus-like particles self-assembled from the L1 major capsid protein, which carries no viral DNA and so cannot cause infection."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 68,
+  "question": "Slide for screening of Cervical cancer sample shows blue color due to which dye",
+  "options": [
+   "Toludine blue",
+   "Lugols iodine",
+   "Papanicolaou stain/dye",
+   "Histopathological examination"
+  ],
+  "answerIndex": 2,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The Papanicolaou stain is a multichromatic stain, and its haematoxylin component colours the nuclei blue while the counterstains colour the cytoplasm."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 69,
+  "question": "A 20-year-old woman with PCOS, a Ferriman-Gallwey score of 6, hirsutism and diabetes attends the clinic. What is the first step in management?",
+  "options": [
+   "Give ocp",
+   "Give ocp and oral antiandrogen",
+   "Counsel regarding future metabolic syndrome /",
+   "Weight management/Life Style modification"
+  ],
+  "answerIndex": 3,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Weight reduction and lifestyle modification are first line in PCOS with obesity and insulin resistance, since even modest weight loss restores ovulation and improves the metabolic profile."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 70,
+  "question": "Which of the following is NOT a virilizing ovarian tumour?",
+  "options": [
+   "Sertoli cell Tumor",
+   "Leydig cell Tumor",
+   "Brenner's tumour",
+   "Hilus cell tumor"
+  ],
+  "answerIndex": 2,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Brenner tumours are usually non-functional or weakly oestrogenic. Sertoli-Leydig, Leydig and hilus cell tumours are the androgen-secreting, virilizing ovarian tumours."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 71,
+  "question": "A 13-year-old girl is brought by her mother and is found to be 8 weeks pregnant. What is the first step?",
+  "options": [
+   "Preserve the clothing",
+   "Register MLC and inform the police",
+   "Take consent from mother for examining genital organs. «",
+   "Plan MTP immediately"
+  ],
+  "answerIndex": 1,
+  "subject": "ObGy",
+  "subjectTags": [
+   "ObGy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Pregnancy in a girl under 18 is sexual assault in law, so the case must be registered and the police informed under the POCSO Act before anything else."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 72,
+  "question": "A 33 year old male presented with URTI and orbital pain. Which the likely diagnosis?",
+  "options": [
+   "sinusitis",
+   "sinusitis plus orbital cellulitis",
+   "sinusitis plus septal cellulitis",
+   "sinusitis plus sub periosteal cellulitis"
+  ],
+  "answerIndex": 1,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sinusitis with orbital pain and visual blurring indicates spread beyond the septum into the orbit, that is orbital cellulitis."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 73,
+  "question": "A pregnant woman with bipolar disorder, four previous episodes and none in the past year, is on lithium. What is the appropriate step?",
+  "options": [
+   "Increase dose of Lithium",
+   "Decreased dose of lithium",
+   "Switch to valproate",
+   "Stop the drug and proceed drug free"
+  ],
+  "answerIndex": 1,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Lithium is continued at the lowest effective dose, since the relapse risk with four previous episodes outweighs the small teratogenic risk. Valproate is far more teratogenic."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 74,
+  "question": "A patient on lithium for bipolar disorder for 6 months becomes unwell. What is the first investigation?",
+  "options": [
+   "Serum electrolytes",
+   "S. lithium levels",
+   "MRI",
+   "ECG"
+  ],
+  "answerIndex": 1,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Lithium has a narrow therapeutic index, so a serum lithium level is the first test when a patient on it becomes unwell."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 75,
+  "question": "A patient started on a mood stabilizer and developed hyperammonemia and raised hepatic transaminases. Which drug is likely to be responsible?",
+  "options": [
+   "Lamotrigine",
+   "Valproate",
+   "Carbamazepine",
+   "Topiramate"
+  ],
+  "answerIndex": 1,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sodium valproate raises hepatic transaminases and causes hyperammonaemic encephalopathy by inhibiting carbamoyl phosphate synthetase in the urea cycle."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 76,
+  "question": "A person met with a road traffic accident. All of the following injuries may be found except:",
+  "options": [
+   "Chop wound",
+   "Grazed abrasion",
+   "Laceration",
+   "Contusion"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A chop wound is produced by a heavy cutting weapon such as an axe and is not a feature of blunt road traffic trauma, which gives abrasions, contusions and lacerations."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 77,
+  "question": "In 17th century British East India company smuggled what from India to china",
+  "options": [
+   "Tobacco",
+   "Opium→ poppy plaut",
+   "Magic mushroom",
+   "Marijuana"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The British East India Company shipped Indian opium into China, and the resulting trade led to the Opium Wars."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 78,
+  "question": "Which of the following is not used in postmortem identification?",
+  "options": [
+   "Muscle",
+   "Nail",
+   "Blood",
+   "Teeth"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Teeth, nails and blood are all used for postmortem identification. Skeletal muscle offers no individualising features."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 79,
+  "question": "In autopsy of a drowning case, water was not found in lungs and cause of death was given as Dry drowning. What is the mechanism :- Drowuiug (",
+  "options": [
+   "Laryngospasm",
+   "MI",
+   "Pulmonary edema",
+   "Septicemia"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In dry drowning, laryngospasm on contact with water closes the airway so that little or no water enters the lungs, and death results from asphyxia."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 80,
+  "question": "Blackening around the entry wound in a firearm injury is due to:",
+  "options": [
+   "Unburnt particles",
+   "Soot particles",
+   "Flame",
+   "Dust particles"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Blackening is soot deposited from the burnt propellant and is wiped away, unlike tattooing, where unburnt powder is driven into the skin."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 81,
+  "question": "All of the following are used in heavy metal poisoning except:",
+  "options": [
+   "EDTA",
+   "BAL",
+   "Oxime",
+   "Penicillamine"
+  ],
+  "answerIndex": 2,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Oximes such as pralidoxime reactivate cholinesterase in organophosphate poisoning. EDTA, dimercaprol and penicillamine are the metal chelators."
+ },
+ {
+  "session": "Nov 2023",
+  "year": "2023",
+  "number": 82,
+  "question": "Which of the following is not a grievous injury?",
+  "options": [
+   "Emasculation",
+   "Fracture of bone",
+   "Hospitalisation for 7 days",
+   "Permanent hearing loss in one ear"
+  ],
+  "answerIndex": 2,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Under section 320 the period of hospitalisation qualifying as grievous hurt is twenty days, so seven days does not meet the definition."
  }
 ]
