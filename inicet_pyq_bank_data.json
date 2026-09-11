@@ -29045,5 +29045,705 @@
   "images": [],
   "imageRef": false,
   "explanation": "Under section 320 the period of hospitalisation qualifying as grievous hurt is twenty days, so seven days does not meet the definition."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 1,
+  "question": "Which of the following is not a boundary of the hepatocystic triangle ?",
+  "options": [
+   "Cystic duct",
+   "Common hepatic duct",
+   "Cystic artery",
+   "Inferior border of liver"
+  ],
+  "answerIndex": 2,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The hepatocystic triangle, also widely known as Calot's triangle or the cystohepatic triangle, is a crucial anatomical landmark for surgeons, especially during gallbladder removal (cholecystectomy). Its boundaries are generally defined as: Medially: The common hepatic duct (Option B ruled out) Laterally (or Inferiorly): The cystic duct (Option A ruled out) Superiorly: The inferior surface of the liver (Option D ruled out) Within this triangle, typically find important structures such as: The cystic artery (Option C) (which usually arises from the right hepatic artery) The cystic lymph node (also known as Lund's node) Connective tissue and lymphatics Occasionally, an accessory right hepatic artery or anomalous sectoral bile duct"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 2,
+  "question": "What is the primary action of the muscle originating from this structure?",
+  "options": [
+   "Protracts and depresses the mandible",
+   "Elevates and protrudes the mandible",
+   "Elevates and retracted the mandible",
+   "Elevates the mandible"
+  ],
+  "answerIndex": 0,
+  "subject": "Anatomy",
+  "subjectTags": [
+   "Anatomy"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The lateral pterygoid muscle plays a unique and crucial role among the muscles of mastication because it is the only one that primarily participates in depressing (Option A) the mandible (opening the mouth)."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 3,
+  "question": "A child presents with fatigue and hepatomegaly. Liver enzymes (ALT, AST) are elevated. Ketosis was significant. Liver biopsy shows excess glycogen accumulation. After feeding, blood glucose levels rise, but there is no rise in glucose after overnight fasting. Which of the following enzyme deficiencies is most likely responsible for this presentation?",
+  "options": [
+   "Glucose-6-phosphatase",
+   "Liver phosphorylase",
+   "Muscle phosphorylase",
+   "Phosphofructokinase"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The child’s presentation—fatigue, hepatomegaly, elevated liver enzymes, marked ketosis, glycogen accumulation in the liver, fasting hypoglycemia with normal postprandial glucose—strongly points toward a Glucose-6-phosphatase (G6PD) deficiency. Von Gierke's Disease (Glycogen Storage Disease Type I) Cause Deficiency of glucose-6-phosphatase enzyme Pathophysiology Inability to convert glucose-6-phosphate to glucose; leads to accumulation of glycogen, lactate, and triglycerides Symptoms Severe hypoglycemia Hepatomegaly and Renomegaly Growth retardation Lactic acidosis Hyperuricemia and Hyperlipidemia Diagnosis Biochemical tests (hypoglycemia, lactic acidosis, hyperuricemia, hyperlipidemia) Genetic testing Management Frequent feedings with slow-release carbohydrates Blood glucose monitoring Medications for associated conditions Liver transplantation (in severe cases)"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 4,
+  "question": "Cancer cells take up excess glucose because?",
+  "options": [
+   "Lactate is produced even in the presence of Oxygen",
+   "High NADH/NAD ratio",
+   "High GLUT2",
+   "Absence of Oxygen"
+  ],
+  "answerIndex": 0,
+  "subject": "Biochemistry",
+  "subjectTags": [
+   "Biochemistry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Cancer cells demonstrate the Warburg Effect by favoring the conversion of glucose to lactate even in the presence of adequate oxygen, a process known as aerobic glycolysis. The phenomenon in cancer cells where, even in the presence of oxygen, glucose is primarily converted to lactate through aerobic glycolysis. (Option A) Significance: ○ This allows faster ATP production and provides intermediates for neoplastic cell growth and multiplication. ○ It increases NADPH production, protecting neoplastic cells from oxidative stress."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 5,
+  "question": "What is the minimum age at which a woman can give valid consent for Medical Termination of Pregnancy (MTP) in India?",
+  "options": [
+   "18 years",
+   "16 years",
+   "25 years",
+   "20 years"
+  ],
+  "answerIndex": 0,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In India, the minimum age at which a woman can provide valid consent for a Medical Termination of Pregnancy (MTP) is 18 years . According to the Medical Termination of Pregnancy (MTP) Act, 1971, a woman aged 18 years or older can consent to an abortion independently. Medical Termination of Pregnancy (MTP) Act: The original act was passed in 1971 and amended in 2021. Indications : ○ Maternal Risk ○ Fetal Risk: Spina bifida, Down syndrome. ○ Eugenic Conditions: Risks to both mother and fetus. ○ Humanitarian Cause: Pregnancy resulting from rape. ○ Contraceptive Failure."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 6,
+  "question": "As per the MTP (Amendment) Act, 2021, the opinion of two registered medical practitioners is required for termination of pregnancy at which gestational age?",
+  "options": [
+   "16-20 weeks",
+   "20-24 weeks",
+   "Up to 12 weeks",
+   "12-16 weeks"
+  ],
+  "answerIndex": 1,
+  "subject": "Forensic medicine & toxicology",
+  "subjectTags": [
+   "Forensic medicine & toxicology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "As per the Medical Termination of Pregnancy (Amendment) Act, 2021 , the opinion of two registered medical practitioners is required for the termination of pregnancy between 20 and 24 weeks of gestation. Medical Termination of Pregnancy (MTP) Act: The original act was passed in 1971 and amended in 2021. Indications : ○ Maternal Risk ○ Fetal Risk: Spina bifida, Down syndrome. ○ Eugenic Conditions: Risks to both mother and fetus. ○ Humanitarian Cause: Pregnancy resulting from rape. ○ Contraceptive Failure. Qualifications : ○ MBBS, MD/DNB/DGO ○ MBBS who has trained in gynaecology for 6 months ○ MBBS who has performed 25 MTPs under supervision ○ ASHA and AYUSH cannot perform MTP. The MTP Act 1971 and The MTP Act Amendments 2021: MTP Act 1971 The MTP Amendment Act 2021 Indications (Contraceptive failure) Only applies to married women."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 7,
+  "question": "Which of the following is not seen in JNA?",
+  "options": [
+   "Recurrent epistaxis",
+   "Unilateral nasal obstruction",
+   "Exclusively to adolescence boys",
+   "Biopsy under anesthesia to diagnose"
+  ],
+  "answerIndex": 3,
+  "subject": "ENT",
+  "subjectTags": [
+   "ENT"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Biopsy under anesthesia to diagnose(Option D): This is the correct answer; this is NOT typically done for JNA . JNA is a highly vascular tumor. Performing a biopsy carries a significant risk of severe, life-threatening hemorrhage. Diagnosis is usually made based on characteristic clinical presentation (recurrent epistaxis, unilateral nasal obstruction in an adolescent boy) and, most importantly, characteristic imaging findings (CT and MRI). If a biopsy is considered absolutely necessary for an atypical presentation, it is performed in a controlled environment like an operating room where bleeding can be immediately managed, often after preoperative embolization to reduce blood supply to the tumor."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 8,
+  "question": "Which of the following nerves gives sensory supply to the orbit?",
+  "options": [
+   "Vagus nerve",
+   "Trigeminal nerve",
+   "Hypoglossal nerve",
+   "Oculomotor nerve"
+  ],
+  "answerIndex": 1,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Trigeminal nerve (Cranial Nerve V) (Option B) : This nerve is the primary sensory nerve for the face, including the orbit and its contents. Its ophthalmic division (V1) specifically provides sensory innervation to: ○ The eye itself (cornea, conjunctiva, iris, ciliary body) ○ The lacrimal gland ○ The skin of the upper eyelid, forehead, and bridge of the nose ○ Parts of the nasal cavity and sinuses. Let's look at why the other options are incorrect: Vagus nerve (Cranial Nerve X) (Option A ruled out) : Primarily involved in parasympathetic control of internal organs (heart, lungs, digestive system), and provides some sensory input from the ear and pharynx, but not the orbit. Hypoglossal nerve (Cranial Nerve XII) (Option C ruled out) : Purely a motor nerve that controls the muscles of the tongue."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 9,
+  "question": "Which of the following best defines blindness ?",
+  "options": [
+   "Visual acuity less than 6/60 in the better eye",
+   "Visual acuity less than 3/60 in the better eye after best possible correction",
+   "Visual field less than 10 degrees from fixation in the better eye",
+   "Inability to perceive light in both eyes"
+  ],
+  "answerIndex": 1,
+  "subject": "Ophthalmology",
+  "subjectTags": [
+   "Ophthalmology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "possible correction Visual acuity less than 3/60 in the better eye after best possible correction (Option B): This is the definition of blindness according to the World Health Organization (WHO) and is widely adopted for international comparison. 3/60 means a person can see at 3 meters what a person with normal vision can see at 60 meters. This is the best definition of blindness among the choices."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 10,
+  "question": "In a village of 100 children, 10 children have a past history of measles (i.e, they are not at risk now), 20 new cases of measles were reported this year. What is the incidence of measles in this population for the year?",
+  "options": [
+   "20%",
+   "22.22%",
+   "10%",
+   "30%"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In the above scenario, Total population: 100 (10 children have a past history of measles ) Population at risk: 100-10 = 90 Number of new cases: 20 Incidence = (No. of new cases of specific disease during a given time period / Population at risk during that period) x 1000 Incidence: = (20 / 90) x 1000 = 222.222 per 1000 population Percentage will be: 22.22% Uses of incidence rates: Identifying and monitoring disease trends over time Evaluating the effectiveness of public health interventions Helps to determine the efficacy of primary prevention of the disease Used as a health status indicator."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 11,
+  "question": "A 65-year-old patient is on mechanical ventilation for acute respiratory distress syndrome (ARDS). Suddenly, the patient becomes hypotensive, tachycardic, and shows absent breath sounds on the left side with tracheal deviation to the right. What is the most common cause of this in patients receiving mechanical ventilation?",
+  "options": [
+   "High tidal volume",
+   "Barotrauma due to high airway pressure",
+   "Endotracheal tube malposition",
+   "Oxygen toxicity"
+  ],
+  "answerIndex": 1,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Patients with ARDS often require high airway pressures during mechanical ventilation to maintain oxygenation. This increases the risk of barotrauma , leads to alveolar rupture and air leakage into extra-alveolar spaces , causing complications such as pneumothorax, pneumomediastinum , or subcutaneous emphysema . Ventilator factors that increase the risk: ○ High plateau pressure (>30–35 cm H ₂ O) ○ High peak inspiratory pressures ○ High tidal volumes ○ Auto-PEEP from inadequate exhalation Prevention: Plateau pressure is limited to ≤30 cm H₂O to minimize the risk of barotrauma and pneumothorax. High tidal volume (Option A) can contribute to barotrauma but they are not the direct cause of sudden hemodynamic collapse and tracheal deviation."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 12,
+  "question": "A 40-year-old male presents to the emergency department with severe respiratory distress, BP: 70/59 mmHg, tracheal deviation to the right, distended neck veins, and absent breath sounds on the left side. These findings are suggestive of a tension pneumothorax. What is the most appropriate immediate next step in management?",
+  "options": [
+   "Perform needle thoracostomy immediately",
+   "CT Chest",
+   "Airway, breathing, and circulation (ABC) assessment",
+   "Chest tube insertion"
+  ],
+  "answerIndex": 2,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In a patient with Tension pneumothorax, the immediate next step in the management would be Airway, breathing, and circulation (ABC) assessment. ATLS protocol/ Advanced Trauma Life Support protocol: ○ This includes both Primary and Secondary assessment. Primary survey: ○ It includes the airway, breathing, circulation, disability or neurologic condition, and exposure and environmental control, which is known by the mnemonic ABCDE. ○ The airway is assessed immediately by a verbal response, and if it is not clear, needful intervention is carried out. ○ Breathing is evaluated by chest movements, breath sounds and saturation, assisted ventilation is provided if needed and needle decompression is done first to relieve pressure in case of Tension pneumothorax (Option A) ○ Circulation assessment includes ruling out shock ."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 13,
+  "question": "Which of the following is not a recognised cause of recurrent renal stone formation?",
+  "options": [
+   "Hyperoxaluria",
+   "Hypercalciuria",
+   "Hypercitraturia",
+   "Hyperuricosuria"
+  ],
+  "answerIndex": 2,
+  "subject": "PSM",
+  "subjectTags": [
+   "PSM"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Hypercitraturia is not a known cause of recurrent renal stone formation, whereas Hypocitraturia is a common, correctable cause of recurrent stone formation. Risk factors for the formation of Renal Stones: Risk factors Description Dietary factors Low calcium intake can lead to stone formation (low calcium can lead to high oxalate absorption). High oxalate intake High animal protein intake (leads to hypercalciuria and hyperuricosuria) Higher sodium and sucrose intake (hypercalciuria) Dehydration or inadequate fluid intake (leads to volume depletion) Sugar-sweetened beverages Non-dietary factors More common in middle age group Low urine output (due to a hot environment, lack of access to water or a bathroom) Urinary factors Hypercalciuria (Option B) Hyperuricosuria (Option D) Hyperoxaluria (Option A) Low urine excretion of citrate (citrate inhibits stone formation) Urinary pH: ○ Acidic: Uri"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 14,
+  "question": "Which of the following is the most common clinical feature observed during the progression of systemic lupus erythematosus (SLE)?",
+  "options": [
+   "Photosensitivity",
+   "Nephrotic syndrome",
+   "Arthralgia & myalgia",
+   "Anemia and thrombocytopenia"
+  ],
+  "answerIndex": 2,
+  "subject": "Medicine",
+  "subjectTags": [
+   "Medicine"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Musculoskeletal involvement is the most common clinical feature in Systemic Lupus Erythematosus (SLE). Arthralgia (joint pain) and myalgia (muscle pain) occur in the majority of patients, often as initial symptoms. SLE commonly presents with polyarthritis or polyarthralgia that resembles rheumatoid arthritis, but is typically non-erosive. Systemic Involvement in SLE System Manifestations Pulmonary system Pleuritis (most common): Prevalence (30 - 50%) Pneumonitis Atelectasis Reduced lung volume and Pulmonary ﬁbrosis Shrinking lung syndrome, (< 5%) Intra-alveolar hemorrhage Pulmonary HTN (< 5 %) Acute Respiratory Distress Syndrome (ARDS) (< 5%) Musculoskeletal system It is the most commonly involved system Polyarthritis (symmetrical) Polyarthralgia Rheumatoid arthritis Myositis Jaccoud arthropathy is a reversible deformity caused by ligament laxity, capsule fibrosis, and muscular imbalance"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 15,
+  "question": "According to WHO, which of the following is the recommended diagnostic test for spinal tuberculosis?",
+  "options": [
+   "X-ray",
+   "CT scan",
+   "CB-NAAT",
+   "Culture and Sensitivity"
+  ],
+  "answerIndex": 3,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "According to the World Health Organization (WHO), the recommended and definitive diagnostic test for spinal tuberculosis is Culture and Sensitivity. Spinal tuberculosis, also known as Pott’s disease, is a form of extrapulmonary TB that primarily affects the vertebral column. Diagnosing spinal TB is more complex than pulmonary TB because it typically involves deeper tissues and presents with nonspecific symptoms like chronic back pain, fever, weight loss, and neurological deficits in advanced stages. WHO strongly recommends CB-NAAT as a first-line test for extrapulmonary TB , including spinal TB, because it gives results within hours and helps initiate treatment quickly. However, due to its certain limitations, it cannot replace culture as the definitive test."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 16,
+  "question": "A 17-year-old boy presents with a progressively increasing swelling over the tibia along with fever. Radiological examination reveals a Codman triangle and sunburst appearance. What is the most likely diagnosis?",
+  "options": [
+   "Osteosarcoma",
+   "Ewing sarcoma",
+   "Giant cell tumour",
+   "Chondrosarcoma"
+  ],
+  "answerIndex": 0,
+  "subject": "Orthopedics",
+  "subjectTags": [
+   "Orthopedics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Based on the presentation and the radiological findings of codman triangle and sunburst appearance, the most likely diagnosis is Osteosarcoma . Osteosarcoma: It is the most common primary malignant tumour of bone and accounts for approximately 20% of bone cancers. Age distribution: Bimodal. Tumours usually arise in the metaphyseal region of the long bones; almost 50% are near the knee in the distal femur or proximal tibia. Genetic associations: ○ RB gene (most common): 70%. ○ TP53. ○ CDKN2A (also known as INK4a). ○ MDM2 and CDK4. Morphology: ○ Osteosarcomas are bulky, gritty, grey-white tumours that often contain haemorrhage and cystic degeneration. ○ Osteosarcomas demonstrate pleomorphism , large hyperchromatic nuclei , bizarre tumour giant cells , and abundant mitoses. ○ Extensive necrosis and intravascular invasion are also common."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 17,
+  "question": "A 12-year-old child is diagnosed with systemic lupus erythematosus (SLE) and presents with nephrotic-range proteinuria. Renal biopsy reveals \"wire loop lesions. Which of the following is the drug of choice in this case?",
+  "options": [
+   "IV Steroids only",
+   "IV Steroids + cyclophosphamide",
+   "Mycophenolate mofetil",
+   "Cyclophosphamide only"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "IV Steroids only: This is generally insufficient for active, proliferative lupus nephritis like Class IV, especially with nephrotic-range proteinuria. (Option A ruled out) Mycophenolate mofetil: While MMF is a valid option for induction, it's usually given in combination with steroids, not as monotherapy for initial severe cases. The option doesn't specify \"IV steroids + MMF.\" (Option C ruled out) Cyclophosphamide only: This is also not typically used as monotherapy for induction; it's combined with steroids. (Option D ruled out)"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 18,
+  "question": "A 6-week-old infant presents with a history of non-bilious, non-projectile vomiting starting at 3 weeks of age. The infant's abdominal examination is normal. Which of the following is the most likely diagnosis?",
+  "options": [
+   "Pyloric stenosis",
+   "Gastroesophageal reflux disease (GERD)",
+   "Cow Milk Protein Allergy",
+   "Intestinal obstruction"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "A 6-week-old infant with non-bilious, non-projectile vomiting starting at 3 weeks and a normal abdominal exam most likely has Gastroesophageal reflux disease (GERD). (Option B) Pyloric stenosis would typically feature projectile vomiting and potentially a palpable mass. (Option A ruled out) Cow Milk Protein Allergy often presents with other symptoms like stool changes or rash. (Option C ruled out) Intestinal obstruction would likely cause abdominal distension or bilious vomiting. (Option D ruled out)"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 19,
+  "question": "A 3-year-old child is brought to the clinic with a history of cyanosis since infancy. Which of the following is a component of Tetralogy of Fallot (TOF)?",
+  "options": [
+   "Inter atrial septal defect",
+   "Infundibular pulmonary stenosis",
+   "Left ventricular hypertrophy (LVH)",
+   "Transposition of the great arteries (TGA)"
+  ],
+  "answerIndex": 1,
+  "subject": "Pediatrics",
+  "subjectTags": [
+   "Pediatrics"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Tetralogy of Fallot is a congenital heart defect characterized by four distinct anomalies: 1. Ventricular Septal Defect (VSD): A hole between the right and left ventricles. 2. Pulmonary Stenosis: Narrowing of the pulmonary outflow tract. This can be subvalvular (infundibular, below the valve), valvular (at the valve), or supravalvular (above the valve). Infundibular pulmonary stenosis is a common and characteristic component. 3. Overriding Aorta: The aorta (the main artery carrying oxygenated blood to the body) is positioned directly over the VSD, receiving blood from both ventricles. 4. Right Ventricular Hypertrophy (RVH): The right ventricle thickens due to the increased workload of pumping blood against the narrowed pulmonary artery and into the aorta."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 20,
+  "question": "A 40-year-old male presents to the emergency department with severe respiratory distress, BP: 70/59 mmHg, tracheal deviation to the right, distended neck veins, and absent breath sounds on the left side. These findings are suggestive of a tension pneumothorax. What is the most appropriate immediate next step in management?",
+  "options": [
+   "Perform needle thoracostomy immediately",
+   "CT Chest",
+   "Airway, breathing, and circulation (ABC) assessment",
+   "Chest tube insertion"
+  ],
+  "answerIndex": 2,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In a patient with Tension pneumothorax, the immediate next step in the management would be Airway, breathing, and circulation (ABC) assessment. ATLS protocol/ Advanced Trauma Life Support protocol: ○ This includes both Primary and Secondary assessment. Primary survey: ○ It includes the airway, breathing, circulation, disability or neurologic condition, and exposure and environmental control, which is known by the mnemonic ABCDE. ○ The airway is assessed immediately by a verbal response, and if it is not clear, needful intervention is carried out. ○ Breathing is evaluated by chest movements, breath sounds and saturation, assisted ventilation is provided if needed and needle decompression is done first to relieve pressure in case of Tension pneumothorax (Option A) ○ Circulation assessment includes ruling out shock ."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 21,
+  "question": "Which of the following is not a recognised cause of recurrent renal stone formation?",
+  "options": [
+   "Hyperoxaluria",
+   "Hypercalciuria",
+   "Hypercitraturia",
+   "Hyperuricosuria"
+  ],
+  "answerIndex": 2,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Hypercitraturia is not a known cause of recurrent renal stone formation, whereas Hypocitraturia is a common, correctable cause of recurrent stone formation. Risk factors for the formation of Renal Stones: Risk factors Description Dietary factors Low calcium intake can lead to stone formation (low calcium can lead to high oxalate absorption). High oxalate intake High animal protein intake (leads to hypercalciuria and hyperuricosuria) Higher sodium and sucrose intake (hypercalciuria) Dehydration or inadequate fluid intake (leads to volume depletion) Sugar-sweetened beverages Non-dietary factors More common in middle age group Low urine output (due to a hot environment, lack of access to water or a bathroom) Urinary factors Hypercalciuria (Option B) Hyperuricosuria (Option D) Hyperoxaluria (Option A) Low urine excretion of citrate (citrate inhibits stone formation) Urinary pH: ○ Acidic: Uri"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 22,
+  "question": "For medical termination of pregnancy (MTP), the opinion of two doctors is required at which gestational age?",
+  "options": [
+   "20-24 weeks",
+   "9-12 weeks",
+   "12-16 weeks",
+   "16-20 weeks"
+  ],
+  "answerIndex": 0,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "According to the MTP Act, medical termination of pregnancy between 20-24 weeks of gestation requires the opinion of two registered medical practitioners. Medical Termination of Pregnancy (MTP) Act: The original act was passed in 1971 and amended in 2021. Indications : ○ Maternal Risk ○ Fetal Risk: Spina bifida, Down syndrome. ○ Eugenic Conditions: Risks to both mother and fetus. ○ Humanitarian Cause: Pregnancy resulting from rape. ○ Contraceptive Failure. Qualifications : ○ MBBS, MD/DNB/DGO ○ MBBS who has trained in gynaecology for 6 months ○ MBBS who has performed 25 MTPs under supervision ○ ASHA and AYUSH cannot perform MTP. Additions of 2021 amendment: ○ Abortions allowed up to 20-24 weeks. ○ <20 weeks - Single doctor’s decision; 20-24 weeks - 2 doctors. (Option A) ○ Extension of abortion rights to single, unmarried females. ○ Inclusion of marital rape under the MTP Act."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 23,
+  "question": "Which of the following is not used in the treatment of postpartum hemorrhage (PPH)?",
+  "options": [
+   "Misoprostol",
+   "Carboprost",
+   "Dinoprostone",
+   "Oxytocin"
+  ],
+  "answerIndex": 2,
+  "subject": "Surgery",
+  "subjectTags": [
+   "Surgery"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Dinoprostone, primarily used for cervical ripening and labor induction, is not indicated for the treatment of Postpartum Hemorrhage (PPH) among the options listed. Medical Management of PPH Drug Dose Key Notes Oxytocin (IV) (Option D ruled out) 10-20 units in drip DOC for uterine atony Never give undiluted bolus dose (causes hypotension and arrhythmias) Overdose causes water intoxication Carbetocin 100 mcg in 1 ml IV over 1 min Synthetic analogue of oxytocin, more sustained release Onset: 2 mins, lasts 1 hour Equivalent to 16 hrs of oxytocin drip Methylergometrine 0.2 mg IV (also IM, IV acts faster) Peak action in 90 seconds Can be given IM but IV acts faster Misoprostol (PGE1) (Option A ruled out) Oral: 600 to 1,000 mcg as a single dose Rectal: 600 to 1,000 mcg as a single dose."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 24,
+  "question": "A 50-year-old male patient underwent lower abdominal surgery under general anaesthesia. Vecuronium was administered as a muscle relaxant during the procedure. At the end of the surgery, which of the following is the most appropriate agent to reverse the effects of vecuronium?",
+  "options": [
+   "Neostigmine",
+   "Baclofen",
+   "Atropine",
+   "Drotaverine"
+  ],
+  "answerIndex": 0,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Vecuronium is an intermediate-acting Nondepolarizing Muscle Relaxant , and its action is reversed by cholinesterase inhibitors that increase acetylcholine levels . Vecuronium acts by blocking acetylcholine by competitively binding to nicotinic acetylcholine receptors at the neuromuscular junction, preventing depolarisation. Cholinesterase inhibitors, like neostigmine, increase the levels of acetylcholine at the neuromuscular junction by inhibiting the enzyme that breaks it down, increasing its concentration and restoring muscle activity. Commonly given along with atropine or glycopyrrolate to counteract muscarinic side effects. (Option C) Baclofen (Option B) is a GABA-B receptor agonist used as a muscle relaxant in spasticity. It has no role in reversing neuromuscular blockade, in fact, it causes relaxation , not reversal."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 25,
+  "question": "Sodium thiopentone is regarded as an ultrashort-acting drug due to (true or false)",
+  "options": [
+   "Rapid redistribution",
+   "Metabolism",
+   "Excretion",
+   "Short elimination half-life"
+  ],
+  "answerIndex": 0,
+  "subject": "Anesthesia",
+  "subjectTags": [
+   "Anesthesia"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Sodium thiopentone (Thiopental) is a barbiturate used for induction of anesthesia . It is classified as an ultrashort-acting agent , and this characteristic is due to its rapid redistribution Thiopental sodium has a rapid onset due to its high lipid solubility and high nonionized fraction, allowing for quick redistribution from the bloodstream to the brain. Thiopentone Sodium: Use: Intravenous induction agent. Prepared concentration: 2.5% solution Form : Yellowish-white crystalline powder or pale greenish hygroscopic powder Odor: Garlic-like odor. Formulation : Thiopental sodium for injection is a sterile mixture of thiopental sodium and anhydrous sodium carbonate (buffer). Should not be reconstituted with lactated Ringer’s solution or mixed with acidic solutions, as this reduces alkalinity and may cause precipitation of the drug as free acid."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 26,
+  "question": "Out of the following, which statements are correct? 1. Epidermis can regenerate from hair bulbs and sebaceous glands 2. Stratum corneum is the outermost cellular layer 3. Epidermis originates from the ectoderm 4. Dermis and hypodermis originate from the endoderm",
+  "options": [
+   "1, 2",
+   "2, 3",
+   "3, 4",
+   "1, 3"
+  ],
+  "answerIndex": 3,
+  "subject": "Dermatology",
+  "subjectTags": [
+   "Dermatology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "In the above question, statements 1 and 3 are correct. Epidermis can regenerate from hair bulbs and sebaceous glands (Statement 1) : The epidermis has regenerative capacity from epidermal appendages like hair follicles, sebaceous glands, and sweat glands, which contain keratinocyte stem cells. These structures can help regenerate the epidermis after injury or skin grafting. Stratum corneum is the outermost cellular layer (Statement 2) : The stratum corneum is the outermost layer of the epidermis but is made up of dead, keratinized cells without nuclei. Therefore, it is not considered a cellular (living cell) layer. Epidermis originates from the ectoderm (Statement 3) : Components of Ectoderm: Neural Plate: Forms above the notochord and paraxial mesoderm; Develops into the central nervous system. Neural Crest cells: Present dorsal to the neural tube at the edges of the neural plate."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 27,
+  "question": "Which of the following psychoactive substances is a new, rapidly acting antidepressant?",
+  "options": [
+   "Ketamine",
+   "Bupropion",
+   "Haloperidol",
+   "Cannabinoids"
+  ],
+  "answerIndex": 0,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ketamine is a new, rapidly acting antidepressant that has gained significant attention in recent years, especially for patients with treatment-resistant depression (TRD) and suicidal ideation. Ketamine is a NMDA receptor antagonist . MOA: Blocks NMDA receptors on GABAergic interneurons → disinhibits glutamate neurons →glutamate burst . ○ It works by increasing glutamate , synaptic plasticity , and BDNF-mediated pathways . Bupropion (Option B) is a atypical antidepressant used for depression and smoking cessation. It has a standard delayed onset of antidepressant action Haloperidol (Option C) belongs to the class of first-generation antipsychotic medications, also known as typical antipsychotics , primarily used for schizophrenia and acute psychosis. Not used for depression."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 28,
+  "question": "Imipramine and Diphenhydramine are given together to a patient. Why is this combination considered irrational?",
+  "options": [
+   "Both have anticholinergic action",
+   "Both cause serotonin syndrome",
+   "Both cause hypotension",
+   "Both cause increased sedation"
+  ],
+  "answerIndex": 0,
+  "subject": "Psychiatry",
+  "subjectTags": [
+   "Psychiatry"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Imipramine, a tricyclic antidepressant (TCA), and diphenhydramine, a first-generation antihistamine, both exhibit significant anticholinergic properties, hence combining these two drugs is considered irrational because their additive anticholinergic effects. Effects such as drowsiness, blurred vision, dry mouth, heat intolerance, flushing, decreased sweating, difficulty urinating, abdominal cramping, constipation, irregular heartbeat, and confusion. Diphenhydramine does not significantly affect serotonin. Imipramine affects serotonin and norepinephrine reuptake, but the combination does not increase serotonin syndrome risk. (Option B) Imipramine may cause orthostatic hypotension due to alpha-1 blockade, but diphenhydramine generally does not cause significant hypotension. While both can cause sedation , this is not the primary concern ."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 29,
+  "question": "Which investigation is contraindicated in pregnancy?",
+  "options": [
+   "CT scan",
+   "MRI",
+   "Ultrasound",
+   "Doppler"
+  ],
+  "answerIndex": 0,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "CT scans (Option A) use X-rays, which are a form of ionizing radiation. In early pregnancy, radiation exposure, especially during organogenesis (weeks 3-8 post-conception), can lead to teratogenic effects (e.g., congenital anomalies), increased risk of miscarriage, or even fetal growth restriction. MRI (Magnetic Resonance Imaging) (Option B ruled out): MRI uses strong magnetic fields and radio waves, not ionizing radiation. Ultrasound (Option C ruled out): Ultrasound uses high-frequency sound waves to create images. Doppler (Option D ruled out): Doppler ultrasound is a specific type of ultrasound that measures blood flow."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 30,
+  "question": "Which of the following is the investigation of choice for spinal TB?",
+  "options": [
+   "Ultrasound",
+   "MRI",
+   "CT scan",
+   "CBNAAT"
+  ],
+  "answerIndex": 1,
+  "subject": "Radiology",
+  "subjectTags": [
+   "Radiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Ultrasound(Option A ruled out) : Not effective for assessing spinal bone or intraspinal pathology in detail. MRI(Option B) : Excellent for visualizing the extent of spinal TB, its complications, and planning treatment. CT scan(Option C ruled out): Good for bony detail and calcifications, and can guide biopsies, but less effective than MRI for soft tissue and spinal cord assessment. CBNAAT(Option D ruled out): A rapid and highly accurate molecular test for Mycobacterium tuberculosis from a sample, which is critical for confirming the diagnosis and detecting drug resistance"
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 31,
+  "question": "The Kanagawa phenomenon observed on Wagatsuma agar is characteristic of which of the following organisms?",
+  "options": [
+   "Vibrio cholerae",
+   "Vibrio parahaemolyticus",
+   "Staphylococcus aureus",
+   "Burkholderia pseudomallei"
+  ],
+  "answerIndex": 1,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The Kanagawa phenomenon refers to β-hemolysis (clear zone of hemolysis) produced by Vibrio parahaemolyticus on Wagatsuma agar (a type of high salt blood agar). It is an enteropathogenic halophilic vibrio. Food-borne gastroenteritis (most common) occurs following raw or uncooked sea food intake. Features: ○ It grows only in media containing NaCl. ○ TCBS agar : Green colonies with an opaque, raised centre and flat translucent periphery. ○ String test: Positive. ○ It is oxidase, catalase, nitrate, indole and citrate positive. ○ Antigenic components: Somatic 0, capsular K and flagellar H antigens. ○ Shows Kanagawa phenomenon on wagatsuma agar ○ Microscopy: Bipolar safety pin appearance Vibrio cholerae (Option A) is a Gram-negative, comma-shaped bacterium that causes cholera, a diarrheal illness often associated with contaminated water."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 32,
+  "question": "A male presents with lesions and a history of unprotected sexual intercourse a few months ago. What is the most appropriate investigation to confirm the diagnosis?",
+  "options": [
+   "Serology",
+   "Tzanck smear",
+   "KOH",
+   "Biopsy"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The lesions depicted in the image, along with a history of unprotected sexual intercourse, suggest a diagnosis of Secondary Syphilis , which is best confirmed through serological testing. It is the second stage of syphilis, which occurs if primary syphilis is left untreated. It presents a few weeks to several months after the initial chancre has healed. It is marked by systemic manifestations and can affect multiple organ systems. Clinical Features: ○ Diffuse, non-pruritic rash, often reddish-brown macules or papules, that is polymorphous and non-vesicular . ○ Mucous membrane lesions, such as condylomata lata , appear in moist areas like the oral cavity and genitals and are highly infectious. ○ Oral signs may include mucous patches or snail track ulcers. ○ “Moth-eaten\" alopecia : A patchy, non-scarring hair loss. ○ Buschke-Ollendorff sign : Deep tenderness over lesions."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 33,
+  "question": "Which of the following is the most common inherited bleeding disorder?",
+  "options": [
+   "Von Willebrand Disease",
+   "Disseminated Intravascular Coagulation",
+   "Factor V Deficiency",
+   "Hemophilia"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "Von Willebrand Disease (VWD) is the most common inherited bleeding disorder. Types: vWD type 1 vWD Type 2 vWD Type 3 Autosomal dominant. The most common type. Mild to moderate vWF deficiency. Quantitative defect. point substitutions prevent the vWF protein from maturing or cause it to leave the plasma quickly Autosomal dominant. Qualitative defect. Types: 2A, 2B, 2M, 2N 2A ( Most common ) - Decrease in binding between vWF and Gp1b/9 missense mutations cause faulty multimer formation → the most active forms of vWF, i.e. large- and intermediate-sized multimers are absent. 2B - Increase in binding between vWF and Gp1b/9 2M - VWF dependant platelet adhesion is decreased. There is impairment of VWF binding to platelets. Type 2M VWD typically has mild to moderate mucocutaneous bleeding 2N - There is marked decline in the binding affinity for factor VIII."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 34,
+  "question": "Which of the following is an incorrect gene-disease association?",
+  "options": [
+   "STK11 - Breast Cancer",
+   "PTEN - Thyroid Carcinoma",
+   "TP53 - Mucosal Neuroma",
+   "BRCA2 - Prostate Carcinoma"
+  ],
+  "answerIndex": 2,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "TP53 is not associated with mucosal neuroma. Gene Associated tumours BRCA1 Breast, ovarian, fallopian tube, pancreas, and prostate. BRCA2 (Option D ruled out) Breast, ovarian, pancreas, and prostate. Associated with male breast cancer. TP53 (Option C) Breast, sarcoma, leukaemia, and brain tumours. PTEN (Option B ruled out) Breast, thyroid, and endometrium. STK11 (Option A ruled out) Breast, ovarian, colon, and pancreas. CDH1 Breast, gastric signet ring cell carcinoma, and colon. PALPB2 Breast, pancreas, and prostate. CHEK2 Prostate, thyroid, colon, and kidney."
+ },
+ {
+  "session": "May 2025",
+  "year": "2025",
+  "number": 35,
+  "question": "A patient presents with ascites and omental caking. Imaging reveals solid components in an adnexal mass, and there is a long-standing history of symptoms. CA-125 is positive. What is the most probable diagnosis?",
+  "options": [
+   "Serous ovarian tumor",
+   "Mucinous ovarian tumor",
+   "Endometroid tumor",
+   "Granulosa cell tumor"
+  ],
+  "answerIndex": 0,
+  "subject": "Microbiology",
+  "subjectTags": [
+   "Microbiology"
+  ],
+  "images": [],
+  "imageRef": false,
+  "explanation": "The presence of ascites, omental caking, a solid adnexal mass, elevated CA-125, and chronic vague symptoms strongly points to serous ovarian tumor. Types of Epithelial Ovarian Tumor: Type of Epithelial Ovarian Tumor Characteristics Clinical Presentation Serous Tumors Serous Cystadenoma: Benign, unilateral, cystic spaces with serous epithelium. Large cystic mass, unilateral. Serous Cystadenocarcinoma: Malignant, often bilateral, cystic and solid components. Bilateral involvement in 30%, elevated CA-125. Mucinous Tumors Mucinous Cystadenoma: Benign, unilateral, filled with mucinous fluid. Large, unilateral mass. Mucinous Cystadenocarcinoma: Malignant, unilateral, mucinous epithelial lining. May rupture and spread to the peritoneum. Endometrioid Tumors (Option C ruled out) Endometrioid Carcinoma: Arises from endometrial-like tissue, solid and cystic."
  }
 ]
