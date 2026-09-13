@@ -527,7 +527,7 @@
   "subjectTags": [
    "Forensic medicine & toxicology"
   ],
-  "explanation": "The medial end of the clavicle fuses at 21-25 years, the sacrum fuses as a single bone by 50 years, the crista scapulae at 45 years, and the lambdoid suture around 21-25 years."
+  "explanation": "The medial end of the clavicle fuses at 21 to 25 years and the sacrum becomes a single bone at about 22 to 25 years. The crista scapulae fuses at about 50 years, and the lambdoid suture closes at about 45 years."
  },
  {
   "session": "May 2021",
@@ -1237,7 +1237,7 @@
    "1, 2 only",
    "3, 4 only"
   ],
-  "answerIndex": 2,
+  "answerIndex": 0,
   "year": "2021",
   "images": [],
   "imageRef": false,
@@ -1245,7 +1245,7 @@
   "subjectTags": [
    "Forensic medicine & toxicology"
   ],
-  "explanation": "Durham’s rule and Curren’s rule are recognized legal tests for insanity, assessing the defendant's mental state during the crime."
+  "explanation": "Durham's rule, Curren's rule, the M'Naghten rule and the irresistible impulse test are all recognised legal tests of insanity. India follows the M'Naghten rule in Section 84 of the IPC."
  },
  {
   "session": "May 2021",
@@ -1299,7 +1299,7 @@
    "2 and 4",
    "2 and 3"
   ],
-  "answerIndex": 1,
+  "answerIndex": 0,
   "year": "2021",
   "images": [],
   "imageRef": false,
@@ -1307,7 +1307,7 @@
   "subjectTags": [
    "Orthopedics"
   ],
-  "explanation": "Tibia and phalanges are the most commonly involved bones in open fractures, and early debridement is essential to reduce infection risk."
+  "explanation": "The tibia and the phalanges are the bones most often involved in open fractures. Early debridement lowers the infection risk. Antibiotics are required in every open fracture, so the statement that they are not needed is false."
  },
  {
   "session": "May 2021",
@@ -2355,7 +2355,7 @@
    "White areas represent central hepatocytes",
    "Dark areas represent peri-portal hepatocytes"
   ],
-  "answerIndex": 0,
+  "answerIndex": 1,
   "year": "2021",
   "images": [
    "assets/inicet_2021_images/inicet2021_p1_q116_74a5ed32fa.jpeg"
@@ -2365,7 +2365,7 @@
   "subjectTags": [
    "Pathology"
   ],
-  "explanation": "Necrotic areas appear dark due to loss of viable tissue; white areas represent surviving hepatocytes in a cirrhotic liver."
+  "explanation": "In a cirrhotic liver the dark tan areas are regenerating nodules of viable hepatocytes. The pale bands between them are fibrous septa, not viable tissue."
  },
  {
   "session": "May 2021",
@@ -3163,7 +3163,7 @@
    "Salivary gland",
    "Pituitary gland"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "year": "2021",
   "images": [],
   "imageRef": false,
@@ -3171,7 +3171,7 @@
   "subjectTags": [
    "Physiology"
   ],
-  "explanation": "Salivary glands do not express the sodium iodide symporter; thyroid, placenta, and pituitary do."
+  "explanation": "The sodium iodide symporter is expressed in the thyroid, the salivary glands, the gastric mucosa, the lactating breast and the placenta. The pituitary does not express it."
  },
  {
   "session": "May 2021",
@@ -3265,7 +3265,7 @@
    "HTLV",
    "EBV"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "year": "2021",
   "images": [],
   "imageRef": false,
@@ -3273,7 +3273,7 @@
   "subjectTags": [
    "Microbiology"
   ],
-  "explanation": "HTLV causes oncogenesis via viral proteins but does not typically integrate into the host genome like HPV or HBV."
+  "explanation": "Epstein-Barr virus persists as an episome and does not integrate into the host genome. Human papillomavirus, hepatitis B virus and HTLV-1 all integrate into host DNA as part of carcinogenesis."
  },
  {
   "session": "May 2021",
@@ -12236,19 +12236,19 @@
   "number": 197,
   "question": "Match the following scientists with their discoveries: 1. Walter Reed – a. Yellow fever 2. Edward Jenner – b. Smallpox vaccination 3. James Lind – c. Prevention of scurvy by citrus fruits",
   "options": [
-   "1-a, 2-b, 3-a",
+   "1-a, 2-b, 3-c",
    "1-b, 2-a, 3-c",
    "1-c, 2-b, 3-a",
    "1-b, 2-c, 3-a"
   ],
-  "answerIndex": 3,
+  "answerIndex": 0,
   "subject": "PSM",
   "subjectTags": [
    "PSM"
   ],
   "images": [],
   "imageRef": false,
-  "explanation": "Matches: Jenner-Smallpox, Lind-Scurvy, Walter Reed-Yellow fever"
+  "explanation": "Walter Reed proved that mosquitoes transmit yellow fever. Edward Jenner introduced smallpox vaccination. James Lind showed that citrus fruit prevents scurvy."
  },
  {
   "session": "May 2022",
@@ -22017,14 +22017,14 @@
    "Low LPL. Low HSL",
    "High HSL, Low LPL"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "subject": "Biochemistry",
   "subjectTags": [
    "Biochemistry"
   ],
   "images": [],
   "imageRef": false,
-  "explanation": "In poorly controlled diabetes, high hormone sensitive lipase releases free fatty acids that drive hepatic VLDL production, while low lipoprotein lipase impairs its clearance, so VLDL accumulates."
+  "explanation": "Insulin normally suppresses hormone sensitive lipase and activates lipoprotein lipase. In uncontrolled diabetes hormone sensitive lipase is high, so fatty acids flood the liver and VLDL rises, while low lipoprotein lipase slows its clearance."
  },
  {
   "session": "Nov 2024",
@@ -22997,14 +22997,14 @@
    "Fat bodies in urine",
    "Crystal in urine"
   ],
-  "answerIndex": 0,
+  "answerIndex": 1,
   "subject": "Pathology",
   "subjectTags": [
    "Pathology"
   ],
   "images": [],
   "imageRef": false,
-  "explanation": "Glomerular bleeding gives brown or cola coloured urine with dysmorphic red cells and casts, whereas lower tract bleeding gives red urine with clots."
+  "explanation": "Glomerular bleeding gives brown or cola coloured urine. The red cells are dysmorphic and red cell casts are seen. Lower tract bleeding gives red urine with clots and dysuria."
  },
  {
   "session": "Nov 2024",
@@ -30714,14 +30714,14 @@
    "Ineffective hematopoiesis",
    "Intravascular hemolysis"
   ],
-  "answerIndex": 3,
+  "answerIndex": 2,
   "subject": "Pathology",
   "subjectTags": [
    "Pathology"
   ],
   "images": [],
   "imageRef": false,
-  "explanation": "In beta thalassaemia major the red cells are destroyed mainly inside the marrow and spleen. That is ineffective erythropoiesis and extravascular haemolysis, not intravascular haemolysis."
+  "explanation": "In beta thalassaemia major most red cell precursors die inside the marrow. This is ineffective haematopoiesis. The haemolysis that does occur is extravascular, in the spleen, and iron overload follows the transfusions."
  },
  {
   "session": "May 2026",
@@ -31283,14 +31283,14 @@
    "Tertiary blast injury",
    "Quaternary blast injury"
   ],
-  "answerIndex": 1,
+  "answerIndex": 3,
   "subject": "Forensic medicine & toxicology",
   "subjectTags": [
    "Forensic medicine & toxicology"
   ],
   "images": [],
   "imageRef": false,
-  "explanation": "Secondary blast injury is caused by flying debris and fragments. Primary injury is from the pressure wave itself. Tertiary injury is from the body being thrown."
+  "explanation": "Burns after an explosion are quaternary blast injury. Primary injury is from the pressure wave, secondary from flying fragments, and tertiary from the body being thrown."
  },
  {
   "session": "May 2026",
@@ -32965,14 +32965,14 @@
    "CT chest",
    "Biopsy"
   ],
-  "answerIndex": 1,
+  "answerIndex": 3,
   "subject": "Orthopedics",
   "subjectTags": [
    "Orthopedics"
   ],
   "images": [],
   "imageRef": false,
-  "explanation": "A spinal lesion after treated tuberculosis raises the question of relapse. A Mantoux test is a simple first step before more invasive tests."
+  "explanation": "A new spinal lesion after treated tuberculosis needs a tissue diagnosis. Biopsy with culture and molecular testing confirms relapse or finds another cause. A Mantoux test adds nothing in a treated adult."
  },
  {
   "session": "May 2026",
